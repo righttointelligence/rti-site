@@ -40,9 +40,8 @@ export default function App() {
           element={
             <Template idx="→ take action" title="Start with your state.">
               <p>
-                Choose any state from the homepage and get one useful action. Some states have
-                source-verified draft packs. The rest have baseline actions with provenance while
-                deeper bill research is still being filled in.
+                Choose any state from the homepage and get one useful action. Every state now has a
+                source-verified draft pack with official routes, provenance, and a plain-English ask.
               </p>
               <p>
                 OII does not need your name, address, or exact location to show the first action.

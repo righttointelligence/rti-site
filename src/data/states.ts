@@ -2358,3 +2358,203 @@ STATES.WV = {
     },
   ],
 };
+
+STATES.HI = {
+  ...STATES.HI,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Hawaii has a large active AI policy queue in the current NCSL snapshot. The official Legislature site gives residents bill search, hearings, testimony, measure tracking, and Public Access Room routes, so the useful move is to ask for local/open AI safe-harbor language before broad AI rules harden around cloud platforms.",
+  ask:
+    "Ask Hawaii legislators and statewide offices to protect lawful local/open AI in any moving AI bill: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Hawaii considers AI policy.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open models on their own hardware. Please keep enforcement focused on harmful conduct, not local possession, research, open-source publication, model modification, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Hawaii bills",
+      url: STATE_POLICY_LINKS.HI.billSearch.url,
+      note: "Official bill-search route for current measures.",
+    },
+    {
+      label: "Find Hawaii legislators",
+      url: STATE_POLICY_LINKS.HI.legislatorLookup.url,
+      note: "Official Find Your Legislator route.",
+    },
+    {
+      label: "Hawaii hearings and calendar",
+      url: STATE_POLICY_LINKS.HI.calendar?.url ?? STATE_POLICY_LINKS.HI.legislature.url,
+      note: "Official calendar route for hearing timing and testimony context.",
+    },
+    ...officialDirectoryContacts("HI", "Hawaii"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("HI"),
+    ...officialDirectorySources("HI", "Hawaii"),
+    {
+      label: "Hawaii State Legislature portal",
+      url: "https://www.capitol.hawaii.gov/",
+      note: "Official page checked on 2026-06-30; exposes My Legislature, hearings, live/on-demand video, reports/lists, submit testimony and track measures routes, 2026 session information, House, Senate, Public Access Room, directory, and contact navigation.",
+    },
+  ],
+};
+
+STATES.ID = {
+  ...STATES.ID,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Idaho does not show active AI bills in the current NCSL snapshot, but it has enacted AI-related law and a clear official legislature workflow. Residents can use Bill Tracker, Who's My Legislator, committees, session information, and public testimony routes to ask for Local AI Freedom language before the next broad AI bill is written.",
+  ask:
+    "Ask Idaho legislators and statewide offices to preserve lawful local/open AI safe harbors in implementation and future bills: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Idaho implements and updates AI policy.\n\nThe state can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring ordinary people, schools, startups, researchers, or local businesses to get permission just to run or study open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Track Idaho legislation",
+      url: STATE_POLICY_LINKS.ID.billSearch.url,
+      note: "Official session legislation route and bill tracker entry point.",
+    },
+    {
+      label: "Find Idaho legislators",
+      url: STATE_POLICY_LINKS.ID.legislatorLookup.url,
+      note: "Official Who's My Legislator route.",
+    },
+    {
+      label: "Idaho session and committee information",
+      url: STATE_POLICY_LINKS.ID.calendar?.url ?? STATE_POLICY_LINKS.ID.legislature.url,
+      note: "Official route for session, committee, and public-participation timing.",
+    },
+    ...officialDirectoryContacts("ID", "Idaho"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("ID"),
+    ...officialDirectorySources("ID", "Idaho"),
+    {
+      label: "Idaho Legislature portal",
+      url: "https://legislature.idaho.gov/",
+      note: "Official page checked on 2026-06-30; exposes Bill Tracker, legislative sessions, 2026 interim, committees, public testimony/accessibility routes, Who's My Legislator, calendar, House/Senate, legislator information, and contacts.",
+    },
+  ],
+};
+
+STATES.IN = {
+  ...STATES.IN,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Indiana does not show active AI bills in the current NCSL snapshot, but it has enacted AI-related law and a working official General Assembly portal for 2026 bills, committees, calendars, laws, publications, and legislator lookup. The useful move is implementation pressure plus a preemptive safe-harbor ask.",
+  ask:
+    "Ask Indiana legislators and statewide offices to preserve lawful local/open AI safe harbors in implementation and future bills: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Indiana implements and updates AI policy.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open models on their own hardware. Please keep enforcement focused on harmful conduct, not local possession, research, open-source publication, model modification, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Indiana bills",
+      url: STATE_POLICY_LINKS.IN.billSearch.url,
+      note: "Official 2026 bill route.",
+    },
+    {
+      label: "Find Indiana legislators",
+      url: STATE_POLICY_LINKS.IN.legislatorLookup.url,
+      note: "Official Find Your Legislator route.",
+    },
+    {
+      label: "Indiana committees and meetings",
+      url: STATE_POLICY_LINKS.IN.calendar?.url ?? STATE_POLICY_LINKS.IN.legislature.url,
+      note: "Official committee route for calendars, schedules, and hearing context.",
+    },
+    ...officialDirectoryContacts("IN", "Indiana"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("IN"),
+    ...officialDirectorySources("IN", "Indiana"),
+    {
+      label: "Indiana General Assembly portal",
+      url: "https://iga.in.gov/",
+      note: "Official page checked on 2026-06-30; exposes Find a Bill, Find Your Legislator, committees, legislation, laws, publications, notices, 2026 bills, upcoming meetings, calendars, schedules, and contact information.",
+    },
+  ],
+};
+
+STATES.WI = {
+  ...STATES.WI,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Wisconsin has a live AI policy queue in the current NCSL snapshot. The official Legislature site gives residents proposal search, Law and Legislation, committee schedules, calendars, and a legislator lookup, so the useful move is to ask for local/open AI safe-harbor language in anything moving now.",
+  ask:
+    "Ask Wisconsin legislators and statewide offices to protect lawful local/open AI in any moving AI bill: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Wisconsin considers AI policy.\n\nPeople should not need state permission or platform approval just to run, study, modify, or share open models on their own hardware. Please keep enforcement focused on harmful conduct, not possession, research, open-source publication, model modification, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Wisconsin proposals",
+      url: STATE_POLICY_LINKS.WI.billSearch.url,
+      note: "Official Wisconsin proposal index.",
+    },
+    {
+      label: "Find Wisconsin legislators",
+      url: STATE_POLICY_LINKS.WI.legislatorLookup.url,
+      note: "Official legislative map lookup.",
+    },
+    {
+      label: "Wisconsin Legislature calendar and committees",
+      url: STATE_POLICY_LINKS.WI.legislature.url,
+      note: "Official portal links to committee schedule, calendars, Senate, Assembly, Law and Legislation, and contact routes.",
+    },
+    ...officialDirectoryContacts("WI", "Wisconsin"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("WI"),
+    ...officialDirectorySources("WI", "Wisconsin"),
+    {
+      label: "Wisconsin State Legislature portal",
+      url: "https://legis.wisconsin.gov/",
+      note: "Official page checked on 2026-06-30; exposes Today in the Legislature, Senate, Assembly, Law and Legislation, committee schedule, Who Are My Legislators, proposal search, current session, committees, calendars, notification service, and contact legislature routes.",
+    },
+  ],
+};
+
+STATES.WY = {
+  ...STATES.WY,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Wyoming does not show active AI bills in the current NCSL snapshot, but it has enacted AI-related law and an official Legislature portal with bills, committees, calendars, meeting schedules, and Find My Legislator. Residents can use that quiet window to ask for an affirmative Local AI Freedom safe harbor before a broad AI bill appears.",
+  ask:
+    "Ask Wyoming legislators and statewide offices to preserve lawful local/open AI safe harbors in implementation and future bills: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Wyoming implements and updates AI policy.\n\nThe state should enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse. But lawful possession, research, open-source publication, model modification, and local execution should not require a license or preclearance.\n\nPlease support explicit safe-harbor language for lawful local and open-source AI.",
+  contacts: [
+    {
+      label: "Search Wyoming legislation",
+      url: STATE_POLICY_LINKS.WY.billSearch.url,
+      note: "Official legislation route with Search Bills navigation.",
+    },
+    {
+      label: "Find Wyoming legislators",
+      url: STATE_POLICY_LINKS.WY.legislatorLookup.url,
+      note: "Official legislator directory and Find My Legislator route.",
+    },
+    {
+      label: "Wyoming legislative calendars",
+      url: "https://www.wyoleg.gov/Calendar",
+      note: "Official calendar route for legislative meetings, session schedules, prior session calendars, and special events.",
+    },
+    ...officialDirectoryContacts("WY", "Wyoming"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("WY"),
+    ...officialDirectorySources("WY", "Wyoming"),
+    {
+      label: "Wyoming Legislature portal",
+      url: "https://www.wyoleg.gov/",
+      note: "Official page checked on 2026-06-30; exposes calendars, committees, legislation, legislators, 2026 interim meeting schedules, attending legislative meetings, session information, committee bills, Search Bills, Find My Legislator, and contact routes.",
+    },
+  ],
+};

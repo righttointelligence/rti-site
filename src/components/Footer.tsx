@@ -12,9 +12,9 @@ export default function Footer() {
         </span>
       </div>
       <p className="fine">
-        Open Intelligence Institute · not legal advice. Every state has a baseline action. Deeper
-        state packs are marked <span className="nr">source-verified draft</span> as they are
-        reviewed.
+        Open Intelligence Institute · not legal advice. Every state pack is marked{" "}
+        <span className="nr">source-verified draft</span> with provenance and a retrieval date where
+        available.
       </p>
     </footer>
   );

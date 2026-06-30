@@ -108,8 +108,8 @@ export default function Home() {
             <p className="big">We show our work.</p>
             <p className="body">
               OII should not ask people to trust vibes. Each state action should show the office,
-              source link, and review status behind the recommendation. If something is only a
-              baseline action, we say so.
+              source link, and review status behind the recommendation. If something changes, we
+              update the source and the ask.
             </p>
           </div>
         </section>

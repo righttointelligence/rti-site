@@ -163,7 +163,7 @@ export default function ActionResult({
               {error && <p className="confirmed errorline">{error}</p>}
               {confirmed && (
                 <p className="confirmed">
-                  logged{confirmed.source === "local" ? " on this browser" : ""} — you're action{" "}
+                  logged{confirmed.source === "local" ? " on this browser" : ""} — your action{" "}
                   <b>#{confirmed.rank.toLocaleString()}</b>. thank you for adding your voice. tell a
                   friend and the count climbs.
                 </p>
