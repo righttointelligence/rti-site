@@ -1,3 +1,5 @@
+import { STATE_OFFICIAL_LINKS } from "./state-official-links";
+
 // State action data is split into two layers:
 // 1. every-state baseline from the 50-state starter matrix;
 // 2. deeper source-verified draft packs for states where OII has current bill/action research.
@@ -97,50 +99,100 @@ const FEDERAL_CONTACTS: ContactTarget[] = [
   },
 ];
 
-const BASELINE_CONTACTS: ContactTarget[] = [
-  {
-    label: "Find state and local elected officials",
-    url: "https://www.usa.gov/elected-officials",
-    note: "Official federal fallback for state legislature, governor, and local-office lookup.",
-  },
-  {
-    label: "Check current AI bills",
-    url: "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database",
-    note: "NCSL tracker for current state AI legislation.",
-  },
-  ...FEDERAL_CONTACTS,
-];
+const USA_GOV_ELECTED_OFFICIALS_URL = "https://www.usa.gov/elected-officials";
+const USA_GOV_AG_DIRECTORY_URL = "https://www.usa.gov/state-attorney-general";
+const NCSL_AI_LEGISLATION_URL =
+  "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database";
 
-const BASELINE_SOURCES: SourceLink[] = [
-  {
-    label: "OII 50-state starter matrix",
-    note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/state_matrix.csv",
-  },
-  {
-    label: "OII starter action list",
-    note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/actions.csv",
-  },
-  {
-    label: "USA.gov elected officials",
-    url: "https://www.usa.gov/elected-officials",
-    note: "Official fallback for federal, state, and local elected-official lookup.",
-  },
-  {
-    label: "U.S. House representative lookup",
-    url: "https://www.house.gov/representatives/find-your-representative",
-    note: "Official federal House lookup.",
-  },
-  {
-    label: "U.S. Senate contact directory",
-    url: "https://www.senate.gov/senators/senators-contact.htm",
-    note: "Official senator contacts by state.",
-  },
-  {
-    label: "NCSL AI legislation database",
-    url: "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database",
-    note: "State AI legislation monitoring source.",
-  },
-];
+function officialDirectoryContacts(abbr: string, name: string): ContactTarget[] {
+  const links = STATE_OFFICIAL_LINKS[abbr];
+
+  return [
+    {
+      label: `${name} state government portal`,
+      url: links.stateGovernmentUrl,
+      note: "Official state portal from the USA.gov state directory.",
+    },
+    {
+      label: `Contact the ${name} governor`,
+      url: links.governorUrl,
+      note: "Use for statewide executive policy and veto/signature asks.",
+    },
+    {
+      label: `Contact the ${name} attorney general`,
+      url: links.attorneyGeneralUrl,
+      note: "Use for enforcement, rulemaking, and consumer-protection asks.",
+    },
+  ];
+}
+
+function baselineContacts(abbr: string, name: string): ContactTarget[] {
+  return [
+    ...officialDirectoryContacts(abbr, name),
+    {
+      label: "Find your state legislators and local officials",
+      url: USA_GOV_ELECTED_OFFICIALS_URL,
+      note: "Official federal lookup for state legislators, local offices, and exact district routing.",
+    },
+    {
+      label: "Check current AI bills",
+      url: NCSL_AI_LEGISLATION_URL,
+      note: "NCSL tracker for current state AI legislation.",
+    },
+    ...FEDERAL_CONTACTS,
+  ];
+}
+
+function officialDirectorySources(abbr: string, name: string): SourceLink[] {
+  const links = STATE_OFFICIAL_LINKS[abbr];
+
+  return [
+    {
+      label: `USA.gov ${name} state page`,
+      url: links.usaGovStatePage,
+      note: "Official GSA directory source for this state's portal and governor contact link.",
+    },
+    {
+      label: "USA.gov state attorneys general directory",
+      url: USA_GOV_AG_DIRECTORY_URL,
+      note: "Official GSA directory source for state attorney general links.",
+    },
+    {
+      label: "USA.gov elected officials lookup",
+      url: USA_GOV_ELECTED_OFFICIALS_URL,
+      note: "Official federal lookup for state, local, and federal elected officials.",
+    },
+    {
+      label: "U.S. House representative lookup",
+      url: "https://www.house.gov/representatives/find-your-representative",
+      note: "Official federal House lookup.",
+    },
+    {
+      label: "U.S. Senate contact directory",
+      url: "https://www.senate.gov/senators/senators-contact.htm",
+      note: "Official senator contacts by state.",
+    },
+    {
+      label: "NCSL AI legislation database",
+      url: NCSL_AI_LEGISLATION_URL,
+      note: "State AI legislation monitoring source.",
+    },
+  ];
+}
+
+function baselineSources(abbr: string, name: string): SourceLink[] {
+  return [
+    {
+      label: "OII 50-state starter matrix",
+      note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/state_matrix.csv",
+    },
+    {
+      label: "OII starter action list",
+      note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/actions.csv",
+    },
+    ...officialDirectorySources(abbr, name),
+  ];
+}
 
 function priorityForTier(tier: Tier): Priority {
   if (tier === "A") return "high";
@@ -159,8 +211,8 @@ function buildBaselineState(abbr: string, name: string, tier: Tier): StateAction
     ask:
       "Ask your state legislators to introduce or support a Local AI Freedom Act: no license, registration, or preclearance just to download, own, run, study, modify, or share open AI models. Keep enforcement focused on harmful conduct.",
     script: `Hi, my name is [NAME], and I live in [CITY], ${abbr}.\n\nI'm asking your office to protect lawful local AI in ${name}.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please support a Local AI Freedom Act that protects ordinary local use while preserving enforcement against fraud, cybercrime, CSAM, harassment, nonconsensual intimate deepfakes, discrimination, and sabotage.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?`,
-    contacts: BASELINE_CONTACTS,
-    sources: BASELINE_SOURCES,
+    contacts: baselineContacts(abbr, name),
+    sources: baselineSources(abbr, name),
   };
 }
 
@@ -184,16 +236,7 @@ STATES.CA = {
       url: "https://findyourrep.legislature.ca.gov/",
       note: "Official California legislature lookup.",
     },
-    {
-      label: "Contact the Governor",
-      url: "https://www.gov.ca.gov/contact/",
-      note: "Ask for veto discipline against overbroad AI licensing.",
-    },
-    {
-      label: "Contact the Attorney General",
-      url: "https://oag.ca.gov/contact",
-      note: "Use for enforcement and implementation concerns.",
-    },
+    ...officialDirectoryContacts("CA", "California"),
     {
       label: "Assembly events and hearings",
       url: "https://www.assembly.ca.gov/schedules-publications/todays-events",
@@ -202,6 +245,7 @@ STATES.CA = {
     ...FEDERAL_CONTACTS,
   ],
   sources: [
+    ...officialDirectorySources("CA", "California"),
     {
       label: "California SB 53 status",
       url: "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB53",
@@ -241,11 +285,7 @@ STATES.CO = {
       url: "https://leg.colorado.gov/find-my-legislator",
       note: "Official Colorado legislature lookup.",
     },
-    {
-      label: "Contact the Governor",
-      url: "https://www.colorado.gov/governor/share-comments",
-      note: "Ask for implementation that protects local/open AI.",
-    },
+    ...officialDirectoryContacts("CO", "Colorado"),
     {
       label: "Colorado committees",
       url: "https://leg.colorado.gov/content/committees",
@@ -254,6 +294,7 @@ STATES.CO = {
     ...FEDERAL_CONTACTS,
   ],
   sources: [
+    ...officialDirectorySources("CO", "Colorado"),
     {
       label: "Colorado AG ADMT and Chatbot Safety comment form",
       url: "https://coag.gov/ai/automated-decision-making-technology-act-and-chatbot-safety-act-form/",
@@ -303,9 +344,11 @@ STATES.TX = {
       url: "https://www.puc.texas.gov/agency/about/ope/",
       note: "Relevant for the Texas data-center and large-load compute angle.",
     },
+    ...officialDirectoryContacts("TX", "Texas"),
     ...FEDERAL_CONTACTS,
   ],
   sources: [
+    ...officialDirectorySources("TX", "Texas"),
     {
       label: "Texas HB 149 enrolled text",
       url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm",
