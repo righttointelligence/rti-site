@@ -513,18 +513,23 @@ export const STATE_POLICY_LINKS: Record<string, StatePolicyLinks> = {
   MO: {
     legislature: {
       label: "Missouri House",
-      url: "https://www.house.mo.gov/",
-      note: "Official Missouri House portal.",
+      url: "https://house.mo.gov/",
+      note: "Official Missouri House portal with legislation, member, hearing, and Senate cross-links.",
     },
     billSearch: {
       label: "Search Missouri legislation",
-      url: "https://www.house.mo.gov/",
-      note: "Official Missouri House portal; use bill tracking and joint bill search navigation.",
+      url: "https://house.mo.gov/LegislationSP.aspx",
+      note: "Official Missouri House legislative report and bill-search route.",
     },
     legislatorLookup: {
       label: "Find Missouri legislators",
-      url: "https://www.house.mo.gov/",
-      note: "Official Missouri House portal; use member and district lookup navigation.",
+      url: "https://www.senate.mo.gov/BillTracking/LegislatorLookup/",
+      note: "Official Missouri Senate legislator lookup by ZIP.",
+    },
+    calendar: {
+      label: "Missouri House hearings",
+      url: "https://house.mo.gov/AllHearings.aspx",
+      note: "Official Missouri House past and upcoming committee hearing page.",
     },
   },
   MT: {

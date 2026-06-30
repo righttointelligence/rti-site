@@ -1398,3 +1398,368 @@ STATES.DE = {
     },
   ],
 };
+
+STATES.MO = {
+  ...STATES.MO,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Missouri has a live AI bill queue and a practical official route: House legislation reports, Senate bill tracking, a ZIP-based legislator lookup, and hearing schedules. The useful move is to search what is moving, then ask for a lawful local/open AI safe harbor before broad technology language hardens.",
+  ask:
+    "Ask Missouri legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, technology, education, labor, consumer-protection, public-sector, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Missouri considers AI legislation.\n\nMissouri can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring people, researchers, schools, startups, or local businesses to get permission just to run or study open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Missouri legislation",
+      url: STATE_POLICY_LINKS.MO.billSearch.url,
+      note: "Official Missouri House legislative report and bill-search route.",
+    },
+    {
+      label: "Find Missouri legislators",
+      url: STATE_POLICY_LINKS.MO.legislatorLookup.url,
+      note: "Official Missouri Senate ZIP-based lookup for state legislators.",
+    },
+    {
+      label: "Missouri House hearings",
+      url: STATE_POLICY_LINKS.MO.calendar?.url ?? "https://house.mo.gov/AllHearings.aspx",
+      note: "Official House committee hearing route with witness-testimony links.",
+    },
+    {
+      label: "Missouri Senate hearings",
+      url: "https://www.senate.mo.gov/HearingsSchedule/hrings.htm",
+      note: "Official Senate hearing schedule route.",
+    },
+    ...officialDirectoryContacts("MO", "Missouri"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("MO"),
+    ...officialDirectorySources("MO", "Missouri"),
+    {
+      label: "Missouri House home",
+      url: "https://house.mo.gov/",
+      note: "Official page checked on 2026-06-30; it links to members, committees, hearings, legislation, bill search, and Senate resources.",
+    },
+    {
+      label: "Missouri Senate home",
+      url: "https://www.senate.mo.gov/SenateHome",
+      note: "Official page checked on 2026-06-30; it exposes legislator lookup, bill search, committees, hearings, and bill reporting routes.",
+    },
+    {
+      label: "Missouri Senate legislator lookup",
+      url: "https://www.senate.mo.gov/BillTracking/LegislatorLookup/",
+      note: "Official ZIP-based legislator lookup checked on 2026-06-30.",
+    },
+    {
+      label: "Missouri House hearings",
+      url: "https://house.mo.gov/AllHearings.aspx",
+      note: "Official hearing and online witness-testimony route checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.ME = {
+  ...STATES.ME,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Maine has active AI legislation in the NCSL snapshot and a useful official search surface. The State of Maine Legislature bill-status page supports LD search, advanced search by sponsor, subject, committee assignment, amendments, roll calls, chaptered law, and bill text.",
+  ask:
+    "Ask Maine legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, privacy, education, labor, public-sector, consumer-protection, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Maine considers AI legislation.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful conduct and covered deployment, not possession, research, open-source work, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Maine legislation",
+      url: STATE_POLICY_LINKS.ME.billSearch.url,
+      note: "Official bill-status search with advanced search by subject, sponsor, committee, roll calls, and law status.",
+    },
+    {
+      label: "Find Maine legislators by town",
+      url: STATE_POLICY_LINKS.ME.legislatorLookup.url,
+      note: "Official House town-by-town legislator route.",
+    },
+    {
+      label: "Maine legislative calendar",
+      url: STATE_POLICY_LINKS.ME.calendar?.url ?? "https://legislature.maine.gov/Calendar/",
+      note: "Official calendar route for hearing and session timing.",
+    },
+    ...officialDirectoryContacts("ME", "Maine"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("ME"),
+    ...officialDirectorySources("ME", "Maine"),
+    {
+      label: "Maine bill-status search",
+      url: "https://legislature.maine.gov/LawMakerWeb/search.asp",
+      note: "Official search page checked on 2026-06-30; exposes LD search, advanced search, sponsor, subject, committee assignment, amendments, roll calls, enacted/engrossed, chaptered law, and bill text search.",
+    },
+    {
+      label: "Maine representatives by town",
+      url: "https://legislature.maine.gov/house/house/MemberProfiles/ListAlphaTown",
+      note: "Official House page checked on 2026-06-30; lists representatives by town and links member, schedule, committee, and testifying resources.",
+    },
+  ],
+};
+
+STATES.AK = {
+  ...STATES.AK,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Alaska has a smaller but live AI bill queue and a legislature site that explicitly routes residents to track bills, locate and contact legislators, committee information, public opinion messages, floor calendars, meetings, and bill tracking.",
+  ask:
+    "Ask Alaska legislators to protect lawful local/open AI in any AI, technology, education, labor, consumer-protection, public-sector, cyber, data-infrastructure, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Alaska considers AI legislation.\n\nAlaska can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without making ordinary local AI use permissioned. People should not need state permission just to own, run, study, modify, or share open models on local hardware.\n\nPlease support clear safe-harbor language for lawful local and open-source AI.",
+  contacts: [
+    {
+      label: "Track Alaska bills",
+      url: STATE_POLICY_LINKS.AK.billSearch.url,
+      note: "Official Alaska bills and laws route with introduced bills, actions, committee status, passed legislation, and bill tracking tools.",
+    },
+    {
+      label: "Locate and contact Alaska legislators",
+      url: STATE_POLICY_LINKS.AK.legislatorLookup.url,
+      note: "Official Alaska legislative portal route for current House and Senate members.",
+    },
+    {
+      label: "Alaska committee list",
+      url: STATE_POLICY_LINKS.AK.calendar?.url ?? "https://www.akleg.gov/basis/Committee/List",
+      note: "Official committee route for hearing and committee context.",
+    },
+    ...officialDirectoryContacts("AK", "Alaska"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("AK"),
+    ...officialDirectorySources("AK", "Alaska"),
+    {
+      label: "Alaska bills and laws",
+      url: "https://www.akleg.gov/basis/Home/BillsandLaws",
+      note: "Official page checked on 2026-06-30; exposes bills, actions by date, bills in committee, passed legislation, bill tracking, committees, meetings, floor calendars, public opinion messages, and legislator contact routes.",
+    },
+  ],
+};
+
+STATES.NH = {
+  ...STATES.NH,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "New Hampshire has active AI-related bills and a very direct General Court home page. Residents can use quick bill search, current bill search, advanced bill search, bill text search, legislator search, House and Senate meeting schedules, and online testimony routes from one official page.",
+  ask:
+    "Ask New Hampshire legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, technology, education, labor, consumer-protection, public-sector, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as New Hampshire considers AI legislation.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful conduct and covered deployment, not local possession, research, open-source work, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search New Hampshire bills",
+      url: STATE_POLICY_LINKS.NH.billSearch.url,
+      note: "Official bill status route; the General Court home also exposes quick, current, advanced, and text search.",
+    },
+    {
+      label: "Find New Hampshire representatives",
+      url: STATE_POLICY_LINKS.NH.legislatorLookup.url,
+      note: "Official House member lookup; the General Court home also links Senate contact routes.",
+    },
+    {
+      label: "New Hampshire General Court action hub",
+      url: "https://gc.nh.gov/",
+      note: "Official hub for bill search, meeting schedules, House/Senate contacts, calendars, and testimony routes.",
+    },
+    ...officialDirectoryContacts("NH", "New Hampshire"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("NH"),
+    ...officialDirectorySources("NH", "New Hampshire"),
+    {
+      label: "New Hampshire General Court home",
+      url: "https://gc.nh.gov/",
+      note: "Official page checked on 2026-06-30; exposes House/Senate rosters, bill search, current bill search, advanced bill search, text search, meeting schedules, and online testimony links.",
+    },
+  ],
+};
+
+STATES.NE = {
+  ...STATES.NE,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Nebraska has a small active AI bill queue and a clean official Unicameral search route. Residents can search bills by keyword, number, date, introducer, and committee, then contact their senator through the official address lookup.",
+  ask:
+    "Ask Nebraska senators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, technology, education, consumer-protection, public-sector, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Nebraska considers AI legislation.\n\nNebraska can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring people to get permission just to download, own, run, study, modify, or share open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Nebraska bills",
+      url: STATE_POLICY_LINKS.NE.billSearch.url,
+      note: "Official bill and resolution search with keyword, number, introducer, and committee routes.",
+    },
+    {
+      label: "Find your Nebraska senator",
+      url: STATE_POLICY_LINKS.NE.legislatorLookup.url,
+      note: "Official address-based senator and district finder.",
+    },
+    {
+      label: "Nebraska hearing schedules",
+      url: "https://nebraskalegislature.gov/calendar/hearings.php",
+      note: "Official hearing schedule route linked from the Unicameral site.",
+    },
+    ...officialDirectoryContacts("NE", "Nebraska"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("NE"),
+    ...officialDirectorySources("NE", "Nebraska"),
+    {
+      label: "Nebraska bill search",
+      url: "https://nebraskalegislature.gov/bills/",
+      note: "Official site checked on 2026-06-30; exposes advanced keyword search, bill-number search, date-of-introduction search, introducer search, committee search, hearings, agenda, and public input routes.",
+    },
+    {
+      label: "Nebraska Find Your Senator",
+      url: "https://nebraskalegislature.gov/senators/senator_find.php",
+      note: "Official address-based senator finder checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.CT = {
+  ...STATES.CT,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Connecticut does not show active AI bills in the current NCSL snapshot, but it has enacted AI-related law. That makes the action more about implementation and future bills: use the General Assembly bill-info routes and ask officials to keep lawful local/open AI outside licensing or preclearance rules.",
+  ask:
+    "Ask Connecticut legislators and executive offices to preserve lawful local/open AI safe harbors in future AI bills and implementation guidance: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Connecticut implements and updates AI policy.\n\nThe state can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without making ordinary local AI use permissioned. Please keep local possession, research, open-source work, model modification, and local execution outside licensing or preclearance requirements.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Connecticut bills",
+      url: STATE_POLICY_LINKS.CT.billSearch.url,
+      note: "Official bill-status search route; the General Assembly site also exposes advanced and basic bill/document search.",
+    },
+    {
+      label: "Find Connecticut legislators",
+      url: STATE_POLICY_LINKS.CT.legislatorLookup.url,
+      note: "Official Connecticut legislator lookup.",
+    },
+    {
+      label: "Connecticut legislative calendar",
+      url: STATE_POLICY_LINKS.CT.calendar?.url ?? "https://www.cga.ct.gov/asp/menu/CGACalendar.asp",
+      note: "Official calendar route for session and hearing timing.",
+    },
+    ...officialDirectoryContacts("CT", "Connecticut"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("CT"),
+    ...officialDirectorySources("CT", "Connecticut"),
+    {
+      label: "Connecticut General Assembly",
+      url: "https://www.cga.ct.gov/",
+      note: "Official page checked on 2026-06-30; exposes Bill Information Search, Quick Bill Search, Bills by Subject, Bill Tracking, advanced bill/document search, basic search, calendars, committees, and legislative offices.",
+    },
+    {
+      label: "Connecticut legislator lookup",
+      url: "https://www.cga.ct.gov/asp/menu/cgafindleg.asp",
+      note: "Official lookup and legislative navigation route checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.MD = {
+  ...STATES.MD,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Maryland does not show active AI bills in the current NCSL snapshot, but it has one of the larger enacted-law counts. The practical ask is implementation pressure: keep lawful local/open AI outside licensing traps while using the official General Assembly routes to monitor the next session.",
+  ask:
+    "Ask Maryland legislators, the governor, and the attorney general to preserve lawful local/open AI safe harbors in implementation and future bills: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Maryland implements and updates AI policy.\n\nMaryland can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring ordinary people, researchers, schools, startups, or local businesses to get permission just to run or study open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Maryland legislation",
+      url: STATE_POLICY_LINKS.MD.billSearch.url,
+      note: "Official General Assembly legislation chart and search route.",
+    },
+    {
+      label: "Find Maryland representatives",
+      url: STATE_POLICY_LINKS.MD.legislatorLookup.url,
+      note: "Official address and ZIP lookup for state legislators and federal representatives.",
+    },
+    {
+      label: "Maryland committee meetings",
+      url: STATE_POLICY_LINKS.MD.calendar?.url ?? "https://mgaleg.maryland.gov/mgawebsite/Committees/Meetings",
+      note: "Official committee meeting route for hearing and witness timing.",
+    },
+    ...officialDirectoryContacts("MD", "Maryland"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("MD"),
+    ...officialDirectorySources("MD", "Maryland"),
+    {
+      label: "Maryland legislation charts",
+      url: "https://mgaleg.maryland.gov/mgawebsite/Legislation/Charts",
+      note: "Official page checked on 2026-06-30; exposes legislation charts, Senate and House bills, enacted bills, floor actions, searches, committee meetings, witness signup, and tracking routes.",
+    },
+    {
+      label: "Maryland Find My Representatives",
+      url: "https://mgaleg.maryland.gov/mgawebsite/Members/District",
+      note: "Official page checked on 2026-06-30; supports address and ZIP lookup and lists governor, attorney general, congressional, and state legislative contacts.",
+    },
+  ],
+};
+
+STATES.OR = {
+  ...STATES.OR,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Oregon does not show active AI bills in the current NCSL snapshot, and the Legislature's public site says the 2026 regular session has adjourned. The useful move is to prepare the ask now: protect lawful local/open AI in the next bill cycle and keep implementation focused on harmful conduct.",
+  ask:
+    "Ask Oregon legislators to preserve lawful local/open AI safe harbors in future AI, privacy, public-sector, labor, education, consumer-protection, data-center, cyber, or automated-decision bills.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Oregon prepares future AI legislation.\n\nThe state should enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse. But lawful possession, research, open-source publication, model modification, and local execution should not require a license or preclearance.\n\nPlease support explicit safe-harbor language for lawful local and open-source AI.",
+  contacts: [
+    {
+      label: "Search Oregon bills",
+      url: STATE_POLICY_LINKS.OR.billSearch.url,
+      note: "Official Oregon Legislative Information System bill list.",
+    },
+    {
+      label: "Find Oregon legislators",
+      url: STATE_POLICY_LINKS.OR.legislatorLookup.url,
+      note: "Official legislature route for finding legislators by address.",
+    },
+    {
+      label: "Oregon participation and testimony routes",
+      url: "https://www.oregonlegislature.gov/",
+      note: "Official homepage route for session information, how to participate, committee agendas, testimony, and bill search.",
+    },
+    ...officialDirectoryContacts("OR", "Oregon"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("OR"),
+    ...officialDirectorySources("OR", "Oregon"),
+    {
+      label: "Oregon Legislative Information System measures list",
+      url: "https://olis.oregonlegislature.gov/liz/2025R1/Measures/list/",
+      note: "Official OLIS measures list checked on 2026-06-30; exposes Senate and House bill ranges for the regular session.",
+    },
+    {
+      label: "Oregon Legislature home",
+      url: "https://www.oregonlegislature.gov/",
+      note: "Official page checked on 2026-06-30; exposes 2026 session information, how to participate, Find Your Legislator, Senate and House bills, committee agendas, register or submit testimony, and search bills across sessions.",
+    },
+  ],
+};
