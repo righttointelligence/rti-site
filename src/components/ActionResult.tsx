@@ -19,6 +19,10 @@ export default function ActionResult({
   const [error, setError] = useState<string | null>(null);
   if (!s) return null;
 
+  const routingGuidance = aiSnapshot
+    ? getRoutingGuidance(s.name, aiSnapshot.activeBills, aiSnapshot.enactedBills)
+    : null;
+
   const copy = () => {
     navigator.clipboard?.writeText(s.script);
     setCopied(true);
@@ -76,6 +80,12 @@ export default function ActionResult({
                   </a>
                   .
                 </p>
+              </div>
+            )}
+            {routingGuidance && (
+              <div className="rblock">
+                <p className="rk">what this means</p>
+                <p className="rv">{routingGuidance}</p>
               </div>
             )}
             <div className="rblock">
@@ -164,4 +174,24 @@ export default function ActionResult({
       </div>
     </section>
   );
+}
+
+function getRoutingGuidance(stateName: string, activeBills: number, enactedBills: number) {
+  if (activeBills >= 50) {
+    return `${stateName} is a high-volume AI bill state. Do not try to read everything first. Start with the official bill search, search "artificial intelligence" and "automated decision", then send the safe-harbor ask to your own state legislators and any committee office attached to a moving bill.`;
+  }
+
+  if (activeBills >= 10) {
+    return `${stateName} has enough active AI bills that timing matters. Check the official bill search first, then ask your state legislators to add local/open AI safe-harbor language before the bill text hardens.`;
+  }
+
+  if (activeBills > 0) {
+    return `${stateName} has a smaller active AI queue. Open the official bill search, look at the active AI bills, and ask the sponsor or your own legislator to protect lawful local model ownership, research, and execution.`;
+  }
+
+  if (enactedBills > 0) {
+    return `${stateName} has already enacted some AI-related law in the tracker. The useful move is implementation pressure: ask legislators, the governor, and the attorney general to keep lawful local/open AI outside licensing or preclearance rules.`;
+  }
+
+  return `${stateName} is a pre-legislation state for this issue. That is still useful. Ask your legislators to introduce an affirmative Local AI Freedom safe harbor before the first broad AI bill is written.`;
 }

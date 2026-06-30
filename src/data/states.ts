@@ -406,3 +406,53 @@ STATES.TX = {
     },
   ],
 };
+
+STATES.NY = {
+  ...STATES.NY,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "New York has already moved frontier-model AI rules through the legislature, including the RAISE Act and a 2026 chapter amendment. The OII ask is not to erase enforcement. It is to make sure future New York AI rules do not turn ordinary local model ownership, research, open-source work, or local execution into permissioned activity.",
+  ask:
+    "Ask New York offices to add explicit lawful local/open AI safe-harbor language to future AI bills and implementation guidance: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as New York continues writing AI rules.\n\nNew York can enforce against fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and catastrophic misuse without requiring ordinary people, researchers, startups, libraries, or schools to get permission just to run or study open models locally.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Find your New York senator",
+      url: "https://www.nysenate.gov/find-my-senator",
+      note: "Official New York Senate lookup.",
+    },
+    {
+      label: "Find your New York assembly member",
+      url: "https://nyassembly.gov/mem/search/",
+      note: "Official New York Assembly member search.",
+    },
+    {
+      label: "Search New York legislation",
+      url: STATE_POLICY_LINKS.NY.billSearch.url,
+      note: "Official New York Assembly legislation page.",
+    },
+    ...officialDirectoryContacts("NY", "New York"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("NY"),
+    ...officialDirectorySources("NY", "New York"),
+    {
+      label: "New York S6953B RAISE Act",
+      url: "https://www.nysenate.gov/legislation/bills/2025/S6953",
+      note: "Official New York Senate page; signed by governor; relates to training and use of artificial intelligence frontier models.",
+    },
+    {
+      label: "New York S8828 chapter amendment",
+      url: "https://www.nysenate.gov/legislation/bills/2025/S8828",
+      note: "Official New York Senate page; signed by governor; relates to transparency and safety requirements for developers of artificial intelligence models.",
+    },
+    {
+      label: "New York Assembly member search",
+      url: "https://nyassembly.gov/mem/search/",
+      note: "Official Assembly lookup for district-level outreach.",
+    },
+  ],
+};
