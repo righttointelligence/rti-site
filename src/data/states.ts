@@ -456,3 +456,128 @@ STATES.NY = {
     },
   ],
 };
+
+STATES.NJ = {
+  ...STATES.NJ,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "New Jersey has a large active AI bill queue, and the official 2026 bill search already shows bills touching AI data-center energy planning, public-sector generative AI programs, and automated-decision liability. The useful ask is to make sure those rules do not accidentally turn ordinary local model ownership or open-source research into permissioned activity.",
+  ask:
+    "Ask New Jersey legislators to add lawful local/open AI safe-harbor language to AI, data-center, and automated-decision bills: no license, registration, or preclearance just to download, own, run, study, modify, or share open models on local hardware.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as New Jersey considers AI bills this session.\n\nThe state can regulate harmful conduct, automated-decision abuse, and large AI infrastructure without requiring ordinary people, researchers, startups, schools, or local businesses to get permission just to run or study open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Find New Jersey legislators",
+      url: STATE_POLICY_LINKS.NJ.legislatorLookup.url,
+      note: "Official legislative roster for district-level outreach.",
+    },
+    {
+      label: "Search New Jersey AI bills",
+      url: "https://www.njleg.state.nj.us/bill-search",
+      note: "Official 2026 bill search; search artificial intelligence, automated decision, and algorithm.",
+    },
+    {
+      label: "New Jersey Senate committees",
+      url: "https://www.njleg.state.nj.us/committees/senate-committees",
+      note: "Use for committee routing when a Senate bill is assigned.",
+    },
+    {
+      label: "New Jersey Assembly committees",
+      url: "https://www.njleg.state.nj.us/committees/assembly-committees",
+      note: "Use for committee routing when an Assembly bill is assigned.",
+    },
+    ...officialDirectoryContacts("NJ", "New Jersey"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("NJ"),
+    ...officialDirectorySources("NJ", "New Jersey"),
+    {
+      label: "New Jersey official AI keyword search",
+      url: "https://www.njleg.state.nj.us/bill-search",
+      note: "Official 2026 bill search; OII checked artificial intelligence keyword results through the legislature's public search API on 2026-06-30.",
+    },
+    {
+      label: "New Jersey A1170",
+      url: "https://www.njleg.state.nj.us/bill-search/2026/A1170",
+      note: "Official bill page; requires an energy usage plan for proposed AI data centers and new clean-energy sourcing.",
+    },
+    {
+      label: "New Jersey S4279",
+      url: "https://www.njleg.state.nj.us/bill-search/2026/S4279",
+      note: "Official bill page; provides disparate impact based on automated decision system as a cause of action for certain consumers.",
+    },
+    {
+      label: "New Jersey A2616",
+      url: "https://www.njleg.state.nj.us/bill-search/2026/A2616",
+      note: "Official bill page; requires a state generative AI program and AI education courses with county governments.",
+    },
+  ],
+};
+
+STATES.IL = {
+  ...STATES.IL,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Illinois is one of the highest-volume active AI bill states. Official 104th General Assembly records show a frontier AI safety bill sent to the governor, plus active work around AI systems in health insurance and AI companion products. The OII move is to keep enforcement real while making lawful local/open AI explicitly out of scope.",
+  ask:
+    "Ask Illinois offices to preserve clear safe harbors for lawful local model ownership, research, modification, self-hosting, and open-source publication in any frontier-model, health-insurance AI, companion AI, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Illinois moves AI legislation.\n\nIllinois can enforce against harmful deployment, fraud, discrimination, unsafe consumer products, and large frontier-model risks without making ordinary local AI use permissioned. Please keep any AI law focused on harmful conduct and covered commercial deployment, not possession, research, model modification, open-source publication, or local execution.\n\nCan you tell me whether the office supports explicit safe-harbor language for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Find Illinois districts",
+      url: STATE_POLICY_LINKS.IL.legislatorLookup.url,
+      note: "Official Illinois State Board of Elections district lookup.",
+    },
+    {
+      label: "Search Illinois legislation",
+      url: "https://www.ilga.gov/Search?base=Legis",
+      note: "Official ILGA search; use artificial intelligence, generative artificial intelligence, automated decision, SB315, SB316, HB35, or HB220.",
+    },
+    {
+      label: "Illinois Senate committees",
+      url: "https://www.ilga.gov/Senate/Committees",
+      note: "Use for committee routing when a Senate AI bill is assigned.",
+    },
+    {
+      label: "Illinois House committees",
+      url: "https://www.ilga.gov/House/Committees",
+      note: "Use for committee routing when a House AI bill is assigned.",
+    },
+    ...officialDirectoryContacts("IL", "Illinois"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("IL"),
+    ...officialDirectorySources("IL", "Illinois"),
+    {
+      label: "Illinois current General Assembly API",
+      url: "https://www.ilga.gov/API/Legislation/GetCurrentGeneralAssembly",
+      note: "Official ILGA API; OII checked the current 104th General Assembly on 2026-06-30.",
+    },
+    {
+      label: "Illinois SB315",
+      url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&GAID=18&DocTypeID=SB&LegId=157797&SessionID=114",
+      note: "Official bill status; Artificial Intelligence Safety Measures Act language and last action sent to governor on 2026-06-26.",
+    },
+    {
+      label: "Illinois SB316",
+      url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=316&GAID=18&DocTypeID=SB&LegId=157798&SessionID=114",
+      note: "Official bill status; Artificial Intelligence Companion Model Safety Act language in Senate floor amendment.",
+    },
+    {
+      label: "Illinois HB35",
+      url: "https://www.ilga.gov/Legislation/BillStatus?DocNum=35&GAID=18&DocTypeID=HB&LegId=155693&SessionID=114",
+      note: "Official bill status; Artificial Intelligence Systems Use in Health Insurance Act language.",
+    },
+    {
+      label: "Illinois official AI search",
+      url: "https://www.ilga.gov/Search?base=Legis&q=artificial%20intelligence",
+      note: "Official ILGA search route; OII checked current-session artificial intelligence results on 2026-06-30.",
+    },
+  ],
+};

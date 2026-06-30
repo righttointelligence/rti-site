@@ -52,6 +52,6 @@ Do not use KV as the source of truth for action logs. KV is better later for cac
 - The homepage no longer shows a fake public action count. Confirmed actions are logged through `POST /api/actions` once D1 is configured.
 - The action log intentionally stores no name, email, ZIP, address, IP, or user agent.
 - All 50 states are selectable. Each state action card now shows a compact NCSL AI legislation snapshot, a plain-English "what this means" routing note based on active/enacted bill counts, then routes users to official state legislature/bill-search sources, governor and attorney general contacts, federal lookup sources, and the NCSL AI legislation tracker.
-- California, Colorado, Texas, and New York currently carry deeper source-verified draft packs. New York's pack links official Senate pages for S6953 and S8828 plus official Senate/Assembly lookup paths.
+- California, Colorado, Texas, New York, New Jersey, and Illinois currently carry deeper source-verified draft packs. New Jersey's pack uses official 2026 legislature search/API results for AI data-center energy, automated-decision, and public-sector generative-AI bills. Illinois's pack uses official 104th General Assembly search/API results and bill pages for SB315, SB316, and HB35.
 - The NCSL snapshot is a public-tracker summary, not a substitute for human-reviewed state packs. It should be refreshed before launch and promoted only with retrieval dates visible.
 - Design source of truth lived in the GHOST vault prototype `projects/local-ai-freedom/design-catalogue/oii-canonical.html`.
