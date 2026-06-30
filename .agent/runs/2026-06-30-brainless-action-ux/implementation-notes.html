@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brainless Action UX - Implementation Notes</title>
+  <style>
+    body {
+      color: #202124;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      margin: 0 auto;
+      max-width: 920px;
+      padding: 40px 24px;
+    }
+    h1, h2 { line-height: 1.2; }
+    code {
+      background: #f1f3f4;
+      border-radius: 4px;
+      padding: 2px 5px;
+    }
+    .meta {
+      background: #f8f9fa;
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .timeline {
+      background: #f8f9fa;
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      max-height: 360px;
+      overflow: auto;
+      padding: 8px;
+    }
+    .timeline-note {
+      color: #5f6368;
+      margin-bottom: 10px;
+    }
+    .event {
+      background: #fff;
+      border: 1px solid #e8eaed;
+      border-radius: 8px;
+      margin: 8px 0;
+      padding: 12px 14px;
+    }
+    .event-head {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .event-summary {
+      margin: 0;
+    }
+    .event time {
+      color: #5f6368;
+      font-size: 13px;
+    }
+    .badge, .phase, .actor {
+      border-radius: 999px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      padding: 5px 8px;
+      text-transform: uppercase;
+    }
+    .badge { background: #e8f0fe; color: #174ea6; }
+    .status-done, .status-validated { background: #e6f4ea; color: #137333; }
+    .status-blocked, .status-failed { background: #fce8e6; color: #c5221f; }
+    .status-decision { background: #fef7e0; color: #b06000; }
+    .phase, .actor {
+      background: #f1f3f4;
+      color: #3c4043;
+      font-weight: 600;
+    }
+    li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <h1>Brainless Action UX</h1>
+  <div class="meta">
+    <p><strong>Goal ID:</strong> <code>2026-06-30-brainless-action-ux</code></p>
+    <p><strong>Started:</strong> 2026-06-30T21:47:21Z</p>
+    <p><strong>Parent goal:</strong> none</p>
+    <p><strong>Mode:</strong> full</p>
+    <p><strong>Objective:</strong> Convert the Free Intelligence/OII state action router into a brainless one-action UX: no user-facing instructions to search/read bills; every selected state shows one chosen best action, one target, one copyable message, one contact button, and secondary sources only.</p>
+  </div>
+
+  <h2>Resume Here</h2>
+  <ul>
+    <li><strong>Status:</strong> Implemented and validated locally.</li>
+    <li><strong>Current phase:</strong> Ready to commit and push.</li>
+    <li><strong>Blockers:</strong> None recorded.</li>
+    <li><strong>Next action:</strong> Commit the brainless action UX pass and update the Ghost project locus.</li>
+    <li><strong>Protected paths:</strong> None recorded.</li>
+  </ul>
+
+  <h2>Progress Timeline</h2>
+  <p class="timeline-note">Progress is rendered directly in this file. <a href="events.jsonl"><code>events.jsonl</code></a> remains the append-only history for agents.</p>
+  <div id="progress-timeline" class="timeline"></div>
+
+  <h2>Decisions Outside The Spec</h2>
+  <ul>
+    <li>Used Oracle's recommendation to make confirmation one button: <code>I sent it</code>, logged as the existing <code>email</code> action kind to avoid a backend migration.</li>
+    <li>Kept NCSL/source/bill links in collapsed secondary details, but sanitized visible labels and notes so they read as verification sources, not user instructions.</li>
+  </ul>
+
+  <h2>Changes And Tradeoffs</h2>
+  <ul>
+    <li>Added a primary-action derivation helper that picks a special official portal when available, otherwise an official legislator lookup, then a state portal/governor route. It never uses bill search as the primary target.</li>
+    <li>Reworked the state result card into a three-step action: copy message, open official contact page, mark done.</li>
+    <li>Simplified copied scripts so they start with <code>Hi, I live in [state]</code> and do not require name, city, or ZIP placeholders.</li>
+    <li>Moved AI snapshots, extra contacts, and provenance into collapsed trust sections.</li>
+    <li>Updated homepage copy and README to match the one-action-per-state product.</li>
+  </ul>
+
+  <h2>Validation</h2>
+  <ul>
+    <li><code>bun run build</code> passed.</li>
+    <li>Browser smoke checked California, Colorado, Texas, and Wyoming. Each showed one target, one confirmation button, no primary-flow instructions to search/read/check bills, and no name/city/ZIP placeholders in the copied script.</li>
+    <li>Browser action confirmation logged locally in development.</li>
+    <li>Mobile viewport smoke checked California. Result card, script box, CTA, and confirmation button did not overflow.</li>
+    <li><code>git diff --check</code> passed.</li>
+  </ul>
+
+  <h2>Evidence</h2>
+  <ul>
+    <li>Desktop full-page screenshot: <code>/private/tmp/free-intelligence-brainless-action.png</code></li>
+    <li>Mobile full-page screenshot: <code>/private/tmp/free-intelligence-mobile-ca.png</code></li>
+    <li>Oracle job: <code>25zw7061</code></li>
+  </ul>
+
+  <h2>Next Goal Candidates</h2>
+  <ul>
+    <li>Empty at start.</li>
+  </ul>
+  <script>
+    const progressEvents = [
+      {
+        ts: "2026-06-30T21:47:21Z",
+        status: "created",
+        phase: "start",
+        actor: "agent",
+        summary: "Goal ledger created."
+      },
+      {
+        ts: "2026-06-30T21:50:00Z",
+        status: "decision",
+        phase: "rfc",
+        actor: "oracle",
+        summary: "Oracle recommended a single-action state card: copy message, open one official contact page, log done, with source detail collapsed below."
+      },
+      {
+        ts: "2026-06-30T22:05:00Z",
+        status: "done",
+        phase: "implementation",
+        actor: "claude-pilot",
+        summary: "Claude Pilot rewrote the result card, added the recommendation helper, updated homepage copy, and added collapsed trust-section styles before the pilot session hit a usage stop."
+      },
+      {
+        ts: "2026-06-30T22:18:00Z",
+        status: "validated",
+        phase: "verification",
+        actor: "codex",
+        summary: "Codex patched remaining source-label issues, ran build, browser smoke checked CA/CO/TX/WY, and verified mobile layout."
+      }
+    ];
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function renderEvent(event) {
+      const status = escapeHtml(event.status || "event");
+      const phase = escapeHtml(event.phase || "general");
+      const actor = escapeHtml(event.actor || "agent");
+      const timestamp = escapeHtml(event.ts || "");
+      const summary = escapeHtml(event.summary || "");
+      return `
+        <article class="event">
+          <div class="event-head">
+            <span class="badge status-${status}">${status}</span>
+            <span class="phase">${phase}</span>
+            <span class="actor">${actor}</span>
+            <time datetime="${timestamp}">${timestamp}</time>
+          </div>
+          <p class="event-summary">${summary}</p>
+        </article>
+      `;
+    }
+
+    function renderProgressTimeline() {
+      const target = document.getElementById("progress-timeline");
+      const events = Array.isArray(progressEvents) ? progressEvents : [];
+      if (events.length === 0) {
+        target.innerHTML = "<p>No progress events recorded yet.</p>";
+        return;
+      }
+      target.innerHTML = events.map(renderEvent).join("");
+    }
+    renderProgressTimeline();
+  </script>
+</body>
+</html>

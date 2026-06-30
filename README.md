@@ -43,6 +43,7 @@ Do not use KV as the source of truth for action logs. KV is better later for cac
 - `src/data/state-policy-links.ts` — official state legislature, bill-search, legislator lookup, and calendar links for every state.
 - `src/data/state-official-links.ts` — USA.gov-derived state portal, governor, and attorney general links for every state.
 - `src/lib/actions.ts` — browser action logging client, with local fallback for development.
+- `src/lib/recommendation.ts` — derives one primary action (headline, context, ask, simplified copyable script, and one official contact destination) from a state's pack + NCSL snapshot. Picks a special time-sensitive portal (Colorado AG comment form) when one exists, otherwise the official legislator lookup, then the state portal/governor. Never targets bill search.
 - `worker.ts` — Cloudflare Worker API for persistent action logs.
 - `migrations/0001_actions.sql` — D1 table for state/action/timestamp only.
 - `src/index.css` — Tailwind v4 theme tokens + the exact homepage styles (ported 1:1 from the prototype).
@@ -51,7 +52,7 @@ Do not use KV as the source of truth for action logs. KV is better later for cac
 
 - The homepage no longer shows a fake public action count. Confirmed actions are logged through `POST /api/actions` once D1 is configured.
 - The action log intentionally stores no name, email, ZIP, address, IP, or user agent.
-- All 50 states are selectable. Each state action card now shows a compact NCSL AI legislation snapshot, a plain-English "what this means" routing note based on active/enacted bill counts, then routes users to official state legislature/bill-search sources, governor and attorney general contacts, federal lookup sources, and the NCSL AI legislation tracker.
+- All 50 states are selectable. Selecting a state produces one complete action packet with no policy homework: a recommended action, the exact ask, one copyable message (simplified opener, no name/city/ZIP placeholders), one official contact destination, and one "I sent it" confirmation button. NCSL counts, provenance, and extra contacts moved into two collapsed "why this recommendation" and "sources and official links" sections below the action. The primary flow never tells visitors to search, read, or check bills, and bill search is never the primary target.
 - All 50 states now carry source-verified draft packs. New Jersey's pack uses official 2026 legislature search/API results for AI data-center energy, automated-decision, and public-sector generative-AI bills. Illinois's pack uses official 104th General Assembly search/API results and bill pages for SB315, SB316, and HB35. The final five promotions, Hawaii, Idaho, Indiana, Wisconsin, and Wyoming, were manually verified in browser against official legislature portals on 2026-06-30 after automated retrieval was blocked or incomplete.
 - The NCSL snapshot is a public-tracker summary, not a substitute for human-reviewed state packs. It should be refreshed before launch and promoted only with retrieval dates visible.
 - Design source of truth lived in the GHOST vault prototype `projects/local-ai-freedom/design-catalogue/oii-canonical.html`.

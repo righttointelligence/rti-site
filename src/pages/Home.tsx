@@ -40,14 +40,15 @@ export default function Home() {
           <div className="divider" />
           <p className="subcopy">
             New state laws could put local AI behind a license — turning open models into something
-            you need permission to use. <b>Take a 2-minute action to protect your rights.</b>
+            you need permission to use.{" "}
+            <b>Choose your state. Copy the message. Send it to the right office. Done.</b>
           </p>
           <Picker onGo={go} />
           <div className="launchstat">
             <b>50 states</b>
-            <span className="statlabel">state-by-state actions with source status</span>
+            <span className="statlabel">one recommended action per state</span>
             <span className="liveline">
-              <span className="livedot" /> every recommendation shows provenance
+              <span className="livedot" /> sources available beneath each action
             </span>
           </div>
         </div>

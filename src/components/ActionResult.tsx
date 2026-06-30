@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { STATE_AI_SNAPSHOTS } from "../data/state-ai-snapshots";
 import { STATES } from "../data/states";
+import { derivePrimaryAction } from "../lib/recommendation";
 import type { ActionKind, ActionLogResult } from "../lib/actions";
 
-// The result panel: shows the chosen state's action + copy-able script + confirm loop.
+// The result panel: one recommended action, one exact ask, one copyable
+// message, one official destination, one "I sent it" loop. Counts, provenance,
+// and extra contacts live in a collapsed secondary layer below the action.
 export default function ActionResult({
   stateKey,
   onConfirm,
@@ -15,30 +18,28 @@ export default function ActionResult({
   const aiSnapshot = STATE_AI_SNAPSHOTS[stateKey];
   const [copied, setCopied] = useState(false);
   const [confirmed, setConfirmed] = useState<ActionLogResult | null>(null);
-  const [logging, setLogging] = useState<ActionKind | null>(null);
+  const [logging, setLogging] = useState(false);
   const [error, setError] = useState<string | null>(null);
   if (!s) return null;
 
-  const routingGuidance = aiSnapshot
-    ? getRoutingGuidance(s.name, aiSnapshot.activeBills, aiSnapshot.enactedBills)
-    : null;
+  const action = derivePrimaryAction(s, aiSnapshot);
 
   const copy = () => {
-    navigator.clipboard?.writeText(s.script);
+    navigator.clipboard?.writeText(action.script);
     setCopied(true);
     setTimeout(() => setCopied(false), 1600);
   };
 
-  const confirm = async (kind: ActionKind) => {
+  const confirm = async () => {
     if (confirmed || logging) return;
     setError(null);
-    setLogging(kind);
+    setLogging(true);
     try {
-      setConfirmed(await onConfirm(kind));
+      setConfirmed(await onConfirm("email"));
     } catch {
       setError("Could not log this yet. Please try again.");
     } finally {
-      setLogging(null);
+      setLogging(false);
     }
   };
 
@@ -49,115 +50,53 @@ export default function ActionResult({
         <div className="result">
           <div className="rhead">
             <span className="rname">{s.name}</span>
-            <span className={`tag ${s.prio}`}>tier {s.tier}</span>
             <span className="tag review">{s.reviewStatus}</span>
           </div>
           <div className="rbody">
             <div className="rblock">
-              <p className="rk">what is happening</p>
-              <p className="rv">{s.first}</p>
-            </div>
-            {aiSnapshot && (
-              <div className="rblock">
-                <p className="rk">AI bill snapshot</p>
-                <p className="rv">
-                  NCSL lists <b>{aiSnapshot.totalBills}</b> AI-related bills for {s.name} in its
-                  2025-present tracker, checked {aiSnapshot.checkedAt}.{" "}
-                  {aiSnapshot.activeBills > 0 ? (
-                    <>
-                      <b>{aiSnapshot.activeBills}</b> are still marked pending or to governor. Open
-                      the state bill search before contacting officials and ask for local/open AI
-                      safe-harbor language in anything moving now.
-                    </>
-                  ) : (
-                    <>
-                      None are currently marked pending or to governor. The useful move is an
-                      affirmative safe-harbor ask before the next AI bill is written.
-                    </>
-                  )}{" "}
-                  <a href={aiSnapshot.sourceUrl} rel="noreferrer" target="_blank">
-                    Source
-                  </a>
-                  .
-                </p>
-              </div>
-            )}
-            {routingGuidance && (
-              <div className="rblock">
-                <p className="rk">what this means</p>
-                <p className="rv">{routingGuidance}</p>
-              </div>
-            )}
-            <div className="rblock">
-              <p className="rk">what to ask for</p>
-              <p className="rv">{s.ask}</p>
+              <p className="rk">do this now</p>
+              <p className="rv">{action.headline}</p>
             </div>
             <div className="rblock">
-              <p className="rk">what to say — tap to copy</p>
+              <p className="rk">why this state</p>
+              <p className="rv">{action.context}</p>
+            </div>
+            <div className="rblock">
+              <p className="rk">the ask</p>
+              <p className="rv">{action.ask}</p>
+            </div>
+            <div className="rblock">
+              <p className="rk">1 / copy this message</p>
               <div className="script">
                 <button className={`copy${copied ? " done" : ""}`} onClick={copy}>
                   {copied ? "copied ✓" : "copy"}
                 </button>
-                <span>{s.script}</span>
+                <span>{action.script}</span>
               </div>
+              <p className="rnote">
+                No policy homework required. We picked the first useful action for you, and OII does
+                not collect or see your name, email, or address.
+              </p>
             </div>
             <div className="rblock">
-              <p className="rk">who to contact</p>
-              <div className="linkgrid">
-                {s.contacts.map((contact) => (
-                  <a
-                    className="sourcelink"
-                    href={contact.url}
-                    key={contact.label}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <b>{contact.label}</b>
-                    <span>{contact.note}</span>
-                  </a>
-                ))}
-              </div>
+              <p className="rk">2 / open the official contact page</p>
+              <a className="targetbtn" href={action.targetUrl} rel="noreferrer" target="_blank">
+                Open official contact page →
+              </a>
+              <p className="rnote">
+                Goes to the <b>{action.targetLabel}</b>. {action.targetNote} If that office asks for
+                your address, you enter it there on the official site — not here.
+              </p>
             </div>
             <div className="rblock">
-              <p className="rk">provenance</p>
-              <div className="sourcegrid">
-                {s.sources.map((source) =>
-                  source.url ? (
-                    <a
-                      className="sourcelink"
-                      href={source.url}
-                      key={source.label}
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      <b>{source.label}</b>
-                      <span>{source.note}</span>
-                    </a>
-                  ) : (
-                    <div className="sourcelink" key={source.label}>
-                      <b>{source.label}</b>
-                      <span>{source.note}</span>
-                    </div>
-                  ),
-                )}
-              </div>
-            </div>
-            <div className="rblock">
-              <p className="rk">did it? add your voice to the count</p>
+              <p className="rk">3 / mark it done</p>
               <div className="confirm">
                 <button
                   className="confirmbtn"
                   disabled={Boolean(confirmed || logging)}
-                  onClick={() => void confirm("call")}
+                  onClick={() => void confirm()}
                 >
-                  {logging === "call" ? "logging..." : "✓ I made the call"}
-                </button>
-                <button
-                  className="confirmbtn"
-                  disabled={Boolean(confirmed || logging)}
-                  onClick={() => void confirm("email")}
-                >
-                  {logging === "email" ? "logging..." : "✓ I sent an email"}
+                  {logging ? "logging..." : "✓ I sent it"}
                 </button>
               </div>
               {error && <p className="confirmed errorline">{error}</p>}
@@ -171,27 +110,98 @@ export default function ActionResult({
             </div>
           </div>
         </div>
+
+        <details className="secondary">
+          <summary>why this recommendation</summary>
+          <div className="secondarybody">
+            <p className="rv">
+              This recommendation uses the current OII state action pack, official state links, and
+              public AI-legislation snapshot. The public path stays simple: copy the message, send
+              it through the official page above, and use the receipts here only if you want to
+              verify the recommendation.
+            </p>
+            {aiSnapshot && (
+              <p className="rv">
+                NCSL lists <b>{aiSnapshot.totalBills}</b> AI-related bills for {s.name} in its
+                2025-present tracker, checked {aiSnapshot.checkedAt}.{" "}
+                {aiSnapshot.activeBills > 0 ? (
+                  <>
+                    <b>{aiSnapshot.activeBills}</b> are still marked pending or to governor.
+                  </>
+                ) : (
+                  <>None are currently marked pending or to governor.</>
+                )}{" "}
+                <a href={aiSnapshot.sourceUrl} rel="noreferrer" target="_blank">
+                  Source
+                </a>
+                .
+              </p>
+            )}
+          </div>
+        </details>
+
+        <details className="secondary">
+          <summary>sources and official links</summary>
+          <div className="secondarybody">
+            <p className="rk">more ways to contact officials</p>
+            <div className="linkgrid">
+              {s.contacts.map((contact) => (
+                <a
+                  className="sourcelink"
+                  href={contact.url}
+                  key={contact.label}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <b>{displayLinkLabel(contact.label)}</b>
+                  <span>{displayLinkNote(contact.label, contact.note)}</span>
+                </a>
+              ))}
+            </div>
+            <p className="rk" style={{ marginTop: 16 }}>
+              provenance — sources behind this recommendation
+            </p>
+            <div className="sourcegrid">
+              {s.sources.map((source) =>
+                source.url ? (
+                  <a
+                    className="sourcelink"
+                    href={source.url}
+                  key={source.label}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                    <b>{displayLinkLabel(source.label)}</b>
+                    <span>{displayLinkNote(source.label, source.note)}</span>
+                  </a>
+                ) : (
+                  <div className="sourcelink" key={source.label}>
+                    <b>{displayLinkLabel(source.label)}</b>
+                    <span>{displayLinkNote(source.label, source.note)}</span>
+                  </div>
+                ),
+              )}
+            </div>
+          </div>
+        </details>
       </div>
     </section>
   );
 }
 
-function getRoutingGuidance(stateName: string, activeBills: number, enactedBills: number) {
-  if (activeBills >= 50) {
-    return `${stateName} is a high-volume AI bill state. Do not try to read everything first. Start with the official bill search, search "artificial intelligence" and "automated decision", then send the safe-harbor ask to your own state legislators and any committee office attached to a moving bill.`;
+function displayLinkLabel(label: string) {
+  if (/check current AI bills/i.test(label)) {
+    return "NCSL AI legislation tracker";
   }
-
-  if (activeBills >= 10) {
-    return `${stateName} has enough active AI bills that timing matters. Check the official bill search first, then ask your state legislators to add local/open AI safe-harbor language before the bill text hardens.`;
+  if (/search|bill status|bills?/i.test(label)) {
+    return "Official legislative source";
   }
+  return label;
+}
 
-  if (activeBills > 0) {
-    return `${stateName} has a smaller active AI queue. Open the official bill search, look at the active AI bills, and ask the sponsor or your own legislator to protect lawful local model ownership, research, and execution.`;
+function displayLinkNote(label: string, note: string) {
+  if (/search|bill status|bills?/i.test(`${label} ${note}`)) {
+    return "Used by OII to verify state policy context. You do not need this to take the action.";
   }
-
-  if (enactedBills > 0) {
-    return `${stateName} has already enacted some AI-related law in the tracker. The useful move is implementation pressure: ask legislators, the governor, and the attorney general to keep lawful local/open AI outside licensing or preclearance rules.`;
-  }
-
-  return `${stateName} is a pre-legislation state for this issue. That is still useful. Ask your legislators to introduce an affirmative Local AI Freedom safe harbor before the first broad AI bill is written.`;
+  return note;
 }

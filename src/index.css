@@ -465,6 +465,80 @@ h1 {
   color: var(--faint);
 }
 
+/* small supporting note under a primary step */
+.rnote {
+  font-size: 12.5px;
+  color: var(--faint);
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+.rnote b {
+  color: var(--gray);
+}
+
+/* the one prominent outbound action button */
+.targetbtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 700;
+  border: 1.5px solid var(--cta);
+  background: var(--cta);
+  color: #0b0b0b;
+  padding: 13px 22px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, background 0.15s;
+}
+.targetbtn:hover {
+  background: var(--cta-soft);
+  border-color: var(--cta-soft);
+  box-shadow: 0 6px 22px var(--accent-glow);
+}
+
+/* collapsed secondary trust layer (counts, provenance, extra contacts) */
+.secondary {
+  max-width: 720px;
+  margin: 12px auto 0;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.secondary > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 13px 18px;
+  font-size: 13px;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+}
+.secondary > summary::-webkit-details-marker {
+  display: none;
+}
+.secondary > summary::before {
+  content: "+";
+  color: var(--accent);
+  font-weight: 700;
+}
+.secondary[open] > summary::before {
+  content: "–";
+}
+.secondary > summary:hover {
+  color: var(--ink);
+}
+.secondarybody {
+  padding: 4px 18px 18px;
+  border-top: 1px dotted var(--line);
+}
+.secondarybody .rv {
+  margin: 12px 0 0;
+  color: var(--gray);
+}
+
 /* the why (keep scrolling) */
 section.beat {
   min-height: 84vh;

@@ -1,0 +1,4 @@
+{"ts":"2026-06-30T21:47:21Z","status":"created","phase":"start","actor":"agent","summary":"Goal ledger created."}
+{"ts":"2026-06-30T21:50:00Z","status":"decision","phase":"rfc","actor":"oracle","summary":"Oracle recommended a single-action state card: copy message, open one official contact page, log done, with source detail collapsed below."}
+{"ts":"2026-06-30T22:05:00Z","status":"done","phase":"implementation","actor":"claude-pilot","summary":"Claude Pilot rewrote the result card, added the recommendation helper, updated homepage copy, and added collapsed trust-section styles before the pilot session hit a usage stop."}
+{"ts":"2026-06-30T22:18:00Z","status":"validated","phase":"verification","actor":"codex","summary":"Codex patched remaining source-label issues, ran build, browser smoke checked CA/CO/TX/WY, and verified mobile layout."}
