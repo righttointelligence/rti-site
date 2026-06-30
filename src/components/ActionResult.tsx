@@ -1,25 +1,39 @@
 import { useState } from "react";
 import { STATES } from "../data/states";
+import type { ActionKind, ActionLogResult } from "../lib/actions";
 
 // The result panel: shows the chosen state's action + copy-able script + confirm loop.
 export default function ActionResult({
   stateKey,
   onConfirm,
-  rank,
 }: {
   stateKey: string;
-  onConfirm: () => void;
-  rank: number;
+  onConfirm: (kind: ActionKind) => Promise<ActionLogResult>;
 }) {
   const s = STATES[stateKey];
   const [copied, setCopied] = useState(false);
-  const [confirmed, setConfirmed] = useState(false);
+  const [confirmed, setConfirmed] = useState<ActionLogResult | null>(null);
+  const [logging, setLogging] = useState<ActionKind | null>(null);
+  const [error, setError] = useState<string | null>(null);
   if (!s) return null;
 
   const copy = () => {
     navigator.clipboard?.writeText(s.script);
     setCopied(true);
     setTimeout(() => setCopied(false), 1600);
+  };
+
+  const confirm = async (kind: ActionKind) => {
+    if (confirmed || logging) return;
+    setError(null);
+    setLogging(kind);
+    try {
+      setConfirmed(await onConfirm(kind));
+    } catch {
+      setError("Could not log this yet. Please try again.");
+    } finally {
+      setLogging(null);
+    }
   };
 
   return (
@@ -34,11 +48,11 @@ export default function ActionResult({
           </div>
           <div className="rbody">
             <div className="rblock">
-              <p className="rk">do this first</p>
+              <p className="rk">what is happening</p>
               <p className="rv">{s.first}</p>
             </div>
             <div className="rblock">
-              <p className="rk">the exact ask</p>
+              <p className="rk">what to ask for</p>
               <p className="rv">{s.ask}</p>
             </div>
             <div className="rblock">
@@ -55,23 +69,25 @@ export default function ActionResult({
               <div className="confirm">
                 <button
                   className="confirmbtn"
-                  disabled={confirmed}
-                  onClick={() => { if (!confirmed) { setConfirmed(true); onConfirm(); } }}
+                  disabled={Boolean(confirmed || logging)}
+                  onClick={() => void confirm("call")}
                 >
-                  ✓ I made the call
+                  {logging === "call" ? "logging..." : "✓ I made the call"}
                 </button>
                 <button
                   className="confirmbtn"
-                  disabled={confirmed}
-                  onClick={() => { if (!confirmed) { setConfirmed(true); onConfirm(); } }}
+                  disabled={Boolean(confirmed || logging)}
+                  onClick={() => void confirm("email")}
                 >
-                  ✓ I sent an email
+                  {logging === "email" ? "logging..." : "✓ I sent an email"}
                 </button>
               </div>
+              {error && <p className="confirmed errorline">{error}</p>}
               {confirmed && (
                 <p className="confirmed">
-                  logged — you're action <b>#{rank.toLocaleString()}</b>. thank you for adding your
-                  voice. tell a friend and the count climbs.
+                  logged{confirmed.source === "local" ? " on this browser" : ""} — you're action{" "}
+                  <b>#{confirmed.rank.toLocaleString()}</b>. thank you for adding your voice. tell a
+                  friend and the count climbs.
                 </p>
               )}
             </div>

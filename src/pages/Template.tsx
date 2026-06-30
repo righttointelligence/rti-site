@@ -1,16 +1,23 @@
+import type { ReactNode } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-// Shared scaffold for the pages we fill in later (About, Principles, Take Action).
-// Same shell, typography, and spacing as the homepage — content goes here next.
-export default function Template({ idx, title }: { idx: string; title: string }) {
+export default function Template({
+  idx,
+  title,
+  children,
+}: {
+  idx: string;
+  title: string;
+  children: ReactNode;
+}) {
   return (
     <>
       <Nav onHome={false} />
       <main className="tpl pad">
         <p className="idx">{idx}</p>
         <h1>{title}</h1>
-        <p className="body">Template coming. We'll fill this page in next.</p>
+        <div className="body">{children}</div>
       </main>
       <Footer />
     </>
