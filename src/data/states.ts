@@ -1,4 +1,5 @@
 import { STATE_OFFICIAL_LINKS } from "./state-official-links";
+import { STATE_AI_SNAPSHOTS } from "./state-ai-snapshots";
 import { STATE_POLICY_LINKS } from "./state-policy-links";
 
 // State action data is split into two layers:
@@ -217,6 +218,27 @@ function priorityForTier(tier: Tier): Priority {
   return "baseline";
 }
 
+function buildBaselineFirst(abbr: string, name: string) {
+  const snapshot = STATE_AI_SNAPSHOTS[abbr];
+  if (!snapshot) {
+    return `${name} has a baseline OII action pack with official contact routes. The useful move is to ask state officials to protect lawful local AI before future rules are written around cloud labs and large platforms.`;
+  }
+
+  if (snapshot.activeBills >= 10) {
+    return `${name} is already an active AI policy state. The snapshot below shows a real queue, not a theoretical one. Start with the official state bill search, then ask for local/open AI safe-harbor language in anything moving now.`;
+  }
+
+  if (snapshot.activeBills > 0) {
+    return `${name} has a smaller but live AI bill queue. The useful move is to open the official bill search, then contact your own state legislators and ask them to protect lawful local model ownership, research, modification, and execution.`;
+  }
+
+  if (snapshot.enactedBills > 0) {
+    return `${name} does not currently show active AI bills in the NCSL snapshot, but it has already enacted AI-related law in the 2025-present tracker. The useful move is implementation pressure: ask legislators, the governor, and the attorney general to keep lawful local/open AI outside licensing or preclearance rules.`;
+  }
+
+  return `${name} does not currently show active or enacted AI bills in the NCSL snapshot. That is still useful. Ask state officials to introduce an affirmative Local AI Freedom safe harbor before the first broad AI bill is written.`;
+}
+
 function buildBaselineState(abbr: string, name: string, tier: Tier): StateAction {
   return {
     name,
@@ -224,7 +246,7 @@ function buildBaselineState(abbr: string, name: string, tier: Tier): StateAction
     tier,
     prio: priorityForTier(tier),
     reviewStatus: "baseline",
-    first: `${name} does not have a source-reviewed OII action pack yet. That still leaves one useful move: ask state officials to protect lawful local AI before future rules are written around cloud labs and large platforms.`,
+    first: buildBaselineFirst(abbr, name),
     ask:
       "Ask your state legislators to introduce or support a Local AI Freedom Act: no license, registration, or preclearance just to download, own, run, study, modify, or share open AI models. Keep enforcement focused on harmful conduct.",
     script: `Hi, my name is [NAME], and I live in [CITY], ${abbr}.\n\nI'm asking your office to protect lawful local AI in ${name}.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please support a Local AI Freedom Act that protects ordinary local use while preserving enforcement against fraud, cybercrime, CSAM, harassment, nonconsensual intimate deepfakes, discrimination, and sabotage.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?`,
@@ -453,6 +475,236 @@ STATES.NY = {
       label: "New York Assembly member search",
       url: "https://nyassembly.gov/mem/search/",
       note: "Official Assembly lookup for district-level outreach.",
+    },
+  ],
+};
+
+STATES.MA = {
+  ...STATES.MA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Massachusetts is a high-volume active AI bill state. The official 194th General Court bill search and event pages give residents a practical route: find the moving AI bills, then ask legislators to add local/open AI safe-harbor language before text hardens.",
+  ask:
+    "Ask Massachusetts legislators to protect lawful local model ownership, research, modification, self-hosting, and open-source publication in any AI, automated-decision, privacy, education, labor, consumer-protection, or public-sector AI bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Massachusetts considers AI legislation.\n\nMassachusetts can regulate harmful deployment, discrimination, fraud, cybercrime, CSAM, harassment, unlawful deepfakes, and real-world abuse without making ordinary local AI use permissioned. People should not need a license or platform approval just to download, own, run, study, modify, or share open models on their own hardware.\n\nPlease support explicit safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Find Massachusetts legislators",
+      url: STATE_POLICY_LINKS.MA.legislatorLookup.url,
+      note: "Official 194th General Court lookup for your senator and representative.",
+    },
+    {
+      label: "Search Massachusetts bills",
+      url: STATE_POLICY_LINKS.MA.billSearch.url,
+      note: "Official bill search; search artificial intelligence, automated decision, algorithm, data center, and generative AI.",
+    },
+    {
+      label: "Massachusetts hearings and events",
+      url: STATE_POLICY_LINKS.MA.calendar?.url ?? "https://malegislature.gov/Events",
+      note: "Official hearing and event route for timing public comments.",
+    },
+    ...officialDirectoryContacts("MA", "Massachusetts"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("MA"),
+    ...officialDirectorySources("MA", "Massachusetts"),
+    {
+      label: "Massachusetts 194th General Court bill search",
+      url: "https://malegislature.gov/Bills/Search",
+      note: "Official bill-search route; OII checked the current 194th General Court search page on 2026-06-30.",
+    },
+    {
+      label: "Massachusetts Find My Legislator",
+      url: "https://malegislature.gov/Search/FindMyLegislator",
+      note: "Official legislator lookup checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.PA = {
+  ...STATES.PA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Pennsylvania has a live AI bill queue. The official General Assembly Bills & Resolutions page supports keyword search through bill text, current-session filtering, sponsors, committees, and recent activity, so the resident move is straightforward: search the current session and ask for safe-harbor language in anything moving.",
+  ask:
+    "Ask Pennsylvania legislators to add lawful local/open AI safe harbors to any AI bill: no license, registration, or preclearance just to download, own, run, study, modify, or share open models on local hardware.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Pennsylvania considers AI legislation.\n\nThe state should enforce against harmful conduct, fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and real-world abuse. But ordinary people, researchers, schools, startups, and local businesses should not need permission just to run or study open models on their own machines.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Pennsylvania bills",
+      url: "https://www.palegis.us/legislation/bills",
+      note: "Official current-session bill and resolution search; use the keyword field for artificial intelligence and automated decision.",
+    },
+    {
+      label: "Find Pennsylvania legislators",
+      url: "https://www.palegis.us/find-my-legislator",
+      note: "Official General Assembly legislator lookup route.",
+    },
+    ...officialDirectoryContacts("PA", "Pennsylvania"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("PA"),
+    ...officialDirectorySources("PA", "Pennsylvania"),
+    {
+      label: "Pennsylvania Bills & Resolutions search",
+      url: "https://www.palegis.us/legislation/bills",
+      note: "Official General Assembly page; OII checked current-session keyword, sponsor, committee, and bill-number search routes on 2026-06-30.",
+    },
+    {
+      label: "Pennsylvania Legislation home",
+      url: "https://www.palegis.us/legislation",
+      note: "Official General Assembly legislation page and recent bill activity source.",
+    },
+  ],
+};
+
+STATES.NC = {
+  ...STATES.NC,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "North Carolina is a live AI bill state. The official General Assembly site gives residents bill lookup, all-bill-text search, calendars, committees, and a public web-services page for bill reports. The ask should be added before active bills become final text.",
+  ask:
+    "Ask North Carolina legislators to preserve lawful local/open AI safe harbors in any AI, data, education, labor, public-sector, automated-decision, or consumer-protection bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as North Carolina considers AI legislation.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful conduct and covered deployment, not possession, research, open-source work, or local execution.\n\nCan you tell me whether the office supports explicit safe-harbor language for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Find North Carolina legislators",
+      url: STATE_POLICY_LINKS.NC.legislatorLookup.url,
+      note: "Official NCGA lookup for district-level outreach.",
+    },
+    {
+      label: "Search North Carolina bills",
+      url: STATE_POLICY_LINKS.NC.billSearch.url,
+      note: "Official bill lookup; use All Bill Text for AI-related keyword searches.",
+    },
+    {
+      label: "North Carolina legislative calendars",
+      url: "https://www.ncleg.gov/Calendars",
+      note: "Official route for House, Senate, and legislative calendars.",
+    },
+    {
+      label: "North Carolina committees",
+      url: "https://www.ncleg.gov/Committees",
+      note: "Official committee route for sponsor and hearing context.",
+    },
+    ...officialDirectoryContacts("NC", "North Carolina"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("NC"),
+    ...officialDirectorySources("NC", "North Carolina"),
+    {
+      label: "North Carolina bill lookup",
+      url: "https://www.ncleg.gov/BillLookup",
+      note: "Official NCGA bill lookup checked on 2026-06-30.",
+    },
+    {
+      label: "North Carolina web services",
+      url: "https://www.ncleg.gov/About/Webservices",
+      note: "Official NCGA public web-services page listing bill history, filed bills, keyword-associated bills, calendars, and bill-report endpoints.",
+    },
+  ],
+};
+
+STATES.MN = {
+  ...STATES.MN,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Minnesota has both active AI bills and enacted AI-related law. Official Revisor records show HF1606, an AI nudification bill, approved by the governor on 2026-05-07. The OII move is to keep abuse enforcement serious while preventing broader AI rules from requiring permission for lawful local/open AI.",
+  ask:
+    "Ask Minnesota legislators to preserve lawful local/open AI safe harbors in any AI safety, deepfake, education, consumer-protection, public-sector, labor, privacy, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Minnesota continues working on AI legislation.\n\nMinnesota should enforce against nonconsensual intimate deepfakes, CSAM, fraud, cybercrime, harassment, discrimination, and real-world abuse. But people should not need permission just to own, run, study, modify, or share open models on local hardware.\n\nPlease support explicit safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Find Minnesota legislators",
+      url: STATE_POLICY_LINKS.MN.legislatorLookup.url,
+      note: "Official district finder for House and Senate contacts.",
+    },
+    {
+      label: "Search Minnesota bills",
+      url: STATE_POLICY_LINKS.MN.billSearch.url,
+      note: "Official bill search and status route for House and Senate bills.",
+    },
+    {
+      label: "Minnesota House committees",
+      url: "https://www.house.mn.gov/committees",
+      note: "Official House committee route for hearing context.",
+    },
+    {
+      label: "Minnesota Senate committees",
+      url: "https://www.senate.mn/committees",
+      note: "Official Senate committee route for hearing context.",
+    },
+    ...officialDirectoryContacts("MN", "Minnesota"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("MN"),
+    ...officialDirectorySources("MN", "Minnesota"),
+    {
+      label: "Minnesota bill search and status",
+      url: "https://www.leg.mn.gov/leg/legis",
+      note: "Official legislative bill search page checked on 2026-06-30.",
+    },
+    {
+      label: "Minnesota HF1606",
+      url: "https://www.revisor.mn.gov/bills/94/2025/0/HF/1606/?body=house",
+      note: "Official Revisor page; nudification technology access prohibited; governor approval 2026-05-07; chapter 72.",
+    },
+  ],
+};
+
+STATES.OH = {
+  ...STATES.OH,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Ohio is another active AI bill state. The official Ohio Legislature search page exposes the 136th General Assembly, keyword search, sponsors, committees, subjects, status reports, calendars, and district maps. The immediate move is to search the current session and ask for a local/open AI carve-out before broad rules move.",
+  ask:
+    "Ask Ohio legislators to add explicit safe-harbor language to any AI bill: lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication should not require licensing or preclearance.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Ohio considers AI legislation.\n\nThe state should enforce against harmful deployment, fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and real-world abuse. But owning, running, studying, modifying, or sharing open models on local hardware should not become a permissioned activity.\n\nPlease support clear safe-harbor language for lawful local AI and open-source AI.",
+  contacts: [
+    {
+      label: "Search Ohio legislation",
+      url: STATE_POLICY_LINKS.OH.billSearch.url,
+      note: "Official Ohio Legislature search; use artificial intelligence, automated decision, algorithm, and generative AI.",
+    },
+    {
+      label: "Find Ohio districts",
+      url: STATE_POLICY_LINKS.OH.legislatorLookup.url,
+      note: "Official Ohio district and member map route.",
+    },
+    {
+      label: "Ohio legislative calendar",
+      url: "https://www.legislature.ohio.gov/schedules/calendar",
+      note: "Official schedule route for hearing and session timing.",
+    },
+    ...officialDirectoryContacts("OH", "Ohio"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("OH"),
+    ...officialDirectorySources("OH", "Ohio"),
+    {
+      label: "Ohio legislation search",
+      url: "https://www.legislature.ohio.gov/legislation/search?generalAssembly=136",
+      note: "Official Ohio Legislature 136th General Assembly search checked on 2026-06-30.",
+    },
+    {
+      label: "Ohio district maps",
+      url: "https://www.legislature.ohio.gov/members/district-maps",
+      note: "Official district and member lookup route checked on 2026-06-30.",
     },
   ],
 };
