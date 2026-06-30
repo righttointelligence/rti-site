@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "free-intelligence",
+  "compatibility_date": "2026-06-30",
+  // Static SPA — no Worker script, assets only. `bun run deploy` builds then ships.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
