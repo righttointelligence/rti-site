@@ -709,6 +709,281 @@ STATES.OH = {
   ],
 };
 
+STATES.RI = {
+  ...STATES.RI,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Rhode Island has a live AI bill queue and an unusually direct policy route: the official bill status system exposes an Artificial Intelligence category and a Senate Artificial Intelligence & Emerging Tech committee. Residents should use that route before broad AI language becomes final.",
+  ask:
+    "Ask Rhode Island legislators to protect lawful local/open AI in any AI, emerging-tech, consumer-protection, education, labor, privacy, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Rhode Island considers AI legislation.\n\nRhode Island can enforce against fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and real-world abuse without requiring people to get permission just to download, own, run, study, modify, or share open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Rhode Island bill status",
+      url: STATE_POLICY_LINKS.RI.billSearch.url,
+      note: "Official General Assembly bill status system; use the Artificial Intelligence category and 2026 session filters.",
+    },
+    {
+      label: "Find Rhode Island representatives",
+      url: STATE_POLICY_LINKS.RI.legislatorLookup.url,
+      note: "Official House directory with district sorting and contact-download route.",
+    },
+    {
+      label: "Rhode Island Senate",
+      url: "https://www.rilegislature.gov/senators/default.aspx",
+      note: "Official Senate route for senator and committee context.",
+    },
+    ...officialDirectoryContacts("RI", "Rhode Island"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("RI"),
+    ...officialDirectorySources("RI", "Rhode Island"),
+    {
+      label: "Rhode Island bill status system",
+      url: "https://status.rilegislature.gov/",
+      note: "Official 2026 bill status system checked on 2026-06-30; exposes Artificial Intelligence category and Senate Artificial Intelligence & Emerging Tech committee inventory.",
+    },
+    {
+      label: "Rhode Island House representatives",
+      url: "https://www.rilegislature.gov/representatives/default.aspx",
+      note: "Official House representative directory checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.SC = {
+  ...STATES.SC,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "South Carolina has a live AI bill queue and a legislature site that gives residents multiple official routes: bill-number search, legislation search by subject/history/full text, committee postings, and a legislator finder. The practical move is to search the current session and ask for a lawful local/open AI carve-out in anything moving.",
+  ask:
+    "Ask South Carolina legislators to add local/open AI safe-harbor language to any AI, technology, education, labor, consumer-protection, public-sector, privacy, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as South Carolina considers AI legislation.\n\nThe state should enforce against harmful conduct, fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and real-world abuse. But lawful possession, research, open-source publication, model modification, and local execution should not require a license or preclearance.\n\nPlease support explicit safe-harbor language for lawful local and open-source AI.",
+  contacts: [
+    {
+      label: "Search South Carolina legislation",
+      url: "https://www.scstatehouse.gov/legislation.php",
+      note: "Official legislation route with subject, history, full-text, and multi-criteria search links.",
+    },
+    {
+      label: "Find South Carolina legislators",
+      url: STATE_POLICY_LINKS.SC.legislatorLookup.url,
+      note: "Official address-based lookup for state legislators and members of Congress.",
+    },
+    {
+      label: "South Carolina committee postings",
+      url: "https://www.scstatehouse.gov/committee.php",
+      note: "Official committee postings route for hearing and agenda context.",
+    },
+    ...officialDirectoryContacts("SC", "South Carolina"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("SC"),
+    ...officialDirectorySources("SC", "South Carolina"),
+    {
+      label: "South Carolina legislation search",
+      url: "https://www.scstatehouse.gov/legislation.php",
+      note: "Official legislation page checked on 2026-06-30; links to subject, history, full text, and multi-criteria search.",
+    },
+    {
+      label: "South Carolina Find Your Legislators",
+      url: "https://www.scstatehouse.gov/legislatorssearch.php",
+      note: "Official legislator lookup checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.VT = {
+  ...STATES.VT,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Vermont has active AI legislation and a legislature site with bill search, committee meetings, and a committee named Energy & Digital Infrastructure. The useful ask is narrow: keep abuse rules and deployment rules serious, but keep local/open model ownership and research outside licensing.",
+  ask:
+    "Ask Vermont legislators to add lawful local/open AI safe harbors to AI, digital-infrastructure, privacy, education, labor, consumer-protection, automated-decision, or public-sector technology bills.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Vermont considers AI and digital-infrastructure legislation.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful conduct and covered deployment, not local possession, research, open-source work, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Vermont bills",
+      url: STATE_POLICY_LINKS.VT.billSearch.url,
+      note: "Official 2025-2026 bill, act, and resolution search.",
+    },
+    {
+      label: "Find Vermont legislators",
+      url: STATE_POLICY_LINKS.VT.legislatorLookup.url,
+      note: "Official people search for representatives and senators.",
+    },
+    {
+      label: "Vermont committee meetings",
+      url: "https://legislature.vermont.gov/committee/meetings/2026",
+      note: "Official committee-meeting route for hearing timing.",
+    },
+    ...officialDirectoryContacts("VT", "Vermont"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("VT"),
+    ...officialDirectorySources("VT", "Vermont"),
+    {
+      label: "Vermont bill, act, and resolution search",
+      url: "https://legislature.vermont.gov/bill/search/2026",
+      note: "Official 2025-2026 session search checked on 2026-06-30; includes all bills, committee movement, acts, and scheduled committee meetings.",
+    },
+    {
+      label: "Vermont legislator search",
+      url: "https://legislature.vermont.gov/people/search/2026",
+      note: "Official people search checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.MI = {
+  ...STATES.MI,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Michigan has active AI bills and an official legislature site that exposes bills, document search, calendars, committees, committee meetings, committee bill records, legislators, and signed public acts in one place. The resident move is to search the current session and ask for a lawful local/open AI safe harbor before bills leave committee.",
+  ask:
+    "Ask Michigan legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI or automated-decision legislation.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Michigan considers AI legislation.\n\nMichigan can regulate harmful uses, fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and real-world abuse without requiring people, schools, startups, or local businesses to get permission just to run or study open models on their own machines.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Michigan bills",
+      url: STATE_POLICY_LINKS.MI.billSearch.url,
+      note: "Official current-session bills page with document search and bill browsing routes.",
+    },
+    {
+      label: "Michigan legislators",
+      url: "https://www.legislature.mi.gov/Legislators/",
+      note: "Official legislator route for House and Senate contacts.",
+    },
+    {
+      label: "Michigan committee meetings",
+      url: "https://www.legislature.mi.gov/CommitteeMeetings/",
+      note: "Official committee meeting route for hearing timing.",
+    },
+    ...officialDirectoryContacts("MI", "Michigan"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("MI"),
+    ...officialDirectorySources("MI", "Michigan"),
+    {
+      label: "Michigan bills page",
+      url: "https://www.legislature.mi.gov/Bills/",
+      note: "Official bills page checked on 2026-06-30; exposes 2025-2026 bills, document search, calendars, committees, committee meetings, and public acts.",
+    },
+    {
+      label: "Michigan legislative document search",
+      url: "https://www.legislature.mi.gov/Search/",
+      note: "Official document search route linked from the Michigan bills page.",
+    },
+  ],
+};
+
+STATES.WA = {
+  ...STATES.WA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Washington has active AI bills and a mature public participation system. The official legislature routes people from bills to meeting schedules, how to comment on a bill, how to testify at committee, district finder, and legislator directories. That makes Washington a strong action state, not just a policy-monitoring state.",
+  ask:
+    "Ask Washington legislators to keep lawful local/open AI outside licensing or preclearance requirements in any AI, privacy, automated-decision, public-sector, labor, education, data-center, or consumer-protection bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Washington considers AI legislation.\n\nThe state can regulate harmful deployment, fraud, cybercrime, discrimination, CSAM, harassment, unlawful deepfakes, and real-world abuse without making ordinary local AI use permissioned. People should not need state permission or platform approval just to download, own, run, study, modify, or share open models on local hardware.\n\nPlease support explicit safe-harbor language for lawful local and open-source AI.",
+  contacts: [
+    {
+      label: "Search Washington bills",
+      url: STATE_POLICY_LINKS.WA.billSearch.url,
+      note: "Official bill information route; redirects into the current bills, meetings, and session hub.",
+    },
+    {
+      label: "Find Washington districts",
+      url: STATE_POLICY_LINKS.WA.legislatorLookup.url,
+      note: "Official district finder for legislator contacts.",
+    },
+    {
+      label: "Washington meeting schedules",
+      url: "https://app.leg.wa.gov/committeeschedules/",
+      note: "Official committee schedule route for testimony timing.",
+    },
+    {
+      label: "How to comment on a Washington bill",
+      url: "https://leg.wa.gov/bills-meetings-and-session/bills/how-to-comment-on-a-bill/",
+      note: "Official participation route when a bill is active.",
+    },
+    ...officialDirectoryContacts("WA", "Washington"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("WA"),
+    ...officialDirectorySources("WA", "Washington"),
+    {
+      label: "Washington bills, meetings, and session hub",
+      url: "https://leg.wa.gov/bills-meetings-and-session/bills/",
+      note: "Official bills hub checked on 2026-06-30; includes bills, how to track/comment on a bill, meeting schedules, and testimony routes.",
+    },
+    {
+      label: "Washington district finder",
+      url: "https://app.leg.wa.gov/districtfinder/",
+      note: "Official district finder checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.FL = {
+  ...STATES.FL,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Florida has active AI legislation and an official Senate bill system that lets residents search bill text, bill versions, amendments, sponsors, committees, agendas, status, and governor action. The useful action is to search the current session and ask for a local/open AI safe harbor in anything moving.",
+  ask:
+    "Ask Florida legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, privacy, education, labor, consumer-protection, public-sector, automated-decision, or deepfake bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Florida considers AI legislation.\n\nFlorida can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring ordinary people, researchers, schools, startups, or local businesses to get permission just to run or study open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Florida bills",
+      url: STATE_POLICY_LINKS.FL.billSearch.url,
+      note: "Official Florida Senate bill search; search all bill versions and amendments for artificial intelligence and automated decision terms.",
+    },
+    {
+      label: "Find Florida senators",
+      url: STATE_POLICY_LINKS.FL.legislatorLookup.url,
+      note: "Official Florida Senate lookup route.",
+    },
+    {
+      label: "Florida House committee schedules",
+      url: STATE_POLICY_LINKS.FL.calendar?.url ?? "https://www.myfloridahouse.gov/Sections/Committees/committeeschedules.aspx",
+      note: "Official House committee schedule route for timing outreach.",
+    },
+    ...officialDirectoryContacts("FL", "Florida"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("FL"),
+    ...officialDirectorySources("FL", "Florida"),
+    {
+      label: "Florida Senate bill list",
+      url: "https://www.flsenate.gov/Session/Bills/2026",
+      note: "Official 2026 bill list checked on 2026-06-30; includes search term, bill version, amendment, sponsor, committee, agenda, status, and governor-action filters.",
+    },
+    {
+      label: "Florida Find Your Legislators",
+      url: "https://www.flsenate.gov/Senators/Find",
+      note: "Official Florida Senate legislator lookup checked on 2026-06-30.",
+    },
+  ],
+};
+
 STATES.NJ = {
   ...STATES.NJ,
   prio: "high",
