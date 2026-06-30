@@ -1,4 +1,5 @@
 import { STATE_OFFICIAL_LINKS } from "./state-official-links";
+import { STATE_POLICY_LINKS } from "./state-policy-links";
 
 // State action data is split into two layers:
 // 1. every-state baseline from the 50-state starter matrix;
@@ -104,6 +105,20 @@ const USA_GOV_AG_DIRECTORY_URL = "https://www.usa.gov/state-attorney-general";
 const NCSL_AI_LEGISLATION_URL =
   "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database";
 
+function policyContacts(abbr: string): ContactTarget[] {
+  const links = STATE_POLICY_LINKS[abbr];
+  const contacts = [links.legislatorLookup, links.billSearch];
+  if (links.calendar) contacts.push(links.calendar);
+  return contacts;
+}
+
+function policySources(abbr: string): SourceLink[] {
+  const links = STATE_POLICY_LINKS[abbr];
+  const sources = [links.legislature, links.billSearch, links.legislatorLookup];
+  if (links.calendar) sources.push(links.calendar);
+  return sources;
+}
+
 function officialDirectoryContacts(abbr: string, name: string): ContactTarget[] {
   const links = STATE_OFFICIAL_LINKS[abbr];
 
@@ -128,6 +143,7 @@ function officialDirectoryContacts(abbr: string, name: string): ContactTarget[] 
 
 function baselineContacts(abbr: string, name: string): ContactTarget[] {
   return [
+    ...policyContacts(abbr),
     ...officialDirectoryContacts(abbr, name),
     {
       label: "Find your state legislators and local officials",
@@ -190,6 +206,7 @@ function baselineSources(abbr: string, name: string): SourceLink[] {
       label: "OII starter action list",
       note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/actions.csv",
     },
+    ...policySources(abbr),
     ...officialDirectorySources(abbr, name),
   ];
 }
@@ -242,9 +259,15 @@ STATES.CA = {
       url: "https://www.assembly.ca.gov/schedules-publications/todays-events",
       note: "Use to check committee timing before sending public comments.",
     },
+    {
+      label: "Search California bills",
+      url: STATE_POLICY_LINKS.CA.billSearch.url,
+      note: "Official bill search for checking current AI legislation.",
+    },
     ...FEDERAL_CONTACTS,
   ],
   sources: [
+    ...policySources("CA"),
     ...officialDirectorySources("CA", "California"),
     {
       label: "California SB 53 status",
@@ -291,9 +314,15 @@ STATES.CO = {
       url: "https://leg.colorado.gov/content/committees",
       note: "Use to find committee pages and hearing context.",
     },
+    {
+      label: "Search Colorado bills",
+      url: STATE_POLICY_LINKS.CO.billSearch.url,
+      note: "Official bill search for checking current AI legislation.",
+    },
     ...FEDERAL_CONTACTS,
   ],
   sources: [
+    ...policySources("CO"),
     ...officialDirectorySources("CO", "Colorado"),
     {
       label: "Colorado AG ADMT and Chatbot Safety comment form",
@@ -344,10 +373,16 @@ STATES.TX = {
       url: "https://www.puc.texas.gov/agency/about/ope/",
       note: "Relevant for the Texas data-center and large-load compute angle.",
     },
+    {
+      label: "Search Texas bills",
+      url: STATE_POLICY_LINKS.TX.billSearch.url,
+      note: "Official bill lookup for checking current Texas AI legislation.",
+    },
     ...officialDirectoryContacts("TX", "Texas"),
     ...FEDERAL_CONTACTS,
   ],
   sources: [
+    ...policySources("TX"),
     ...officialDirectorySources("TX", "Texas"),
     {
       label: "Texas HB 149 enrolled text",
