@@ -1,12 +1,6 @@
 import { useState } from "react";
 import { PinIcon, ChevIcon } from "./icons";
-
-const OPTIONS: [string, string][] = [
-  ["CA", "California"],
-  ["CO", "Colorado"],
-  ["TX", "Texas"],
-  ["OTHER", "Other state"],
-];
+import { STATE_OPTIONS } from "../data/states";
 
 // State dropdown + bright-green CTA. Calls onGo(stateKey) when a state is chosen.
 export default function Picker({
@@ -27,7 +21,7 @@ export default function Picker({
           onChange={(e) => setValue(e.target.value)}
         >
           <option value="">Choose your state</option>
-          {OPTIONS.map(([k, label]) => (
+          {STATE_OPTIONS.map(([k, label]) => (
             <option key={k} value={k}>{label}</option>
           ))}
         </select>

@@ -369,6 +369,14 @@ h1 {
   background: var(--ink);
   color: #fff;
 }
+.tag.medium {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.tag.baseline {
+  color: var(--gray);
+  border-color: var(--line);
+}
 .tag.unknown {
   color: var(--gray);
   border-color: var(--line);
@@ -425,6 +433,36 @@ h1 {
   background: var(--accent);
   border-color: var(--accent);
   color: #0b0b0b;
+}
+.linkgrid,
+.sourcegrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+.sourcelink {
+  display: block;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  padding: 10px 11px;
+  min-width: 0;
+}
+.sourcelink:hover {
+  border-color: var(--accent);
+}
+.sourcelink b {
+  display: block;
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.sourcelink span {
+  display: block;
+  margin-top: 4px;
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: var(--faint);
 }
 
 /* the why (keep scrolling) */
@@ -560,6 +598,10 @@ footer {
   }
   .cta {
     justify-content: center;
+  }
+  .linkgrid,
+  .sourcegrid {
+    grid-template-columns: 1fr;
   }
 }
 @media (prefers-reduced-motion: reduce) {

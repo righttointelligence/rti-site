@@ -44,10 +44,10 @@ export default function Home() {
           </p>
           <Picker onGo={go} />
           <div className="launchstat">
-            <b>3 pilot states</b>
-            <span className="statlabel">California · Colorado · Texas</span>
+            <b>50 states</b>
+            <span className="statlabel">state-by-state actions with source status</span>
             <span className="liveline">
-              <span className="livedot" /> first actions launching now
+              <span className="livedot" /> every recommendation shows provenance
             </span>
           </div>
         </div>
@@ -107,9 +107,9 @@ export default function Home() {
             <p className="idx">04 / how we work</p>
             <p className="big">We show our work.</p>
             <p className="body">
-              OII should not ask people to trust vibes. Each state page should show the bill,
-              office, date checked, source link, and review status behind the recommendation. If
-              something is not verified yet, we say so.
+              OII should not ask people to trust vibes. Each state action should show the office,
+              source link, and review status behind the recommendation. If something is only a
+              baseline action, we say so.
             </p>
           </div>
         </section>
@@ -119,8 +119,8 @@ export default function Home() {
             <p className="idx">→ now</p>
             <p className="big">Start with your state.</p>
             <p className="body">
-              Choose your state and get one useful action. State is enough to start. ZIP only
-              matters when you want exact representatives.
+              Choose any state and get one useful action. State is enough to start. ZIP only matters
+              when you want exact representatives.
             </p>
             <div className="endact">
               <Picker cta="Show my action →" onGo={go} />

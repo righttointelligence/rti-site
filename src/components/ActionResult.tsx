@@ -43,8 +43,8 @@ export default function ActionResult({
         <div className="result">
           <div className="rhead">
             <span className="rname">{s.name}</span>
-            <span className={`tag ${s.prio}`}>priority: {s.prio}</span>
-            <span className="tag review">needs review</span>
+            <span className={`tag ${s.prio}`}>tier {s.tier}</span>
+            <span className="tag review">{s.reviewStatus}</span>
           </div>
           <div className="rbody">
             <div className="rblock">
@@ -62,6 +62,47 @@ export default function ActionResult({
                   {copied ? "copied ✓" : "copy"}
                 </button>
                 <span>{s.script}</span>
+              </div>
+            </div>
+            <div className="rblock">
+              <p className="rk">who to contact</p>
+              <div className="linkgrid">
+                {s.contacts.map((contact) => (
+                  <a
+                    className="sourcelink"
+                    href={contact.url}
+                    key={contact.label}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <b>{contact.label}</b>
+                    <span>{contact.note}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div className="rblock">
+              <p className="rk">provenance</p>
+              <div className="sourcegrid">
+                {s.sources.map((source) =>
+                  source.url ? (
+                    <a
+                      className="sourcelink"
+                      href={source.url}
+                      key={source.label}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <b>{source.label}</b>
+                      <span>{source.note}</span>
+                    </a>
+                  ) : (
+                    <div className="sourcelink" key={source.label}>
+                      <b>{source.label}</b>
+                      <span>{source.note}</span>
+                    </div>
+                  ),
+                )}
               </div>
             </div>
             <div className="rblock">

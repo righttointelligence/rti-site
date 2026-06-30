@@ -40,8 +40,9 @@ export default function App() {
           element={
             <Template idx="→ take action" title="Start with your state.">
               <p>
-                Choose your state from the homepage and get one useful action. State is enough to
-                start. ZIP only matters when you want exact representatives.
+                Choose any state from the homepage and get one useful action. Some states have
+                source-verified draft packs. The rest have baseline actions with provenance while
+                deeper bill research is still being filled in.
               </p>
               <p>
                 OII does not need your name, address, or exact location to show the first action.

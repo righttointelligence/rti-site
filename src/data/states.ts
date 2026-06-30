@@ -1,51 +1,330 @@
-// Per-state action scripts. Numbers + scripts are placeholders pending verification.
+// State action data is split into two layers:
+// 1. every-state baseline from the 50-state starter matrix;
+// 2. deeper source-verified draft packs for states where OII has current bill/action research.
+export type Priority = "high" | "medium" | "baseline";
+export type Tier = "A" | "B" | "C";
+
+export type ContactTarget = {
+  label: string;
+  url: string;
+  note: string;
+};
+
+export type SourceLink = {
+  label: string;
+  url?: string;
+  note: string;
+};
+
 export type StateAction = {
   name: string;
-  prio: "high" | "medium" | "unknown";
+  abbr: string;
+  tier: Tier;
+  prio: Priority;
+  reviewStatus: "source-verified draft" | "baseline";
   first: string;
   ask: string;
   script: string;
+  contacts: ContactTarget[];
+  sources: SourceLink[];
 };
 
-export const STATES: Record<string, StateAction> = {
-  CA: {
-    name: "California",
-    prio: "high",
-    first:
-      "California is one of the places where AI rules become national defaults. The ask is narrow: protect lawful local AI before transparency or safety rules are written only around cloud labs and large platforms.",
-    ask:
-      "Make clear that people can download, own, run, study, modify, and share open AI models on their own hardware without a license or preclearance. Keep enforcement focused on harmful conduct.",
-    script:
-      "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local AI as California considers new AI rules.\n\nPeople should not need state permission or platform approval just to run an open model on their own computer. Please keep the law focused on harmful uses, not possession, research, open-source hosting, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+export const STATE_ROWS = [
+  ["AL", "Alabama", "C"],
+  ["AK", "Alaska", "C"],
+  ["AZ", "Arizona", "C"],
+  ["AR", "Arkansas", "C"],
+  ["CA", "California", "A"],
+  ["CO", "Colorado", "A"],
+  ["CT", "Connecticut", "B"],
+  ["DE", "Delaware", "C"],
+  ["FL", "Florida", "B"],
+  ["GA", "Georgia", "B"],
+  ["HI", "Hawaii", "C"],
+  ["ID", "Idaho", "C"],
+  ["IL", "Illinois", "B"],
+  ["IN", "Indiana", "C"],
+  ["IA", "Iowa", "C"],
+  ["KS", "Kansas", "C"],
+  ["KY", "Kentucky", "C"],
+  ["LA", "Louisiana", "C"],
+  ["ME", "Maine", "C"],
+  ["MD", "Maryland", "B"],
+  ["MA", "Massachusetts", "B"],
+  ["MI", "Michigan", "C"],
+  ["MN", "Minnesota", "B"],
+  ["MS", "Mississippi", "C"],
+  ["MO", "Missouri", "C"],
+  ["MT", "Montana", "C"],
+  ["NE", "Nebraska", "C"],
+  ["NV", "Nevada", "C"],
+  ["NH", "New Hampshire", "C"],
+  ["NJ", "New Jersey", "B"],
+  ["NM", "New Mexico", "C"],
+  ["NY", "New York", "A"],
+  ["NC", "North Carolina", "B"],
+  ["ND", "North Dakota", "C"],
+  ["OH", "Ohio", "C"],
+  ["OK", "Oklahoma", "C"],
+  ["OR", "Oregon", "B"],
+  ["PA", "Pennsylvania", "B"],
+  ["RI", "Rhode Island", "C"],
+  ["SC", "South Carolina", "C"],
+  ["SD", "South Dakota", "C"],
+  ["TN", "Tennessee", "B"],
+  ["TX", "Texas", "A"],
+  ["UT", "Utah", "A"],
+  ["VT", "Vermont", "C"],
+  ["VA", "Virginia", "B"],
+  ["WA", "Washington", "A"],
+  ["WV", "West Virginia", "C"],
+  ["WI", "Wisconsin", "C"],
+  ["WY", "Wyoming", "C"],
+] as const satisfies readonly (readonly [string, string, Tier])[];
+
+export const STATE_OPTIONS = STATE_ROWS.map(([abbr, name]) => [abbr, name] as const);
+
+const FEDERAL_CONTACTS: ContactTarget[] = [
+  {
+    label: "Find your U.S. House representative",
+    url: "https://www.house.gov/representatives/find-your-representative",
+    note: "Use ZIP when you want the federal office that represents you.",
   },
-  CO: {
-    name: "Colorado",
-    prio: "medium",
-    first:
-      "Colorado is updating its AI rules now. The ask is simple: protect lawful local AI before the rules are written only around cloud labs and large platforms.",
-    ask:
-      "Make clear that people can download, own, run, study, modify, and share open AI models on their own hardware without a license or preclearance. Keep enforcement focused on harmful conduct.",
-    script:
-      "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local AI as Colorado updates its AI rules.\n\nPeople should not need state permission or platform approval just to run an open model on their own computer. Please keep the law focused on harmful uses, not possession, research, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  {
+    label: "Contact your two U.S. senators",
+    url: "https://www.senate.gov/senators/senators-contact.htm",
+    note: "Senators are statewide, so state selection is enough.",
   },
-  TX: {
-    name: "Texas",
-    prio: "high",
-    first:
-      "Texas can turn its energy and compute advantage into an AI infrastructure advantage. The ask is to make Texas the place where people and companies can lawfully own, run, and improve their own models.",
-    ask:
-      "Protect the right to own and run AI models privately. Keep licenses and preclearance away from lawful local inference, research, and self-hosted model use.",
-    script:
-      "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nTexas already has a major energy and compute advantage. Please protect the right for people and companies here to own, run, and improve AI models on their own hardware.\n\nThe law should go after harmful use, not private, lawful use. Texas should be the best state to build self-hosted and local AI infrastructure.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local AI?",
+];
+
+const BASELINE_CONTACTS: ContactTarget[] = [
+  {
+    label: "Find state and local elected officials",
+    url: "https://www.usa.gov/elected-officials",
+    note: "Official federal fallback for state legislature, governor, and local-office lookup.",
   },
-  OTHER: {
-    name: "Your state",
-    prio: "unknown",
-    first:
-      "Your state may not have a verified OII action page yet. You can still make the core ask now and help us decide where to prioritize the next research pass.",
-    ask:
-      "Protect the right to download, own, run, study, modify, and share open AI models. Keep enforcement focused on harmful conduct, not lawful possession or local execution.",
-    script:
-      "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local AI.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful uses, not possession, research, or local execution.",
+  {
+    label: "Check current AI bills",
+    url: "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database",
+    note: "NCSL tracker for current state AI legislation.",
   },
+  ...FEDERAL_CONTACTS,
+];
+
+const BASELINE_SOURCES: SourceLink[] = [
+  {
+    label: "OII 50-state starter matrix",
+    note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/state_matrix.csv",
+  },
+  {
+    label: "OII starter action list",
+    note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/actions.csv",
+  },
+  {
+    label: "USA.gov elected officials",
+    url: "https://www.usa.gov/elected-officials",
+    note: "Official fallback for federal, state, and local elected-official lookup.",
+  },
+  {
+    label: "U.S. House representative lookup",
+    url: "https://www.house.gov/representatives/find-your-representative",
+    note: "Official federal House lookup.",
+  },
+  {
+    label: "U.S. Senate contact directory",
+    url: "https://www.senate.gov/senators/senators-contact.htm",
+    note: "Official senator contacts by state.",
+  },
+  {
+    label: "NCSL AI legislation database",
+    url: "https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database",
+    note: "State AI legislation monitoring source.",
+  },
+];
+
+function priorityForTier(tier: Tier): Priority {
+  if (tier === "A") return "high";
+  if (tier === "B") return "medium";
+  return "baseline";
+}
+
+function buildBaselineState(abbr: string, name: string, tier: Tier): StateAction {
+  return {
+    name,
+    abbr,
+    tier,
+    prio: priorityForTier(tier),
+    reviewStatus: "baseline",
+    first: `${name} does not have a source-reviewed OII action pack yet. That still leaves one useful move: ask state officials to protect lawful local AI before future rules are written around cloud labs and large platforms.`,
+    ask:
+      "Ask your state legislators to introduce or support a Local AI Freedom Act: no license, registration, or preclearance just to download, own, run, study, modify, or share open AI models. Keep enforcement focused on harmful conduct.",
+    script: `Hi, my name is [NAME], and I live in [CITY], ${abbr}.\n\nI'm asking your office to protect lawful local AI in ${name}.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please support a Local AI Freedom Act that protects ordinary local use while preserving enforcement against fraud, cybercrime, CSAM, harassment, nonconsensual intimate deepfakes, discrimination, and sabotage.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?`,
+    contacts: BASELINE_CONTACTS,
+    sources: BASELINE_SOURCES,
+  };
+}
+
+export const STATES: Record<string, StateAction> = Object.fromEntries(
+  STATE_ROWS.map(([abbr, name, tier]) => [abbr, buildBaselineState(abbr, name, tier)]),
+) as Record<string, StateAction>;
+
+STATES.CA = {
+  ...STATES.CA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "California is one of the places where AI rules become national defaults. The immediate ask is to protect lawful local AI before transparency or safety rules are written only around cloud labs and large platforms.",
+  ask:
+    "Ask California offices to add clear safe harbors for open-source hosting, model-weight sharing, research, local inference, and downstream modification. Keep enforcement focused on harmful conduct.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local AI as California considers new AI rules.\n\nPeople should not need state permission or platform approval just to run an open model on their own computer. Please keep the law focused on harmful uses, not possession, research, open-source hosting, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Find your California legislator",
+      url: "https://findyourrep.legislature.ca.gov/",
+      note: "Official California legislature lookup.",
+    },
+    {
+      label: "Contact the Governor",
+      url: "https://www.gov.ca.gov/contact/",
+      note: "Ask for veto discipline against overbroad AI licensing.",
+    },
+    {
+      label: "Contact the Attorney General",
+      url: "https://oag.ca.gov/contact",
+      note: "Use for enforcement and implementation concerns.",
+    },
+    {
+      label: "Assembly events and hearings",
+      url: "https://www.assembly.ca.gov/schedules-publications/todays-events",
+      note: "Use to check committee timing before sending public comments.",
+    },
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    {
+      label: "California SB 53 status",
+      url: "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB53",
+      note: "California frontier AI transparency law status.",
+    },
+    {
+      label: "California SB 1000 status",
+      url: "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1000",
+      note: "Active AI transparency bill to monitor for open/local AI safe harbors.",
+    },
+    {
+      label: "California AB 412 text",
+      url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB412",
+      note: "Training-data disclosure bill to monitor for research/open-model burden.",
+    },
+  ],
+};
+
+STATES.CO = {
+  ...STATES.CO,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Colorado is updating its AI rules now. The ask is simple: protect lawful local AI before the rules are written only around cloud labs and large platforms.",
+  ask:
+    "Ask the Colorado Attorney General to keep ADMT and chatbot rules focused on covered deployments and harmful conduct, not lawful local model possession, research, open-source publication, or local execution.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local AI as Colorado updates its AI rules.\n\nPeople should not need state permission or platform approval just to run an open model on their own computer. Please keep the law focused on harmful uses, not possession, research, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Colorado AG pre-rulemaking comment form",
+      url: "https://coag.gov/ai/automated-decision-making-technology-act-and-chatbot-safety-act-form/",
+      note: "Immediate OII action window for ADMT and Chatbot Safety Acts.",
+    },
+    {
+      label: "Find your Colorado legislator",
+      url: "https://leg.colorado.gov/find-my-legislator",
+      note: "Official Colorado legislature lookup.",
+    },
+    {
+      label: "Contact the Governor",
+      url: "https://www.colorado.gov/governor/share-comments",
+      note: "Ask for implementation that protects local/open AI.",
+    },
+    {
+      label: "Colorado committees",
+      url: "https://leg.colorado.gov/content/committees",
+      note: "Use to find committee pages and hearing context.",
+    },
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    {
+      label: "Colorado AG ADMT and Chatbot Safety comment form",
+      url: "https://coag.gov/ai/automated-decision-making-technology-act-and-chatbot-safety-act-form/",
+      note: "Official Attorney General pre-rulemaking portal.",
+    },
+    {
+      label: "Colorado SB26-189",
+      url: "https://leg.colorado.gov/bills/sb26-189",
+      note: "Automated Decision-Making Technology law source.",
+    },
+    {
+      label: "Colorado HB26-1263",
+      url: "https://leg.colorado.gov/bills/HB26-1263",
+      note: "Conversational AI service operator requirements source.",
+    },
+  ],
+};
+
+STATES.TX = {
+  ...STATES.TX,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Texas can turn its energy and compute advantage into an AI infrastructure advantage. The ask is to make Texas the place where people and companies can lawfully own, run, and improve their own models.",
+  ask:
+    "Ask Texas offices to build a 2027 Local AI Freedom safe harbor: protect lawful local inference, model ownership, research, self-hosted AI, model modification, and open-weight publication.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nTexas already has a major energy and compute advantage. Please protect the right for people and companies here to own, run, and improve AI models on their own hardware.\n\nThe law should go after harmful use, not private, lawful use. Texas should be the best state to build self-hosted and local AI infrastructure.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local AI?",
+  contacts: [
+    {
+      label: "Find your Texas legislator",
+      url: "https://wrm.capitol.texas.gov/home",
+      note: "Official Texas legislature lookup.",
+    },
+    {
+      label: "Texas hearing calendar",
+      url: "https://capitol.texas.gov/Committees/MeetingsByCmte.aspx",
+      note: "Use for committee timing and public testimony opportunities.",
+    },
+    {
+      label: "Texas DIR AI and Innovation",
+      url: "https://dir.texas.gov/ai-and-innovation",
+      note: "Agency implementation page for Texas AI policy.",
+    },
+    {
+      label: "PUCT Office of Public Engagement",
+      url: "https://www.puc.texas.gov/agency/about/ope/",
+      note: "Relevant for the Texas data-center and large-load compute angle.",
+    },
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    {
+      label: "Texas HB 149 enrolled text",
+      url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm",
+      note: "Texas Responsible Artificial Intelligence Governance Act.",
+    },
+    {
+      label: "Texas HB 149 history",
+      url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+      note: "Official bill history and actions.",
+    },
+    {
+      label: "Texas DIR AI and Innovation",
+      url: "https://dir.texas.gov/ai-and-innovation",
+      note: "State AI implementation and innovation source.",
+    },
+    {
+      label: "PUCT public engagement",
+      url: "https://www.puc.texas.gov/agency/about/ope/",
+      note: "Official path for public engagement on utility and large-load issues.",
+    },
+  ],
 };
