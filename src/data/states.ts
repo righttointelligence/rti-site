@@ -1108,3 +1108,293 @@ STATES.IL = {
     },
   ],
 };
+
+STATES.GA = {
+  ...STATES.GA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Georgia has a meaningful active AI bill queue and clear official routes for action. Start with the General Assembly legislation search, then ask your own legislators to keep lawful local and open-source AI outside licensing or preclearance rules.",
+  ask:
+    "Ask Georgia legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, data-center, education, consumer-protection, public-sector, labor, privacy, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Georgia considers AI legislation.\n\nGeorgia can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring people, researchers, schools, startups, or local businesses to get permission just to run or study open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Georgia legislation",
+      url: STATE_POLICY_LINKS.GA.billSearch.url,
+      note: "Official Georgia legislation route; use artificial intelligence, automated decision, algorithm, generative AI, and data center searches.",
+    },
+    {
+      label: "Find Georgia legislators",
+      url: STATE_POLICY_LINKS.GA.legislatorLookup.url,
+      note: "Official Georgia General Assembly lookup for district-level outreach.",
+    },
+    {
+      label: "Georgia legislative schedule",
+      url: STATE_POLICY_LINKS.GA.calendar?.url ?? "https://www.legis.ga.gov/schedule/all",
+      note: "Official schedule route for hearing and session timing.",
+    },
+    ...officialDirectoryContacts("GA", "Georgia"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("GA"),
+    ...officialDirectorySources("GA", "Georgia"),
+    {
+      label: "Georgia legislation search",
+      url: "https://www.legis.ga.gov/legislation/all",
+      note: "Official Georgia General Assembly legislation route checked on 2026-06-30; page is client-rendered but resolves as the official legislation search surface.",
+    },
+    {
+      label: "Georgia find your legislator",
+      url: "https://www.legis.ga.gov/members/find-your-legislator",
+      note: "Official Georgia General Assembly district lookup route checked on 2026-06-30.",
+    },
+    {
+      label: "Georgia legislative schedule",
+      url: "https://www.legis.ga.gov/schedule/all",
+      note: "Official Georgia General Assembly schedule route checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.OK = {
+  ...STATES.OK,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Oklahoma has a live AI bill queue and an official legislature site with bill search, text search, legislator lookup, committee notices, calendars, and member directories. The useful move is to search the current measures and ask for a lawful local/open AI carve-out before broad language moves.",
+  ask:
+    "Ask Oklahoma legislators to add local/open AI safe-harbor language to any AI, technology, education, labor, consumer-protection, public-sector, privacy, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Oklahoma considers AI legislation.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful conduct and covered deployment, not local possession, research, open-source work, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Oklahoma legislation",
+      url: STATE_POLICY_LINKS.OK.billSearch.url,
+      note: "Official Oklahoma advanced legislative search route for current bills and measures.",
+    },
+    {
+      label: "Find Oklahoma legislators",
+      url: STATE_POLICY_LINKS.OK.legislatorLookup.url,
+      note: "Official address-based lookup for Oklahoma elected officials and state legislators.",
+    },
+    {
+      label: "Oklahoma Legislature home",
+      url: STATE_POLICY_LINKS.OK.legislature.url,
+      note: "Official route for committees, meeting notices, calendars, Senate and House directories, and bill tracking.",
+    },
+    ...officialDirectoryContacts("OK", "Oklahoma"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("OK"),
+    ...officialDirectorySources("OK", "Oklahoma"),
+    {
+      label: "Oklahoma Find My Legislators",
+      url: "https://www.oklegislature.gov/FindMyLegislature.aspx",
+      note: "Official Oklahoma page checked on 2026-06-30; exposes Find My Legislator, basic and advanced bill search, text of measures, committees, meeting notices, calendars, and member directories.",
+    },
+    {
+      label: "Oklahoma advanced bill search",
+      url: "http://www.oklegislature.gov/advancedsearchform.aspx",
+      note: "Official advanced legislative search route linked from the Oklahoma Legislature page.",
+    },
+  ],
+};
+
+STATES.TN = {
+  ...STATES.TN,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Tennessee has active AI legislation in the NCSL snapshot and an official General Assembly site that exposes bill search, bill browsing, legislator lookup, schedules, calendars, committees, and member directories. The action is to make the local/open AI safe harbor part of the next session conversation.",
+  ask:
+    "Ask Tennessee legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, privacy, education, public-sector, labor, consumer-protection, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Tennessee works on AI policy.\n\nTennessee can regulate harmful uses, fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring ordinary people, researchers, schools, startups, or local businesses to get permission just to run or study open models on their own machines.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Tennessee bills",
+      url: STATE_POLICY_LINKS.TN.billSearch.url,
+      note: "Official Tennessee bill information system.",
+    },
+    {
+      label: "Find Tennessee legislators",
+      url: STATE_POLICY_LINKS.TN.legislatorLookup.url,
+      note: "Official Tennessee General Assembly legislator lookup.",
+    },
+    {
+      label: "Tennessee schedules, calendars, and committees",
+      url: STATE_POLICY_LINKS.TN.legislature.url,
+      note: "Official General Assembly homepage with schedules, calendars, committees, and member-directory routes.",
+    },
+    ...officialDirectoryContacts("TN", "Tennessee"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("TN"),
+    ...officialDirectorySources("TN", "Tennessee"),
+    {
+      label: "Tennessee General Assembly home",
+      url: "https://www.capitol.tn.gov/",
+      note: "Official page checked on 2026-06-30; exposes bill search, bill browsing, Find My Legislator, schedules, calendars, committees, video, and directories. It also notes the 115th General Assembly convenes on 2027-01-12.",
+    },
+    {
+      label: "Tennessee bill information system",
+      url: "https://wapp.capitol.tn.gov/apps/BillInfo/",
+      note: "Official bill-search route linked from the Tennessee General Assembly homepage.",
+    },
+  ],
+};
+
+STATES.VA = {
+  ...STATES.VA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Virginia has a live AI bill queue and a strong public participation surface. The General Assembly site routes residents to Track Legislation, Who's My Legislator, meeting calendars, committees, and public-comment information, so Virginia can support a real state-specific action pack now.",
+  ask:
+    "Ask Virginia legislators to keep lawful local/open AI outside licensing or preclearance requirements in any AI, privacy, automated-decision, public-sector, education, labor, consumer-protection, cyber, or data-infrastructure bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Virginia considers AI legislation.\n\nThe state should enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse. But lawful possession, research, open-source publication, model modification, and local execution should not require a license or preclearance.\n\nPlease support explicit safe-harbor language for lawful local and open-source AI.",
+  contacts: [
+    {
+      label: "Track Virginia legislation",
+      url: STATE_POLICY_LINKS.VA.billSearch.url,
+      note: "Official Virginia legislative information system route for legislation tracking.",
+    },
+    {
+      label: "Find Virginia legislators",
+      url: STATE_POLICY_LINKS.VA.legislatorLookup.url,
+      note: "Official Who's My Legislator lookup for House and Senate contacts.",
+    },
+    {
+      label: "Virginia public participation routes",
+      url: "https://vga.virginia.gov",
+      note: "Official General Assembly portal with meeting calendars, committees, participation, and public-comment navigation.",
+    },
+    ...officialDirectoryContacts("VA", "Virginia"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("VA"),
+    ...officialDirectorySources("VA", "Virginia"),
+    {
+      label: "Virginia General Assembly portal",
+      url: "https://vga.virginia.gov",
+      note: "Official portal checked on 2026-06-30; exposes Who's My Legislator, Track Legislation, members and committees, meeting calendars and schedules, participation and public comment, and live-stream archives.",
+    },
+    {
+      label: "Virginia Who's My Legislator",
+      url: "https://whosmy.virginiageneralassembly.gov/",
+      note: "Official lookup checked on 2026-06-30; lets users enter an address or map location and identify Virginia House and Senate representatives.",
+    },
+  ],
+};
+
+STATES.IA = {
+  ...STATES.IA,
+  prio: "high",
+  reviewStatus: "source-verified draft",
+  first:
+    "Iowa has a live AI bill queue and an official legislature site that makes bill tracking unusually concrete: bill books, histories, daily legislation, subject indexes, amendments, fiscal notes, committees, and a find-your-legislator tool. Residents can act without waiting for OII to name every bill.",
+  ask:
+    "Ask Iowa legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, technology, education, labor, public-sector, consumer-protection, privacy, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Iowa considers AI legislation.\n\nPeople should not need state permission or platform approval just to download, own, run, study, modify, or share open AI models on their own hardware. Please keep enforcement focused on harmful conduct and covered deployment, not possession, research, open-source work, or local execution.\n\nCan you tell me whether the office supports a clear safe harbor for lawful local and open-source AI?",
+  contacts: [
+    {
+      label: "Search Iowa legislation",
+      url: STATE_POLICY_LINKS.IA.billSearch.url,
+      note: "Official Iowa bill tracking route with bill books, histories, daily legislation, subject indexes, and quick search.",
+    },
+    {
+      label: "Find Iowa legislators",
+      url: STATE_POLICY_LINKS.IA.legislatorLookup.url,
+      note: "Official Iowa lookup by address, city, name, ZIP code, county, school district, or interactive map.",
+    },
+    {
+      label: "Iowa committees and schedules",
+      url: STATE_POLICY_LINKS.IA.calendar?.url ?? "https://www.legis.iowa.gov/committees",
+      note: "Official committee and schedule route for hearing context.",
+    },
+    ...officialDirectoryContacts("IA", "Iowa"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("IA"),
+    ...officialDirectorySources("IA", "Iowa"),
+    {
+      label: "Iowa bill tracking tools",
+      url: "https://www.legis.iowa.gov/legislation",
+      note: "Official page checked on 2026-06-30; exposes BillBook, bill histories, subject index, amendments, daily legislation, fiscal notes, sponsor information, and quick bill search.",
+    },
+    {
+      label: "Iowa Find Your Legislator",
+      url: "https://www.legis.iowa.gov/legislators/find",
+      note: "Official lookup checked on 2026-06-30; supports address, city, name, ZIP code, county, school district, and interactive map lookup.",
+    },
+    {
+      label: "Iowa committees",
+      url: "https://www.legis.iowa.gov/committees",
+      note: "Official committee route checked on 2026-06-30.",
+    },
+  ],
+};
+
+STATES.DE = {
+  ...STATES.DE,
+  prio: "medium",
+  reviewStatus: "source-verified draft",
+  first:
+    "Delaware has a live AI bill queue and a compact legislature site with all legislation, recent legislation, committee meetings, public participation resources, and a find-your-legislator tool. The ask should stay narrow: protect lawful local/open AI while preserving serious enforcement against abuse.",
+  ask:
+    "Ask Delaware legislators to add lawful local/open AI safe-harbor language to any AI, technology, privacy, education, labor, consumer-protection, public-sector, cyber, or automated-decision bill.",
+  script:
+    "Hi, my name is [NAME], and I live in [CITY], ZIP [ZIP].\n\nI'm asking your office to protect lawful local and open-source AI as Delaware considers AI legislation.\n\nDelaware can enforce against fraud, cybercrime, CSAM, harassment, unlawful deepfakes, discrimination, and real-world abuse without requiring people to get permission just to download, own, run, study, modify, or share open models on their own hardware.\n\nPlease support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.",
+  contacts: [
+    {
+      label: "Search Delaware legislation",
+      url: STATE_POLICY_LINKS.DE.billSearch.url,
+      note: "Official Delaware all-legislation route with current General Assembly filters.",
+    },
+    {
+      label: "Find Delaware legislators",
+      url: STATE_POLICY_LINKS.DE.legislatorLookup.url,
+      note: "Official Delaware address-based legislator lookup.",
+    },
+    {
+      label: "Delaware committee meetings",
+      url: STATE_POLICY_LINKS.DE.calendar?.url ?? "https://legis.delaware.gov/CommitteeMeetings",
+      note: "Official committee meeting and hearing schedule route.",
+    },
+    {
+      label: "Delaware public participation resources",
+      url: "https://legis.delaware.gov/FindMyLegislator",
+      note: "Official General Assembly navigation includes public participation in the legislative process and Legislative Hall contact routes.",
+    },
+    ...officialDirectoryContacts("DE", "Delaware"),
+    ...FEDERAL_CONTACTS,
+  ],
+  sources: [
+    ...policySources("DE"),
+    ...officialDirectorySources("DE", "Delaware"),
+    {
+      label: "Delaware all legislation",
+      url: "https://legis.delaware.gov/Legislation",
+      note: "Official General Assembly route checked on 2026-06-30; redirects to All Legislation and exposes legislation filters, recent legislation, committees, events, and process resources.",
+    },
+    {
+      label: "Delaware Find My Legislator",
+      url: "https://legis.delaware.gov/FindMyLegislator",
+      note: "Official lookup checked on 2026-06-30; exposes address lookup, district information, state legislators, federal legislators, and Legislative Hall contact information.",
+    },
+    {
+      label: "Delaware committee meetings",
+      url: "https://legis.delaware.gov/CommitteeMeetings",
+      note: "Official committee meeting and hearing schedule route checked on 2026-06-30.",
+    },
+  ],
+};
