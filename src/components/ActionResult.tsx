@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { STATE_AI_SNAPSHOTS } from "../data/state-ai-snapshots";
 import { STATES } from "../data/states";
 import type { ActionKind, ActionLogResult } from "../lib/actions";
 
@@ -11,6 +12,7 @@ export default function ActionResult({
   onConfirm: (kind: ActionKind) => Promise<ActionLogResult>;
 }) {
   const s = STATES[stateKey];
+  const aiSnapshot = STATE_AI_SNAPSHOTS[stateKey];
   const [copied, setCopied] = useState(false);
   const [confirmed, setConfirmed] = useState<ActionLogResult | null>(null);
   const [logging, setLogging] = useState<ActionKind | null>(null);
@@ -51,6 +53,31 @@ export default function ActionResult({
               <p className="rk">what is happening</p>
               <p className="rv">{s.first}</p>
             </div>
+            {aiSnapshot && (
+              <div className="rblock">
+                <p className="rk">AI bill snapshot</p>
+                <p className="rv">
+                  NCSL lists <b>{aiSnapshot.totalBills}</b> AI-related bills for {s.name} in its
+                  2025-present tracker, checked {aiSnapshot.checkedAt}.{" "}
+                  {aiSnapshot.activeBills > 0 ? (
+                    <>
+                      <b>{aiSnapshot.activeBills}</b> are still marked pending or to governor. Open
+                      the state bill search before contacting officials and ask for local/open AI
+                      safe-harbor language in anything moving now.
+                    </>
+                  ) : (
+                    <>
+                      None are currently marked pending or to governor. The useful move is an
+                      affirmative safe-harbor ask before the next AI bill is written.
+                    </>
+                  )}{" "}
+                  <a href={aiSnapshot.sourceUrl} rel="noreferrer" target="_blank">
+                    Source
+                  </a>
+                  .
+                </p>
+              </div>
+            )}
             <div className="rblock">
               <p className="rk">what to ask for</p>
               <p className="rv">{s.ask}</p>

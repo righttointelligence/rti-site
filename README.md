@@ -39,6 +39,7 @@ Do not use KV as the source of truth for action logs. KV is better later for cac
 - `src/components/NeuralBoot.tsx` + `src/lib/boot-net.ts` — the interactive boot+sapling neural net (canvas).
 - `src/lib/boot-points.ts` — the logo sampled into node points (boot = ink, leaves = green). Regenerate from `oii-logo.png` if the logo changes.
 - `src/data/states.ts` — all 50 state action packs, with baseline provenance for every state and source-verified draft overrides where deeper research exists.
+- `src/data/state-ai-snapshots.ts` — NCSL AI legislation snapshot counts for every state, checked 2026-06-30.
 - `src/data/state-policy-links.ts` — official state legislature, bill-search, legislator lookup, and calendar links for every state.
 - `src/data/state-official-links.ts` — USA.gov-derived state portal, governor, and attorney general links for every state.
 - `src/lib/actions.ts` — browser action logging client, with local fallback for development.
@@ -50,5 +51,6 @@ Do not use KV as the source of truth for action logs. KV is better later for cac
 
 - The homepage no longer shows a fake public action count. Confirmed actions are logged through `POST /api/actions` once D1 is configured.
 - The action log intentionally stores no name, email, ZIP, address, IP, or user agent.
-- All 50 states are selectable. Baseline states route users to official state legislature/bill-search sources, governor and attorney general contacts, federal lookup sources, and the NCSL AI legislation tracker; California, Colorado, and Texas currently carry deeper source-verified draft packs.
+- All 50 states are selectable. Each state action card now shows a compact NCSL AI legislation snapshot, then routes users to official state legislature/bill-search sources, governor and attorney general contacts, federal lookup sources, and the NCSL AI legislation tracker; California, Colorado, and Texas currently carry deeper source-verified draft packs.
+- The NCSL snapshot is a public-tracker summary, not a substitute for human-reviewed state packs. It should be refreshed before launch and promoted only with retrieval dates visible.
 - Design source of truth lived in the GHOST vault prototype `projects/local-ai-freedom/design-catalogue/oii-canonical.html`.
