@@ -8,6 +8,7 @@
     "dev:api": "wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local --port 8787",
     "dev:worker": "bun run build && wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local",
     "data:legislators": "bun run tools/civic-data/import-openstates-legislators.ts",
+    "data:boundaries:manifest": "bun run tools/civic-data/write-census-boundary-manifest.ts",
     "data:verify:openstates": "bun run tools/civic-data/verify-openstates-geo.ts",
     "build": "tsc -b && vite build",
     "preview": "vite preview",

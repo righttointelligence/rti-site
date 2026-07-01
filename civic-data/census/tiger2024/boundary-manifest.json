@@ -1,0 +1,759 @@
+{
+  "generatedAt": "2026-07-01T03:11:52.960Z",
+  "source": "U.S. Census TIGER/Line 2024 State Legislative District shapefiles",
+  "sourceBase": "https://www2.census.gov/geo/tiger/TIGER2024",
+  "note": "These ZIP files contain official TIGER/Line shapefiles suitable for point-in-polygon processing. Open States boundary JSON is display-simplified and should not be used for PIP.",
+  "stateCount": 50,
+  "states": [
+    {
+      "abbr": "AL",
+      "name": "Alabama",
+      "fips": "01",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_01_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_01_sldl.zip"
+      }
+    },
+    {
+      "abbr": "AK",
+      "name": "Alaska",
+      "fips": "02",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_02_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_02_sldl.zip"
+      }
+    },
+    {
+      "abbr": "AZ",
+      "name": "Arizona",
+      "fips": "04",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_04_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_04_sldl.zip"
+      }
+    },
+    {
+      "abbr": "AR",
+      "name": "Arkansas",
+      "fips": "05",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_05_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_05_sldl.zip"
+      }
+    },
+    {
+      "abbr": "CA",
+      "name": "California",
+      "fips": "06",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_06_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_06_sldl.zip"
+      }
+    },
+    {
+      "abbr": "CO",
+      "name": "Colorado",
+      "fips": "08",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_08_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_08_sldl.zip"
+      }
+    },
+    {
+      "abbr": "CT",
+      "name": "Connecticut",
+      "fips": "09",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_09_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_09_sldl.zip"
+      }
+    },
+    {
+      "abbr": "DE",
+      "name": "Delaware",
+      "fips": "10",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_10_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_10_sldl.zip"
+      }
+    },
+    {
+      "abbr": "FL",
+      "name": "Florida",
+      "fips": "12",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_12_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_12_sldl.zip"
+      }
+    },
+    {
+      "abbr": "GA",
+      "name": "Georgia",
+      "fips": "13",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_13_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_13_sldl.zip"
+      }
+    },
+    {
+      "abbr": "HI",
+      "name": "Hawaii",
+      "fips": "15",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_15_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_15_sldl.zip"
+      }
+    },
+    {
+      "abbr": "ID",
+      "name": "Idaho",
+      "fips": "16",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_16_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_16_sldl.zip"
+      }
+    },
+    {
+      "abbr": "IL",
+      "name": "Illinois",
+      "fips": "17",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_17_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_17_sldl.zip"
+      }
+    },
+    {
+      "abbr": "IN",
+      "name": "Indiana",
+      "fips": "18",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_18_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_18_sldl.zip"
+      }
+    },
+    {
+      "abbr": "IA",
+      "name": "Iowa",
+      "fips": "19",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_19_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_19_sldl.zip"
+      }
+    },
+    {
+      "abbr": "KS",
+      "name": "Kansas",
+      "fips": "20",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_20_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_20_sldl.zip"
+      }
+    },
+    {
+      "abbr": "KY",
+      "name": "Kentucky",
+      "fips": "21",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_21_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_21_sldl.zip"
+      }
+    },
+    {
+      "abbr": "LA",
+      "name": "Louisiana",
+      "fips": "22",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_22_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_22_sldl.zip"
+      }
+    },
+    {
+      "abbr": "ME",
+      "name": "Maine",
+      "fips": "23",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_23_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_23_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MD",
+      "name": "Maryland",
+      "fips": "24",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_24_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_24_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MA",
+      "name": "Massachusetts",
+      "fips": "25",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_25_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_25_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MI",
+      "name": "Michigan",
+      "fips": "26",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_26_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_26_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MN",
+      "name": "Minnesota",
+      "fips": "27",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_27_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_27_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MS",
+      "name": "Mississippi",
+      "fips": "28",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_28_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_28_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MO",
+      "name": "Missouri",
+      "fips": "29",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_29_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_29_sldl.zip"
+      }
+    },
+    {
+      "abbr": "MT",
+      "name": "Montana",
+      "fips": "30",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_30_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_30_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NE",
+      "name": "Nebraska",
+      "fips": "31",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_31_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_31_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NV",
+      "name": "Nevada",
+      "fips": "32",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_32_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_32_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NH",
+      "name": "New Hampshire",
+      "fips": "33",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_33_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_33_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NJ",
+      "name": "New Jersey",
+      "fips": "34",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_34_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_34_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NM",
+      "name": "New Mexico",
+      "fips": "35",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_35_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_35_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NY",
+      "name": "New York",
+      "fips": "36",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_36_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_36_sldl.zip"
+      }
+    },
+    {
+      "abbr": "NC",
+      "name": "North Carolina",
+      "fips": "37",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_37_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_37_sldl.zip"
+      }
+    },
+    {
+      "abbr": "ND",
+      "name": "North Dakota",
+      "fips": "38",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_38_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_38_sldl.zip"
+      }
+    },
+    {
+      "abbr": "OH",
+      "name": "Ohio",
+      "fips": "39",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_39_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_39_sldl.zip"
+      }
+    },
+    {
+      "abbr": "OK",
+      "name": "Oklahoma",
+      "fips": "40",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_40_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_40_sldl.zip"
+      }
+    },
+    {
+      "abbr": "OR",
+      "name": "Oregon",
+      "fips": "41",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_41_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_41_sldl.zip"
+      }
+    },
+    {
+      "abbr": "PA",
+      "name": "Pennsylvania",
+      "fips": "42",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_42_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_42_sldl.zip"
+      }
+    },
+    {
+      "abbr": "RI",
+      "name": "Rhode Island",
+      "fips": "44",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_44_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_44_sldl.zip"
+      }
+    },
+    {
+      "abbr": "SC",
+      "name": "South Carolina",
+      "fips": "45",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_45_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_45_sldl.zip"
+      }
+    },
+    {
+      "abbr": "SD",
+      "name": "South Dakota",
+      "fips": "46",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_46_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_46_sldl.zip"
+      }
+    },
+    {
+      "abbr": "TN",
+      "name": "Tennessee",
+      "fips": "47",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_47_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_47_sldl.zip"
+      }
+    },
+    {
+      "abbr": "TX",
+      "name": "Texas",
+      "fips": "48",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_48_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_48_sldl.zip"
+      }
+    },
+    {
+      "abbr": "UT",
+      "name": "Utah",
+      "fips": "49",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_49_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_49_sldl.zip"
+      }
+    },
+    {
+      "abbr": "VT",
+      "name": "Vermont",
+      "fips": "50",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_50_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_50_sldl.zip"
+      }
+    },
+    {
+      "abbr": "VA",
+      "name": "Virginia",
+      "fips": "51",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_51_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_51_sldl.zip"
+      }
+    },
+    {
+      "abbr": "WA",
+      "name": "Washington",
+      "fips": "53",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_53_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_53_sldl.zip"
+      }
+    },
+    {
+      "abbr": "WV",
+      "name": "West Virginia",
+      "fips": "54",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_54_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_54_sldl.zip"
+      }
+    },
+    {
+      "abbr": "WI",
+      "name": "Wisconsin",
+      "fips": "55",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_55_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_55_sldl.zip"
+      }
+    },
+    {
+      "abbr": "WY",
+      "name": "Wyoming",
+      "fips": "56",
+      "upper": {
+        "chamber": "upper",
+        "censusLayer": "SLDU",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_56_sldu.zip"
+      },
+      "lower": {
+        "chamber": "lower",
+        "censusLayer": "SLDL",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_56_sldl.zip"
+      }
+    }
+  ]
+}

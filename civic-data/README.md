@@ -44,3 +44,14 @@ also needs state legislative district geography:
 3. Add a point-in-polygon lookup that maps lat/lng to `upper` and `lower` district IDs.
 4. Join those districts to the local legislator JSON.
 5. Keep Open States `/people.geo` as the nightly/random-sample verifier.
+
+The authoritative source for point-in-polygon work should be U.S. Census TIGER/Line 2024 State
+Legislative District shapefiles. Generate the source manifest with:
+
+```bash
+bun run data:boundaries:manifest
+```
+
+This writes `civic-data/census/tiger2024/boundary-manifest.json`, covering upper and lower chamber
+ZIP URLs for all 50 states. Do not use Open States boundary JSON for point-in-polygon lookup; their
+own docs mark those shapes as simplified for display.
