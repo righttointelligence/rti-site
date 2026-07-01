@@ -3,9 +3,9 @@ export default function Footer() {
     <footer className="pad">
       <div className="footrow">
         <div className="footlinks">
-          <a href="#">Model bill</a>
-          <a href="#">Sources</a>
-          <a href="#">Volunteer</a>
+          <a href="/#about">Model bill</a>
+          <a href="/#how-we-work">Sources</a>
+          <a href="/#get-involved">Volunteer</a>
         </div>
         <span className="brandmini">
           <img className="glyph" src="/oii-logo.png" alt="" />

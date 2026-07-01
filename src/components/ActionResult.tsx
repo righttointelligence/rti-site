@@ -2,7 +2,9 @@ import { useState } from "react";
 import { STATE_AI_SNAPSHOTS } from "../data/state-ai-snapshots";
 import { STATES } from "../data/states";
 import { derivePrimaryAction } from "../lib/recommendation";
-import type { ActionKind, ActionLogResult } from "../lib/actions";
+import { lookupLawmakers, type ActionKind, type ActionLogResult, type Lawmaker } from "../lib/actions";
+
+type LookupStatus = "idle" | "locating" | "loading" | "ready" | "failed";
 
 // The result panel: one recommended call action, one exact ask, one short
 // call script, one official lookup, and a call/voicemail/email-fallback loop.
@@ -21,14 +23,53 @@ export default function ActionResult({
   const [confirmedKind, setConfirmedKind] = useState<ActionKind | null>(null);
   const [logging, setLogging] = useState<ActionKind | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [lawmakers, setLawmakers] = useState<Lawmaker[]>([]);
+  const [lookupStatus, setLookupStatus] = useState<LookupStatus>("idle");
+  const [lookupError, setLookupError] = useState<string | null>(null);
   if (!s) return null;
 
   const action = derivePrimaryAction(s, aiSnapshot);
+  const callScript = lawmakers.length > 0 ? exactConstituentScript() : action.script;
 
   const copy = () => {
-    navigator.clipboard?.writeText(action.script);
+    navigator.clipboard?.writeText(callScript);
     setCopied(true);
     setTimeout(() => setCopied(false), 1600);
+  };
+
+  const findExactLawmakers = () => {
+    if (lookupStatus === "locating" || lookupStatus === "loading") return;
+    setLookupError(null);
+
+    if (!navigator.geolocation) {
+      setLookupStatus("failed");
+      setLookupError("This browser cannot share location. Use the official lookup instead.");
+      return;
+    }
+
+    setLookupStatus("locating");
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setLookupStatus("loading");
+        lookupLawmakers(stateKey, position.coords.latitude, position.coords.longitude)
+          .then((result) => {
+            setLawmakers(result);
+            setLookupStatus("ready");
+            if (result.length === 0) {
+              setLookupError("No exact state lawmakers came back. Use the official lookup instead.");
+            }
+          })
+          .catch((lookupFailure: unknown) => {
+            setLookupStatus("failed");
+            setLookupError(lookupErrorMessage(lookupFailure));
+          });
+      },
+      (geoError) => {
+        setLookupStatus("failed");
+        setLookupError(geoErrorMessage(geoError));
+      },
+      { enableHighAccuracy: false, maximumAge: 300_000, timeout: 10_000 },
+    );
   };
 
   const confirm = async (kind: ActionKind) => {
@@ -68,12 +109,46 @@ export default function ActionResult({
               <p className="rv">{action.ask}</p>
             </div>
             <div className="rblock">
-              <p className="rk">1 / find who to call</p>
+              <p className="rk">1 / find exact offices</p>
+              <button
+                className="targetbtn"
+                disabled={lookupStatus === "locating" || lookupStatus === "loading"}
+                onClick={findExactLawmakers}
+                type="button"
+              >
+                {lookupButtonLabel(lookupStatus)}
+              </button>
+              {" "}
               <a className="targetbtn" href={action.targetUrl} rel="noreferrer" target="_blank">
-                Find who to call →
+                Open official lookup →
               </a>
+              {lawmakers.length > 0 && (
+                <div className="linkgrid">
+                  {lawmakers.map((lawmaker) => (
+                    <a
+                      className="sourcelink"
+                      href={
+                        lawmaker.phone ? `tel:${phoneHref(lawmaker.phone)}` : lawmaker.url ?? action.targetUrl
+                      }
+                      key={`${lawmaker.id}-${lawmaker.chamber}`}
+                      rel={lawmaker.phone ? undefined : "noreferrer"}
+                      target={lawmaker.phone ? undefined : "_blank"}
+                    >
+                      <b>{lawmaker.phone ? `Call ${lawmaker.name}` : lawmaker.name}</b>
+                      <span>
+                        {lawmaker.chamberName}
+                        {lawmaker.district ? ` district ${lawmaker.district}` : ""}
+                        {lawmaker.phone ? ` · ${lawmaker.phone}` : " · official page"}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              )}
+              {lookupError && <p className="rnote errorline">{lookupError}</p>}
               <p className="rnote">
-                Goes to the <b>{action.targetLabel}</b>. {action.targetNote}
+                Your browser asks first. OII uses your location once to find public state
+                lawmakers and does not save it. If location fails or you prefer not to share it, use
+                the official lookup button.
               </p>
             </div>
             <div className="rblock">
@@ -82,12 +157,11 @@ export default function ActionResult({
                 <button className={`copy${copied ? " done" : ""}`} onClick={copy}>
                   {copied ? "copied ✓" : "copy"}
                 </button>
-                <span>{action.script}</span>
+                <span>{callScript}</span>
               </div>
               <p className="rnote">
                 Use this as a call script, not a copy-paste blast. If the office is closed, leave it
-                as a voicemail. If the official lookup asks for your address, you enter it there on
-                the official site — OII does not collect or see it.
+                as a voicemail. If exact offices do not load, use the official lookup link above.
               </p>
             </div>
             <div className="rblock">
@@ -231,4 +305,43 @@ function actionKindLabel(kind: ActionKind | null) {
   if (kind === "voicemail") return "voicemail";
   if (kind === "email_fallback") return "email fallback";
   return "action";
+}
+
+function lookupButtonLabel(status: LookupStatus) {
+  if (status === "locating") return "asking browser...";
+  if (status === "loading") return "finding lawmakers...";
+  if (status === "ready") return "Exact offices found";
+  return "Use my location →";
+}
+
+function geoErrorMessage(error: GeolocationPositionError) {
+  if (error.code === error.PERMISSION_DENIED) {
+    return "Location was not shared. Use the official lookup instead.";
+  }
+  if (error.code === error.TIMEOUT) {
+    return "Location took too long. Try again or use the official lookup instead.";
+  }
+  return "Could not get location. Use the official lookup instead.";
+}
+
+function lookupErrorMessage(error: unknown) {
+  const message = error instanceof Error ? error.message : "";
+  if (message === "lookup_not_configured") {
+    return "Exact lookup needs the Open States key before launch. Use the official lookup for now.";
+  }
+  if (message === "worker_not_running") {
+    return "Exact lookup runs through the Cloudflare Worker, so this Vite preview cannot call it. Use the official lookup for now.";
+  }
+  if (message === "no_state_lawmakers_found") {
+    return "No exact state lawmakers came back. Use the official lookup instead.";
+  }
+  return "Could not find exact offices yet. Use the official lookup instead.";
+}
+
+function exactConstituentScript() {
+  return `Hi, I live in your district. I'm calling as a constituent to ask the member to protect lawful local and open-source AI.\n\nPeople should not need a license or platform approval just to run an open model on their own computer. Please support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.\n\nCan you tell me where the member stands on licensing local AI?`;
+}
+
+function phoneHref(phone: string) {
+  return phone.replace(/[^\d+]/g, "");
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "free-intelligence",
-  "compatibility_date": "2026-06-30",
+  "compatibility_date": "2026-06-24",
   // Static SPA plus a tiny API for action logging.
   "main": "./worker.ts",
   "assets": {
@@ -12,6 +12,7 @@
   },
   "vars": {
     // Keep 0 unless importing a real historical action count.
+    // Exact lawmaker lookup uses OPENSTATES_API_KEY as a Cloudflare secret.
     "ACTION_COUNT_OFFSET": "0"
   },
   "d1_databases": [

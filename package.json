@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local --port 8787",
+    "dev:worker": "bun run build && wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "deploy": "bun run build && wrangler deploy",

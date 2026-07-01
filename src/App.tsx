@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Action from "./pages/Action";
 import Template from "./pages/Template";
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/action/:slug" element={<Action />} />
         <Route
           path="/about"
           element={
