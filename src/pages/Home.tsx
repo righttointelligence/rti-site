@@ -156,8 +156,8 @@ export default function Home() {
               <a href="https://x.com/0xSero" rel="noreferrer" target="_blank">@0xSero</a>
               <a href="https://x.com/RayFernando1337" rel="noreferrer" target="_blank">@RayFernando1337</a>
             </div>
-            <a className="involvecta" href="mailto:bootoshi@axia.agency?subject=Open%20Intelligence%20Institute">
-              bootoshi@axia.agency →
+            <a className="involvecta" href="mailto:volunteer@righttointelligence.org?subject=Open%20Intelligence%20Institute">
+              volunteer@righttointelligence.org →
             </a>
           </div>
         </section>

@@ -314,7 +314,7 @@ The current site has:
 - "I called," "I left a voicemail," and "I used email" tracking buttons
 - Cloudflare D1 action logging
 - public civic-data freshness line
-- volunteer contact CTA: `bootoshi@axia.agency`
+- volunteer contact CTA: `volunteer@righttointelligence.org`
 
 ## Immediate Next Work
 
