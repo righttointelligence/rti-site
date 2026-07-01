@@ -11,6 +11,11 @@ import {
   type ActionLogResult,
   type Lawmaker,
 } from "../lib/actions";
+import {
+  fetchCivicDataFreshness,
+  formatCivicDataFreshness,
+  type CivicDataFreshness,
+} from "../lib/civicDataFreshness";
 
 type LookupStatus = "idle" | "locating" | "loading" | "ready" | "failed";
 
@@ -28,10 +33,26 @@ export default function Action() {
   const [lawmakers, setLawmakers] = useState<Lawmaker[]>([]);
   const [lookupStatus, setLookupStatus] = useState<LookupStatus>("idle");
   const [lookupError, setLookupError] = useState<string | null>(null);
+  const [freshness, setFreshness] = useState<CivicDataFreshness | null>(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchCivicDataFreshness()
+      .then((nextFreshness) => {
+        if (!cancelled) setFreshness(nextFreshness);
+      })
+      .catch(() => {
+        if (!cancelled) setFreshness(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const action = useMemo(
     () => (state && abbr ? derivePrimaryAction(state, STATE_AI_SNAPSHOTS[abbr]) : null),
@@ -247,6 +268,7 @@ export default function Action() {
         <Link className="actback" to="/#top">
           ← change state
         </Link>
+        {freshness && <p className="actnote datafreshness">{formatCivicDataFreshness(freshness)}</p>}
       </main>
     </div>
   );

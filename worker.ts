@@ -89,14 +89,22 @@ type BoundaryIndex = {
 
 type DistrictIndexEntry = {
   district: string;
+  name?: string;
   bbox: [number, number, number, number];
   assetPath: string;
 };
 
 type DistrictGeometry = {
   district: string;
+  name?: string;
   bbox: [number, number, number, number];
   rings: number[][];
+};
+
+type DistrictMatch = {
+  chamber: Chamber;
+  district: string;
+  name?: string;
 };
 
 type LegislatorDataset = {
@@ -213,25 +221,30 @@ async function lookupOwnedLawmakers(
         district: await findDistrict(request, env, boundaries.chambers[chamber]?.districts ?? [], x, y),
       })),
     )
-  ).filter((match): match is { chamber: Chamber; district: string } => Boolean(match.district));
+  )
+    .filter((match): match is { chamber: Chamber; district: Omit<DistrictMatch, "chamber"> } =>
+      Boolean(match.district),
+    )
+    .map(({ chamber, district }) => ({ chamber, ...district }));
 
   const lawmakers: Lawmaker[] = [];
-  for (const { chamber, district } of districts) {
-    const legislator = legislators.legislators.find(
-      (candidate) => candidate.chamber === chamber && normalizeDistrict(candidate.district) === district,
+  for (const district of districts) {
+    const matches = legislators.legislators.filter(
+      (candidate) => candidate.chamber === district.chamber && districtMatches(candidate.district, district),
     );
-    if (!legislator) continue;
-    lawmakers.push({
-      id: legislator.id,
-      name: legislator.name,
-      chamber,
-      chamberName: chamberNameFor(stateKey, chamber),
-      district,
-      party: legislator.party,
-      phone: legislator.phone,
-      email: legislator.email,
-      url: legislator.links?.[0],
-    });
+    for (const legislator of matches) {
+      lawmakers.push({
+        id: legislator.id,
+        name: legislator.name,
+        chamber: district.chamber,
+        chamberName: chamberNameFor(stateKey, district.chamber),
+        district: legislator.district,
+        party: legislator.party,
+        phone: legislator.phone,
+        email: legislator.email,
+        url: legislator.links?.[0],
+      });
+    }
   }
 
   return lawmakers.sort((a, b) => chamberRank(a) - chamberRank(b));
@@ -252,7 +265,7 @@ async function findDistrict(
   districts: DistrictIndexEntry[],
   x: number,
   y: number,
-): Promise<string | null> {
+): Promise<Omit<DistrictMatch, "chamber"> | null> {
   const candidates = districts.filter((district) => {
     const [minX, minY, maxX, maxY] = district.bbox;
     return x >= minX && x <= maxX && y >= minY && y <= maxY;
@@ -262,7 +275,12 @@ async function findDistrict(
     const district = await readAssetJson<DistrictGeometry>(request, env, candidate.assetPath);
     const [minX, minY, maxX, maxY] = district.bbox;
     if (x < minX || x > maxX || y < minY || y > maxY) continue;
-    if (pointInDistrict(district, x, y)) return normalizeDistrict(district.district);
+    if (pointInDistrict(district, x, y)) {
+      return {
+        district: district.district,
+        name: district.name ?? candidate.name,
+      };
+    }
   }
   return null;
 }
@@ -288,8 +306,83 @@ function pointInRing(ring: number[], x: number, y: number): boolean {
 }
 
 function normalizeDistrict(value: string): string {
-  if (!/^\d+$/.test(value)) return value;
-  return value.replace(/^0+/, "") || "0";
+  return value
+    .trim()
+    .toUpperCase()
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .replace(/^0+(?=[A-Z])/, "")
+    .replace(/\b0+(\d+)\b/g, "$1")
+    .replace(/^0+(?=\d$)/, "") || "0";
+}
+
+function districtMatches(legislatorDistrict: string, district: Omit<DistrictMatch, "chamber">): boolean {
+  const targetKeys = districtKeys(district.district, district.name);
+  return legislatorDistrictKeys(legislatorDistrict).some((key) => targetKeys.has(key));
+}
+
+function districtKeys(...values: Array<string | undefined>): Set<string> {
+  const keys = new Set<string>();
+  for (const value of values) {
+    if (!value) continue;
+    for (const alias of districtAliases(value)) keys.add(canonicalDistrictKey(alias));
+  }
+  return keys;
+}
+
+function legislatorDistrictKeys(value: string): string[] {
+  const normalized = normalizeDistrict(value);
+  const keys = [canonicalDistrictKey(normalized)];
+  const subdistrict = normalized.match(/^(\d+)[A-Z]$/);
+  if (subdistrict) keys.push(canonicalDistrictKey(subdistrict[1]));
+  return keys;
+}
+
+function districtAliases(value: string): string[] {
+  const normalized = normalizeDistrict(value);
+  const aliases = [normalized];
+  aliases.push(
+    normalized
+      .replace(/^STATE SENATE DISTRICT\s+/, "")
+      .replace(/^STATE HOUSE DISTRICT\s+/, "")
+      .replace(/^ASSEMBLY DISTRICT\s+/, "")
+      .replace(/^DELEGATE DISTRICT\s+/, "")
+      .replace(/^STATE LEGISLATIVE SUBDISTRICT\s+/, "")
+      .replace(/^STATE LEGISLATIVE DISTRICT\s+/, "")
+      .replace(/\s+SENATORIAL DISTRICT$/, "")
+      .replace(/\s+STATE HOUSE DISTRICT$/, "")
+      .replace(/\s+DISTRICT$/, ""),
+  );
+  return aliases;
+}
+
+function canonicalDistrictKey(value: string): string {
+  return normalizeOrdinals(normalizeDistrict(value)).replace(/\bAND\b/g, "").replace(/[^A-Z0-9]/g, "");
+}
+
+function normalizeOrdinals(value: string): string {
+  return value
+    .replace(/\bFIRST\b/g, "1")
+    .replace(/\bSECOND\b/g, "2")
+    .replace(/\bTHIRD\b/g, "3")
+    .replace(/\bFOURTH\b/g, "4")
+    .replace(/\bFIFTH\b/g, "5")
+    .replace(/\bSIXTH\b/g, "6")
+    .replace(/\bSEVENTH\b/g, "7")
+    .replace(/\bEIGHTH\b/g, "8")
+    .replace(/\bNINTH\b/g, "9")
+    .replace(/\bTENTH\b/g, "10")
+    .replace(/\bELEVENTH\b/g, "11")
+    .replace(/\bTWELFTH\b/g, "12")
+    .replace(/\bTHIRTEENTH\b/g, "13")
+    .replace(/\bFOURTEENTH\b/g, "14")
+    .replace(/\bFIFTEENTH\b/g, "15")
+    .replace(/\bSIXTEENTH\b/g, "16")
+    .replace(/\bSEVENTEENTH\b/g, "17")
+    .replace(/\bEIGHTEENTH\b/g, "18")
+    .replace(/\bNINETEENTH\b/g, "19")
+    .replace(/\bTWENTIETH\b/g, "20")
+    .replace(/\b(\d+)(ST|ND|RD|TH)\b/g, "$1");
 }
 
 function chamberNameFor(stateKey: string, chamber: Chamber): string {

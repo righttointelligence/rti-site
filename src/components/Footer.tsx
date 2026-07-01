@@ -1,4 +1,28 @@
+import { useEffect, useState } from "react";
+import {
+  fetchCivicDataFreshness,
+  formatCivicDataFreshness,
+  type CivicDataFreshness,
+} from "../lib/civicDataFreshness";
+
 export default function Footer() {
+  const [freshness, setFreshness] = useState<CivicDataFreshness | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchCivicDataFreshness()
+      .then((nextFreshness) => {
+        if (!cancelled) setFreshness(nextFreshness);
+      })
+      .catch(() => {
+        if (!cancelled) setFreshness(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   return (
     <footer className="pad">
       <div className="footrow">
@@ -16,6 +40,7 @@ export default function Footer() {
         <span className="nr">source-verified draft</span> with provenance and a retrieval date where
         available.
       </p>
+      {freshness && <p className="fine">{formatCivicDataFreshness(freshness)}</p>}
     </footer>
   );
 }

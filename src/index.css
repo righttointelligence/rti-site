@@ -855,6 +855,7 @@ footer {
 }
 .actnote { font-size: 13px; color: var(--faint); line-height: 1.55; margin: 12px 0 0; max-width: 60ch; }
 .actnote b { color: var(--gray); }
+.datafreshness { margin-top: 18px; }
 /* Step 1: official lookup demoted to a text-link fallback under the button */
 .actfallback { margin: 12px 0 0; }
 .actlink {
