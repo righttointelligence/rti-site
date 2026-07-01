@@ -1,0 +1,3140 @@
+{
+  "abbr": "LA",
+  "name": "Louisiana",
+  "sourceUrl": "https://data.openstates.org/people/current/la.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 144,
+  "upperCount": 39,
+  "lowerCount": 105,
+  "legislators": [
+    {
+      "id": "ocd-person/0d1a7b74-9ed8-4d8c-a1fc-f2caafc3d364",
+      "name": "Adam Bass",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "36",
+      "party": "Republican",
+      "email": "sen36@legis.la.gov",
+      "phone": "318-741-2812",
+      "districtPhone": "318-741-2812",
+      "links": [
+        "https://senate.la.gov/smembers?ID=36"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adam_Bass",
+        "https://en.wikipedia.org/wiki/Adam_Bass_(politician)",
+        "https://senate.la.gov/smembers?ID=36",
+        "https://www.linkedin.com/in/adam-bass-6b633b23"
+      ]
+    },
+    {
+      "id": "ocd-person/5d1fade2-4678-406c-b4ed-657baed1db2b",
+      "name": "Adrian Fisher",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Democratic",
+      "email": "hse016@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=16",
+        "https://house.louisiana.gov/H_Reps/members?ID=16"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adrian_Fisher",
+        "https://en.wikipedia.org/wiki/Adrian_Fisher_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=16",
+        "https://house.louisiana.gov/H_Reps/members?ID=16"
+      ]
+    },
+    {
+      "id": "ocd-person/3937cef1-8c62-428c-8837-aa6a6a8b60e7",
+      "name": "Aimee Freeman",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "98",
+      "party": "Democratic",
+      "email": "hse098@legis.la.gov",
+      "phone": "504-861-1614",
+      "districtPhone": "504-861-1614",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=98",
+        "https://house.louisiana.gov/H_Reps/members?ID=98"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Aimee_Adatto_Freeman",
+        "https://en.wikipedia.org/wiki/Aimee_Adatto_Freeman",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=98",
+        "https://house.louisiana.gov/H_Reps/members?ID=98",
+        "https://www.aimeefreemanconsulting.com",
+        "https://www.linkedin.com/in/aimeeafreeeman"
+      ]
+    },
+    {
+      "id": "ocd-person/5032448a-7275-4a02-8dc1-d251cdde8ad9",
+      "name": "Alan Seabaugh",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "31",
+      "party": "Republican",
+      "email": "sen31@legis.la.gov",
+      "phone": "318-676-7990",
+      "districtPhone": "318-676-7990",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=5",
+        "https://senate.la.gov/smembers?ID=31"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alan_Seabaugh",
+        "https://en.wikipedia.org/wiki/Alan_Seabaugh",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=5",
+        "https://justfacts.votesmart.org/candidate/biography/93616/alan-seabaugh",
+        "https://senate.la.gov/smembers?ID=31",
+        "https://www.seabaughlaw.com/attorneys/seabaugh"
+      ]
+    },
+    {
+      "id": "ocd-person/967fa557-fcdc-4a75-a13e-dabf05b85905",
+      "name": "Alonzo Knox",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "93",
+      "party": "Democratic",
+      "email": "hse093@legis.la.gov",
+      "phone": "504-568-3101",
+      "districtPhone": "504-568-3101",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=93",
+        "https://house.louisiana.gov/H_Reps/members?ID=93"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alonzo_Knox",
+        "https://en.wikipedia.org/wiki/Alonzo_Knox",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=93",
+        "https://house.louisiana.gov/H_Reps/members?ID=93",
+        "https://www.linkedin.com/in/alonzo-knox-48aa731a"
+      ]
+    },
+    {
+      "id": "ocd-person/a6a9544c-d12b-44cc-a52d-f2ec0e01f556",
+      "name": "Annie Spell",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "45",
+      "party": "Republican",
+      "email": "hse045@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=45"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Annie_Spell",
+        "https://en.wikipedia.org/wiki/Annie_Spell",
+        "https://house.louisiana.gov/H_Reps/members?ID=45",
+        "https://justfacts.votesmart.org/candidate/biography/221862/annie-spell"
+      ]
+    },
+    {
+      "id": "ocd-person/bd179bf7-f90d-4e3a-baea-a590c3002586",
+      "name": "Barbara Freiberg",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "70",
+      "party": "Republican",
+      "email": "hse070@legis.la.gov",
+      "phone": "225-763-3500",
+      "districtPhone": "225-763-3500",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=70",
+        "https://house.louisiana.gov/H_Reps/members?ID=70"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Barbara_Freiberg",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=70",
+        "https://house.louisiana.gov/H_Reps/members?ID=70",
+        "https://justfacts.votesmart.org/candidate/biography/177824/barbara-freiberg",
+        "https://www.linkedin.com/in/barbara-freiberg-62a9b719"
+      ]
+    },
+    {
+      "id": "ocd-person/ad514eed-2832-4ae3-a0c5-62d8f2721297",
+      "name": "Barbara Carpenter",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "63",
+      "party": "Democratic",
+      "email": "carpenterb@legis.la.gov",
+      "phone": "225-771-5674",
+      "districtPhone": "225-771-5674",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=63",
+        "https://house.louisiana.gov/H_Reps/members?ID=63"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Barbara_Carpenter_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Barbara_West_Carpenter",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=63",
+        "https://house.louisiana.gov/H_Reps/members?ID=63",
+        "https://justfacts.votesmart.org/candidate/biography/165563/barbara-carpenter"
+      ]
+    },
+    {
+      "id": "ocd-person/cbe53992-3b3c-4ec0-a94a-58ddf96e6edd",
+      "name": "Beryl Amedée",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "51",
+      "party": "Republican",
+      "email": "amedeeb@legis.la.gov",
+      "phone": "985-858-2967",
+      "districtPhone": "985-858-2967",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=51",
+        "https://house.louisiana.gov/H_Reps/members?ID=51"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beryl_Amedee",
+        "https://en.wikipedia.org/wiki/Beryl_Amedee",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=51",
+        "https://house.louisiana.gov/H_Reps/members?ID=51",
+        "https://justfacts.votesmart.org/candidate/biography/149301/beryl-amedee"
+      ]
+    },
+    {
+      "id": "ocd-person/5d15439d-4139-448a-8f61-25ab54e68b19",
+      "name": "Beth Billings",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "56",
+      "party": "Republican",
+      "email": "hse056@legis.la.gov",
+      "phone": "985-764-0203",
+      "districtPhone": "985-764-0203",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=56"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beth_Billings",
+        "https://en.wikipedia.org/wiki/Beth_Anne_Billings",
+        "https://house.louisiana.gov/H_Reps/members?ID=56",
+        "https://www.linkedin.com/in/beth-billings-70047"
+      ]
+    },
+    {
+      "id": "ocd-person/b6e8a5cf-ec5c-494b-b9ff-efa0fb92e1c1",
+      "name": "Beth Mizell",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "12",
+      "party": "Republican",
+      "email": "mizellb@legis.la.gov",
+      "phone": "985-839-3936",
+      "districtPhone": "985-839-3936",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=12",
+        "https://senate.la.gov/smembers?ID=12"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beth_Mizell",
+        "https://en.wikipedia.org/wiki/Beth_Mizell",
+        "https://justfacts.votesmart.org/candidate/biography/134643/beth-mizell",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=12",
+        "https://senate.la.gov/smembers?ID=12"
+      ]
+    },
+    {
+      "id": "ocd-person/20547e38-711f-4012-9217-b739f4450b91",
+      "name": "Bill Wheat",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "37",
+      "party": "Republican",
+      "email": "sen37@legis.la.gov",
+      "links": [
+        "https://senate.la.gov/smembers?ID=37"
+      ],
+      "sources": [
+        "https://ballotpedia.org/William_Wheat_Jr.",
+        "https://en.wikipedia.org/wiki/Bill_Wheat",
+        "https://senate.la.gov/smembers?ID=37",
+        "https://www.linkedin.com/in/william-wheat-21506737"
+      ]
+    },
+    {
+      "id": "ocd-person/8574f94d-93ed-49b0-a5f6-aa1832b5542a",
+      "name": "Blake Miguez",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "22",
+      "party": "Republican",
+      "email": "sen22@legis.la.gov",
+      "phone": "337-373-9400",
+      "districtPhone": "337-373-9400",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=49",
+        "https://senate.la.gov/smembers?ID=22"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Blake_Miguez",
+        "https://en.wikipedia.org/wiki/Blake_Miguez",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=49",
+        "https://justfacts.votesmart.org/candidate/biography/156101/blake-miguez",
+        "https://senate.la.gov/smembers?ID=22",
+        "https://www.linkedin.com/in/blake-miguez-764b14123"
+      ]
+    },
+    {
+      "id": "ocd-person/7dac3861-2ffb-45ba-b690-a8e199eb2acd",
+      "name": "Bob Hensgens",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "26",
+      "party": "Republican",
+      "email": "sen26@legis.la.gov",
+      "phone": "337-740-6425",
+      "districtPhone": "337-740-6425",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=26",
+        "https://senate.la.gov/smembers?ID=26"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bob_Hensgens",
+        "https://en.wikipedia.org/wiki/Bob_Hensgens",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=26",
+        "https://senate.la.gov/smembers?ID=26",
+        "https://www.linkedin.com/in/bob-hensgens-7430a91a"
+      ]
+    },
+    {
+      "id": "ocd-person/cfe19d33-7048-4fb7-9d56-0fa0f5f985f5",
+      "name": "Bob Owen",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "1",
+      "party": "Republican",
+      "email": "sen01@legis.la.gov",
+      "phone": "985-639-0400",
+      "districtPhone": "985-639-0400",
+      "links": [
+        "https://senate.la.gov/smembers?ID=1"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Owen_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Bob_Owen",
+        "https://senate.la.gov/smembers?ID=1"
+      ]
+    },
+    {
+      "id": "ocd-person/92439b80-4646-445b-939f-5414e309f183",
+      "name": "Brach Myers",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "23",
+      "party": "Republican",
+      "email": "sen23@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=45",
+        "https://senate.la.gov/smembers?ID=23"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brach_Myers",
+        "https://brachmyers.com/meet-brach",
+        "https://en.wikipedia.org/wiki/Brach_Myers",
+        "https://house.louisiana.gov/H_Reps/members?ID=45",
+        "https://senate.la.gov/smembers?ID=23",
+        "https://www.linkedin.com/in/brach-myers-2113465a"
+      ]
+    },
+    {
+      "id": "ocd-person/9ffd05e6-a127-4896-b60e-fc2722fa8779",
+      "name": "Brett Geymann",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Republican",
+      "email": "hse035@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=35",
+        "https://house.louisiana.gov/H_Reps/members?ID=35"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brett_Geymann",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=35",
+        "https://house.louisiana.gov/H_Reps/members?ID=35"
+      ]
+    },
+    {
+      "id": "ocd-person/96385d4e-bfae-4929-9845-502fd2ed2cc7",
+      "name": "Brian Glorioso",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "90",
+      "party": "Republican",
+      "email": "hse090@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Glorioso",
+        "https://en.wikipedia.org/wiki/Brian_Glorioso",
+        "https://house.louisiana.gov/H_Reps/members?ID=90",
+        "https://www.linkedin.com/in/brian-glorioso-54673635"
+      ]
+    },
+    {
+      "id": "ocd-person/90b6f6c3-9620-4fbb-8c23-f8ab7b163de7",
+      "name": "Bryan Fontenot",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "55",
+      "party": "Republican",
+      "email": "hse055@legis.la.gov",
+      "phone": "985-447-0999",
+      "districtPhone": "985-447-0999",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=55",
+        "https://house.louisiana.gov/H_Reps/members?ID=55"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bryan_Fontenot",
+        "https://en.wikipedia.org/wiki/Bryan_Fontenot",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=55",
+        "https://house.louisiana.gov/H_Reps/members?ID=55",
+        "https://justfacts.votesmart.org/candidate/biography/186988/bryan-fontenot"
+      ]
+    },
+    {
+      "id": "ocd-person/20def39d-ba5c-45d7-ba6c-5cf43590d4b0",
+      "name": "Denise Marcelle",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "61",
+      "party": "Democratic",
+      "email": "marcelled@legis.la.gov",
+      "phone": "225-359-9362",
+      "districtPhone": "225-359-9362",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=61",
+        "https://house.louisiana.gov/H_Reps/members?ID=61"
+      ],
+      "sources": [
+        "https://ballotpedia.org/C._Denise_Marcelle",
+        "https://en.wikipedia.org/wiki/C._Denise_Marcelle",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=61",
+        "https://house.louisiana.gov/H_Reps/members?ID=61",
+        "https://www.linkedin.com/in/c-denise-marcelle-7bb85a32"
+      ]
+    },
+    {
+      "id": "ocd-person/871d5c01-9710-46f4-aeba-b321bdf11e30",
+      "name": "Travis Johnson",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Democratic",
+      "email": "hse021@legis.la.gov",
+      "phone": "225-308-4269",
+      "districtPhone": "225-308-4269",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=21",
+        "https://house.louisiana.gov/H_Reps/members?ID=21"
+      ],
+      "sources": [
+        "https://ballotpedia.org/C._Travis_Johnson",
+        "https://en.wikipedia.org/wiki/C._Travis_Johnson",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=21",
+        "https://house.louisiana.gov/H_Reps/members?ID=21",
+        "https://www.linkedin.com/in/c-travis-johnson-1b8119a"
+      ]
+    },
+    {
+      "id": "ocd-person/75f165af-66d1-464e-99b0-4176b8636501",
+      "name": "Caleb Kleinpeter",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "17",
+      "party": "Republican",
+      "email": "sen17@legis.la.gov",
+      "phone": "225-246-8838",
+      "districtPhone": "225-246-8838",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=17",
+        "https://senate.la.gov/smembers?ID=17"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Caleb_Kleinpeter",
+        "https://en.wikipedia.org/wiki/Caleb_Kleinpeter",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=17",
+        "https://senate.la.gov/smembers?ID=17",
+        "https://www.linkedin.com/in/caleb-kleinpeter-1484a3177"
+      ]
+    },
+    {
+      "id": "ocd-person/85a96a1b-a8a0-4ddd-acd7-9452b48f5ace",
+      "name": "Candace Newell",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "99",
+      "party": "Democratic",
+      "email": "hse099@legis.la.gov",
+      "phone": "504-240-3435",
+      "districtPhone": "504-240-3435",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=99",
+        "https://house.louisiana.gov/H_Reps/members?ID=99"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Candace_Newell",
+        "https://en.wikipedia.org/wiki/Candace_Newell",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=99",
+        "https://house.louisiana.gov/H_Reps/members?ID=99",
+        "https://www.linkedin.com/in/candace-n-newell-8456a517"
+      ]
+    },
+    {
+      "id": "ocd-person/a31429da-4cde-4dbe-9510-af2dfa8ab2ed",
+      "name": "Chad Boyer",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "46",
+      "party": "Republican",
+      "email": "hse046@legis.la.gov",
+      "phone": "337-332-3331",
+      "districtPhone": "337-332-3331",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=46"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chad_Boyer",
+        "https://en.wikipedia.org/wiki/Chad_Michael_Boyer",
+        "https://house.louisiana.gov/H_Reps/members?ID=46",
+        "https://justfacts.votesmart.org/candidate/biography/212537/chad-boyer",
+        "https://www.congressweb.com/LCUL/legislators/info/mbr_id/3336",
+        "https://www.linkedin.com/in/chad-boyer-78a57460"
+      ]
+    },
+    {
+      "id": "ocd-person/75101b55-81b9-465a-8ec6-297fa75cdd07",
+      "name": "Chance Henry",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "42",
+      "party": "Republican",
+      "email": "hse042@legis.la.gov",
+      "phone": "337-384-8999",
+      "districtPhone": "337-384-8999",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=42"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chance_Henry",
+        "https://chancehenry.com/meet-chance",
+        "https://en.wikipedia.org/wiki/Chance_Keith_Henry",
+        "https://house.louisiana.gov/H_Reps/members?ID=42",
+        "https://justfacts.votesmart.org/candidate/biography/212506/chance-henry",
+        "https://www.linkedin.com/in/chance-henry-92ab4534"
+      ]
+    },
+    {
+      "id": "ocd-person/2a4d4c31-ee06-4f32-a67b-c55db60502e4",
+      "name": "Chuck Owen",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Republican",
+      "email": "hse030@legis.la.gov",
+      "phone": "337-460-8726",
+      "districtPhone": "337-460-8726",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=30",
+        "https://house.louisiana.gov/H_Reps/members?ID=30"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Charles_(Chuck)_Owen",
+        "https://en.wikipedia.org/wiki/Charles_Owen_(politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=30",
+        "https://house.louisiana.gov/H_Reps/members?ID=30",
+        "https://www.linkedin.com/in/chuck-owen-9015724"
+      ]
+    },
+    {
+      "id": "ocd-person/c58cdaf8-5e0d-4a0c-ac40-7e95c38ac83e",
+      "name": "Chasity Martinez",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "60",
+      "party": "Democratic",
+      "email": "hse060@legis.la.gov",
+      "phone": "225-401-4079",
+      "districtPhone": "225-401-4079",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=60"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chasity_Martinez",
+        "https://en.wikipedia.org/wiki/Chasity_Martinez",
+        "https://house.louisiana.gov/H_Reps/members?ID=60",
+        "https://www.linkedin.com/in/chasity-martinez-848328195"
+      ]
+    },
+    {
+      "id": "ocd-person/a07b757e-a57b-4dda-aa6a-7bf5e6b3561d",
+      "name": "Chris Turner",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Republican",
+      "email": "hse012@legis.la.gov",
+      "phone": "318-251-5038",
+      "districtPhone": "318-251-5038",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=12",
+        "https://house.louisiana.gov/H_Reps/members?ID=12"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Christopher_Turner_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Chris_Turner_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=12",
+        "https://house.louisiana.gov/H_Reps/members?ID=12",
+        "https://justfacts.votesmart.org/candidate/biography/186004/christopher-turner"
+      ]
+    },
+    {
+      "id": "ocd-person/1175d9fd-94fc-4988-98ee-de8d0029de06",
+      "name": "Dana Henry",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "100",
+      "party": "Democratic",
+      "email": "hse100@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=100"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dana_Henry",
+        "https://en.wikipedia.org/wiki/Dana_Henry",
+        "https://house.louisiana.gov/H_Reps/members?ID=100",
+        "https://www.linkedin.com/in/danahenry1"
+      ]
+    },
+    {
+      "id": "ocd-person/dc59ede6-164c-4fd4-adc1-7e080309776b",
+      "name": "Danny McCormick",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Republican",
+      "email": "hse001@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=1",
+        "https://house.louisiana.gov/H_Reps/members?ID=1"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Danny_McCormick",
+        "https://en.wikipedia.org/wiki/Danny_McCormick",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=1",
+        "https://house.louisiana.gov/H_Reps/members?ID=1",
+        "https://justfacts.votesmart.org/candidate/biography/186929/danny-mccormick"
+      ]
+    },
+    {
+      "id": "ocd-person/2ace9f60-8f90-43ab-a45d-d1c64bdb7462",
+      "name": "Daryl Deshotel",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Republican",
+      "email": "hse028@legis.la.gov",
+      "phone": "318-253-8891",
+      "districtPhone": "318-253-8891",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=28",
+        "https://house.louisiana.gov/H_Reps/members?ID=28"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Daryl_Deshotel",
+        "https://en.wikipedia.org/wiki/Daryl_Deshotel",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=28",
+        "https://house.louisiana.gov/H_Reps/members?ID=28",
+        "https://justfacts.votesmart.org/candidate/biography/186951/daryl-deshotel",
+        "https://www.linkedin.com/in/daryl-a-deshotel-7248188"
+      ]
+    },
+    {
+      "id": "ocd-person/aefc2237-5913-4b96-9354-18fb7e58884c",
+      "name": "Debbie Villio",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "79",
+      "party": "Republican",
+      "email": "hse079@legis.la.gov",
+      "phone": "504-468-8603",
+      "districtPhone": "504-468-8603",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=79",
+        "https://house.louisiana.gov/H_Reps/members?ID=79"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Debbie_Villio",
+        "https://en.wikipedia.org/wiki/Debbie_Villio",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=79",
+        "https://house.louisiana.gov/H_Reps/members?ID=79",
+        "https://justfacts.votesmart.org/candidate/biography/187026/debbie-villio"
+      ]
+    },
+    {
+      "id": "ocd-person/d107ae2b-6cb6-4545-a185-d63408f46033",
+      "name": "Delisha Boyd",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "102",
+      "party": "Democratic",
+      "email": "hse102@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=102",
+        "https://house.louisiana.gov/H_Reps/members?ID=102"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Delisha_Boyd",
+        "https://delishaboyd.com",
+        "https://en.wikipedia.org/wiki/Delisha_Boyd",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=102",
+        "https://house.louisiana.gov/H_Reps/members?ID=102",
+        "https://www.linkedin.com/in/delishaboydllc"
+      ]
+    },
+    {
+      "id": "ocd-person/a900feca-75c7-434e-8d00-dd67170f2b01",
+      "name": "Dennis Bamburg",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Republican",
+      "email": "hse005@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=5"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dennis_Bamburg_Jr.",
+        "https://en.wikipedia.org/wiki/Dennis_Bamburg_Jr.",
+        "https://house.louisiana.gov/H_Reps/members?ID=5",
+        "https://www.linkedin.com/in/dennis-bamburg-93ab8895"
+      ]
+    },
+    {
+      "id": "ocd-person/d3cae3e7-f6eb-4a9c-8c63-8719902f771d",
+      "name": "Dixon McMakin",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "68",
+      "party": "Republican",
+      "email": "hse068@legis.la.gov",
+      "phone": "225-384-0468",
+      "districtPhone": "225-384-0468",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=68"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dixon_McMakin",
+        "https://en.wikipedia.org/wiki/Dixon_McMakin",
+        "https://house.louisiana.gov/H_Reps/members?ID=68",
+        "https://www.linkedin.com/in/dixonwallacemcmakin"
+      ]
+    },
+    {
+      "id": "ocd-person/4661fe94-874c-4884-99a2-c60516c811ff",
+      "name": "Dodie Horton",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Republican",
+      "email": "hortond@legis.la.gov",
+      "phone": "318-949-2463",
+      "districtPhone": "318-949-2463",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=9",
+        "https://house.louisiana.gov/H_Reps/members?ID=9"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dodie_Horton",
+        "https://en.wikipedia.org/wiki/Dodie_Horton",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=9",
+        "https://house.louisiana.gov/H_Reps/members?ID=9",
+        "https://justfacts.votesmart.org/candidate/165610/dodie-horton",
+        "https://www.linkedin.com/in/dodie-horton-3a8136100"
+      ]
+    },
+    {
+      "id": "ocd-person/c725a955-93ff-415e-91df-a7398f823474",
+      "name": "Doyle Boudreaux",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Republican",
+      "email": "hse039@legis.la.gov",
+      "phone": "337-886-4687",
+      "districtPhone": "337-886-4687",
+      "links": [
+        "https://house.louisiana.gov/h_reps/members?ID=39"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Doyle_Boudreaux",
+        "https://en.wikipedia.org/wiki/Doyle_Boudreaux",
+        "https://house.louisiana.gov/h_reps/members?ID=39",
+        "https://www.linkedin.com/in/doyle-boudreaux-50926162"
+      ]
+    },
+    {
+      "id": "ocd-person/dcf2c7e1-e124-424c-ac0c-8d1e6600e970",
+      "name": "Dustin Miller",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Democratic",
+      "email": "millerd@legis.la.gov",
+      "phone": "337-943-2900",
+      "districtPhone": "337-943-2900",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=40",
+        "https://house.louisiana.gov/H_Reps/members?ID=40"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dustin_Miller",
+        "https://ballotpedia.org/Dustin_Miller_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Dustin_Miller",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=40",
+        "https://house.louisiana.gov/H_Reps/members?ID=40",
+        "https://www.linkedin.com/in/dustin-miller-39a547a8"
+      ]
+    },
+    {
+      "id": "ocd-person/9a91a848-9d01-46b6-84f1-cc868681e912",
+      "name": "Ed Larvadain",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Democratic",
+      "email": "hse026@legis.la.gov",
+      "phone": "318-487-5441",
+      "districtPhone": "318-487-5441",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=26",
+        "https://house.louisiana.gov/H_Reps/members?ID=26"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ed_Larvadain_III",
+        "https://en.wikipedia.org/wiki/Ed_Larvadain",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=26",
+        "https://house.louisiana.gov/H_Reps/members?ID=26",
+        "https://justfacts.votesmart.org/candidate/biography/111275/ed-larvadain-iii",
+        "https://www.larvadaininjuryattorney.com"
+      ]
+    },
+    {
+      "id": "ocd-person/807a71ac-5657-4933-add4-024d35529e38",
+      "name": "Ed Murray",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "97",
+      "party": "Democratic",
+      "email": "hse097@legis.la.gov",
+      "phone": "504-283-4261",
+      "districtPhone": "504-283-4261",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=97"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ed_Murray_(Louisiana)",
+        "https://chehardy.com/attorneys/ed-murray",
+        "https://en.wikipedia.org/wiki/Ed_Murray_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/members?ID=97",
+        "https://www.linkedin.com/in/edwin-murray-4b5270102"
+      ]
+    },
+    {
+      "id": "ocd-person/c89a156e-8426-4001-8364-94a179482d76",
+      "name": "Eddie Lambert",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "18",
+      "party": "Republican",
+      "email": "lamberte@legis.la.gov",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=18",
+        "https://senate.la.gov/smembers?ID=18"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Eddie_Lambert",
+        "https://en.wikipedia.org/wiki/Eddie_J._Lambert",
+        "https://justfacts.votesmart.org/candidate/biography/35405/eddie-lambert",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=18",
+        "https://senate.la.gov/smembers?ID=18",
+        "https://www.linkedin.com/in/eddielambertattorney"
+      ]
+    },
+    {
+      "id": "ocd-person/efdf7ee4-4d37-4e57-8f0c-e0db52ee7f70",
+      "name": "Edmond Jordan",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Democratic",
+      "email": "jordane@legis.la.gov",
+      "phone": "225-925-3700",
+      "districtPhone": "225-925-3700",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=29",
+        "https://house.louisiana.gov/H_Reps/members?ID=29"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Edmond_Jordan",
+        "https://en.wikipedia.org/wiki/Edmond_Jordan",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=29",
+        "https://house.louisiana.gov/H_Reps/members?ID=29",
+        "https://justfacts.votesmart.org/candidate/biography/134729/edmond-jordan"
+      ]
+    },
+    {
+      "id": "ocd-person/1899dc2e-bac6-4951-b3fc-87ea5e2d4969",
+      "name": "Ed Price",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "2",
+      "party": "Democratic",
+      "email": "pricee@legis.la.gov",
+      "phone": "225-644-6738",
+      "districtPhone": "225-644-6738",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=2",
+        "https://senate.la.gov/smembers?ID=2"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ed_Price",
+        "https://en.wikipedia.org/wiki/Ed_Price_(Louisiana_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/134641/ed-price",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=2",
+        "https://senate.la.gov/smembers?ID=2"
+      ]
+    },
+    {
+      "id": "ocd-person/9661594c-df1e-402a-b2c5-fe2c88366506",
+      "name": "Emily Chenevert",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "66",
+      "party": "Republican",
+      "email": "hse066@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=66"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Emily_Chenevert",
+        "https://en.wikipedia.org/wiki/Emily_Chenevert",
+        "https://house.louisiana.gov/H_Reps/members?ID=66",
+        "https://justfacts.votesmart.org/candidate/biography/212560/emily-chenevert",
+        "https://www.linkedin.com/in/emily-morrow-chenevert-01387520"
+      ]
+    },
+    {
+      "id": "ocd-person/040e17ea-a4d0-47ce-8f45-527a6bdc83a7",
+      "name": "Foy Gadberry",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Republican",
+      "email": "hse015@legis.la.gov",
+      "phone": "318-396-1031",
+      "districtPhone": "318-396-1031",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=15",
+        "https://house.louisiana.gov/H_Reps/members?ID=15"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Foy_Gadberry",
+        "https://en.wikipedia.org/wiki/Foy_Gadberry",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=15",
+        "https://house.louisiana.gov/H_Reps/members?ID=15",
+        "https://www.linkedin.com/in/foy-gadberry-2a96b623"
+      ]
+    },
+    {
+      "id": "ocd-person/7796b73e-f06a-4d0b-8a85-cfde955a4cd1",
+      "name": "Francis Thompson",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Republican",
+      "email": "thompsof@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=19",
+        "https://house.louisiana.gov/H_Reps/members?ID=19"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Francis_C._Thompson",
+        "https://en.wikipedia.org/wiki/Francis_C._Thompson",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=19",
+        "https://house.louisiana.gov/H_Reps/members?ID=19",
+        "https://justfacts.votesmart.org/candidate/biography/4610/francis-thompson"
+      ]
+    },
+    {
+      "id": "ocd-person/a8344aaa-aff7-42b3-b1a2-59539191fbb2",
+      "name": "Franklin Foil",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "16",
+      "party": "Republican",
+      "email": "foilf@legis.la.gov",
+      "phone": "225-342-6777",
+      "districtPhone": "225-342-6777",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=70",
+        "https://senate.la.gov/smembers.aspx?ID=16",
+        "https://senate.la.gov/smembers?ID=16"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Franklin_Foil",
+        "https://en.wikipedia.org/wiki/Franklin_Foil",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=70",
+        "https://justfacts.votesmart.org/candidate/biography/93673/franklin-foil",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=16",
+        "https://senate.la.gov/smembers?ID=16",
+        "https://www.linkedin.com/in/franklin-foil-43134736",
+        "https://www.linkedin.com/in/franklin-foil-47545a2a"
+      ]
+    },
+    {
+      "id": "ocd-person/60ffe8d0-0469-4eca-a69a-deec93c203b3",
+      "name": "Gary Carter",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "7",
+      "party": "Democratic",
+      "email": "carterg@legis.la.gov",
+      "phone": "504-361-6600",
+      "districtPhone": "504-361-6600",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=102",
+        "https://senate.la.gov/smembers.aspx?ID=7",
+        "https://senate.la.gov/smembers?ID=7"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gary_Carter,_Jr.",
+        "https://en.wikipedia.org/wiki/Gary_Carter,_Jr.",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=102",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=7",
+        "https://senate.la.gov/smembers?ID=7",
+        "https://www.linkedin.com/in/gary-carter-jr-b8873390"
+      ]
+    },
+    {
+      "id": "ocd-person/c5ea395a-7594-4585-b193-000e05f08005",
+      "name": "Beau Beaullieu",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "48",
+      "party": "Republican",
+      "email": "hse048@legis.la.gov",
+      "phone": "337-373-4051",
+      "districtPhone": "337-373-4051",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=48",
+        "https://house.louisiana.gov/H_Reps/members?ID=48"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beau_Beaullieu",
+        "https://en.wikipedia.org/wiki/Beau_Beaullieu",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=48",
+        "https://house.louisiana.gov/H_Reps/members?ID=48",
+        "https://www.linkedin.com/in/beau-beaullieu-mba-aif-c-k-p-1b59681"
+      ]
+    },
+    {
+      "id": "ocd-person/379e9992-463c-4188-9702-668457a75c3d",
+      "name": "Gerald Boudreaux",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "24",
+      "party": "Democratic",
+      "email": "boudreauxg@legis.la.gov",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=24",
+        "https://senate.la.gov/smembers?ID=24"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gerald_Boudreaux",
+        "https://en.wikipedia.org/wiki/Gerald_Boudreaux",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=24",
+        "https://senate.la.gov/smembers?ID=24"
+      ]
+    },
+    {
+      "id": "ocd-person/25923053-3679-443e-bbb1-e2f63a50585c",
+      "name": "Glen Womack",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "32",
+      "party": "Republican",
+      "email": "sen32@legis.la.gov",
+      "phone": "318-744-0005",
+      "districtPhone": "318-744-0005",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=32",
+        "https://senate.la.gov/smembers?ID=32"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Glen_Womack",
+        "https://en.wikipedia.org/wiki/Glen_Womack",
+        "https://justfacts.votesmart.org/candidate/biography/186919/glen-womack",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=32",
+        "https://senate.la.gov/smembers?ID=32"
+      ]
+    },
+    {
+      "id": "ocd-person/77166b5f-e299-431c-869d-ab2fff79cd33",
+      "name": "Greg Miller",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "19",
+      "party": "Republican",
+      "email": "sen19@legis.la.gov",
+      "links": [
+        "https://senate.la.gov/smembers?ID=19"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gregory_Miller,_Louisiana",
+        "https://justfacts.votesmart.org/candidate/biography/134603/gregory-miller",
+        "https://senate.la.gov/smembers?ID=19",
+        "https://www.linkedin.com/in/gregory-miller-50855942"
+      ]
+    },
+    {
+      "id": "ocd-person/aa2da413-7e13-4c2b-93e8-784edc0a495e",
+      "name": "Heather Cloud",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "28",
+      "party": "Republican",
+      "email": "sen28@legis.la.gov",
+      "phone": "337-461-2595",
+      "districtPhone": "337-461-2595",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=28",
+        "https://senate.la.gov/smembers?ID=28"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Heather_Cloud",
+        "https://en.wikipedia.org/wiki/Heather_Cloud",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=28",
+        "https://senate.la.gov/smembers?ID=28"
+      ]
+    },
+    {
+      "id": "ocd-person/684d1cc7-cce3-4545-a6ab-d689c7c56105",
+      "name": "Cameron Henry",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "9",
+      "party": "Republican",
+      "email": "henryc@legis.la.gov",
+      "phone": "504-838-5433",
+      "districtPhone": "504-838-5433",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=9",
+        "https://senate.la.gov/smembers?ID=9"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cameron_Henry",
+        "https://en.wikipedia.org/wiki/Cameron_Henry",
+        "https://justfacts.votesmart.org/candidate/biography/93747/cameron-henry-jr",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=9",
+        "https://senate.la.gov/smembers?ID=9",
+        "https://www.linkedin.com/in/cameronhenryla"
+      ]
+    },
+    {
+      "id": "ocd-person/2ed9a2e2-0f61-4de1-af10-e9e0dbf02492",
+      "name": "Jack McFarland",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Republican",
+      "email": "mcfarlandj@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=13",
+        "https://house.louisiana.gov/H_Reps/members?ID=13"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jack_McFarland",
+        "https://en.wikipedia.org/wiki/Jack_McFarland_%28Louisiana_politician%29",
+        "https://en.wikipedia.org/wiki/Jack_McFarland_(politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=13",
+        "https://house.louisiana.gov/H_Reps/members?ID=13",
+        "https://www.linkedin.com/in/jack-mcfarland-73638b153"
+      ]
+    },
+    {
+      "id": "ocd-person/bfe2d39a-39a1-4992-86cd-6ab25767de92",
+      "name": "Jacob Braud",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "105",
+      "party": "Republican",
+      "email": "hse105@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=105"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jacob_Braud",
+        "https://en.wikipedia.org/wiki/Jacob_Braud",
+        "https://house.louisiana.gov/H_Reps/members?ID=105",
+        "https://www.bbc-law.net/attorney/s-j-braud",
+        "https://www.linkedin.com/in/jacob-braud-6761194"
+      ]
+    },
+    {
+      "id": "ocd-person/80ea23c0-16f8-4a57-aa48-2c5cf478a3e1",
+      "name": "Jacob Landry",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "49",
+      "party": "Republican",
+      "email": "hse049@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=49"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jacob_Landry",
+        "https://en.wikipedia.org/wiki/Jacob_Jules_Gabriel_Landry",
+        "https://house.louisiana.gov/H_Reps/members?ID=49",
+        "https://www.jacoblandryforlouisiana.com/about"
+      ]
+    },
+    {
+      "id": "ocd-person/daa3d2db-d395-4c08-9020-b90d6bc2c498",
+      "name": "Jason DeWitt",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Republican",
+      "email": "hse025@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=25"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_DeWitt",
+        "https://dewittforla.com/about",
+        "https://en.wikipedia.org/wiki/Jason_Brian_DeWitt",
+        "https://house.louisiana.gov/H_Reps/members?ID=25",
+        "https://justfacts.votesmart.org/candidate/biography/212500/jason-dewitt"
+      ]
+    },
+    {
+      "id": "ocd-person/ef1c54d6-d162-48d3-b3b5-b02da086c1ee",
+      "name": "Jay Gallé",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "104",
+      "party": "Republican",
+      "email": "hse104@legis.la.gov",
+      "phone": "985-624-4603",
+      "districtPhone": "985-624-4603",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=104"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_Gall%C3%A9",
+        "https://en.wikipedia.org/wiki/Jay_Gall%C3%A9",
+        "https://house.louisiana.gov/H_Reps/members?ID=104",
+        "https://justfacts.votesmart.org/candidate/biography/212531/jay-galle",
+        "https://www.jaygalle.com",
+        "https://www.linkedin.com/in/jay-galle-98aa544"
+      ]
+    },
+    {
+      "id": "ocd-person/9d6aa1d9-76b2-41ad-a3e0-4fa86da08645",
+      "name": "Jay Morris",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "35",
+      "party": "Republican",
+      "email": "morrisjc@legis.la.gov",
+      "phone": "318-362-4270",
+      "districtPhone": "318-362-4270",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=14",
+        "https://senate.la.gov/smembers.aspx?ID=35",
+        "https://senate.la.gov/smembers?ID=35"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_Morris",
+        "https://ballotpedia.org/Jay_Morris_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Jay_Morris",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=14",
+        "https://justfacts.votesmart.org/candidate/biography/134583/jay-morris-iii",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=35",
+        "https://senate.la.gov/smembers?ID=35",
+        "https://www.linkedin.com/in/jay-morris-67192426"
+      ]
+    },
+    {
+      "id": "ocd-person/b96a872c-91bd-47ea-a50f-f82294b3d91b",
+      "name": "Jeff Wiley",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "81",
+      "party": "Republican",
+      "email": "hse081@legis.la.gov",
+      "phone": "225-698-5400",
+      "districtPhone": "225-698-5400",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=81"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jeffrey_Wiley",
+        "https://house.louisiana.gov/H_Reps/members?ID=81",
+        "https://www.ballotpedia.org/Jeffrey_Wiley"
+      ]
+    },
+    {
+      "id": "ocd-person/e8c847e2-5ee6-4f9c-a4e4-d7d8daa8464c",
+      "name": "Jeremy Stine",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "27",
+      "party": "Republican",
+      "email": "sen27@legis.la.gov",
+      "phone": "337-491-2016",
+      "districtPhone": "337-491-2016",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=27",
+        "https://senate.la.gov/smembers?ID=27"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Stine",
+        "https://en.wikipedia.org/wiki/Jeremy_Stine",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=27",
+        "https://senate.la.gov/smembers?ID=27",
+        "https://www.linkedin.com/in/jeremy-stine-7214b17a"
+      ]
+    },
+    {
+      "id": "ocd-person/9ae6b490-4fe0-435c-93fd-ad316e474204",
+      "name": "Jeremy LaCombe",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Republican",
+      "email": "hse018@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=18",
+        "https://house.louisiana.gov/H_Reps/members?ID=18"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeremy_LaCombe",
+        "https://en.wikipedia.org/wiki/Jeremy_LaCombe",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=18",
+        "https://house.louisiana.gov/H_Reps/members?ID=18",
+        "https://www.linkedin.com/in/jeremy-lacombe-22b4a54"
+      ]
+    },
+    {
+      "id": "ocd-person/2dafe5b8-cb5a-411a-b270-322dcaf18293",
+      "name": "Jerome Zeringue",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "52",
+      "party": "Republican",
+      "email": "zeringuej@legis.la.gov",
+      "phone": "985-876-8823",
+      "districtPhone": "985-876-8823",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=52",
+        "https://house.louisiana.gov/H_Reps/members?ID=52"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jerome_Zeringue",
+        "https://en.wikipedia.org/wiki/Jerome_Zeringue",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=52",
+        "https://house.louisiana.gov/H_Reps/members?ID=52",
+        "https://justfacts.votesmart.org/candidate/biography/165548/jerome-zeringue",
+        "https://www.linkedin.com/in/jerome-zeringue-3790b917"
+      ]
+    },
+    {
+      "id": "ocd-person/95e28ef0-84f6-45ec-97fe-a58f360a2ad9",
+      "name": "Jessica Domangue",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "53",
+      "party": "Republican",
+      "email": "hse053@legis.la.gov",
+      "phone": "985-858-2970",
+      "districtPhone": "985-858-2970",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=53"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jessica_Domangue",
+        "https://en.wikipedia.org/wiki/Jessica_Domangue",
+        "https://house.louisiana.gov/H_Reps/members?ID=53"
+      ]
+    },
+    {
+      "id": "ocd-person/ce11601e-9a67-48a1-9408-b80943312303",
+      "name": "Jimmy Harris",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "4",
+      "party": "Democratic",
+      "email": "harrisj@legis.la.gov",
+      "phone": "504-286-1960",
+      "districtPhone": "504-286-1960",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=99",
+        "https://senate.la.gov/smembers.aspx?ID=4",
+        "https://senate.la.gov/smembers?ID=4"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jimmy_Harris",
+        "https://ballotpedia.org/Jimmy_Harris_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Jimmy_Harris_(politician)",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=99",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=4",
+        "https://senate.la.gov/smembers?ID=4",
+        "https://www.linkedin.com/in/harris-james-7103a135"
+      ]
+    },
+    {
+      "id": "ocd-person/3c0eeaa2-cf62-4b17-9b62-2531c078dd42",
+      "name": "John Illg",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "78",
+      "party": "Republican",
+      "email": "hse078@legis.la.gov",
+      "phone": "504-737-0315",
+      "districtPhone": "504-737-0315",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=78",
+        "https://house.louisiana.gov/H_Reps/members?ID=78"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Illg_Jr.",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=78",
+        "https://house.louisiana.gov/H_Reps/members?ID=78"
+      ]
+    },
+    {
+      "id": "ocd-person/8bc5e1d1-fe97-4466-a11d-415f56c5151a",
+      "name": "John Wyble",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "75",
+      "party": "Republican",
+      "email": "hse075@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=75"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Wyble_(Louisiana)",
+        "https://drwyble.com",
+        "https://en.wikipedia.org/wiki/John_Wyble",
+        "https://house.louisiana.gov/H_Reps/members?ID=75",
+        "https://www.linkedin.com/in/drjwyble"
+      ]
+    },
+    {
+      "id": "ocd-person/958015ce-4a91-4830-a11f-e73997823d4b",
+      "name": "Joe Stagni",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "92",
+      "party": "Republican",
+      "email": "stagnij@legis.la.gov",
+      "phone": "504-465-3479",
+      "districtPhone": "504-465-3479",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=92",
+        "https://house.louisiana.gov/H_Reps/members?ID=92"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joe_Stagni",
+        "https://en.wikipedia.org/wiki/Joseph_A._Stagni",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=92",
+        "https://house.louisiana.gov/H_Reps/members?ID=92",
+        "https://www.linkedin.com/in/joseph-stagni-6a0331142"
+      ]
+    },
+    {
+      "id": "ocd-person/9002c3a7-c0d9-4112-ad34-e0c6fa909ce1",
+      "name": "Joe Orgeron",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "54",
+      "party": "Republican",
+      "email": "hse054@legis.la.gov",
+      "phone": "985-693-9000",
+      "districtPhone": "985-693-9000",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=54",
+        "https://house.louisiana.gov/H_Reps/members?ID=54"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joseph_Orgeron",
+        "https://en.wikipedia.org/wiki/Joseph_Orgeron",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=54",
+        "https://house.louisiana.gov/H_Reps/members?ID=54",
+        "https://justfacts.votesmart.org/candidate/192375/joseph-orgeron",
+        "https://www.linkedin.com/in/josephorgeronphd"
+      ]
+    },
+    {
+      "id": "ocd-person/85df7a11-9edb-4e27-b7ce-60ffe7b35d39",
+      "name": "Josh Carlson",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "43",
+      "party": "Republican",
+      "email": "hse043@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=43"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Josh_Carlson",
+        "https://en.wikipedia.org/wiki/Josh_Carlson",
+        "https://house.louisiana.gov/H_Reps/members?ID=43",
+        "https://justfacts.votesmart.org/candidate/biography/196940/joshua-carlson",
+        "https://www.linkedin.com/in/joshuapcarlson"
+      ]
+    },
+    {
+      "id": "ocd-person/378995b0-0c3e-49a4-aa93-4633f06d5509",
+      "name": "Joy Walters",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Democratic",
+      "email": "waltersj@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=4"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Daryl_Joy_Walters",
+        "https://en.wikipedia.org/wiki/Daryl_Joy_Walters",
+        "https://house.louisiana.gov/H_Reps/members?ID=4",
+        "https://www.linkedin.com/in/daryljoywalters"
+      ]
+    },
+    {
+      "id": "ocd-person/92f7834e-8ce3-437f-bdbf-8dad3528ae3b",
+      "name": "Kathy Edmonston",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "88",
+      "party": "Republican",
+      "email": "hse088@legis.la.gov",
+      "phone": "225-647-5646",
+      "districtPhone": "225-647-5646",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=88",
+        "https://house.louisiana.gov/H_Reps/members?ID=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kathy_Edmonston",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=88",
+        "https://house.louisiana.gov/H_Reps/members?ID=88",
+        "https://www.linkedin.com/in/kathy-edmonston-02438a166"
+      ]
+    },
+    {
+      "id": "ocd-person/acdaa5e6-3b22-44b9-8b47-480b801483dd",
+      "name": "Katrina Jackson-Andrews",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "34",
+      "party": "Democratic",
+      "email": "jacksonk@legis.la.gov",
+      "phone": "318-343-2877",
+      "districtPhone": "318-343-2877",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=34",
+        "https://senate.la.gov/smembers?ID=34"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Katrina_Jackson",
+        "https://en.wikipedia.org/wiki/Katrina_Jackson",
+        "https://justfacts.votesmart.org/candidate/biography/134647/katrina-jackson",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=34",
+        "https://senate.la.gov/smembers?ID=34"
+      ]
+    },
+    {
+      "id": "ocd-person/c64e6628-efa4-4ffe-8b2f-d9df80f4f313",
+      "name": "Kellee Hennessy",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "64",
+      "party": "Republican",
+      "email": "hse064@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=64"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kellee_Hennessy_Dickerson",
+        "https://en.wikipedia.org/wiki/Kellee_Hennessy_Dickerson",
+        "https://house.louisiana.gov/H_Reps/members?ID=64",
+        "https://justfacts.votesmart.org/candidate/biography/212552/kellee-dickerson"
+      ]
+    },
+    {
+      "id": "ocd-person/43a80737-e614-475d-aace-2d1324cb516a",
+      "name": "Ken Brass",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "58",
+      "party": "Democratic",
+      "email": "brassk@legis.la.gov",
+      "phone": "225-265-9005",
+      "districtPhone": "225-265-9005",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=58",
+        "https://house.louisiana.gov/H_Reps/members?ID=58"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ken_Brass",
+        "https://en.wikipedia.org/wiki/Ken_Brass",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=58",
+        "https://house.louisiana.gov/H_Reps/members?ID=58"
+      ]
+    },
+    {
+      "id": "ocd-person/bd6d41fc-8ad8-468f-8259-223d38d42bd8",
+      "name": "Kim Carver",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "89",
+      "party": "Republican",
+      "email": "hse089@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kim_Carver",
+        "https://en.wikipedia.org/wiki/Christopher_Kim_Carver",
+        "https://house.louisiana.gov/H_Reps/members?ID=89",
+        "https://justfacts.votesmart.org/candidate/biography/212522/kim-carver",
+        "https://www.linkedin.com/in/kim-carver-64526933"
+      ]
+    },
+    {
+      "id": "ocd-person/d6dba94d-0167-4391-992d-af96c6525253",
+      "name": "Kim Coates",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "73",
+      "party": "Republican",
+      "email": "hse073@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=73"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Landry_Coates",
+        "https://en.wikipedia.org/wiki/Kimberly_Coates",
+        "https://house.louisiana.gov/H_Reps/members?ID=73",
+        "https://kimcoatesforla.com/about"
+      ]
+    },
+    {
+      "id": "ocd-person/f6f401f7-7fb4-40df-84a0-b5a3f0fe9ec2",
+      "name": "Kirk Talbot",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "10",
+      "party": "Republican",
+      "email": "talbotk@legis.la.gov",
+      "phone": "504-736-7299",
+      "districtPhone": "504-736-7299",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=78",
+        "https://senate.la.gov/smembers.aspx?ID=10",
+        "https://senate.la.gov/smembers?ID=10"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kirk_Talbot",
+        "https://en.wikipedia.org/wiki/Kirk_Talbot",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=78",
+        "https://justfacts.votesmart.org/candidate/biography/93725/kirk-talbot",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=10",
+        "https://senate.la.gov/smembers?ID=10"
+      ]
+    },
+    {
+      "id": "ocd-person/8ffaa2bd-ff67-464a-b639-19a6069e28a2",
+      "name": "Kyle Green",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "83",
+      "party": "Democratic",
+      "email": "hse083@legis.la.gov",
+      "phone": "504-349-8788",
+      "districtPhone": "504-349-8788",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=83",
+        "https://house.louisiana.gov/H_Reps/members?ID=83"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kyle_Green_Jr.",
+        "https://en.wikipedia.org/wiki/Kyle_Green",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=83",
+        "https://house.louisiana.gov/H_Reps/members?ID=83",
+        "https://www.linkedin.com/in/kyle-m-green-jr-153aa342"
+      ]
+    },
+    {
+      "id": "ocd-person/52035a94-6995-4ea4-b463-1109d683048b",
+      "name": "Larry Selders",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "14",
+      "party": "Democratic",
+      "email": "sen14@legis.la.gov",
+      "phone": "225-256-7756",
+      "districtPhone": "225-256-7756",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=67",
+        "https://house.louisiana.gov/H_Reps/members?ID=67",
+        "https://senate.la.gov/smembers?ID=14"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Larry_Selders",
+        "https://en.wikipedia.org/wiki/Larry_Selders",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=67",
+        "https://house.louisiana.gov/H_Reps/members?ID=67",
+        "https://justfacts.votesmart.org/candidate/biography/186999/larry-selders",
+        "https://senate.la.gov/smembers?ID=14"
+      ]
+    },
+    {
+      "id": "ocd-person/d2ecd14d-09ce-4e45-8969-149531759584",
+      "name": "Lauren Ventrella",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "65",
+      "party": "Republican",
+      "email": "hse065@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=65"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lauren_Ventrella",
+        "https://en.wikipedia.org/wiki/Lauren_Ventrella",
+        "https://house.louisiana.gov/H_Reps/members?ID=65",
+        "https://www.linkedin.com/in/ventrellalaw",
+        "https://www.ventrellalawfirm.com"
+      ]
+    },
+    {
+      "id": "ocd-person/1dbd875c-89b6-4ea1-a73b-7c8efdb203a3",
+      "name": "Laurie Schlegel",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "82",
+      "party": "Republican",
+      "email": "hse082@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=82",
+        "https://house.louisiana.gov/H_Reps/members?ID=82"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Laurie_Schlegel",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=82",
+        "https://house.louisiana.gov/H_Reps/members?ID=82",
+        "https://www.linkedin.com/in/laurie-schlegel-b8652662"
+      ]
+    },
+    {
+      "id": "ocd-person/d6e47850-c123-4060-8309-74192011981b",
+      "name": "Larry Bagley",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Republican",
+      "email": "bagleyl@legis.la.gov",
+      "phone": "318-925-9588",
+      "districtPhone": "318-925-9588",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=7",
+        "https://house.louisiana.gov/H_Reps/members?ID=7"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lawrence_Bagley",
+        "https://en.wikipedia.org/wiki/Larry_Bagley",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=7",
+        "https://house.louisiana.gov/H_Reps/members?ID=7",
+        "https://www.linkedin.com/in/larrybagley"
+      ]
+    },
+    {
+      "id": "ocd-person/81379952-373b-4e6e-a29f-b9bb60e7593b",
+      "name": "Les Farnum",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Republican",
+      "email": "hse033@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=33",
+        "https://house.louisiana.gov/H_Reps/members?ID=33"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Les_Farnum",
+        "https://en.wikipedia.org/wiki/Les_Farnum",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=33",
+        "https://house.louisiana.gov/H_Reps/members?ID=33",
+        "https://justfacts.votesmart.org/candidate/biography/107599/les-farnum",
+        "https://www.linkedin.com/in/les-farnum-82961171"
+      ]
+    },
+    {
+      "id": "ocd-person/6e106343-c9e7-4993-aca8-201210f61d64",
+      "name": "Mandie Landry",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "91",
+      "party": "Democratic",
+      "email": "hse091@legis.la.gov",
+      "phone": "504-383-3836",
+      "districtPhone": "504-383-3836",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=91",
+        "https://house.louisiana.gov/H_Reps/members?ID=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mandie_Landry",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=91",
+        "https://house.louisiana.gov/H_Reps/members?ID=91",
+        "https://justfacts.votesmart.org/candidate/biography/187045/mandie-landry",
+        "https://www.linkedin.com/in/mandie-landry-8764812"
+      ]
+    },
+    {
+      "id": "ocd-person/4d1c2a6e-0339-4b7a-ac52-dfd9064bfbbf",
+      "name": "Marcus Bryant",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "96",
+      "party": "Democratic",
+      "email": "hse096@legis.la.gov",
+      "phone": "337-373-9380",
+      "districtPhone": "337-373-9380",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=96",
+        "https://house.louisiana.gov/H_Reps/members?ID=96"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Marcus_Bryant",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=96",
+        "https://house.louisiana.gov/H_Reps/members?ID=96",
+        "https://www.linkedin.com/in/marcus-anthony-bryant-09959968",
+        "https://www.linkedin.com/in/marcus-bryant-93467011",
+        "https://www.marcusbryantlaw.com",
+        "https://www.marcusbryantlaw.com/attorney/marcus-a-bryant"
+      ]
+    },
+    {
+      "id": "ocd-person/addae848-cfaf-4637-a23e-595e45c6e14f",
+      "name": "Mark Abraham",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "25",
+      "party": "Republican",
+      "email": "abrahamm@legis.la.gov",
+      "phone": "337-475-3016",
+      "districtPhone": "337-475-3016",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=36",
+        "https://senate.la.gov/smembers.aspx?ID=25",
+        "https://senate.la.gov/smembers?ID=25"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Abraham",
+        "https://en.wikipedia.org/wiki/Mark_Abraham",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=36",
+        "https://justfacts.votesmart.org/candidate/93547/mark-abraham",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=25",
+        "https://senate.la.gov/smembers?ID=25"
+      ]
+    },
+    {
+      "id": "ocd-person/d3ecec03-0408-46f0-8c82-b775f787e6e1",
+      "name": "Mark Wright",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "77",
+      "party": "Republican",
+      "email": "wrightm@legis.la.gov",
+      "phone": "985-893-6262",
+      "districtPhone": "985-893-6262",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=77",
+        "https://house.louisiana.gov/H_Reps/members?ID=77"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Wright_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Mark_Wright_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=77",
+        "https://house.louisiana.gov/H_Reps/members?ID=77",
+        "https://justfacts.votesmart.org/candidate/biography/176600/mark-wright",
+        "https://www.linkedin.com/in/mark-wright-3754a710"
+      ]
+    },
+    {
+      "id": "ocd-person/750a2868-c9b0-4124-95c7-3516f93ff087",
+      "name": "Mike Fési",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "20",
+      "party": "Republican",
+      "email": "sen20@legis.la.gov",
+      "phone": "985-858-2979",
+      "districtPhone": "985-858-2979",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=20",
+        "https://senate.la.gov/smembers?ID=20"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Fesi",
+        "https://en.wikipedia.org/wiki/Mike_Fesi",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=20",
+        "https://senate.la.gov/smembers?ID=20",
+        "https://www.linkedin.com/in/bigmikefesi"
+      ]
+    },
+    {
+      "id": "ocd-person/22590bd7-29fe-454d-b61d-2c54c4562274",
+      "name": "Michael Echols",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Republican",
+      "email": "hse014@legis.la.gov",
+      "phone": "318-598-4010",
+      "districtPhone": "318-598-4010",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=14",
+        "https://house.louisiana.gov/H_Reps/members?ID=14"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Echols",
+        "https://en.wikipedia.org/wiki/Michael_Echols",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=14",
+        "https://house.louisiana.gov/H_Reps/members?ID=14",
+        "https://justfacts.votesmart.org/candidate/biography/134582/michael-echols",
+        "https://www.linkedin.com/in/michaelcharlesechols"
+      ]
+    },
+    {
+      "id": "ocd-person/50b42a20-9d29-4388-b06f-b4511eda2131",
+      "name": "Gabe Firment",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Republican",
+      "email": "hse022@legis.la.gov",
+      "phone": "318-765-9606",
+      "districtPhone": "318-765-9606",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=22",
+        "https://house.louisiana.gov/H_Reps/members?ID=22"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gabe_Firment",
+        "https://en.wikipedia.org/wiki/Gabe_Firment",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=22",
+        "https://house.louisiana.gov/H_Reps/members?ID=22",
+        "https://justfacts.votesmart.org/candidate/biography/186949/gabe-firment"
+      ]
+    },
+    {
+      "id": "ocd-person/b38eb9d5-c27d-443e-995d-f9681e3a992e",
+      "name": "Michael Melerine",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Republican",
+      "email": "hse006@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=6"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Melerine",
+        "https://en.wikipedia.org/wiki/Michael_Melerine",
+        "https://house.louisiana.gov/H_Reps/members?ID=6",
+        "https://www.seabaughlaw.com/attorneys/mmelerine"
+      ]
+    },
+    {
+      "id": "ocd-person/0e901294-3718-49df-9922-0ac4503acee2",
+      "name": "Mike Johnson",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Republican",
+      "email": "hse027@legis.la.gov",
+      "phone": "318-487-5377",
+      "districtPhone": "318-487-5377",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=27",
+        "https://house.louisiana.gov/H_Reps/members?ID=27"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Johnson_(Louisiana_House_of_Representatives)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=27",
+        "https://house.louisiana.gov/H_Reps/members?ID=27",
+        "https://www.linkedin.com/in/michael-johnson-0979602b"
+      ]
+    },
+    {
+      "id": "ocd-person/e06c4ec7-9051-4489-b572-5b55e5fd4a68",
+      "name": "Mike Bayham",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "103",
+      "party": "Republican",
+      "email": "hse103@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=103"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Bayham",
+        "https://en.wikipedia.org/wiki/Michael_Bayham",
+        "https://house.louisiana.gov/H_Reps/members?ID=103"
+      ]
+    },
+    {
+      "id": "ocd-person/723f3444-f927-44b0-8659-7ac00370aa92",
+      "name": "Mike Reese",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "30",
+      "party": "Republican",
+      "email": "sen30@legis.la.gov",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=30",
+        "https://senate.la.gov/smembers?ID=30"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Reese_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Mike_Reese_(Louisiana_politician)",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=30",
+        "https://senate.la.gov/smembers?ID=30",
+        "https://www.linkedin.com/in/mike-reese-8406b666"
+      ]
+    },
+    {
+      "id": "ocd-person/8ce9b8d1-a92d-4351-a098-617599dde680",
+      "name": "Neil Riser",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Republican",
+      "email": "risern@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=20",
+        "https://house.louisiana.gov/H_Reps/members?ID=20",
+        "https://senate.la.gov/senators/senpage.asp?SenID=32"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Neil_Riser",
+        "https://en.wikipedia.org/wiki/Neil_Riser",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=20",
+        "https://house.louisiana.gov/H_Reps/members?ID=20",
+        "https://justfacts.votesmart.org/candidate/biography/93593/neil-riser",
+        "https://senate.la.gov/senators/senpage.asp?SenID=32",
+        "https://www.linkedin.com/in/neil-riser-7a523220"
+      ]
+    },
+    {
+      "id": "ocd-person/bc967860-a12b-4285-bd97-36379803f119",
+      "name": "Nicky Muscarello",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "86",
+      "party": "Republican",
+      "email": "muscarellon@legis.la.gov",
+      "phone": "985-974-0009",
+      "districtPhone": "985-974-0009",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=86",
+        "https://house.louisiana.gov/H_Reps/members?ID=86"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nicholas_Muscarello_Jr.",
+        "https://en.wikipedia.org/wiki/Nicholas_Muscarello",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=86",
+        "https://house.louisiana.gov/H_Reps/members?ID=86",
+        "https://njmlawfirm.com/About-Us/Nicholas-J-Muscarello-Jr",
+        "https://www.linkedin.com/in/nicholas-%E2%80%9Cnicky%E2%80%9D-muscarello-00261411"
+      ]
+    },
+    {
+      "id": "ocd-person/88548c7a-b637-4821-b336-c99cfa475e22",
+      "name": "Pat Moore",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Democratic",
+      "email": "hse017@legis.la.gov",
+      "phone": "318-362-3014",
+      "districtPhone": "318-362-3014",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=17",
+        "https://house.louisiana.gov/H_Reps/members?ID=17"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Pat_Moore_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Pat_Moore_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=17",
+        "https://house.louisiana.gov/H_Reps/members?ID=17",
+        "https://justfacts.votesmart.org/candidate/biography/107141/pat-moore"
+      ]
+    },
+    {
+      "id": "ocd-person/a5240587-95aa-4135-befc-de2ea2aa1d51",
+      "name": "Patrick Connick",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "8",
+      "party": "Republican",
+      "email": "connickp@legis.la.gov",
+      "phone": "504-371-0240",
+      "districtPhone": "504-371-0240",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=84",
+        "https://senate.la.gov/smembers.aspx?ID=8",
+        "https://senate.la.gov/smembers?ID=8"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Patrick_Connick",
+        "https://en.wikipedia.org/wiki/Patrick_Connick",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=84",
+        "https://justfacts.votesmart.org/candidate/biography/93757/patrick-connick",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=8",
+        "https://senate.la.gov/smembers?ID=8"
+      ]
+    },
+    {
+      "id": "ocd-person/d4a6db65-2f6f-464f-ae26-58176f2b68e6",
+      "name": "Patrick McMath",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "11",
+      "party": "Republican",
+      "email": "sen11@legis.la.gov",
+      "phone": "985-900-6278",
+      "districtPhone": "985-900-6278",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=11",
+        "https://senate.la.gov/smembers?ID=11"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Patrick_McMath",
+        "https://en.wikipedia.org/wiki/Patrick_McMath",
+        "https://justfacts.votesmart.org/candidate/biography/186901/patrick-mcmath",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=11",
+        "https://senate.la.gov/smembers?ID=11",
+        "https://www.linkedin.com/in/patrick-mcmath-063b9a6b",
+        "https://www.patrickmcmath.com/meet-patrick"
+      ]
+    },
+    {
+      "id": "ocd-person/a05f602f-6eb8-4668-9f25-f438adb5faea",
+      "name": "Paul Sawyer",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "69",
+      "party": "Republican",
+      "email": "hse069@legis.la.gov",
+      "phone": "225-362-5301",
+      "districtPhone": "225-362-5301",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=69"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Paul_Sawyer",
+        "https://en.wikipedia.org/wiki/Paul_Sawyer_(politician)",
+        "https://house.louisiana.gov/H_Reps/members?ID=69",
+        "https://www.linkedin.com/in/paulsawyer"
+      ]
+    },
+    {
+      "id": "ocd-person/52df3631-4ef7-4b52-ab11-8a8eeb7bf499",
+      "name": "Peter Egan",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "74",
+      "party": "Republican",
+      "email": "hse074@legis.la.gov",
+      "phone": "985-893-6319",
+      "districtPhone": "985-893-6319",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=74"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Peter_Egan",
+        "https://en.wikipedia.org/wiki/Peter_F._Egan,_Sr.",
+        "https://house.louisiana.gov/H_Reps/members?ID=74",
+        "https://justfacts.votesmart.org/candidate/biography/212588/peter-egan"
+      ]
+    },
+    {
+      "id": "ocd-person/04a524b7-1f7a-4d01-8491-c52df47e20cc",
+      "name": "Phil Tarver",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Republican",
+      "email": "hse036@legis.la.gov",
+      "phone": "337-475-8186",
+      "districtPhone": "337-475-8186",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=36",
+        "https://house.louisiana.gov/H_Reps/members?ID=36"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phillip_Tarver",
+        "https://en.wikipedia.org/wiki/Phillip_Tarver",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=36",
+        "https://house.louisiana.gov/H_Reps/members?ID=36",
+        "https://justfacts.votesmart.org/candidate/biography/186966/phillip-tarver"
+      ]
+    },
+    {
+      "id": "ocd-person/ee23b4bf-f5f7-498c-9fcc-f3b2d6f8fb1d",
+      "name": "Phillip DeVillier",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "41",
+      "party": "Republican",
+      "email": "devillierp@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=41",
+        "https://house.louisiana.gov/H_Reps/members?ID=41"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phillip_DeVillier",
+        "https://en.wikipedia.org/wiki/Phillip_DeVillier",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=41",
+        "https://house.louisiana.gov/H_Reps/members?ID=41",
+        "https://justfacts.votesmart.org/candidate/biography/165532/phillip-devillier"
+      ]
+    },
+    {
+      "id": "ocd-person/d95410b8-a66c-4662-bcc6-1884252e061b",
+      "name": "Polly Thomas",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "80",
+      "party": "Republican",
+      "email": "thomaspj@legis.la.gov",
+      "phone": "504-837-6559",
+      "districtPhone": "504-837-6559",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=80",
+        "https://house.louisiana.gov/H_Reps/members?ID=80"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Polly_Thomas",
+        "https://en.wikipedia.org/wiki/Polly_Thomas",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=80",
+        "https://house.louisiana.gov/H_Reps/members?ID=80",
+        "https://justfacts.votesmart.org/candidate/biography/35438/polly-thomas"
+      ]
+    },
+    {
+      "id": "ocd-person/2bf8549d-d379-4c42-af8c-b5b9d270f17d",
+      "name": "Dewith Carrier",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Republican",
+      "email": "hse032@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=32",
+        "https://house.louisiana.gov/H_Reps/members?ID=32"
+      ],
+      "sources": [
+        "https://ballotpedia.org/R._Dewith_Carrier",
+        "https://en.wikipedia.org/wiki/R._Dewith_Carrier",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=32",
+        "https://house.louisiana.gov/H_Reps/members?ID=32",
+        "https://justfacts.votesmart.org/candidate/biography/186961/r-carrier",
+        "https://www.congressweb.com/LFF/legislators/info/mbr_id/3322"
+      ]
+    },
+    {
+      "id": "ocd-person/655ddc35-ecd0-4db2-a3fe-cd86f1cb7d61",
+      "name": "Robert Allain",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "21",
+      "party": "Republican",
+      "email": "sen21@legis.la.gov",
+      "phone": "985-850-2738",
+      "districtPhone": "985-850-2738",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=21",
+        "https://senate.la.gov/smembers?ID=21"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Allain_III",
+        "https://en.wikipedia.org/wiki/Robert_Allain_III",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=21",
+        "https://senate.la.gov/smembers?ID=21",
+        "https://www.linkedin.com/in/robert-allain-iii-6816678b",
+        "https://www.robertallain.com/about"
+      ]
+    },
+    {
+      "id": "ocd-person/17cf7c94-788b-49f9-bca2-2f413974a927",
+      "name": "Rashid Young",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Democratic",
+      "email": "hse011@legis.la.gov",
+      "phone": "318-202-9275",
+      "districtPhone": "318-202-9275",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=11"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rashid_Young",
+        "https://en.wikipedia.org/wiki/Rashid_Armand_Young",
+        "https://house.louisiana.gov/H_Reps/members?ID=11",
+        "https://www.linkedin.com/in/rashid-young-esq-aa5670152"
+      ]
+    },
+    {
+      "id": "ocd-person/126879ce-50c0-4741-a7e7-fb23fecb9d29",
+      "name": "Raymond Crews",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Republican",
+      "email": "crewsr@legis.la.gov",
+      "phone": "318-716-7532",
+      "districtPhone": "318-716-7532",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=8",
+        "https://house.louisiana.gov/H_Reps/members?ID=8"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Raymond_Crews",
+        "https://en.wikipedia.org/wiki/Raymond_Crews",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=8",
+        "https://house.louisiana.gov/H_Reps/members?ID=8",
+        "https://justfacts.votesmart.org/candidate/biography/176066/raymond-crews",
+        "https://www.linkedin.com/in/raymond-crews-9a620935"
+      ]
+    },
+    {
+      "id": "ocd-person/8710f3da-9aea-41a9-acd2-181377cc6ae7",
+      "name": "Regina Barrow",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "15",
+      "party": "Democratic",
+      "email": "barrowr@legis.la.gov",
+      "phone": "225-359-9400",
+      "districtPhone": "225-359-9400",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=15",
+        "https://senate.la.gov/smembers?ID=15"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Regina_Barrow",
+        "https://en.wikipedia.org/wiki/Regina_Barrow",
+        "https://justfacts.votesmart.org/candidate/biography/56506/regina-barrow",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=15",
+        "https://senate.la.gov/smembers?ID=15"
+      ]
+    },
+    {
+      "id": "ocd-person/6c232d36-fe39-4006-8397-de9cb1e5454c",
+      "name": "Rhonda Butler",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Republican",
+      "email": "hse038@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=38",
+        "https://house.louisiana.gov/H_Reps/members?ID=38"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rhonda_Butler",
+        "https://en.wikipedia.org/wiki/Rhonda_Butler",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=38",
+        "https://house.louisiana.gov/H_Reps/members?ID=38"
+      ]
+    },
+    {
+      "id": "ocd-person/e49647e3-b5c3-4329-9472-27048115441c",
+      "name": "Rick Edmonds",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "6",
+      "party": "Republican",
+      "email": "sen06@legis.la.gov",
+      "phone": "225-272-1324",
+      "districtPhone": "225-272-1324",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=66",
+        "https://senate.la.gov/smembers?ID=6"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rick_Edmonds",
+        "https://en.wikipedia.org/wiki/Rick_Edmonds",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=66",
+        "https://senate.la.gov/smembers?ID=6"
+      ]
+    },
+    {
+      "id": "ocd-person/a24e242f-3fd9-479c-8423-cf0c6e2c6273",
+      "name": "Robby Carter",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "72",
+      "party": "Democratic",
+      "email": "carterr@legis.la.gov",
+      "phone": "225-222-4194",
+      "districtPhone": "225-222-4194",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=72",
+        "https://house.louisiana.gov/H_Reps/members?ID=72"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robby_Carter",
+        "https://en.wikipedia.org/wiki/Robby_Carter",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=72",
+        "https://house.louisiana.gov/H_Reps/members?ID=72",
+        "https://justfacts.votesmart.org/candidate/biography/15195/robby-carter"
+      ]
+    },
+    {
+      "id": "ocd-person/71696836-b261-4646-8127-407c40e2c35b",
+      "name": "Rodney Lyons",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "87",
+      "party": "Democratic",
+      "email": "lyonsr@legis.la.gov",
+      "phone": "504-510-5417",
+      "districtPhone": "504-510-5417",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=87",
+        "https://house.louisiana.gov/H_Reps/members?ID=87"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rodney_Lyons,_Sr.",
+        "https://en.wikipedia.org/wiki/Rodney_Lyons",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=87",
+        "https://house.louisiana.gov/H_Reps/members?ID=87",
+        "https://justfacts.votesmart.org/candidate/biography/165588/rodney-lyons-sr",
+        "https://lablackcaucus.org/member/rodney-lyons",
+        "https://www.linkedin.com/in/rodney-lyons-1a917999"
+      ]
+    },
+    {
+      "id": "ocd-person/01cb17b2-a215-4cd5-916a-43c3e91723c7",
+      "name": "Rodney Schamerhorn",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Republican",
+      "email": "hse024@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=24",
+        "https://house.louisiana.gov/H_Reps/members?ID=24"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rodney_Schamerhorn",
+        "https://en.wikipedia.org/wiki/Rodney_Schamerhorn",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=24",
+        "https://house.louisiana.gov/H_Reps/members?ID=24",
+        "https://www.linkedin.com/in/rodney-schamerhorn-44ba2861",
+        "https://www.linkedin.com/in/rodney-schamerhorn-5b734569"
+      ]
+    },
+    {
+      "id": "ocd-person/c6f00cae-9826-4be6-934e-1a9516b20c4d",
+      "name": "Roger Wilder",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "71",
+      "party": "Republican",
+      "email": "hse071@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=71"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Roger_Wilder_III",
+        "https://en.wikipedia.org/wiki/Roger_William_Wilder_III",
+        "https://house.louisiana.gov/H_Reps/members?ID=71",
+        "https://www.linkedin.com/in/roger-wilder-33031522b",
+        "https://www.rogerwilder.com/about"
+      ]
+    },
+    {
+      "id": "ocd-person/0353532c-93a0-41cb-9621-278c8ef19178",
+      "name": "Roy Adams",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "62",
+      "party": "Democratic",
+      "email": "hse062@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=62",
+        "https://house.louisiana.gov/H_Reps/members?ID=62"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Roy_Adams",
+        "https://en.wikipedia.org/wiki/Roy_Daryl_Adams",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=62",
+        "https://house.louisiana.gov/H_Reps/members?ID=62",
+        "https://justfacts.votesmart.org/candidate/biography/186018/roy-adams"
+      ]
+    },
+    {
+      "id": "ocd-person/7d852e7a-ae99-4f89-b4c0-4d7cb7e816db",
+      "name": "Royce Duplessis",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "5",
+      "party": "Democratic",
+      "email": "duplessisr@legis.la.gov",
+      "phone": "504-568-2741",
+      "districtPhone": "504-568-2741",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=93",
+        "https://senate.la.gov/smembers.aspx?ID=5",
+        "https://senate.la.gov/smembers?ID=5"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Royce_Duplessis",
+        "https://en.wikipedia.org/wiki/Royce_Duplessis",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=93",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=5",
+        "https://senate.la.gov/smembers?ID=5",
+        "https://www.linkedin.com/in/royce-duplessis-102289102"
+      ]
+    },
+    {
+      "id": "ocd-person/85ef927c-d038-4534-a8ff-b99ad6656bda",
+      "name": "Ryan Bourriaque",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "47",
+      "party": "Republican",
+      "email": "hse047@legis.la.gov",
+      "phone": "337-893-5035",
+      "districtPhone": "337-893-5035",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=47",
+        "https://house.louisiana.gov/H_Reps/members?ID=47"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ryan_Bourriaque",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=47",
+        "https://house.louisiana.gov/H_Reps/members?ID=47",
+        "https://www.linkedin.com/in/ryan-bourriaque-391a4967"
+      ]
+    },
+    {
+      "id": "ocd-person/fc43b9e1-5e0d-4767-a12e-b2e801444d22",
+      "name": "Sam Jenkins",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "39",
+      "party": "Democratic",
+      "email": "sen39@legis.la.gov",
+      "phone": "318-632-5970",
+      "districtPhone": "318-632-5970",
+      "links": [
+        "https://senate.la.gov/smembers?ID=39"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sam_Jenkins",
+        "https://en.wikipedia.org/wiki/Samuel_Jenkins_Jr.",
+        "https://senate.la.gov/smembers?ID=39"
+      ]
+    },
+    {
+      "id": "ocd-person/6fdcb100-c1e5-450e-a3dd-cf42c06cff1e",
+      "name": "Shaun Mena",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Democratic",
+      "email": "hse023@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=23"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Shaun_Mena",
+        "https://en.wikipedia.org/wiki/Shaun_Raphael_Mena",
+        "https://house.louisiana.gov/H_Reps/members?ID=23",
+        "https://www.linkedin.com/in/shaun-mena-2269a126a"
+      ]
+    },
+    {
+      "id": "ocd-person/46b660af-1c4c-46a1-905e-ffd89a9cc32f",
+      "name": "Shane Mack",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "95",
+      "party": "Republican",
+      "email": "hse095@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=95",
+        "https://house.louisiana.gov/H_Reps/members?ID=95"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Shane_Mack",
+        "https://en.wikipedia.org/wiki/Shane_Mack_(politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=95",
+        "https://house.louisiana.gov/H_Reps/members?ID=95"
+      ]
+    },
+    {
+      "id": "ocd-person/7b4128f7-b147-4cdd-b6ee-0d7d3f2edb6f",
+      "name": "Sidney Barthelemy",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "3",
+      "party": "Democratic",
+      "email": "sen03@legis.la.gov",
+      "phone": "504-354-9778",
+      "districtPhone": "504-354-9778",
+      "links": [
+        "https://senate.la.gov/smembers?ID=3"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sidney_Barthelemy_II",
+        "https://en.wikipedia.org/wiki/Sidney_Barthelemy_II",
+        "https://senate.la.gov/smembers?ID=3"
+      ]
+    },
+    {
+      "id": "ocd-person/b114df8c-8388-44b1-8274-c346addd67c4",
+      "name": "Skip Broussard",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Republican",
+      "email": "hse037@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=37"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Reese_Broussard",
+        "https://en.wikipedia.org/wiki/Reese_Broussard",
+        "https://house.louisiana.gov/H_Reps/members?ID=37"
+      ]
+    },
+    {
+      "id": "ocd-person/f05b1c80-c85c-42f5-8336-84bcd7b0c847",
+      "name": "Stephanie Berault",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "76",
+      "party": "Republican",
+      "email": "hse076@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=76"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Berault",
+        "https://en.wikipedia.org/wiki/Stephanie_Berault",
+        "https://house.louisiana.gov/H_Reps/members?ID=76",
+        "https://www.linkedin.com/in/stephanie-berault-01090810"
+      ]
+    },
+    {
+      "id": "ocd-person/de7591e7-6ae0-47c3-b1ea-12073106498c",
+      "name": "Stephanie Hilferty",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "94",
+      "party": "Republican",
+      "email": "hilfertys@legis.la.gov",
+      "phone": "504-885-4154",
+      "districtPhone": "504-885-4154",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=94",
+        "https://house.louisiana.gov/H_Reps/members?ID=94"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Hilferty",
+        "https://en.wikipedia.org/wiki/Stephanie_Hilferty",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=94",
+        "https://house.louisiana.gov/H_Reps/members?ID=94",
+        "https://www.linkedin.com/in/stephanie-hilferty-52b5a111",
+        "https://www.srsa-realestate.com/team/stephanie-hilferty"
+      ]
+    },
+    {
+      "id": "ocd-person/9c50a5a9-a217-4644-b29d-68d498d9e16d",
+      "name": "Steven Jackson",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Democratic",
+      "email": "hse002@legis.la.gov",
+      "phone": "318-676-7747",
+      "districtPhone": "318-676-7747",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=2"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steven_Jackson_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Steven_Jackson_(politician)",
+        "https://house.louisiana.gov/H_Reps/members?ID=2",
+        "https://www.linkedin.com/in/stephen-jackson-83751041"
+      ]
+    },
+    {
+      "id": "ocd-person/dd47283c-c202-461f-b56a-8cc2c0b14f15",
+      "name": "Stewart Cathey",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "33",
+      "party": "Republican",
+      "email": "sen33@legis.la.gov",
+      "phone": "318-582-5524",
+      "districtPhone": "318-582-5524",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=33",
+        "https://senate.la.gov/smembers?ID=33"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stewart_Cathey",
+        "https://en.wikipedia.org/wiki/Stewart_Cathey_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/165589/stewart-cathey-jr",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=33",
+        "https://senate.la.gov/smembers?ID=33",
+        "https://www.linkedin.com/in/stewart-cathey-jr-6707682b"
+      ]
+    },
+    {
+      "id": "ocd-person/586f002d-71da-4836-a306-6e8a3d485263",
+      "name": "Sylvia Taylor",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "57",
+      "party": "Democratic",
+      "email": "hse057@legis.la.gov",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=57"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sylvia_Taylor",
+        "https://en.wikipedia.org/wiki/Sylvia_Elaine_Taylor",
+        "https://house.louisiana.gov/H_Reps/members?ID=57",
+        "https://www.sylviataylorforstaterepresentative.com/meet-sylvia"
+      ]
+    },
+    {
+      "id": "ocd-person/a838e3b6-52ea-4ad0-a308-2337762a492b",
+      "name": "Tammy Phelps",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Democratic",
+      "email": "hse003@legis.la.gov",
+      "phone": "318-862-3080",
+      "districtPhone": "318-862-3080",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=3",
+        "https://house.louisiana.gov/H_Reps/members?ID=3"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tammy_Phelps",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=3",
+        "https://house.louisiana.gov/H_Reps/members?ID=3"
+      ]
+    },
+    {
+      "id": "ocd-person/8d0bbdce-eaab-4b3a-8385-bf8c6a2e0b87",
+      "name": "Tehmi Chassion",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "44",
+      "party": "Democratic",
+      "email": "hse044@legis.la.gov",
+      "phone": "337-262-2368",
+      "districtPhone": "337-262-2368",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=44"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tehmi_Chassion",
+        "https://en.wikipedia.org/wiki/Tehmi_Jahi_Chassion",
+        "https://house.louisiana.gov/H_Reps/members?ID=44"
+      ]
+    },
+    {
+      "id": "ocd-person/709dfea8-f9a9-4734-8b6d-e495f4d51aa3",
+      "name": "Terry Landry",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "67",
+      "party": "Democratic",
+      "email": "hse067@legis.la.gov",
+      "phone": "225-256-0850",
+      "districtPhone": "225-256-0850",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=67"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Terry_Landry_Jr._(Louisiana_House_District_67_representative)",
+        "https://en.wikipedia.org/wiki/Terry_Landry_Jr.",
+        "https://house.louisiana.gov/H_Reps/members?ID=67",
+        "https://www.linkedin.com/in/terry-landry-jr-5021316"
+      ]
+    },
+    {
+      "id": "ocd-person/577fe2a3-275b-4b82-b508-c0ce29deb2fa",
+      "name": "Thomas Pressly",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "38",
+      "party": "Republican",
+      "email": "sen38@legis.la.gov",
+      "phone": "318-862-9920",
+      "districtPhone": "318-862-9920",
+      "links": [
+        "https://senate.la.gov/smembers?ID=38"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thomas_Pressly",
+        "https://en.wikipedia.org/wiki/Thomas_Pressly",
+        "https://justfacts.votesmart.org/candidate/biography/186933/thomas-pressly",
+        "https://senate.la.gov/smembers?ID=38",
+        "https://www.linkedin.com/in/thomas-pressly-3134b39"
+      ]
+    },
+    {
+      "id": "ocd-person/1ebb9d9b-329d-4a43-a33c-e3608ef09cc8",
+      "name": "Tim Kerner",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "84",
+      "party": "Republican",
+      "email": "hse084@legis.la.gov",
+      "phone": "504-689-7725",
+      "districtPhone": "504-689-7725",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=84",
+        "https://house.louisiana.gov/H_Reps/members?ID=84"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Timothy_Kerner",
+        "https://en.wikipedia.org/wiki/Timothy_P._Kerner_Sr",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=84",
+        "https://house.louisiana.gov/H_Reps/members?ID=84"
+      ]
+    },
+    {
+      "id": "ocd-person/9fde5725-d1b2-4afc-9897-2706dda502c8",
+      "name": "Tony Bacala",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "59",
+      "party": "Republican",
+      "email": "bacalat@legis.la.gov",
+      "phone": "225-677-8023",
+      "districtPhone": "225-677-8023",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=59",
+        "https://house.louisiana.gov/H_Reps/members?ID=59"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tony_Bacala",
+        "https://en.wikipedia.org/wiki/Tony_Bacala",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=59",
+        "https://house.louisiana.gov/H_Reps/members?ID=59",
+        "https://justfacts.votesmart.org/candidate/biography/165556/tony-bacala",
+        "https://www.linkedin.com/in/tony-bacala-2689b537"
+      ]
+    },
+    {
+      "id": "ocd-person/ba2902d5-5a0e-4e71-b396-6e85358511de",
+      "name": "Troy Hebert",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Republican",
+      "email": "hse031@legis.la.gov",
+      "phone": "337-347-7077",
+      "districtPhone": "337-347-7077",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=31"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Troy_Hebert_(Louisiana_House_District_31_candidate)",
+        "https://hebertforlouisiana.com/about",
+        "https://house.louisiana.gov/H_Reps/members?ID=31",
+        "https://www.linkedin.com/in/troy-hebert-9465302b"
+      ]
+    },
+    {
+      "id": "ocd-person/33e76c3a-a834-444c-9872-fc2af5c83837",
+      "name": "Valarie Hodges",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "13",
+      "party": "Republican",
+      "email": "sen13@legis.la.gov",
+      "phone": "225-791-2199",
+      "districtPhone": "225-791-2199",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=64",
+        "https://senate.la.gov/smembers?ID=13"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Valarie_Hodges",
+        "https://en.wikipedia.org/wiki/Valarie_Hodges",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=64",
+        "https://justfacts.votesmart.org/candidate/biography/94018/valarie-hodges",
+        "https://senate.la.gov/smembers?ID=13"
+      ]
+    },
+    {
+      "id": "ocd-person/9510158f-4e63-4b68-ad44-daef2987b780",
+      "name": "Vanessa LaFleur",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "101",
+      "party": "Democratic",
+      "email": "hse101@legis.la.gov",
+      "phone": "225-925-6880",
+      "districtPhone": "225-925-6880",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=101",
+        "https://house.louisiana.gov/H_Reps/members?ID=101"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Vanessa_Caston_LaFleur",
+        "https://en.wikipedia.org/wiki/Vanessa_Caston_LaFleur",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=101",
+        "https://house.louisiana.gov/H_Reps/members?ID=101",
+        "https://www.linkedin.com/in/vanessa-caston-lafleur-652a45230"
+      ]
+    },
+    {
+      "id": "ocd-person/fe1e7481-9bbb-4e58-8d19-9be18558f12b",
+      "name": "Vincent Cox",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "85",
+      "party": "Republican",
+      "email": "hse085@legis.la.gov",
+      "phone": "504-361-6013",
+      "districtPhone": "504-361-6013",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members?ID=85"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Vincent_Cox_III",
+        "https://en.wikipedia.org/wiki/Vincent_Cox_III",
+        "https://house.louisiana.gov/H_Reps/members?ID=85"
+      ]
+    },
+    {
+      "id": "ocd-person/c75a9e00-6017-4e74-95fd-70fbfa803c58",
+      "name": "Vinney St. Blanc",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "50",
+      "party": "Republican",
+      "email": "hse050@legis.la.gov",
+      "phone": "337-828-7778",
+      "districtPhone": "337-828-7778",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=50",
+        "https://house.louisiana.gov/H_Reps/members?ID=50"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Vincent_St._Blanc_III",
+        "https://en.wikipedia.org/wiki/Vincent_St._Blanc_III",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=50",
+        "https://house.louisiana.gov/H_Reps/members?ID=50"
+      ]
+    },
+    {
+      "id": "ocd-person/b4a4657a-e588-4036-9a0f-48847e22a140",
+      "name": "Jay Luneau",
+      "state": "LA",
+      "chamber": "upper",
+      "district": "29",
+      "party": "Democratic",
+      "email": "luneauj@legis.la.gov",
+      "phone": "318-484-2288",
+      "districtPhone": "318-484-2288",
+      "links": [
+        "https://senate.la.gov/smembers.aspx?ID=29",
+        "https://senate.la.gov/smembers?ID=29"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_Luneau",
+        "https://en.wikipedia.org/wiki/Jay_Luneau",
+        "https://luneaubecklaw.com/about/senator-w-jay-luneau",
+        "https://luneaulaw.com/profiles/wjayluneau.html",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=29",
+        "https://senate.la.gov/smembers?ID=29"
+      ]
+    },
+    {
+      "id": "ocd-person/c3e1299d-034f-4e70-9c86-c003c6e35964",
+      "name": "Wayne McMahen",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Republican",
+      "email": "mcmahenw@legis.la.gov",
+      "phone": "318-371-3092",
+      "districtPhone": "318-371-3092",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=10",
+        "https://house.louisiana.gov/H_Reps/members?ID=10"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Wayne_McMahen",
+        "https://en.wikipedia.org/wiki/Wayne_McMahen",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=10",
+        "https://house.louisiana.gov/H_Reps/members?ID=10",
+        "https://www.linkedin.com/in/wayne-mcmahen-138818a5"
+      ]
+    },
+    {
+      "id": "ocd-person/3ced6b49-7f72-41d0-a84c-0e7cff17e88b",
+      "name": "Wilford Carter",
+      "state": "LA",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Democratic",
+      "email": "hse034@legis.la.gov",
+      "phone": "337-491-2320",
+      "districtPhone": "337-491-2320",
+      "links": [
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=34",
+        "https://house.louisiana.gov/H_Reps/members?ID=34"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Wilford_D._Carter",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=34",
+        "https://house.louisiana.gov/H_Reps/members?ID=34",
+        "https://justfacts.votesmart.org/candidate/biography/165520/wilford-carter-sr"
+      ]
+    }
+  ]
+}

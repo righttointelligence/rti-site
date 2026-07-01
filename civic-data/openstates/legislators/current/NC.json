@@ -1,0 +1,3663 @@
+{
+  "abbr": "NC",
+  "name": "North Carolina",
+  "sourceUrl": "https://data.openstates.org/people/current/nc.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 170,
+  "upperCount": 50,
+  "lowerCount": 120,
+  "legislators": [
+    {
+      "id": "ocd-person/837ec59b-a7db-41dc-9e9f-a7a83b462213",
+      "name": "Reece Pyrtle",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "65",
+      "party": "Republican",
+      "email": "reece.pyrtle@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/787",
+        "https://www.ncleg.gov/Members/Committees/H/787",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/787",
+        "https://www.ncleg.gov/Members/Votes/H/787"
+      ],
+      "sources": [
+        "https://ballotpedia.org/A._Reece_Pyrtle,_Jr.",
+        "https://en.wikipedia.org/wiki/Reece_Pyrtle",
+        "https://justfacts.votesmart.org/candidate/198983/reece-pyrtle-jr",
+        "https://www.linkedin.com/in/reece-pyrtle-b6902514",
+        "https://www.ncleg.gov/Members/Biography/H/787",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/559521af-e5f9-43c3-a75e-de9b242d364f",
+      "name": "Abe Jones",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Democratic",
+      "email": "abe.jones@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/780",
+        "https://www.ncleg.gov/Members/Committees/H/780",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/780",
+        "https://www.ncleg.gov/Members/Votes/H/780"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Abraham_P._Jones_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Abe_Jones_(politician)",
+        "https://www.linkedin.com/in/abe-jones-429364101",
+        "https://www.linkedin.com/in/abe-jones-50525543",
+        "https://www.ncleg.gov/Members/Biography/H/780",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/9f9d7fb9-9981-412d-b3e2-45c7f67d189a",
+      "name": "Aisha Dew",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "107",
+      "party": "Democratic",
+      "email": "aisha.dew@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/836"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Aisha_Dew",
+        "https://www.ncleg.gov/Members/Biography/H/836"
+      ]
+    },
+    {
+      "id": "ocd-person/6ca8b8ee-96ed-4b21-94cf-d67e49f9c1c8",
+      "name": "Alan Branson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "59",
+      "party": "Republican",
+      "email": "alan.branson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/821"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alan_Branson",
+        "https://en.wikipedia.org/wiki/Alan_Branson",
+        "https://www.linkedin.com/in/jerry-branson-19a17a85",
+        "https://www.ncleg.gov/Members/Biography/H/821"
+      ]
+    },
+    {
+      "id": "ocd-person/95a533af-7933-4992-aea6-dfdc626b7ca6",
+      "name": "Allen Buansi",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "56",
+      "party": "Democratic",
+      "email": "allen.buansi@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/790",
+        "https://www.ncleg.gov/Members/Committees/H/790",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/790",
+        "https://www.ncleg.gov/Members/Votes/H/790"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Allen_Buansi",
+        "https://en.wikipedia.org/wiki/Allen_Buansi",
+        "https://www.linkedin.com/in/allen-buansi-57426b10",
+        "https://www.ncleg.gov/Members/Biography/H/790",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/fc3772c1-d98a-4325-a6c8-96b9da492ed6",
+      "name": "Allen Chesser",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Republican",
+      "email": "allen.chesser@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/799",
+        "https://www.ncleg.gov/Members/Committees/H/799",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/799",
+        "https://www.ncleg.gov/Members/Votes/H/799"
+      ],
+      "sources": [
+        "https://allenchesser.com/about-1",
+        "https://ballotpedia.org/Allen_Chesser_II",
+        "https://en.wikipedia.org/wiki/Allen_Chesser",
+        "https://justfacts.votesmart.org/candidate/biography/178273/allen-chesser-ii",
+        "https://www.linkedin.com/in/allen-chesser-3224b7a8",
+        "https://www.ncleg.gov/Members/Biography/H/799",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/785927b3-34ca-4a2d-bc1c-df4cc8e16c47",
+      "name": "Allison Dahle",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Democratic",
+      "email": "allison.dahle@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/740",
+        "https://www.ncleg.gov/Members/Committees/H/740",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/740",
+        "https://www.ncleg.gov/Members/Votes/H/740"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Allison_Dahle",
+        "https://en.wikipedia.org/wiki/Allison_Dahle",
+        "https://justfacts.votesmart.org/candidate/biography/178368/allison-dahle",
+        "https://www.linkedin.com/in/allison-dahle-a186154",
+        "https://www.ncleg.gov/Members/Biography/H/740",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/5f309927-de7a-4fd4-930b-a369dd10fec8",
+      "name": "Amanda Cook",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "60",
+      "party": "Democratic",
+      "email": "amanda.cook@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/1002"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Amanda_Cook_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Amanda_Cook_(politician)",
+        "https://www.linkedin.com/in/amanda-cook-8159725",
+        "https://www.ncleg.gov/Members/Biography/H/1002"
+      ]
+    },
+    {
+      "id": "ocd-person/628fc48c-a48b-4128-87f1-2391ab795e0a",
+      "name": "Amber Baker",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "72",
+      "party": "Democratic",
+      "email": "amber.baker@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/782",
+        "https://www.ncleg.gov/Members/Committees/H/782",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/782",
+        "https://www.ncleg.gov/Members/Votes/H/782"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Amber_Baker_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Amber_Baker",
+        "https://www.linkedin.com/in/amber-baker-phd-406b9727",
+        "https://www.ncleg.gov/Members/Biography/H/782",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/46275779-8191-48be-8b0b-8373376fa23d",
+      "name": "Amos Quick",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "58",
+      "party": "Democratic",
+      "email": "amos.quick@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/725",
+        "https://www.ncleg.gov/Members/Committees/H/725",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/725",
+        "https://www.ncleg.gov/Members/Votes/H/725"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Amos_Quick",
+        "https://en.wikipedia.org/wiki/Amos_Quick",
+        "https://justfacts.votesmart.org/candidate/biography/166622/amos-quick-iii",
+        "https://www.linkedin.com/in/amos-quick-8505a81b",
+        "https://www.ncleg.gov/Members/Biography/H/725",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/8be9deca-bbd6-404f-8726-0aecaeb19ca7",
+      "name": "Amy Galey",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "25",
+      "party": "Republican",
+      "email": "amy.galey@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/429",
+        "https://www.ncleg.gov/Members/Committees/S/429",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/429",
+        "https://www.ncleg.gov/Members/Votes/S/429"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Amy_Galey",
+        "https://en.wikipedia.org/wiki/Amy_Galey",
+        "https://www.ncleg.gov/Members/Biography/S/429",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/5ca31513-814c-44b9-9206-aae55c05d056",
+      "name": "Anna Ferguson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "119",
+      "party": "Republican",
+      "email": "anna.ferguson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/1003"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Anna_Ferguson_(North_Carolina)",
+        "https://www.linkedin.com/in/savannah-ferguson-856b0216",
+        "https://www.ncleg.gov/Members/Biography/H/1003"
+      ]
+    },
+    {
+      "id": "ocd-person/064a56b9-d616-43a1-a3f2-ffd4938740d3",
+      "name": "Ray Jeffers",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Democratic",
+      "email": "ray.jeffers@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/805",
+        "https://www.ncleg.gov/Members/Committees/H/805",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/805",
+        "https://www.ncleg.gov/Members/Votes/H/805"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ray_Jeffers",
+        "https://en.wikipedia.org/wiki/Ray_Jeffers",
+        "https://rayjeffers.com/about",
+        "https://www.linkedin.com/in/b-ray-jeffers-900a4549",
+        "https://www.ncleg.gov/Members/Biography/H/805",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/367ad234-14bc-4d86-95ee-ab1176890d6e",
+      "name": "Becky Carney",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "102",
+      "party": "Democratic",
+      "email": "becky.carney@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/322",
+        "https://www.ncleg.gov/Members/Committees/H/322",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/322",
+        "https://www.ncleg.gov/Members/Votes/H/322"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Becky_Carney",
+        "https://en.wikipedia.org/wiki/Becky_Carney",
+        "https://justfacts.votesmart.org/candidate/biography/41340/becky-carney",
+        "https://www.ncleg.gov/Members/Biography/H/322",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/fdc7d25a-085c-4100-b5f4-a8ae51979292",
+      "name": "Ben Moss",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "52",
+      "party": "Republican",
+      "email": "ben.moss@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/784",
+        "https://www.ncleg.gov/Members/Committees/H/784",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/784",
+        "https://www.ncleg.gov/Members/Votes/H/784"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ben_Moss",
+        "https://en.wikipedia.org/wiki/Ben_Moss",
+        "https://justfacts.votesmart.org/candidate/biography/133884/ben-moss-jr",
+        "https://www.ncleg.gov/Members/Biography/H/784",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/0c960acb-381f-4ce9-b9d3-313fd882b6e1",
+      "name": "Benton Sawrey",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "10",
+      "party": "Republican",
+      "email": "benton.sawrey@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/445",
+        "https://www.ncleg.gov/Members/Committees/S/445",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/445",
+        "https://www.ncleg.gov/Members/Votes/S/445"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Benton_Sawrey",
+        "https://en.wikipedia.org/wiki/Benton_Sawrey",
+        "https://justfacts.votesmart.org/candidate/biography/166586/benton-sawrey",
+        "https://narronwenzel.com/benton-g-sawrey",
+        "https://ncstatesenate.com/members/benton-sawrey",
+        "https://www.linkedin.com/in/benton-sawrey-3083768",
+        "https://www.ncleg.gov/Members/Biography/S/445",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/cf469ccf-d24e-4ccd-a2fb-041806933b93",
+      "name": "Beth Gardner Helfrich",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "98",
+      "party": "Democratic",
+      "email": "beth.helfrich@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/832"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beth_Gardner_Helfrich",
+        "https://justfacts.votesmart.org/candidate/biography/213886/beth-helfrich",
+        "https://www.linkedin.com/in/bethhelfrich",
+        "https://www.ncleg.gov/Members/Biography/H/832"
+      ]
+    },
+    {
+      "id": "ocd-person/ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a",
+      "name": "Bill Rabon",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "8",
+      "party": "Republican",
+      "email": "bill.rabon@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/303",
+        "https://www.ncleg.gov/Members/Committees/S/303",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/303",
+        "https://www.ncleg.gov/Members/Votes/S/303"
+      ],
+      "sources": [
+        "https://ballotpedia.org/William_Rabon",
+        "https://en.wikipedia.org/wiki/Bill_Rabon",
+        "https://justfacts.votesmart.org/candidate/campaign-finance/117772/bill-rabon",
+        "https://www.linkedin.com/in/william-rabon-b4ab7827",
+        "https://www.ncleg.gov/Members/Biography/S/303",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/f1d726fb-535d-456b-9712-b689afcb7763",
+      "name": "Bill Ward",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Republican",
+      "email": "bill.ward@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/816",
+        "https://www.ncleg.gov/Members/Committees/H/816",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/816",
+        "https://www.ncleg.gov/Members/Votes/H/816"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_Ward_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Bill_Ward_(North_Carolina_politician)",
+        "https://www.ncleg.gov/Members/Biography/H/816",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/b558be80-96b1-4df6-8714-fcba387f8abc",
+      "name": "Blair Eddins",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "94",
+      "party": "Republican",
+      "email": "blair.eddins@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/825"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Blair_Eddins",
+        "https://www.ncleg.gov/Members/Biography/H/825"
+      ]
+    },
+    {
+      "id": "ocd-person/0104c116-78b6-4a91-af98-464fdbf12904",
+      "name": "Bob Brinson",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "3",
+      "party": "Republican",
+      "email": "bob.brinson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/448"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bob_Brinson",
+        "https://en.wikipedia.org/wiki/Bob_Brinson",
+        "https://www.linkedin.com/in/robert-brinson",
+        "https://www.ncleg.gov/Members/Biography/S/448"
+      ]
+    },
+    {
+      "id": "ocd-person/8911db0d-01aa-4e61-a0f5-727d07a5d232",
+      "name": "Bobby Hanig",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "1",
+      "party": "Republican",
+      "email": "bobby.hanig@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/435",
+        "https://www.ncleg.gov/Members/Committees/S/435",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/435",
+        "https://www.ncleg.gov/Members/Votes/S/435"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Hanig",
+        "https://en.wikipedia.org/wiki/Bobby_Hanig",
+        "https://justfacts.votesmart.org/candidate/biography/178365/bobby-hanig",
+        "https://www.linkedin.com/in/bobby-hanig-aa725943",
+        "https://www.ncleg.gov/Members/Biography/S/435",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/dfacde1f-3324-4ebe-bc96-ae473548e951",
+      "name": "Brad Overcash",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "43",
+      "party": "Republican",
+      "email": "brad.overcash@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/444",
+        "https://www.ncleg.gov/Members/Committees/S/444",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/444",
+        "https://www.ncleg.gov/Members/Votes/S/444"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brad_Overcash",
+        "https://en.wikipedia.org/wiki/Brad_Overcash",
+        "https://www.linkedin.com/in/bradovercash",
+        "https://www.ncleg.gov/Members/Biography/S/444",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/4142addf-2eb1-4557-b3d3-bcea559cbbd3",
+      "name": "Brandon Lofton",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "104",
+      "party": "Democratic",
+      "email": "brandon.lofton@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/751",
+        "https://www.ncleg.gov/Members/Committees/H/751",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/751",
+        "https://www.ncleg.gov/Members/Votes/H/751"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brandon_Lofton",
+        "https://en.wikipedia.org/wiki/Brandon_Lofton",
+        "https://justfacts.votesmart.org/candidate/biography/183474/brandon-lofton",
+        "https://www.linkedin.com/in/brandon-lofton-b5b48165",
+        "https://www.ncleg.gov/Members/Biography/H/751",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1e419504-9efe-4b1f-b1e0-6e8d7d8c74a9",
+      "name": "Brenden Jones",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "46",
+      "party": "Republican",
+      "email": "brenden.jones@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/723",
+        "https://www.ncleg.gov/Members/Committees/H/723",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/723",
+        "https://www.ncleg.gov/Members/Votes/H/723"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brenden_Jones",
+        "https://en.wikipedia.org/wiki/Brenden_Jones",
+        "https://justfacts.votesmart.org/candidate/biography/150367/brenden-jones",
+        "https://www.linkedin.com/in/brenden-jones-9a493441",
+        "https://www.ncleg.gov/Members/Biography/H/723",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/23f1da0b-34b2-4347-adb4-f5fc26e0475d",
+      "name": "Brent Jackson",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "9",
+      "party": "Republican",
+      "email": "brent.jackson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/281",
+        "https://www.ncleg.gov/Members/Committees/S/281",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/281",
+        "https://www.ncleg.gov/Members/Votes/S/281"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brent_Jackson_(North_Carolina_State_Senator)",
+        "https://en.wikipedia.org/wiki/W._Brent_Jackson",
+        "https://justfacts.votesmart.org/candidate/biography/117775/brent-jackson",
+        "https://www.linkedin.com/in/brent-jackson-a393b684",
+        "https://www.ncleg.gov/Members/Biography/S/281",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/c476ab83-c1f7-44a7-b7c9-4cfa4679bed8",
+      "name": "Brian Biggs",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "70",
+      "party": "Republican",
+      "email": "brian.biggs@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/793",
+        "https://www.ncleg.gov/Members/Committees/H/793",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/793",
+        "https://www.ncleg.gov/Members/Votes/H/793"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Biggs",
+        "https://en.wikipedia.org/wiki/Brian_Biggs_(politician)",
+        "https://www.linkedin.com/in/brian-biggs-5062614a",
+        "https://www.ncleg.gov/Members/Biography/H/793",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/19c32795-3313-4f2f-a1d2-b79ff1dd81fb",
+      "name": "Brian Echevarria",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "82",
+      "party": "Republican",
+      "email": "brian.echevarria@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/828"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Echevarria",
+        "https://www.ncleg.gov/Members/Biography/H/828"
+      ]
+    },
+    {
+      "id": "ocd-person/0229944f-1584-4c3c-9a7b-5c97b6785a6f",
+      "name": "Brian Turner",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "116",
+      "party": "Democratic",
+      "email": "brian.turner@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/696",
+        "https://www.ncleg.gov/Members/Committees/H/696",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/696",
+        "https://www.ncleg.gov/Members/Votes/H/696"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Turner_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Brian_Turner_(politician)",
+        "https://www.linkedin.com/in/brian-turner-7746418",
+        "https://www.ncleg.gov/Members/Biography/H/696",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/e596d2ce-a208-475c-a9c1-15e25ccb3404",
+      "name": "Bryan Cohn",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Democratic",
+      "email": "bryan.cohn@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/827"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bryan_Cohn",
+        "https://www.linkedin.com/in/rep-bryan-cohn-633342b7",
+        "https://www.ncleg.gov/Members/Biography/H/827"
+      ]
+    },
+    {
+      "id": "ocd-person/a2013778-1144-4936-a0fa-895ad190649f",
+      "name": "Caleb Theodros",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "41",
+      "party": "Democratic",
+      "email": "caleb.theodros@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/451"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Caleb_Theodros",
+        "https://justfacts.votesmart.org/candidate/biography/213778/caleb-theodros",
+        "https://www.linkedin.com/in/caleb-theodros-b067b65b",
+        "https://www.ncleg.gov/Members/Biography/S/451"
+      ]
+    },
+    {
+      "id": "ocd-person/91615553-5509-4625-ab20-7a81896438e0",
+      "name": "Carl Ford",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "33",
+      "party": "Republican",
+      "email": "carl.ford@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/410",
+        "https://www.ncleg.gov/Members/Committees/S/410",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/410",
+        "https://www.ncleg.gov/Members/Votes/S/410"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carl_Ford_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Carl_Ford_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/114823/carl-ford",
+        "https://www.linkedin.com/in/carl-ford-97957a78",
+        "https://www.ncleg.gov/Members/Biography/S/410",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/f1ba290a-c2a5-453a-884c-6d03a2c8e83a",
+      "name": "Carla Cunningham",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "106",
+      "party": "Independent",
+      "email": "carla.cunningham@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/642",
+        "https://www.ncleg.gov/Members/Committees/H/642",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/642",
+        "https://www.ncleg.gov/Members/Votes/H/642"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carla_Cunningham",
+        "https://en.wikipedia.org/wiki/Carla_Cunningham",
+        "https://www.linkedin.com/in/carla-cunningham-3b374a9",
+        "https://www.ncleg.gov/Members/Biography/H/642",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/80495071-4aea-43ff-9548-09860c77cc90",
+      "name": "Carolyn Logan",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "101",
+      "party": "Democratic",
+      "email": "carolyn.logan@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/750",
+        "https://www.ncleg.gov/Members/Committees/H/750",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/750",
+        "https://www.ncleg.gov/Members/Votes/H/750"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carolyn_Logan",
+        "https://en.wikipedia.org/wiki/Carolyn_Logan",
+        "https://justfacts.votesmart.org/candidate/biography/178419/carolyn-logan",
+        "https://www.linkedin.com/in/carolyn-logan-312a6768",
+        "https://www.ncleg.gov/Members/Biography/H/750",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/6f78b8a8-f77c-4aef-bfa4-b3dac3312e33",
+      "name": "Carson Smith",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Republican",
+      "email": "carson.smith@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/755",
+        "https://www.ncleg.gov/Members/Committees/H/755",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/755",
+        "https://www.ncleg.gov/Members/Votes/H/755"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carson_Smith_Jr.",
+        "https://en.wikipedia.org/wiki/Carson_Smith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/183362/carson-smith-jr",
+        "https://www.ncleg.gov/Members/Biography/H/755",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/51b17197-aa93-4c8f-821d-81a32b41e2ae",
+      "name": "Celeste Cairns",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Republican",
+      "email": "celeste.cairns@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/797",
+        "https://www.ncleg.gov/Members/Committees/H/797",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/797",
+        "https://www.ncleg.gov/Members/Votes/H/797"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Celeste_Cairns",
+        "https://en.wikipedia.org/wiki/Celeste_Cairns",
+        "https://justfacts.votesmart.org/candidate/biography/186252/celeste-cairns",
+        "https://www.ncleg.gov/Members/Biography/H/797",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/2736ade6-4cc1-4833-ab0d-cf1953227726",
+      "name": "Charles Smith",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "44",
+      "party": "Democratic",
+      "email": "charles.smith@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/813",
+        "https://www.ncleg.gov/Members/Committees/H/813",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/813",
+        "https://www.ncleg.gov/Members/Votes/H/813"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Charles_Smith_(North_Carolina_House_of_Representatives_candidate)",
+        "https://charlessmithfornc.com/meet-charles",
+        "https://en.wikipedia.org/wiki/Charles_Smith_(North_Carolina_politician)",
+        "https://www.linkedin.com/in/charles-smith-a69312247",
+        "https://www.ncleg.gov/Members/Biography/H/813",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/311f0605-29d2-4608-a964-323768582198",
+      "name": "Charlie Miller",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Republican",
+      "email": "charles.miller@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/778",
+        "https://www.ncleg.gov/Members/Committees/H/778",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/778",
+        "https://www.ncleg.gov/Members/Votes/H/778"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Charles_Miller_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Charlie_Miller_(North_Carolina_politician)",
+        "https://www.linkedin.com/in/charlie-miller-0a96211b",
+        "https://www.ncleg.gov/Members/Biography/H/778",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/fdf6de7b-aad3-403b-96c3-a6a007b11ccd",
+      "name": "Chris Humphrey",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Republican",
+      "email": "chris.humphrey@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/747",
+        "https://www.ncleg.gov/Members/Committees/H/747",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/747",
+        "https://www.ncleg.gov/Members/Votes/H/747"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chris_Humphrey",
+        "https://en.wikipedia.org/wiki/Chris_Humphrey_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/92439/chris-humphrey",
+        "https://www.linkedin.com/in/chrishumphrey1",
+        "https://www.ncleg.gov/Members/Biography/H/747",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/9dfc9308-ec16-4da8-b5c7-8a9cc55df534",
+      "name": "Chris Measmer",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "34",
+      "party": "Republican",
+      "email": "chris.measmer@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/455"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chris_Measmer",
+        "https://ballotpedia.org/Chris_Measmer_(Cabarrus_County_Board_of_Commissioners,_North_Carolina,_candidate_2022)",
+        "https://en.wikipedia.org/wiki/Chris_Measmer",
+        "https://www.ncleg.gov/Members/Biography/S/455"
+      ]
+    },
+    {
+      "id": "ocd-person/702adc2f-f401-4ab4-ac8e-8fcf1a14376b",
+      "name": "Cody Huneycutt",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "67",
+      "party": "Republican",
+      "email": "cody.huneycutt@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/833"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cody_Huneycutt",
+        "https://www.linkedin.com/in/cody-huneycutt-538495a9",
+        "https://www.ncleg.gov/Members/Biography/H/833"
+      ]
+    },
+    {
+      "id": "ocd-person/a5d3d142-3601-429e-954c-fdb98b0e628a",
+      "name": "Cynthia Ball",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "49",
+      "party": "Democratic",
+      "email": "cynthia.ball@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/711",
+        "https://www.ncleg.gov/Members/Committees/H/711",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/711",
+        "https://www.ncleg.gov/Members/Votes/H/711"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cynthia_Ball",
+        "https://en.wikipedia.org/wiki/Cynthia_Ball",
+        "https://justfacts.votesmart.org/candidate/biography/166620/cynthia-ball",
+        "https://www.linkedin.com/in/cynthiaball",
+        "https://www.ncleg.gov/Members/Biography/H/711",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/06dca4de-5217-45fc-b78a-fc7870ae7faf",
+      "name": "Dan Blue",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "14",
+      "party": "Democratic",
+      "email": "dan.blue@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/268",
+        "https://www.ncleg.gov/Members/Committees/S/268",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/268",
+        "https://www.ncleg.gov/Members/Votes/S/268"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dan_Blue_Jr.",
+        "https://en.wikipedia.org/wiki/Dan_Blue",
+        "https://justfacts.votesmart.org/candidate/biography/5945/dan-blue-jr",
+        "https://www.linkedin.com/in/dan-blue-8ba97724",
+        "https://www.ncleg.gov/Members/Biography/S/268",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/93fbb331-6fe5-427f-802d-09881d4913d3",
+      "name": "Dana Jones",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "31",
+      "party": "Republican",
+      "email": "dana.jones@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/449"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dana_Caudill_Jones",
+        "https://www.linkedin.com/in/dana-caudill-jones-ba876b29",
+        "https://www.ncleg.gov/Members/Biography/S/449"
+      ]
+    },
+    {
+      "id": "ocd-person/91f238a6-29fd-4b65-bc48-1464da11786b",
+      "name": "Danny Britt",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "24",
+      "party": "Republican",
+      "email": "danny.britt@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/399",
+        "https://www.ncleg.gov/Members/Committees/S/399",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/399",
+        "https://www.ncleg.gov/Members/Votes/S/399"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Danny_Earl_Britt",
+        "https://en.wikipedia.org/wiki/Danny_Britt",
+        "https://justfacts.votesmart.org/candidate/biography/166587/danny-britt-jr",
+        "https://www.linkedin.com/in/danny-britt-jr-02a23047",
+        "https://www.ncleg.gov/Members/Biography/S/399",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/d0cbde92-5f2b-4177-822a-f100613a9b30",
+      "name": "Dante Pittman",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Democratic",
+      "email": "dante.pittman@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/839"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dante_Pittman",
+        "https://www.linkedin.com/in/dante-pittman-827487114",
+        "https://www.ncleg.gov/Members/Biography/H/839"
+      ]
+    },
+    {
+      "id": "ocd-person/7074c9f6-6a8e-4c63-b0b3-ae43b9cfba0d",
+      "name": "Dave Craven",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "29",
+      "party": "Republican",
+      "email": "david.craven@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/423",
+        "https://www.ncleg.gov/Members/Committees/S/423",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/423",
+        "https://www.ncleg.gov/Members/Votes/S/423"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dave_Craven",
+        "https://www.linkedin.com/in/dave-craven-b6b088a4",
+        "https://www.ncleg.gov/Members/Biography/S/423",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/6b06a564-763d-421d-bc9b-4779f4dbc1a4",
+      "name": "David Willis",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "68",
+      "party": "Republican",
+      "email": "david.willis@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/779",
+        "https://www.ncleg.gov/Members/Committees/H/779",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/779",
+        "https://www.ncleg.gov/Members/Votes/H/779"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Willis",
+        "https://en.wikipedia.org/wiki/David_Willis_(politician)",
+        "https://www.linkedin.com/in/david-willis-06b932129",
+        "https://www.ncleg.gov/Members/Biography/H/779",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1c0d5d12-7bc0-4296-a148-423e4faa7dae",
+      "name": "DeAndrea Salvador",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "39",
+      "party": "Democratic",
+      "email": "deandrea.salvador@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/431",
+        "https://www.ncleg.gov/Members/Committees/S/431",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/431",
+        "https://www.ncleg.gov/Members/Votes/S/431"
+      ],
+      "sources": [
+        "https://ballotpedia.org/DeAndrea_Salvador",
+        "https://en.wikipedia.org/wiki/DeAndrea_Salvador",
+        "https://www.deandrea.io",
+        "https://www.linkedin.com/in/deandreas",
+        "https://www.ncleg.gov/Members/Biography/S/431",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/ffdbb3fa-0445-460a-9501-18b5028fbe50",
+      "name": "Dean Arp",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "69",
+      "party": "Republican",
+      "email": "dean.arp@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/640",
+        "https://www.ncleg.gov/Members/Committees/H/640",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/640",
+        "https://www.ncleg.gov/Members/Votes/H/640"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dean_Arp",
+        "https://en.wikipedia.org/wiki/Dean_Arp",
+        "https://justfacts.votesmart.org/candidate/136300/dean-arp-jr",
+        "https://www.linkedin.com/in/dean-arp-p-e-s-e-3a36171a5",
+        "https://www.ncleg.gov/Members/Biography/H/640",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/cab978f1-1c91-41e4-9f2e-69af3c89bbf8",
+      "name": "Deb Butler",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Democratic",
+      "email": "deb.butler@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/730",
+        "https://www.ncleg.gov/Members/Committees/H/730",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/730",
+        "https://www.ncleg.gov/Members/Votes/H/730"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Deb_Butler",
+        "https://en.wikipedia.org/wiki/Deb_Butler",
+        "https://justfacts.votesmart.org/candidate/biography/136591/deborah-butler",
+        "https://www.ncleg.gov/Members/Biography/H/730",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/fcff21e8-b2a0-4fe5-8fb9-1b1c084a26e1",
+      "name": "Dennis Riddell",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "64",
+      "party": "Republican",
+      "email": "dennis.riddell@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/665",
+        "https://www.ncleg.gov/Members/Committees/H/665",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/665",
+        "https://www.ncleg.gov/Members/Votes/H/665"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dennis_Riddell",
+        "https://en.wikipedia.org/wiki/Dennis_Riddell",
+        "https://justfacts.votesmart.org/candidate/biography/136288/dennis-riddell",
+        "https://www.linkedin.com/in/dennis-riddell-71a7a416",
+        "https://www.ncleg.gov/Members/Biography/H/665",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/636555c9-b55c-47f8-9fcc-c9cb93b27f50",
+      "name": "Destin Hall",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "87",
+      "party": "Republican",
+      "email": "destin.hall@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/719",
+        "https://www.ncleg.gov/Members/Committees/H/719",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/719",
+        "https://www.ncleg.gov/Members/Votes/H/719"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Destin_Hall",
+        "https://en.wikipedia.org/wiki/Destin_Hall",
+        "https://justfacts.votesmart.org/candidate/biography/166631/destin-hall",
+        "https://www.linkedin.com/in/destinhall",
+        "https://www.ncleg.gov/Members/Biography/H/719",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/034ed56d-8058-4489-be3e-3d4b9977ac4b",
+      "name": "Diane Wheatley",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "43",
+      "party": "Republican",
+      "email": "diane.wheatley@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/785",
+        "https://www.ncleg.gov/Members/Committees/H/785",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/785",
+        "https://www.ncleg.gov/Members/Votes/H/785"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Diane_Wheatley",
+        "https://en.wikipedia.org/wiki/Diane_Wheatley",
+        "https://justfacts.votesmart.org/candidate/biography/92358/diane-wheatley",
+        "https://www.ncleg.gov/Members/Biography/H/785",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/7e1cb220-ff5e-4543-bc51-f44ba7ee0a2b",
+      "name": "Donna White",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Republican",
+      "email": "donna.white@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/728",
+        "https://www.ncleg.gov/Members/Committees/H/728",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/728",
+        "https://www.ncleg.gov/Members/Votes/H/728"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Donna_McDowell_White",
+        "https://en.wikipedia.org/wiki/Donna_McDowell_White",
+        "https://justfacts.votesmart.org/candidate/biography/166609/donna-white",
+        "https://www.ncleg.gov/Members/Biography/H/728",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/d7308aed-454d-4091-b32c-606f516e9421",
+      "name": "Donnie Loftis",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "109",
+      "party": "Republican",
+      "email": "donnie.loftis@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/788",
+        "https://www.ncleg.gov/Members/Committees/H/788",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/788",
+        "https://www.ncleg.gov/Members/Votes/H/788"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Donnie_Loftis",
+        "https://en.wikipedia.org/wiki/Donnie_Loftis",
+        "https://www.linkedin.com/in/donnie-l-b15b443a",
+        "https://www.linkedin.com/in/donnie-loftis-323089185",
+        "https://www.ncleg.gov/Members/Biography/H/788",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/dd2200c1-2bdb-4afc-a557-ebcbb5f1eee8",
+      "name": "Donny Lambeth",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "75",
+      "party": "Republican",
+      "email": "donny.lambeth@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/646",
+        "https://www.ncleg.gov/Members/Committees/H/646",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/646",
+        "https://www.ncleg.gov/Members/Votes/H/646"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Donny_C._Lambeth",
+        "https://en.wikipedia.org/wiki/Donny_Lambeth",
+        "https://justfacts.votesmart.org/candidate/biography/136318/donny-lambeth",
+        "https://www.ncleg.gov/Members/Biography/H/646",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/0573192d-0557-449a-9c3e-8462844a79ab",
+      "name": "Dudley Greene",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "85",
+      "party": "Republican",
+      "email": "dudley.greene@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/777",
+        "https://www.ncleg.gov/Members/Committees/H/777",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/777",
+        "https://www.ncleg.gov/Members/Votes/H/777"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dudley_Greene",
+        "https://en.wikipedia.org/wiki/Dudley_Greene",
+        "https://www.linkedin.com/in/dudley-greene-847384a2",
+        "https://www.ncleg.gov/Members/Biography/H/777",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/b560f232-dfa2-49f7-81c8-42000cc9027b",
+      "name": "Buck Newton",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "4",
+      "party": "Republican",
+      "email": "buck.newton@ncleg.gov",
+      "links": [
+        "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=Senate&nUserID=362",
+        "https://www.ncleg.gov/Members/Biography/S/443",
+        "https://www.ncleg.gov/Members/Committees/S/443",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/443",
+        "https://www.ncleg.gov/Members/Votes/S/443"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Buck_Newton",
+        "https://en.wikipedia.org/wiki/Buck_Newton",
+        "https://www.linkedin.com/in/buck-newton-4042062a",
+        "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=Senate&nUserID=362",
+        "https://www.ncleg.gov/Members/Biography/S/443",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/b4b6f0a7-baca-4062-947a-989cb9f98356",
+      "name": "Eddie Settle",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "36",
+      "party": "Republican",
+      "email": "eddie.settle@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/446",
+        "https://www.ncleg.gov/Members/Committees/S/446",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/446",
+        "https://www.ncleg.gov/Members/Votes/S/446"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Eddie_Settle",
+        "https://en.wikipedia.org/wiki/Eddie_Settle",
+        "https://justfacts.votesmart.org/candidate/biography/163256/eddie-settle",
+        "https://www.linkedin.com/in/settle-eddie-b36b3aaa",
+        "https://www.ncleg.gov/Members/Biography/S/446",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/10d93679-f5f4-496f-8b7c-89f923038ac0",
+      "name": "Ed Goodwin",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Republican",
+      "email": "edward.goodwin@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/744",
+        "https://www.ncleg.gov/Members/Committees/H/744",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/744",
+        "https://www.ncleg.gov/Members/Votes/H/744"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ed_Goodwin",
+        "https://en.wikipedia.org/wiki/Ed_Goodwin",
+        "https://justfacts.votesmart.org/candidate/biography/114665/ed-goodwin",
+        "https://www.ncleg.gov/Members/Biography/H/744",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/8c10abe1-4b81-404a-9164-9823e023cd2b",
+      "name": "Eric Ager",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "114",
+      "party": "Democratic",
+      "email": "eric.ager@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/819",
+        "https://www.ncleg.gov/Members/Committees/H/819",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/819",
+        "https://www.ncleg.gov/Members/Votes/H/819"
+      ],
+      "sources": [
+        "https://ballotpedia.org/J._Eric_Ager",
+        "https://en.wikipedia.org/wiki/Eric_Ager",
+        "https://www.linkedin.com/in/eric-ager",
+        "https://www.ncleg.gov/Members/Biography/H/819",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/ea801bb0-b3bd-4dbc-9164-25e7f4e63f84",
+      "name": "Erin Paré",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Republican",
+      "email": "erin.pare@ncleg.gov",
+      "links": [
+        "https://reperinpare.com/home",
+        "https://www.ncleg.gov/Members/Biography/H/770",
+        "https://www.ncleg.gov/Members/Committees/H/770",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/770",
+        "https://www.ncleg.gov/Members/Votes/H/770"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Erin_Pare",
+        "https://en.wikipedia.org/wiki/Erin_Par%C3%A9",
+        "https://justfacts.votesmart.org/candidate/biography/189275/erin-pare",
+        "https://reperinpare.com/erin-par%C3%A9",
+        "https://reperinpare.com/home",
+        "https://www.ncleg.gov/Members/Biography/H/770",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1a32e77b-9880-467c-88c8-6aeb738f6525",
+      "name": "Frances Jackson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "45",
+      "party": "Democratic",
+      "email": "frances.jackson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/803",
+        "https://www.ncleg.gov/Members/Committees/H/803",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/803",
+        "https://www.ncleg.gov/Members/Votes/H/803"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Frances_Jackson_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Frances_Jackson_(politician)",
+        "https://www.linkedin.com/in/frances-jackson-phd-31484871",
+        "https://www.ncleg.gov/Members/Biography/H/803",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/f75593f8-b178-47f1-8e72-e403f04dfb5d",
+      "name": "Frank Iler",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Republican",
+      "email": "frank.iler@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/598",
+        "https://www.ncleg.gov/Members/Committees/H/598",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/598",
+        "https://www.ncleg.gov/Members/Votes/H/598"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Frank_Iler",
+        "https://en.wikipedia.org/wiki/Frank_Iler",
+        "https://www.ncleg.gov/Members/Biography/H/598",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1ba9c7a6-3a28-47ec-9704-6f3437463845",
+      "name": "Gale Adcock",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "16",
+      "party": "Democratic",
+      "email": "gale.adcock@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/436",
+        "https://www.ncleg.gov/Members/Committees/S/436",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/436",
+        "https://www.ncleg.gov/Members/Votes/S/436"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gale_Adcock",
+        "https://en.wikipedia.org/wiki/Gale_Adcock",
+        "https://justfacts.votesmart.org/candidate/biography/73392/gale-adcock",
+        "https://www.linkedin.com/in/gale-adcock-8a306a7",
+        "https://www.ncleg.gov/Members/Biography/S/436",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/32edee21-40a5-491f-b28e-316ba7262360",
+      "name": "Garland Pierce",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "48",
+      "party": "Democratic",
+      "email": "garland.pierce@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/497",
+        "https://www.ncleg.gov/Members/Committees/H/497",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/497",
+        "https://www.ncleg.gov/Members/Votes/H/497"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Garland_Pierce",
+        "https://en.wikipedia.org/wiki/Garland_E._Pierce",
+        "https://justfacts.votesmart.org/candidate/biography/40990/garland-pierce",
+        "https://www.ncleg.gov/Members/Biography/H/497",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/af3f63da-d39a-4542-b0f2-41f118d96f55",
+      "name": "Gladys Robinson",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "28",
+      "party": "Democratic",
+      "email": "gladys.robinson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/364",
+        "https://www.ncleg.gov/Members/Committees/S/364",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/364",
+        "https://www.ncleg.gov/Members/Votes/S/364"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gladys_Robinson",
+        "https://en.wikipedia.org/wiki/Gladys_A._Robinson",
+        "https://justfacts.votesmart.org/candidate/biography/119361/gladys-robinson",
+        "https://www.linkedin.com/in/gladys-robinson-5290921b",
+        "https://www.ncleg.gov/Members/Biography/S/364",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/d2ab7bb8-d0d6-4824-a42e-d180c2644f9e",
+      "name": "Gloristine Brown",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Democratic",
+      "email": "gloristine.brown@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/794",
+        "https://www.ncleg.gov/Members/Committees/H/794",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/794",
+        "https://www.ncleg.gov/Members/Votes/H/794"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gloristine_Brown",
+        "https://en.wikipedia.org/wiki/Gloristine_Brown",
+        "https://www.linkedin.com/in/gloristine-brown-5187b144",
+        "https://www.ncleg.gov/Members/Biography/H/794",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/aca7632d-5a2a-470c-bb83-6cf374c68172",
+      "name": "Grant Campbell",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "83",
+      "party": "Republican",
+      "email": "grant.campbell@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/830"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Grant_Campbell",
+        "https://www.linkedin.com/in/grant-campbell-b4221b9b",
+        "https://www.ncleg.gov/Members/Biography/H/830"
+      ]
+    },
+    {
+      "id": "ocd-person/940d4a15-ee12-4a3b-a7b5-70b9dea38379",
+      "name": "Harry Warren",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "76",
+      "party": "Republican",
+      "email": "harry.warren@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/630",
+        "https://www.ncleg.gov/Members/Committees/H/630",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/630",
+        "https://www.ncleg.gov/Members/Votes/H/630"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Harry_Warren",
+        "https://en.wikipedia.org/wiki/Harry_J._Warren",
+        "https://justfacts.votesmart.org/candidate/biography/117839/harry-warren",
+        "https://www.linkedin.com/in/harry-warren-46942916",
+        "https://www.ncleg.gov/Members/Biography/H/630",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/e94fc39b-d33c-4d24-81c7-2cd2cc5aa997",
+      "name": "Haseeb Fatmi",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "18",
+      "party": "Democratic",
+      "email": "haseeb.fatmi@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/1002"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Haseeb_Fatmi_(Wake_Forest_Town_Council,_North_Carolina,_candidate_2025)",
+        "https://en.wikipedia.org/wiki/Haseeb_Fatmi",
+        "https://ogletree.com/people/haseeb-s-fatmi",
+        "https://www.linkedin.com/in/haseeb-fatmi",
+        "https://www.ncleg.gov/Members/Biography/S/1002"
+      ]
+    },
+    {
+      "id": "ocd-person/d01232af-826f-441e-85c0-efaedd1ba422",
+      "name": "Heather Rhyne",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "97",
+      "party": "Republican",
+      "email": "heather.rhyne@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/823"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Heather_Rhyne",
+        "https://www.ncleg.gov/Members/Biography/H/823"
+      ]
+    },
+    {
+      "id": "ocd-person/9b6a3a48-9827-421f-9925-4717340110ab",
+      "name": "Howard Penny",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "53",
+      "party": "Republican",
+      "email": "howard.penny@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/768",
+        "https://www.ncleg.gov/Members/Committees/H/768",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/768",
+        "https://www.ncleg.gov/Members/Votes/H/768"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Howard_Penny_Jr.",
+        "https://en.wikipedia.org/wiki/Howard_Penny_Jr.",
+        "https://www.linkedin.com/in/howard-penny-1b4727a9",
+        "https://www.linkedin.com/in/howard-penny-31575040",
+        "https://www.ncleg.gov/Members/Biography/H/768",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/f7ffa24f-4c1f-416f-bf1d-30d762d9c6c3",
+      "name": "Hugh Blackwell",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "86",
+      "party": "Republican",
+      "email": "hugh.blackwell@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/580",
+        "https://www.ncleg.gov/Members/Committees/H/580",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/580",
+        "https://www.ncleg.gov/Members/Votes/H/580"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Hugh_Blackwell",
+        "https://en.wikipedia.org/wiki/Hugh_Blackwell",
+        "https://justfacts.votesmart.org/candidate/57758/hugh-blackwell",
+        "https://www.linkedin.com/in/hugh-blackwell-36ba682b",
+        "https://www.ncleg.gov/Members/Biography/H/580",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/11c5404c-5cb6-4f99-84a5-711a23e6295f",
+      "name": "Jake Johnson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "113",
+      "party": "Republican",
+      "email": "jake.johnson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/762",
+        "https://www.ncleg.gov/Members/Committees/H/762",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/762",
+        "https://www.ncleg.gov/Members/Votes/H/762"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jake_Johnson",
+        "https://en.wikipedia.org/wiki/Jake_Johnson_(politician)",
+        "https://www.linkedin.com/in/jake-johnson-19ba6483",
+        "https://www.ncleg.gov/Members/Biography/H/762",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/4547831d-14b9-4d9d-9e3c-15b66c389054",
+      "name": "James Roberson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Democratic",
+      "email": "james.roberson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/786",
+        "https://www.ncleg.gov/Members/Committees/H/786",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/786",
+        "https://www.ncleg.gov/Members/Votes/H/786"
+      ],
+      "sources": [
+        "https://ballotpedia.org/James_Roberson",
+        "https://en.wikipedia.org/wiki/James_Roberson_(politician)",
+        "https://www.linkedin.com/in/james-roberson-b64a8b14",
+        "https://www.ncleg.gov/Members/Biography/H/786",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1a75f967-8f35-40aa-8b0a-990a135e70cb",
+      "name": "Jay Adams",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "96",
+      "party": "Republican",
+      "email": "jay.adams@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/697",
+        "https://www.ncleg.gov/Members/Committees/H/697",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/697",
+        "https://www.ncleg.gov/Members/Votes/H/697"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_Adams",
+        "https://en.wikipedia.org/wiki/Jay_Adams_(politician)",
+        "https://justfacts.votesmart.org/candidate/150322/jay-adams-jr",
+        "https://www.linkedin.com/in/jay-adams-541b6718",
+        "https://www.ncleg.gov/Members/Biography/H/697",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/75860d99-3e31-4c38-b511-734f76477c9b",
+      "name": "Jay Chaudhuri",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "15",
+      "party": "Democratic",
+      "email": "jay.chaudhuri@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/395",
+        "https://www.ncleg.gov/Members/Committees/S/395",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/395",
+        "https://www.ncleg.gov/Members/Votes/S/395"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_Chaudhuri",
+        "https://en.wikipedia.org/wiki/Jay_Chaudhuri",
+        "https://justfacts.votesmart.org/candidate/biography/166590/jay-chaudhuri",
+        "https://www.linkedin.com/in/jaychaudhuri",
+        "https://www.ncleg.gov/Members/Biography/S/395",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/f3f10d50-4117-41f8-b2af-c9273d3c425e",
+      "name": "Jeff Zenger",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "74",
+      "party": "Republican",
+      "email": "jeff.zenger@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/775",
+        "https://www.ncleg.gov/Members/Committees/H/775",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/775",
+        "https://www.ncleg.gov/Members/Votes/H/775"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeff_Zenger",
+        "https://en.wikipedia.org/wiki/Jeff_Zenger",
+        "https://justfacts.votesmart.org/candidate/biography/189097/jeff-zenger",
+        "https://www.linkedin.com/in/jefflishaconstruction",
+        "https://www.ncleg.gov/Members/Biography/H/775",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/09d4ccb5-4456-4f33-aea7-36f3e2ef9e43",
+      "name": "Jeff McNeely",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "84",
+      "party": "Republican",
+      "email": "jeffrey.mcneely@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/761",
+        "https://www.ncleg.gov/Members/Committees/H/761",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/761",
+        "https://www.ncleg.gov/Members/Votes/H/761"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeffrey_McNeely",
+        "https://en.wikipedia.org/wiki/Jeffrey_McNeely",
+        "https://www.linkedin.com/in/jeff-mcneely-60b78874",
+        "https://www.ncleg.gov/Members/Biography/H/761",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1c0b287a-2695-47e3-8c7a-1868db5c8d5c",
+      "name": "Jennifer Balkcom",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "117",
+      "party": "Republican",
+      "email": "jennifer.balkcom@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/820",
+        "https://www.ncleg.gov/Members/Committees/H/820",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/820",
+        "https://www.ncleg.gov/Members/Votes/H/820"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Capps_Balkcom",
+        "https://en.wikipedia.org/wiki/Jennifer_Balkcom",
+        "https://www.linkedin.com/in/jennifer-capps-balkcom-1477a36a",
+        "https://www.ncleg.gov/Members/Biography/H/820",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/9793e1e4-641c-4a5c-b1bc-7f6d0a65a655",
+      "name": "Jim Burgin",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "12",
+      "party": "Republican",
+      "email": "jim.burgin@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/412",
+        "https://www.ncleg.gov/Members/Committees/S/412",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/412",
+        "https://www.ncleg.gov/Members/Votes/S/412"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jim_Burgin",
+        "https://en.wikipedia.org/wiki/Jim_Burgin",
+        "https://justfacts.votesmart.org/candidate/biography/114731/jim-burgin",
+        "https://www.linkedin.com/in/jim-burgin-b812a116",
+        "https://www.ncleg.gov/Members/Biography/S/412",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/2fdb425d-47c9-4683-943e-15a566f3552b",
+      "name": "Jimmy Dixon",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Republican",
+      "email": "jimmy.dixon@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/613",
+        "https://www.ncleg.gov/Members/Committees/H/613",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/613",
+        "https://www.ncleg.gov/Members/Votes/H/613"
+      ],
+      "sources": [
+        "https://ballotpedia.org/James_Dixon_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Jimmy_Dixon_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/119381/jimmy-dixon",
+        "https://www.linkedin.com/in/james-dixon-06758843",
+        "https://www.ncleg.gov/Members/Biography/H/613",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/cb059250-c895-4a14-bfa2-997aed42155e",
+      "name": "John Torbett",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "108",
+      "party": "Republican",
+      "email": "john.torbett@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/606",
+        "https://www.ncleg.gov/Members/Committees/H/606",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/606",
+        "https://www.ncleg.gov/Members/Votes/H/606"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Torbett",
+        "https://en.wikipedia.org/wiki/John_Torbett",
+        "https://justfacts.votesmart.org/candidate/biography/92622/john-torbett",
+        "https://www.linkedin.com/in/hon-john-a-torbett-501133b",
+        "https://www.ncleg.gov/Members/Biography/H/606",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/3a96a66b-58e9-4ce5-bc6c-803b19c2746d",
+      "name": "John Blust",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "62",
+      "party": "Republican",
+      "email": "john.blust@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/234",
+        "https://www.ncleg.gov/Members/Biography/H/824"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Blust",
+        "https://en.wikipedia.org/wiki/John_Blust",
+        "https://www.iveymcclellan.com/north-carolina-attorneys/john-blust",
+        "https://www.ncleg.gov/Members/Biography/H/234",
+        "https://www.ncleg.gov/Members/Biography/H/824"
+      ]
+    },
+    {
+      "id": "ocd-person/7d07a14d-a5dc-46a9-8277-85fee42921a1",
+      "name": "John Lowery",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "47",
+      "party": "Republican",
+      "email": "john.lowery@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/1001"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Lowery_(North_Carolina)",
+        "https://www.linkedin.com/in/john-lowery1",
+        "https://www.ncleg.gov/Members/Biography/H/1001"
+      ]
+    },
+    {
+      "id": "ocd-person/cc410819-75a4-46dd-a3d5-edbd80d9f861",
+      "name": "John Bell",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Republican",
+      "email": "john.bell@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/661",
+        "https://www.ncleg.gov/Members/Committees/H/661",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/661",
+        "https://www.ncleg.gov/Members/Votes/H/661"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Bell_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/John_R._Bell_IV",
+        "https://www.ncleg.gov/Members/Biography/H/661",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/bde014bb-27c1-42a3-909f-c5d96cca5c3f",
+      "name": "John Sauls",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "51",
+      "party": "Republican",
+      "email": "john.sauls@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/393",
+        "https://www.ncleg.gov/Members/Committees/H/393",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/393",
+        "https://www.ncleg.gov/Members/Votes/H/393"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Sauls",
+        "https://en.wikipedia.org/wiki/John_I._Sauls",
+        "https://www.ncleg.gov/Members/Biography/H/393",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/3622ded7-77d3-46f8-a62b-dad1c8f3e589",
+      "name": "Jonah Garson",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "23",
+      "party": "Democratic",
+      "email": "jonah.garson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/1001"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jonah_Garson",
+        "https://en.wikipedia.org/wiki/Jonah_Garson",
+        "https://www.linkedin.com/in/jonah-garson-855886132",
+        "https://www.ncleg.gov/Members/Biography/S/1001",
+        "https://www.parryfirm.com/jonah-garson"
+      ]
+    },
+    {
+      "id": "ocd-person/a8fb7327-cfc3-4951-a15f-5a60ba05dcba",
+      "name": "Jonathan Almond",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "73",
+      "party": "Republican",
+      "email": "jonathan.almond@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/843"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Almond",
+        "https://www.linkedin.com/in/jonathanalmondnc",
+        "https://www.ncleg.gov/Members/Biography/H/843"
+      ]
+    },
+    {
+      "id": "ocd-person/196e72cf-7987-4847-8e2f-03b540064e86",
+      "name": "Jordan Lopez",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "112",
+      "party": "Democratic",
+      "email": "jordan.lopez@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/835"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jordan_Lopez",
+        "https://www.linkedin.com/in/jordanalopez",
+        "https://www.ncleg.gov/Members/Biography/H/835"
+      ]
+    },
+    {
+      "id": "ocd-person/50435516-ccee-4b72-9075-e27a0bfe0a72",
+      "name": "Joe Pike",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Republican",
+      "email": "joe.pike@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/808",
+        "https://www.ncleg.gov/Members/Committees/H/808",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/808",
+        "https://www.ncleg.gov/Members/Votes/H/808"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joe_Pike",
+        "https://en.wikipedia.org/wiki/Joe_Pike",
+        "https://www.linkedin.com/in/joseph-pike-924b2615a",
+        "https://www.ncleg.gov/Members/Biography/H/808",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/3e8067e6-6232-4ebb-979c-d077ab968446",
+      "name": "Joyce Waddell",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "40",
+      "party": "Democratic",
+      "email": "joyce.waddell@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/393",
+        "https://www.ncleg.gov/Members/Committees/S/393",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/393",
+        "https://www.ncleg.gov/Members/Votes/S/393"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joyce_Waddell",
+        "https://en.wikipedia.org/wiki/Joyce_Waddell",
+        "https://www.linkedin.com/in/joyce-waddell-730a8527",
+        "https://www.ncleg.gov/Members/Biography/S/393",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/5318144e-d466-40ea-8e35-f0f09bf57760",
+      "name": "Julia Howard",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "77",
+      "party": "Republican",
+      "email": "julia.howard@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/53",
+        "https://www.ncleg.gov/Members/Committees/H/53",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/53",
+        "https://www.ncleg.gov/Members/Votes/H/53"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julia_Howard",
+        "https://en.wikipedia.org/wiki/Julia_C._Howard",
+        "https://www.ncleg.gov/Members/Biography/H/53",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/e9c35f8c-48f0-46e3-bd47-2e9481abc971",
+      "name": "Julia Greenfield",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "100",
+      "party": "Democratic",
+      "email": "julia.greenfield@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/829"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julia_Greenfield",
+        "https://www.ncleg.gov/Members/Biography/H/829"
+      ]
+    },
+    {
+      "id": "ocd-person/c8ac71ee-e3dc-450f-83f7-efeb363e88bc",
+      "name": "Julie Mayfield",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "49",
+      "party": "Democratic",
+      "email": "julie.mayfield@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/432",
+        "https://www.ncleg.gov/Members/Committees/S/432",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/432",
+        "https://www.ncleg.gov/Members/Votes/S/432"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julie_Mayfield",
+        "https://en.wikipedia.org/wiki/Julie_Mayfield",
+        "https://www.linkedin.com/in/julie-mayfield-7763059",
+        "https://www.ncleg.gov/Members/Biography/S/432",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/7b4481a0-466b-44be-8b39-def9e1bc04f8",
+      "name": "Julie von Haefen",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Democratic",
+      "email": "julie.vonhaefen@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/758",
+        "https://www.ncleg.gov/Members/Committees/H/758",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/758",
+        "https://www.ncleg.gov/Members/Votes/H/758"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julie_Von_Haefen",
+        "https://en.wikipedia.org/wiki/Julie_von_Haefen",
+        "https://www.ncleg.gov/Members/Biography/H/758",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/5afbb4dc-a121-414a-b600-53af0936beb8",
+      "name": "Kandie Smith",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "5",
+      "party": "Democratic",
+      "email": "kandie.smith@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/447",
+        "https://www.ncleg.gov/Members/Committees/S/447",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/447",
+        "https://www.ncleg.gov/Members/Votes/S/447"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kandie_Smith",
+        "https://en.wikipedia.org/wiki/Kandie_Smith",
+        "https://justfacts.votesmart.org/candidate/biography/132843/kandie-smith",
+        "https://www.linkedin.com/in/kandie-smith-aaa3893b",
+        "https://www.ncleg.gov/Members/Biography/S/447",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/91f28923-c52e-4a47-aed2-944672902823",
+      "name": "Kanika Brown",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "71",
+      "party": "Democratic",
+      "email": "kanika.brown@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/795",
+        "https://www.ncleg.gov/Members/Committees/H/795",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/795",
+        "https://www.ncleg.gov/Members/Votes/H/795"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kanika_Brown",
+        "https://en.wikipedia.org/wiki/Kanika_Brown",
+        "https://www.linkedin.com/in/kanika-brown-30438a148",
+        "https://www.ncleg.gov/Members/Biography/H/795",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/c0ca675d-4bd2-462f-9bcb-b7ac8226dbdf",
+      "name": "Karl Gillespie",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "120",
+      "party": "Republican",
+      "email": "karl.gillespie@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/771",
+        "https://www.ncleg.gov/Members/Committees/H/771",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/771",
+        "https://www.ncleg.gov/Members/Votes/H/771"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Karl_Gillespie",
+        "https://en.wikipedia.org/wiki/Karl_Gillespie",
+        "https://www.linkedin.com/in/karl-gillespie-69772249",
+        "https://www.linkedin.com/in/karl-gillespie-69938757",
+        "https://www.ncleg.gov/Members/Biography/H/771",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/a39903f1-cf67-494a-8c6a-4ae15c334fc9",
+      "name": "Keith Kidwell",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "79",
+      "party": "Republican",
+      "email": "keith.kidwell@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/749",
+        "https://www.ncleg.gov/Members/Committees/H/749",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/749",
+        "https://www.ncleg.gov/Members/Votes/H/749"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Keith_Kidwell",
+        "https://www.linkedin.com/in/keith-kidwell-9a365a1b",
+        "https://www.ncleg.gov/Members/Biography/H/749",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/4edb53d2-f5a1-447d-ac37-36da75a7a4ed",
+      "name": "Kelly Hastings",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "110",
+      "party": "Republican",
+      "email": "kelly.hastings@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/618",
+        "https://www.ncleg.gov/Members/Committees/H/618",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/618",
+        "https://www.ncleg.gov/Members/Votes/H/618"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kelly_Hastings",
+        "https://en.wikipedia.org/wiki/Kelly_Hastings",
+        "https://justfacts.votesmart.org/candidate/biography/103078/kelly-hastings",
+        "https://www.linkedin.com/in/kelly-hastings-95421719",
+        "https://www.ncleg.gov/Members/Biography/H/618",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/410836ee-4f48-4934-8f95-fca6b2d2f051",
+      "name": "Kevin Corbin",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "50",
+      "party": "Republican",
+      "email": "kevin.corbin@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/433",
+        "https://www.ncleg.gov/Members/Committees/S/433",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/433",
+        "https://www.ncleg.gov/Members/Votes/S/433"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Corbin",
+        "https://en.wikipedia.org/wiki/Kevin_Corbin",
+        "https://justfacts.votesmart.org/candidate/biography/166642/kevin-corbin",
+        "https://www.linkedin.com/in/ncmymedquote",
+        "https://www.ncleg.gov/Members/Biography/S/433",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/6d8e0e56-939e-45c4-a9db-2fc370fbbdef",
+      "name": "Kyle Hall",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "91",
+      "party": "Republican",
+      "email": "kyle.hall@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/704",
+        "https://www.ncleg.gov/Members/Committees/H/704",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/704",
+        "https://www.ncleg.gov/Members/Votes/H/704"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kyle_Hall_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Kyle_Hall",
+        "https://justfacts.votesmart.org/candidate/biography/166632/kyle-hall",
+        "https://www.linkedin.com/in/kyle-hall-703aab60",
+        "https://www.ncleg.gov/Members/Biography/H/704",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/3ed64eae-ecec-4cbf-a436-e7c1471a4cef",
+      "name": "Larry Strickland",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Republican",
+      "email": "larry.strickland@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/727",
+        "https://www.ncleg.gov/Members/Committees/H/727",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/727",
+        "https://www.ncleg.gov/Members/Votes/H/727"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Larry_Strickland",
+        "https://en.wikipedia.org/wiki/Larry_C._Strickland",
+        "https://justfacts.votesmart.org/candidate/biography/166611/larry-strickland",
+        "https://www.ncleg.gov/Members/Biography/H/727",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/11c903f8-ce25-4463-8a24-a49394c21955",
+      "name": "Larry Potts",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "81",
+      "party": "Republican",
+      "email": "larry.potts@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/724",
+        "https://www.ncleg.gov/Members/Committees/H/724",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/724",
+        "https://www.ncleg.gov/Members/Votes/H/724"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Larry_Potts",
+        "https://en.wikipedia.org/wiki/Larry_Potts",
+        "https://justfacts.votesmart.org/candidate/biography/41531/larry-potts",
+        "https://larrywpotts.com/bio",
+        "https://www.ncleg.gov/Members/Biography/H/724",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/283007b1-e7a2-486b-b19b-5a8126bc4128",
+      "name": "Laura Budd",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "103",
+      "party": "Democratic",
+      "email": "laura.budd@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/796",
+        "https://www.ncleg.gov/Members/Committees/H/796",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/796",
+        "https://www.ncleg.gov/Members/Votes/H/796"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Laura_Budd",
+        "https://en.wikipedia.org/wiki/Laura_Budd",
+        "https://www.linkedin.com/in/laura-h-budd",
+        "https://www.ncleg.gov/Members/Biography/H/796",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/16a0c907-4efa-45a7-83d2-1c79cc541535",
+      "name": "Lindsey Prather",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "115",
+      "party": "Democratic",
+      "email": "lindsey.prather@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/809",
+        "https://www.ncleg.gov/Members/Committees/H/809",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/809",
+        "https://www.ncleg.gov/Members/Votes/H/809"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lindsey_Prather",
+        "https://en.wikipedia.org/wiki/Lindsey_Prather",
+        "https://www.linkedin.com/in/lindsey-prather-616877149",
+        "https://www.ncleg.gov/Members/Biography/H/809",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/a370c6f1-338d-49c3-a0b4-41e885dc0d80",
+      "name": "Lisa Grafstein",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "13",
+      "party": "Democratic",
+      "email": "lisa.grafstein@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/439",
+        "https://www.ncleg.gov/Members/Committees/S/439",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/439",
+        "https://www.ncleg.gov/Members/Votes/S/439"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lisa_Grafstein",
+        "https://en.wikipedia.org/wiki/Lisa_Grafstein",
+        "https://www.linkedin.com/in/lisa-grafstein-a12b044",
+        "https://www.ncleg.gov/Members/Biography/S/439",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/21577fbd-e06f-4bc3-8717-e050ff165a74",
+      "name": "Lisa Barnes",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "11",
+      "party": "Republican",
+      "email": "lisa.barnes@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/427",
+        "https://www.ncleg.gov/Members/Committees/S/427",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/427",
+        "https://www.ncleg.gov/Members/Votes/S/427"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lisa_Barnes",
+        "https://en.wikipedia.org/wiki/Lisa_Stone_Barnes",
+        "https://justfacts.votesmart.org/candidate/biography/163025/lisa-barnes",
+        "https://www.ncleg.gov/Members/Biography/S/427",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/be5acee4-3874-4414-9aff-77043943c1c1",
+      "name": "Marcia Morey",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Democratic",
+      "email": "marcia.morey@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/732",
+        "https://www.ncleg.gov/Members/Committees/H/732",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/732",
+        "https://www.ncleg.gov/Members/Votes/H/732"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Marcia_Morey",
+        "https://en.wikipedia.org/wiki/Marcia_Morey",
+        "https://www.ncleg.gov/Members/Biography/H/732",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/7a50ad08-1f2a-4f5f-9463-b1672d3a60a3",
+      "name": "Maria Cervania",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "41",
+      "party": "Democratic",
+      "email": "maria.cervania@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/798",
+        "https://www.ncleg.gov/Members/Committees/H/798",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/798",
+        "https://www.ncleg.gov/Members/Votes/H/798"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Maria_Cervania",
+        "https://en.wikipedia.org/wiki/Maria_Cervania",
+        "https://www.linkedin.com/in/mariacervania",
+        "https://www.ncleg.gov/Members/Biography/H/798",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/cc238a7c-3222-4ac2-8d4d-3884dd342a5f",
+      "name": "Mark Brody",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "55",
+      "party": "Republican",
+      "email": "mark.brody@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/663",
+        "https://www.ncleg.gov/Members/Committees/H/663",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/663",
+        "https://www.ncleg.gov/Members/Votes/H/663"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Brody",
+        "https://en.wikipedia.org/wiki/Mark_Brody",
+        "https://justfacts.votesmart.org/candidate/biography/108503/mark-brody",
+        "https://www.ncleg.gov/Members/Biography/H/663",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/601cab9a-8b58-42fa-a62e-4170ec23b955",
+      "name": "Mark Pless",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "118",
+      "party": "Republican",
+      "email": "mark.pless@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/773",
+        "https://www.ncleg.gov/Members/Committees/H/773",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/773",
+        "https://www.ncleg.gov/Members/Votes/H/773"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Pless",
+        "https://en.wikipedia.org/wiki/Mark_Pless",
+        "https://www.ncleg.gov/Members/Biography/H/773",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1afc84ab-30e5-413a-8975-2a552e050aee",
+      "name": "Mark Hollo",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "45",
+      "party": "Republican",
+      "email": "mark.hollo@ncleg.gov",
+      "links": [
+        "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=House&nUserID=619",
+        "https://www.ncleg.gov/Members/Biography/S/450"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Hollo",
+        "https://en.wikipedia.org/wiki/Mark_Hollo",
+        "https://justfacts.votesmart.org/candidate/41112/mark-hollo",
+        "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=House&nUserID=619",
+        "https://www.ncleg.gov/Members/Biography/S/450"
+      ]
+    },
+    {
+      "id": "ocd-person/819581b6-a44a-4d4a-8a08-14c2dccd86f5",
+      "name": "Mary Belk",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "88",
+      "party": "Democratic",
+      "email": "mary.belk@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/713",
+        "https://www.ncleg.gov/Members/Committees/H/713",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/713",
+        "https://www.ncleg.gov/Members/Votes/H/713"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mary_Belk",
+        "https://en.wikipedia.org/wiki/Mary_Gardner_Belk",
+        "https://justfacts.votesmart.org/candidate/biography/166839/mary-belk",
+        "https://www.ncleg.gov/Members/Biography/H/713",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1dfa7f10-249d-43aa-930b-a5be9e4fce9f",
+      "name": "Matthew Winslow",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Republican",
+      "email": "matthew.winslow@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/776",
+        "https://www.ncleg.gov/Members/Committees/H/776",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/776",
+        "https://www.ncleg.gov/Members/Votes/H/776"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matthew_Winslow",
+        "https://en.wikipedia.org/wiki/Matthew_Winslow",
+        "https://www.linkedin.com/in/matthew-winslow-3550aa15",
+        "https://www.ncleg.gov/Members/Biography/H/776",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/f0121b49-81cc-45f5-98e1-1fbeee882c81",
+      "name": "Michael Lazzara",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "6",
+      "party": "Republican",
+      "email": "michael.lazzara@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/426",
+        "https://www.ncleg.gov/Members/Committees/S/426",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/426",
+        "https://www.ncleg.gov/Members/Votes/S/426"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Lazzara",
+        "https://en.wikipedia.org/wiki/Michael_Lazzara",
+        "https://justfacts.votesmart.org/candidate/biography/73981/michael-lazzara",
+        "https://www.linkedin.com/in/michael-lazzara-92052555",
+        "https://www.ncleg.gov/Members/Biography/S/426",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/f40a7222-92eb-4d8e-ad4d-7008b859aae7",
+      "name": "Michael Garrett",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "27",
+      "party": "Democratic",
+      "email": "michael.garrett@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/414",
+        "https://www.ncleg.gov/Members/Committees/S/414",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/414",
+        "https://www.ncleg.gov/Members/Votes/S/414"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Garrett_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Michael_Garrett_(politician)",
+        "https://www.linkedin.com/in/michael-garrett-12774212",
+        "https://www.ncleg.gov/Members/Biography/S/414",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/082079ab-53d2-43e5-be5f-cb7c6054edd3",
+      "name": "Michael Lee",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "7",
+      "party": "Republican",
+      "email": "michael.lee@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/387",
+        "https://www.ncleg.gov/Members/Committees/S/387",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/387",
+        "https://www.ncleg.gov/Members/Votes/S/387"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_V._Lee",
+        "https://ballotpedia.org/Michael_V._Lee_(North_Carolina_State_Senate)",
+        "https://en.wikipedia.org/wiki/Michael_V._Lee",
+        "https://justfacts.votesmart.org/candidate/biography/102957/michael-lee",
+        "https://www.linkedin.com/in/michael-lee-5669b59",
+        "https://www.ncleg.gov/Members/Biography/S/387",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/b3b24f9e-5eb4-475e-8b06-7040cfb39fb5",
+      "name": "Mike Colvin",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "42",
+      "party": "Democratic",
+      "email": "mike.colvin@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/831"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Colvin",
+        "https://www.ncleg.gov/Members/Biography/H/831"
+      ]
+    },
+    {
+      "id": "ocd-person/f6d0fc41-fbfa-4829-aa33-f5977edf1082",
+      "name": "Mike Schietzelt",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Republican",
+      "email": "mike.schietzelt@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/840"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Schietzelt",
+        "https://www.linkedin.com/in/michaelschietzelt",
+        "https://www.ncleg.gov/Members/Biography/H/840"
+      ]
+    },
+    {
+      "id": "ocd-person/d4713ec5-e36b-49bb-bfc8-6b7fe9c0e9a7",
+      "name": "Mitchell Setzer",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "89",
+      "party": "Republican",
+      "email": "mitchell.setzer@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/149",
+        "https://www.ncleg.gov/Members/Committees/H/149",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/149",
+        "https://www.ncleg.gov/Members/Votes/H/149"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mitchell_Setzer",
+        "https://en.wikipedia.org/wiki/Mitchell_S._Setzer",
+        "https://justfacts.votesmart.org/candidate/biography/21013/mitchell-setzer",
+        "https://www.ncleg.gov/Members/Biography/H/149",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/018cd1c9-5b84-4f8e-8a1d-6f0326ce1f2f",
+      "name": "Monika Johnson-Hostler",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Democratic",
+      "email": "monika.johnson-hostler@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/834"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Monika_Johnson-Hostler",
+        "https://www.linkedin.com/in/monika-johnson-hostler-8bb7571",
+        "https://www.ncleg.gov/Members/Biography/H/834"
+      ]
+    },
+    {
+      "id": "ocd-person/c733e47e-af6a-4f31-a350-010043b5164b",
+      "name": "Mujtaba Mohammed",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "38",
+      "party": "Democratic",
+      "email": "mujtaba.mohammed@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/417",
+        "https://www.ncleg.gov/Members/Committees/S/417",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/417",
+        "https://www.ncleg.gov/Members/Votes/S/417"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mujtaba_Mohammed",
+        "https://en.wikipedia.org/wiki/Mujtaba_A._Mohammed",
+        "https://justfacts.votesmart.org/candidate/biography/178346/mujtaba-mohammed",
+        "https://www.linkedin.com/in/mujtaba-mohammed-878a7a48",
+        "https://www.ncleg.gov/Members/Biography/S/417",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/6acc3963-2724-4d88-8762-f78df333be94",
+      "name": "Nasif Majeed",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "99",
+      "party": "Independent",
+      "email": "nasif.majeed@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/752",
+        "https://www.ncleg.gov/Members/Committees/H/752",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/752",
+        "https://www.ncleg.gov/Members/Votes/H/752"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nasif_Majeed",
+        "https://en.wikipedia.org/wiki/Nasif_Majeed",
+        "https://justfacts.votesmart.org/candidate/biography/41645/nasif-majeed",
+        "https://www.linkedin.com/in/nasif-majeed-0589a125",
+        "https://www.ncleg.gov/Members/Biography/H/752",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/121cec2b-d03f-45bc-a835-1ae5f4eb18d3",
+      "name": "Natalie Murdock",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "20",
+      "party": "Democratic",
+      "email": "natalie.murdock@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/422",
+        "https://www.ncleg.gov/Members/Committees/S/422",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/422",
+        "https://www.ncleg.gov/Members/Votes/S/422"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Natalie_Murdock",
+        "https://en.wikipedia.org/wiki/Natalie_Murdock",
+        "https://www.linkedin.com/in/natalie-murdock-2b8ab425",
+        "https://www.ncleg.gov/Members/Biography/S/422",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/1e2d0ef7-d021-4427-af07-14fae1ad5aa0",
+      "name": "Neal Jackson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "78",
+      "party": "Republican",
+      "email": "neal.jackson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/804",
+        "https://www.ncleg.gov/Members/Committees/H/804",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/804",
+        "https://www.ncleg.gov/Members/Votes/H/804"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Neal_Jackson",
+        "https://en.wikipedia.org/wiki/Neal_Jackson_(North_Carolina_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/202734/neal-jackson",
+        "https://www.ncleg.gov/Members/Biography/H/804",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://www.nealjackson4nc.org/about"
+      ]
+    },
+    {
+      "id": "ocd-person/7493bee0-b1ed-4d45-b772-b7fce91be4ff",
+      "name": "Norman Sanderson",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "2",
+      "party": "Republican",
+      "email": "norman.sanderson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/375",
+        "https://www.ncleg.gov/Members/Committees/S/375",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/375",
+        "https://www.ncleg.gov/Members/Votes/S/375"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Norman_Sanderson",
+        "https://en.wikipedia.org/wiki/Norman_W._Sanderson",
+        "https://www.ncleg.gov/Members/Biography/S/375",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/a73e339a-9724-45a5-9ebd-f1ca506374a0",
+      "name": "Paul Lowe",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "32",
+      "party": "Democratic",
+      "email": "paul.lowe@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/394",
+        "https://www.ncleg.gov/Members/Committees/S/394",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/394",
+        "https://www.ncleg.gov/Members/Votes/S/394"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Paul_Lowe",
+        "https://en.wikipedia.org/wiki/Paul_A._Lowe_Jr.",
+        "https://justfacts.votesmart.org/candidate/156190/paul-lowe-jr",
+        "https://www.linkedin.com/in/paul-lowe-3a76a330",
+        "https://www.ncleg.gov/Members/Biography/S/394",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/8f02ce28-e826-48f7-adc1-11f8e5c2ed26",
+      "name": "Paul Scott",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "111",
+      "party": "Republican",
+      "email": "paul.scott@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/841"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Paul_Scott_(North_Carolina)",
+        "https://www.ncleg.gov/Members/Biography/H/841"
+      ]
+    },
+    {
+      "id": "ocd-person/f276e61a-c569-4924-b302-caeda17a306a",
+      "name": "Phil Berger",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "26",
+      "party": "Republican",
+      "email": "phil.berger@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/64",
+        "https://www.ncleg.gov/Members/Committees/S/64",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/64",
+        "https://www.ncleg.gov/Members/Votes/S/64"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phil_Berger",
+        "https://en.wikipedia.org/wiki/Philip_E._Berger",
+        "https://justfacts.votesmart.org/candidate/biography/41493/philip-berger-sr",
+        "https://www.linkedin.com/in/phil-berger-1b84464b",
+        "https://www.ncleg.gov/Members/Biography/S/64",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/efae51b3-e547-46c0-87df-4ac35c0c60de",
+      "name": "Phil Rubin",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Democratic",
+      "email": "phillip.rubin@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/844"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phil_Rubin",
+        "https://en.wikipedia.org/wiki/Phil_Rubin",
+        "https://justfacts.votesmart.org/candidate/biography/220821/phil-rubin",
+        "https://www.linkedin.com/in/phil-rubin",
+        "https://www.ncleg.gov/Members/Biography/H/844"
+      ]
+    },
+    {
+      "id": "ocd-person/eab6e9df-d2e4-4476-b09d-cda1de0cf654",
+      "name": "Phil Shepard",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Republican",
+      "email": "phil.shepard@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/628",
+        "https://www.ncleg.gov/Members/Committees/H/628",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/628",
+        "https://www.ncleg.gov/Members/Votes/H/628"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phillip_Shepard",
+        "https://en.wikipedia.org/wiki/Phil_Shepard",
+        "https://justfacts.votesmart.org/candidate/biography/117801/phil-shepard",
+        "https://www.linkedin.com/in/phillip-shepard-b7697466",
+        "https://www.ncleg.gov/Members/Biography/H/628",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/4c2e2654-2647-4394-8efe-f09532225ff6",
+      "name": "Pricey Harrison",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "61",
+      "party": "Democratic",
+      "email": "pricey.harrison@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/504",
+        "https://www.ncleg.gov/Members/Committees/H/504",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/504",
+        "https://www.ncleg.gov/Members/Votes/H/504"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mary_Harrison",
+        "https://en.wikipedia.org/wiki/Pricey_Harrison",
+        "https://justfacts.votesmart.org/candidate/41671/pricey-harrison",
+        "https://www.ncleg.gov/Members/Biography/H/504",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/25828c07-8295-45af-bd01-b044b59d530a",
+      "name": "Ralph Hise",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "47",
+      "party": "Republican",
+      "email": "ralph.hise@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/298",
+        "https://www.ncleg.gov/Members/Committees/S/298",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/298",
+        "https://www.ncleg.gov/Members/Votes/S/298"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ralph_Hise",
+        "https://en.wikipedia.org/wiki/Ralph_Hise",
+        "https://justfacts.votesmart.org/candidate/biography/117794/ralph-hise-jr",
+        "https://www.ncleg.gov/Members/Biography/S/298",
+        "https://www.ncleg.gov/Members/Biography/s/298",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/27cea850-e6f2-4fe8-a02e-26f9867d00f1",
+      "name": "Ray Pickett",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "93",
+      "party": "Republican",
+      "email": "ray.pickett@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/772",
+        "https://www.ncleg.gov/Members/Committees/H/772",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/772",
+        "https://www.ncleg.gov/Members/Votes/H/772"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ray_Pickett",
+        "https://en.wikipedia.org/wiki/Ray_Pickett",
+        "https://www.ncleg.gov/Members/Biography/H/772",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/7ee23b19-064e-4531-a9e8-2e928f8f2203",
+      "name": "Renée Price",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "50",
+      "party": "Democratic",
+      "email": "renee.price@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/810",
+        "https://www.ncleg.gov/Members/Committees/H/810",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/810",
+        "https://www.ncleg.gov/Members/Votes/H/810"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Renee_Price",
+        "https://en.wikipedia.org/wiki/Renee_Price",
+        "https://www.linkedin.com/in/renee-price-94630b30",
+        "https://www.ncleg.gov/Members/Biography/H/810",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/3aa6f3c5-cd15-42e1-907e-92e6f5362c8f",
+      "name": "Robert Reives",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "54",
+      "party": "Democratic",
+      "email": "robert.reives@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/684",
+        "https://www.ncleg.gov/Members/Committees/H/684",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/684",
+        "https://www.ncleg.gov/Members/Votes/H/684"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Reives",
+        "https://en.wikipedia.org/wiki/Robert_T._Reives_II",
+        "https://justfacts.votesmart.org/candidate/biography/92629/robert-reives-ii",
+        "https://wrslawfirm.com/robert-reives-criminal-defense-lawyer",
+        "https://www.linkedin.com/in/wilsonreiveslawrobert",
+        "https://www.ncleg.gov/Members/Biography/H/684",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/230ed41f-56c1-459d-a66d-7ab0a3a8342b",
+      "name": "Rodney Pierce",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Democratic",
+      "email": "rodney.pierce@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/838"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rodney_Pierce",
+        "https://en.wikipedia.org/wiki/Rodney_D._Pierce",
+        "https://www.linkedin.com/in/rodney-d-pierce-0bb40b14",
+        "https://www.ncleg.gov/Members/Biography/H/838"
+      ]
+    },
+    {
+      "id": "ocd-person/4f490403-b729-4f33-b3ba-5417db20cb0b",
+      "name": "Sam Watford",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "80",
+      "party": "Republican",
+      "email": "sam.watford@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/687",
+        "https://www.ncleg.gov/Members/Committees/H/687",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/687",
+        "https://www.ncleg.gov/Members/Votes/H/687"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sam_Watford",
+        "https://en.wikipedia.org/wiki/Sam_Watford",
+        "https://justfacts.votesmart.org/candidate/biography/92523/sam-watford",
+        "https://www.ncleg.gov/Members/Biography/H/687",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/4eb017f8-318e-43ba-b0c5-9fecbc3d0530",
+      "name": "Sarah Crawford",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "66",
+      "party": "Democratic",
+      "email": "sarah.crawford@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/800",
+        "https://www.ncleg.gov/Members/Committees/H/800",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/800",
+        "https://www.ncleg.gov/Members/Votes/H/800"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sarah_Crawford",
+        "https://en.wikipedia.org/wiki/Sarah_Crawford_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/149812/sarah-crawford",
+        "https://www.linkedin.com/in/sarah-crawford-60b1159",
+        "https://www.ncleg.gov/Members/Biography/H/800",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/09099128-27fc-463f-af36-28253d1e7a60",
+      "name": "Sarah Stevens",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "90",
+      "party": "Republican",
+      "email": "sarah.stevens@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/592",
+        "https://www.ncleg.gov/Members/Committees/H/592",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/592",
+        "https://www.ncleg.gov/Members/Votes/H/592"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sarah_Stevens",
+        "https://en.wikipedia.org/wiki/Sarah_Stevens_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/103057/sarah-stevens",
+        "https://www.linkedin.com/in/rep-sarah-stevens-88494b35",
+        "https://www.ncleg.gov/Members/Biography/H/592",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/f0d9b7f4-abb7-4111-b640-766a1f81d653",
+      "name": "Shelly Willingham",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Democratic",
+      "email": "shelly.willingham@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/700",
+        "https://www.ncleg.gov/Members/Committees/H/700",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/700",
+        "https://www.ncleg.gov/Members/Votes/H/700"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Shelly_Willingham",
+        "https://en.wikipedia.org/wiki/Shelly_Willingham",
+        "https://justfacts.votesmart.org/candidate/biography/41293/shelly-willingham",
+        "https://www.linkedin.com/in/shelly-willingham-92930662",
+        "https://www.ncleg.gov/Members/Biography/H/700",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/c8c4c09a-5b3a-4521-82d4-2e2ded1b6b0a",
+      "name": "Sophia Chitlik",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "22",
+      "party": "Democratic",
+      "email": "sophia.chitlik@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/449",
+        "https://www.ncleg.gov/Members/Biography/S/452"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sophia_Chitlik",
+        "https://www.linkedin.com/in/sophiachitlik",
+        "https://www.ncleg.gov/Members/Biography/S/449",
+        "https://www.ncleg.gov/Members/Biography/S/452"
+      ]
+    },
+    {
+      "id": "ocd-person/6b6dc936-a880-4bdb-9fba-11e0a2ff9f01",
+      "name": "Stephen Ross",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "63",
+      "party": "Republican",
+      "email": "stephen.ross@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/812",
+        "https://www.ncleg.gov/Members/Committees/H/812",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/812",
+        "https://www.ncleg.gov/Members/Votes/H/812"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephen_M._Ross",
+        "https://en.wikipedia.org/wiki/Stephen_M._Ross_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/132378/stephen-ross",
+        "https://www.linkedin.com/in/stephen-ross-4481953b",
+        "https://www.ncleg.gov/Members/Biography/H/812",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/d0af18d6-b4e1-4a9a-92f3-a6950961e953",
+      "name": "Steve Jarvis",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "30",
+      "party": "Republican",
+      "email": "steve.jarvis@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/430",
+        "https://www.ncleg.gov/Members/Committees/S/430",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/430",
+        "https://www.ncleg.gov/Members/Votes/S/430"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steven_Jarvis_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Steve_Jarvis",
+        "https://justfacts.votesmart.org/candidate/biography/155367/steve-jarvis",
+        "https://www.linkedin.com/in/jarvisconstruction",
+        "https://www.ncleg.gov/Members/Biography/S/430",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/e4c62004-8706-4984-acb1-0140967173f0",
+      "name": "Steve Tyson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Republican",
+      "email": "steve.tyson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/774",
+        "https://www.ncleg.gov/Members/Committees/H/774",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/774",
+        "https://www.ncleg.gov/Members/Votes/H/774"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steve_Tyson",
+        "https://en.wikipedia.org/wiki/Steve_Tyson",
+        "https://justfacts.votesmart.org/candidate/biography/92509/steve-tyson",
+        "https://www.linkedin.com/in/steve-tyson-8419b011",
+        "https://www.ncleg.gov/Members/Biography/H/774",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/f29f268e-5a29-4f49-8c5e-3fa19688f4a2",
+      "name": "Sydney Batch",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "17",
+      "party": "Democratic",
+      "email": "sydney.batch@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/434",
+        "https://www.ncleg.gov/Members/Committees/S/434",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/434",
+        "https://www.ncleg.gov/Members/Votes/S/434"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sydney_Batch",
+        "https://en.wikipedia.org/wiki/Sydney_Batch",
+        "https://justfacts.votesmart.org/candidate/biography/183405/sydney-batch",
+        "https://www.linkedin.com/in/sydney-batch-0260566",
+        "https://www.ncleg.gov/Members/Biography/S/434",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/b654a887-2eca-41f7-83ba-60044df0fc1c",
+      "name": "Ted Davis",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Republican",
+      "email": "ted.davis@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/637",
+        "https://www.ncleg.gov/Members/Committees/H/637",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/637",
+        "https://www.ncleg.gov/Members/Votes/H/637"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ted_Davis,_Jr.",
+        "https://en.wikipedia.org/wiki/Ted_Davis_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/136665/ted-davis-jr",
+        "https://www.ncleg.gov/Members/Biography/H/637",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1ac38d5f-d089-4589-bcc4-bef1f1675956",
+      "name": "Terry Brown",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "92",
+      "party": "Democratic",
+      "email": "terry.brown@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/783",
+        "https://www.ncleg.gov/Members/Committees/H/783",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/783",
+        "https://www.ncleg.gov/Members/Votes/H/783"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Terry_Brown_Jr._(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Terry_M._Brown_Jr.",
+        "https://www.bipc.com/terry-m.-brown-jr",
+        "https://www.linkedin.com/in/terry-brown-jr",
+        "https://www.ncleg.gov/Members/Biography/H/783",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/20f45197-ec0c-4031-a889-2825bffb008a",
+      "name": "Tim Moffitt",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "48",
+      "party": "Republican",
+      "email": "tim.moffitt@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/623",
+        "https://www.ncleg.gov/Members/Biography/S/438",
+        "https://www.ncleg.gov/Members/Committees/H/623",
+        "https://www.ncleg.gov/Members/Committees/S/438",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/623",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/438",
+        "https://www.ncleg.gov/Members/Votes/H/623",
+        "https://www.ncleg.gov/Members/Votes/S/438"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Timothy_Moffitt",
+        "https://en.wikipedia.org/wiki/Tim_Moffitt",
+        "https://justfacts.votesmart.org/candidate/biography/103082/tim-moffitt",
+        "https://www.linkedin.com/in/tim-moffitt-92399244",
+        "https://www.ncleg.gov/Members/Biography/H/623",
+        "https://www.ncleg.gov/Members/Biography/S/438",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/1bc1818f-49fd-478a-affa-1f167adcfb51",
+      "name": "Tim Longest",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Democratic",
+      "email": "tim.longest@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/818",
+        "https://www.ncleg.gov/Members/Committees/H/818",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/818",
+        "https://www.ncleg.gov/Members/Votes/H/818"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tim_Longest",
+        "https://en.wikipedia.org/wiki/Tim_Longest",
+        "https://www.linkedin.com/in/tim-longest-66889045",
+        "https://www.ncleg.gov/Members/Biography/H/818",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/f836e608-2d16-4792-bec5-0993fa2db3aa",
+      "name": "Tim Reeder",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Republican",
+      "email": "timothy.reeder@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/811",
+        "https://www.ncleg.gov/Members/Committees/H/811",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/811",
+        "https://www.ncleg.gov/Members/Votes/H/811"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Timothy_Reeder",
+        "https://www.linkedin.com/in/tim-reeder-82292b89",
+        "https://www.ncleg.gov/Members/Biography/H/811",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1a7c3ce0-97be-4601-895d-8300458a7e42",
+      "name": "Todd Carver",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "95",
+      "party": "Republican",
+      "email": "todd.carver@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/842"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Todd_Carver",
+        "https://www.ncleg.gov/Members/Biography/H/842"
+      ]
+    },
+    {
+      "id": "ocd-person/37e615d5-0c02-488c-83e2-e6e6df5b8184",
+      "name": "Todd Johnson",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "35",
+      "party": "Republican",
+      "email": "todd.johnson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/406",
+        "https://www.ncleg.gov/Members/Committees/S/406",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/406",
+        "https://www.ncleg.gov/Members/Votes/S/406"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Todd_Johnson_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Todd_Johnson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/133986/todd-johnson",
+        "https://www.linkedin.com/in/todd-johnson-96827138",
+        "https://www.ncleg.gov/Members/Biography/S/406",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/81a19cd2-9493-4b85-b92b-44df8777530e",
+      "name": "Tom McInnis",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "21",
+      "party": "Republican",
+      "email": "tom.mcinnis@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/389",
+        "https://www.ncleg.gov/Members/Committees/S/389",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/389",
+        "https://www.ncleg.gov/Members/Votes/S/389"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_McInnis",
+        "https://en.wikipedia.org/wiki/Tom_McInnis_(North_Carolina_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/149828/tom-mcinnis",
+        "https://www.linkedin.com/in/tom-mcinnis-37564b23",
+        "https://www.ncleg.gov/Members/Biography/S/389",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/47d80aae-1c7b-4330-96bd-76db7fe8b060",
+      "name": "Tracy Clark",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "57",
+      "party": "Democratic",
+      "email": "tracy.clark@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/822"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tracy_Clark",
+        "https://en.wikipedia.org/wiki/Tracy_Clark_(politician)",
+        "https://tracyclarkfornc.com/about",
+        "https://tracyclarkfornc.com/about-me",
+        "https://www.linkedin.com/in/tracyboyerclark",
+        "https://www.ncleg.gov/Members/Biography/H/822"
+      ]
+    },
+    {
+      "id": "ocd-person/6045737f-cc7a-4cf5-b7e6-12419deed77b",
+      "name": "Tricia Cotham",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "105",
+      "party": "Republican",
+      "email": "tricia.cotham@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/817",
+        "https://www.ncleg.gov/Members/Committees/H/817",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/817",
+        "https://www.ncleg.gov/Members/Votes/H/817"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tricia_Cotham",
+        "https://en.wikipedia.org/wiki/Tricia_Cotham",
+        "https://www.linkedin.com/in/tricia-cotham-20b96a19",
+        "https://www.ncleg.gov/Members/Biography/H/817",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/1ba98521-ee10-414a-9cf0-8b389ad02ffe",
+      "name": "Val Applewhite",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "19",
+      "party": "Democratic",
+      "email": "val.applewhite@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/440",
+        "https://www.ncleg.gov/Members/Committees/S/440",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/440",
+        "https://www.ncleg.gov/Members/Votes/S/440"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Val_Applewhite",
+        "https://en.wikipedia.org/wiki/Val_Applewhite",
+        "https://www.linkedin.com/in/councilwoman-val-applewhite-8989151b",
+        "https://www.ncleg.gov/Members/Biography/S/440",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/baca6c05-f6c5-4239-bf9b-c4f57001273d",
+      "name": "Vernetta Alston",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Democratic",
+      "email": "vernetta.alston@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/765",
+        "https://www.ncleg.gov/Members/Committees/H/765",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/765",
+        "https://www.ncleg.gov/Members/Votes/H/765"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Vernetta_Alston",
+        "https://en.wikipedia.org/wiki/Vernetta_Alston",
+        "https://www.linkedin.com/in/vernetta-alston-7b4b5ba3",
+        "https://www.ncleg.gov/Members/Biography/H/765",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/ece1f23b-841d-4145-9719-3807bf29f861",
+      "name": "Vickie Sawyer",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "37",
+      "party": "Republican",
+      "email": "vickie.sawyer@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/405",
+        "https://www.ncleg.gov/Members/Committees/S/405",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/405",
+        "https://www.ncleg.gov/Members/Votes/S/405"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Vickie_Sawyer",
+        "https://en.wikipedia.org/wiki/Vickie_Sawyer",
+        "https://justfacts.votesmart.org/candidate/biography/178345/vickie-sawyer",
+        "https://www.linkedin.com/in/vickie-sawyer-62705647",
+        "https://www.ncleg.gov/Members/Biography/S/405",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/fe39f817-2024-401d-a0a8-3818ca22bdb1",
+      "name": "Ted Alexander",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "44",
+      "party": "Republican",
+      "email": "ted.alexander@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/416",
+        "https://www.ncleg.gov/Members/Committees/S/416",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/416",
+        "https://www.ncleg.gov/Members/Votes/S/416"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ted_Alexander",
+        "https://en.wikipedia.org/wiki/W._Ted_Alexander",
+        "https://justfacts.votesmart.org/candidate/biography/149801/ted-alexander-iii",
+        "https://www.ncleg.gov/Members/Biography/S/416",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/5397305f-16ba-460d-aa16-3bee6185299b",
+      "name": "Warren Daniel",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "46",
+      "party": "Republican",
+      "email": "warren.daniel@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/295",
+        "https://www.ncleg.gov/Members/Committees/S/295",
+        "https://www.ncleg.gov/Members/IntroducedBills/S/295",
+        "https://www.ncleg.gov/Members/Votes/S/295"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Warren_Daniel",
+        "https://en.wikipedia.org/wiki/Warren_Daniel",
+        "https://justfacts.votesmart.org/candidate/biography/117792/warren-daniel",
+        "https://www.linkedin.com/in/warren-daniel-91842a11",
+        "https://www.ncleg.gov/Members/Biography/S/295",
+        "https://www.ncleg.gov/Members/MemberTable/S"
+      ]
+    },
+    {
+      "id": "ocd-person/5eadd1cd-7d46-448d-9608-2901b596b24f",
+      "name": "William Brisson",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Republican",
+      "email": "william.brisson@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/558",
+        "https://www.ncleg.gov/Members/Committees/H/558",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/558",
+        "https://www.ncleg.gov/Members/Votes/H/558"
+      ],
+      "sources": [
+        "https://ballotpedia.org/William_Brisson",
+        "https://en.wikipedia.org/wiki/William_Brisson",
+        "https://justfacts.votesmart.org/candidate/41187/william-brisson",
+        "https://www.ncleg.gov/Members/Biography/H/558",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    },
+    {
+      "id": "ocd-person/da2ebbae-4f50-4a95-927d-359ed2a9a42b",
+      "name": "Woodson Bradley",
+      "state": "NC",
+      "chamber": "upper",
+      "district": "42",
+      "party": "Democratic",
+      "email": "woodson.bradley@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/S/454"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Woodson_Bradley",
+        "https://en.wikipedia.org/wiki/Woodson_Bradley",
+        "https://www.linkedin.com/in/woodson-bradley-107288268",
+        "https://www.ncleg.gov/Members/Biography/S/454",
+        "https://www.woodsonbradley.com/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/89065b80-ca15-43b3-bbe5-c7bb5e3a3843",
+      "name": "Wyatt Gable",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Republican",
+      "email": "wyatt.gable@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/837"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Wyatt_Gable",
+        "https://en.wikipedia.org/wiki/Wyatt_Gable",
+        "https://www.ncleg.gov/Members/Biography/H/837"
+      ]
+    },
+    {
+      "id": "ocd-person/d48b59a1-cf27-438e-8a25-2f8f179992f2",
+      "name": "Ya Liu",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Democratic",
+      "email": "ya.liu@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/806",
+        "https://www.ncleg.gov/Members/Committees/H/806",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/806",
+        "https://www.ncleg.gov/Members/Votes/H/806"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ya_Liu",
+        "https://en.wikipedia.org/wiki/Ya_Liu",
+        "https://www.ncleg.gov/Members/Biography/H/806",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://yaliu4nc.com/meet-ya"
+      ]
+    },
+    {
+      "id": "ocd-person/6dea5a89-20c8-4370-94c2-0dac7fe29d77",
+      "name": "Zack Hawkins",
+      "state": "NC",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Democratic",
+      "email": "zack.hawkins@ncleg.gov",
+      "links": [
+        "https://www.ncleg.gov/Members/Biography/H/742",
+        "https://www.ncleg.gov/Members/Committees/H/742",
+        "https://www.ncleg.gov/Members/IntroducedBills/H/742",
+        "https://www.ncleg.gov/Members/Votes/H/742"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Zack_Forde-Hawkins",
+        "https://ballotpedia.org/Zack_Hawkins",
+        "https://en.wikipedia.org/wiki/Zack_Forde-Hawkins",
+        "https://www.linkedin.com/in/zack-hawkins-945b474",
+        "https://www.ncleg.gov/Members/Biography/H/742",
+        "https://www.ncleg.gov/Members/MemberTable/H"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3979 @@
+{
+  "abbr": "FL",
+  "name": "Florida",
+  "sourceUrl": "https://data.openstates.org/people/current/fl.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 158,
+  "upperCount": 40,
+  "lowerCount": 118,
+  "legislators": [
+    {
+      "id": "ocd-person/6a3fae94-a613-49f5-acec-355e4a2722d8",
+      "name": "Adam Anderson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "57",
+      "party": "Republican",
+      "email": "adam.anderson@flhouse.gov",
+      "phone": "727-382-8300",
+      "districtPhone": "727-382-8300",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4885&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4885",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4885&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adam_Anderson",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4885&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4885",
+        "https://www.linkedin.com/in/thedvisor",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4885&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/c94b1151-5034-482b-8d7b-f91f9bb5f951",
+      "name": "Adam Botana",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "80",
+      "party": "Republican",
+      "email": "adam.botana@flhouse.gov",
+      "phone": "239-317-8600",
+      "districtPhone": "239-317-8600",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4782&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4782&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4782",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4782",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4782&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adam_Botana",
+        "https://justfacts.votesmart.org/candidate/biography/194550/adam-botana",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4782&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4782&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4782",
+        "https://www.linkedin.com/in/adam-botana-73769625",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4782",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4782&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/b2fce1a8-4ba6-483b-a534-fa48cc43ee7f",
+      "name": "Alex Rizo",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "112",
+      "party": "Republican",
+      "email": "alex.rizo@flhouse.gov",
+      "phone": "305-364-3114",
+      "districtPhone": "305-364-3114",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4796&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4796",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4796",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4796"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alex_Rizo",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4796&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4796",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4796",
+        "https://www.linkedin.com/in/alex-rizo-jr-b260b761",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4796"
+      ]
+    },
+    {
+      "id": "ocd-person/7f1e874f-ae8b-42a0-90d9-fe867cf9fb45",
+      "name": "Alexis Calatayud",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "38",
+      "party": "Republican",
+      "email": "calatayud.alexis.web@flsenate.gov",
+      "phone": "305-596-3002",
+      "districtPhone": "305-596-3002",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S38",
+        "https://www.flsenate.gov/Senators/S38"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alexis_Calatayud",
+        "https://en.wikipedia.org/wiki/Alexis_Calatayud",
+        "https://flsenate.gov/Senators/2022-2024/S38",
+        "https://justfacts.votesmart.org/candidate/biography/209251/alexis-calatayud",
+        "https://www.flsenate.gov/Senators/S38",
+        "https://www.linkedin.com/in/alexis-calatayud-52a63b66"
+      ]
+    },
+    {
+      "id": "ocd-person/c26599eb-5ef8-44c3-93a6-77cf23a9567e",
+      "name": "Allison Tant",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Democratic",
+      "email": "allison.tant@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4765&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4765",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4765",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4765",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4765&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Allison_Tant",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4765&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4765",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4765",
+        "https://www.linkedin.com/in/allison-tant-b1b90b89",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4765",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4765&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/afd55a58-b8f6-4dd7-9d93-a2207b65e425",
+      "name": "Ana Maria Rodriguez",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "40",
+      "party": "Republican",
+      "email": "rodriguez.anamaria.web@flsenate.gov",
+      "phone": "305-470-2552",
+      "districtPhone": "305-470-2552",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S40",
+        "https://www.flsenate.gov/Senators/S40"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ana_Maria_Rodriguez",
+        "https://en.wikipedia.org/wiki/Ana_Maria_Rodriguez_(politician)",
+        "https://flsenate.gov/Senators/2022-2024/S40",
+        "https://justfacts.votesmart.org/candidate/biography/184489/ana-rodriguez",
+        "https://www.flsenate.gov/Senators/S40",
+        "https://www.linkedin.com/in/ana-maria-rodriguez-2730436"
+      ]
+    },
+    {
+      "id": "ocd-person/66c3a112-3008-4332-a6b0-8990a7d992d5",
+      "name": "Angie Nixon",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Democratic",
+      "email": "angela.nixon@flhouse.gov",
+      "phone": "904-667-0340",
+      "districtPhone": "904-667-0340",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4766&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4766",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4766",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4766",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4766&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Angela_Nixon",
+        "https://en.wikipedia.org/wiki/Angie_Nixon",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4766&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4766",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4766",
+        "https://www.linkedin.com/in/angienixonfl",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4766",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4766&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/1f8e10ad-0047-4854-b696-38e15fda7afa",
+      "name": "Anna Eskamani",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "42",
+      "party": "Democratic",
+      "email": "anna.eskamani@flhouse.gov",
+      "phone": "407-228-1451",
+      "districtPhone": "407-228-1451",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4746",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Anna_Eskamani",
+        "https://en.wikipedia.org/wiki/Anna_Eskamani",
+        "https://justfacts.votesmart.org/candidate/biography/184399/anna-eskamani",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4746",
+        "https://www.linkedin.com/in/annaveskamani",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4746&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/ad877adf-e8f2-4f31-bdd2-38a6aaf74884",
+      "name": "Anne Gerwig",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "93",
+      "party": "Republican",
+      "email": "anne.gerwig@flhouse.gov",
+      "phone": "561-785-0630",
+      "districtPhone": "561-785-0630",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4925",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4925",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4925&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Anne_Gerwig",
+        "https://justfacts.votesmart.org/candidate/142658/anne-gerwig",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4925",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4925",
+        "https://www.linkedin.com/in/annegerwig",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4925&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/2c62c9ae-8d1d-4dc3-a86a-fcc5dd7ba286",
+      "name": "Ashley Gantt",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "109",
+      "party": "Democratic",
+      "email": "ashley.gantt@flhouse.gov",
+      "phone": "786-435-9410",
+      "districtPhone": "786-435-9410",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4897",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4897",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=90",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ashley_Gantt",
+        "https://en.wikipedia.org/wiki/Ashley_Gantt",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4897",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4897",
+        "https://www.linkedin.com/in/ashley-v-gantt-esq",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=90",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4897&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/2af7bd80-7f71-4530-8d69-ee448bc32255",
+      "name": "Barbara Sharief",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "35",
+      "party": "Democratic",
+      "email": "sharief.barbara.web@flsenate.gov",
+      "phone": "954-424-6674",
+      "districtPhone": "954-424-6674",
+      "links": [
+        "https://www.flsenate.gov/Senators/S35"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Barbara_Sharief",
+        "https://barbarasharief.com",
+        "https://en.wikipedia.org/wiki/Barbara_Sharief",
+        "https://justfacts.votesmart.org/candidate/biography/112566/barbara-sharief",
+        "https://www.flsenate.gov/Senators/S35",
+        "https://www.linkedin.com/in/dr-barbara-sharief"
+      ]
+    },
+    {
+      "id": "ocd-person/5c81dfe7-1cec-45e8-8044-6d9cd324f2e8",
+      "name": "Ben Albritton",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "27",
+      "party": "Republican",
+      "email": "albritton.ben@flsenate.gov",
+      "phone": "941-575-5717",
+      "districtPhone": "941-575-5717",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S27",
+        "https://www.flsenate.gov/Senators/2018-2020/S26",
+        "https://www.flsenate.gov/Senators/s26",
+        "https://www.flsenate.gov/Senators/s27"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ben_Albritton",
+        "https://en.wikipedia.org/wiki/Ben_Albritton",
+        "https://flsenate.gov/Senators/2022-2024/S27",
+        "https://justfacts.votesmart.org/candidate/biography/117015/ben-albritton",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S26",
+        "https://www.flsenate.gov/Senators/s26",
+        "https://www.flsenate.gov/Senators/s27",
+        "https://www.linkedin.com/in/ben-albritton-1308275"
+      ]
+    },
+    {
+      "id": "ocd-person/8e396afa-17d2-404c-9024-7aa8d7e00e0d",
+      "name": "Berny Jacques",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "59",
+      "party": "Republican",
+      "email": "berny.jacques@flhouse.gov",
+      "phone": "727-558-4230",
+      "districtPhone": "727-558-4230",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4886&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4886",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4886&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Berny_Jacques",
+        "https://bernyforflorida.com/meet-berny",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4886&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4886",
+        "https://www.linkedin.com/in/berny-jacques-09219311",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4886&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/43724cbb-0b19-4fad-ae9b-1e8bcd47c16d",
+      "name": "Bill Conerly",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "72",
+      "party": "Republican",
+      "email": "bill.conerly@flhouse.gov",
+      "phone": "941-327-0150",
+      "districtPhone": "941-327-0150",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4920",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4920",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4920&SessionId=105"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_Conerly",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4920",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4920",
+        "https://www.linkedin.com/in/bill-conerly-65275513",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4920&SessionId=105"
+      ]
+    },
+    {
+      "id": "ocd-person/92e88cfe-0a68-45e1-b84c-9f181a46554e",
+      "name": "Bill Partington",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Republican",
+      "email": "bill.partington@flhouse.gov",
+      "phone": "386-230-1960",
+      "districtPhone": "386-230-1960",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4912&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4912",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4912&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_Partington",
+        "https://en.wikipedia.org/wiki/Bill_Partington",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4912&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4912",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4912&LegislativeTermId=91",
+        "https://www.linkedin.com/in/bill-partington-680553108"
+      ]
+    },
+    {
+      "id": "ocd-person/8d746fc8-370b-4d12-bcf8-3dd4a4061707",
+      "name": "Brad Yeager",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "56",
+      "party": "Republican",
+      "email": "brad.yeager@flhouse.gov",
+      "phone": "727-274-9280",
+      "districtPhone": "727-274-9280",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4882&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4882",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4882"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brad_Yeager",
+        "https://en.wikipedia.org/wiki/Brad_Yeager",
+        "https://justfacts.votesmart.org/candidate/biography/209495/bradford-yeager",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4882&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4882",
+        "https://www.linkedin.com/in/bradyeager",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4882",
+        "https://www.yeagerforflorida.com/meet-brad"
+      ]
+    },
+    {
+      "id": "ocd-person/4737f2dc-8241-4329-85fc-59a9c405d7b6",
+      "name": "Brian Hodgers",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Republican",
+      "email": "brian.hodgers@flhouse.gov",
+      "phone": "321-497-8200",
+      "districtPhone": "321-497-8200",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=5064&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5064"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Hodgers",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=5064&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5064",
+        "https://www.linkedin.com/in/brianhodgers"
+      ]
+    },
+    {
+      "id": "ocd-person/528bc47a-e8c7-4a28-9923-aba1deefd976",
+      "name": "Brian Nathan",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "14",
+      "party": "Democratic",
+      "email": "nathan.brian.web@flsenate.gov",
+      "phone": "813-281-2538",
+      "districtPhone": "813-281-2538",
+      "links": [
+        "https://www.flsenate.gov/Senators/S14"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Nathan",
+        "https://en.wikipedia.org/wiki/Brian_Nathan",
+        "https://justfacts.votesmart.org/candidate/biography/230519/brian-nathan",
+        "https://www.flsenate.gov/Senators/S14",
+        "https://www.linkedin.com/in/brian-nathan-01463912"
+      ]
+    },
+    {
+      "id": "ocd-person/617888c1-3369-49cd-a264-18ab663d2e8a",
+      "name": "Bruce Antone",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "41",
+      "party": "Democratic",
+      "email": "bruce.antone@flhouse.gov",
+      "phone": "407-472-9820",
+      "districtPhone": "407-472-9820",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4269&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4269",
+        "https://www.myfloridahouse.gov//Sections/Representatives/details.aspx?MemberId=4269"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bruce_Antone",
+        "https://en.wikipedia.org/wiki/Bruce_Antone",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4269&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4269",
+        "https://www.linkedin.com/in/bruce-antone-4a4a466",
+        "https://www.myfloridahouse.gov//Sections/Representatives/details.aspx?MemberId=4269"
+      ]
+    },
+    {
+      "id": "ocd-person/a4a5f92e-62cf-401b-9fc6-9d9a63498d5c",
+      "name": "Bryan Ávila",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "39",
+      "party": "Republican",
+      "email": "avila.bryan.web@flsenate.gov",
+      "phone": "305-364-3073",
+      "districtPhone": "305-364-3073",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S39",
+        "https://www.flsenate.gov/Senators/S39",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4615&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bryan_Avila",
+        "https://en.wikipedia.org/wiki/Bryan_Avila",
+        "https://flsenate.gov/Senators/2022-2024/S39",
+        "https://justfacts.votesmart.org/candidate/biography/138077/bryan-avila",
+        "https://www.flsenate.gov/Senators/S39",
+        "https://www.linkedin.com/in/bryan-avila-fl",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4615&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/df1d6ab6-b2cd-4a6f-b7cc-aa5a63d8011f",
+      "name": "Carlos Smith",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "17",
+      "party": "Democratic",
+      "email": "smith.carlos.web@flsenate.gov",
+      "phone": "407-893-2422",
+      "districtPhone": "407-893-2422",
+      "links": [
+        "https://www.flsenate.gov/Senators/S17",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4642&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carlos_Guillermo_Smith",
+        "https://en.wikipedia.org/wiki/Carlos_Guillermo_Smith",
+        "https://j.futurefacts.votesmart.io/candidate/biography/172901/carlos-smith",
+        "https://www.flsenate.gov/Senators/S17",
+        "https://www.linkedin.com/in/carlosgsmith",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4642&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/2aa3b059-b565-413d-9eac-24e34b541c1d",
+      "name": "Chad Johnson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Republican",
+      "email": "chad.johnson@flhouse.gov",
+      "phone": "352-496-3700",
+      "districtPhone": "352-496-3700",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4908&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4908",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4908&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chad_Johnson_(Florida)",
+        "https://justfacts.votesmart.org/candidate/116376/chad-johnson",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4908&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4908",
+        "https://www.linkedin.com/in/chad-johnson-cai-23867b51",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4908&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/47cd160b-1e9e-469c-a939-002be336302f",
+      "name": "Chase Tramont",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Republican",
+      "email": "chase.tramont@flhouse.gov",
+      "phone": "386-278-1640",
+      "districtPhone": "386-278-1640",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4867&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4867",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4867"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chase_Tramont",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4867&LegislativeTermId=90",
+        "https://www.chasetramont.com/meet-chase",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4867",
+        "https://www.linkedin.com/in/chase-tramont-3a181a185",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4867"
+      ]
+    },
+    {
+      "id": "ocd-person/54cd0ebc-6f93-489e-a919-3583fa32b26a",
+      "name": "Chip LaMarca",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "100",
+      "party": "Republican",
+      "email": "chip.lamarca@flhouse.gov",
+      "phone": "954-953-2640",
+      "districtPhone": "954-953-2640",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4722&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4722",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4722",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4722&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chip_LaMarca",
+        "https://en.wikipedia.org/wiki/Chip_LaMarca",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4722&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4722",
+        "https://www.linkedin.com/in/chiplamarca",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4722",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4722&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/89d7d4d0-82e7-4535-bb79-3260a7b432b5",
+      "name": "Christine Hunschofsky",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "95",
+      "party": "Democratic",
+      "email": "christine.hunschofsky@flhouse.gov",
+      "phone": "954-953-2760",
+      "districtPhone": "954-953-2760",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4799&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4799",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4799",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4799",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4799&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Christine_Hunschofsky",
+        "https://en.wikipedia.org/wiki/Christine_Hunschofsky",
+        "https://justfacts.votesmart.org/candidate/biography/194488/christine-hunschofsky",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4799&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4799",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4799",
+        "https://www.linkedin.com/in/christine-h-30608538",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4799",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4799&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/f1eda85d-37f2-4475-a318-8278a11c9466",
+      "name": "Clay Yarborough",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "4",
+      "party": "Republican",
+      "email": "yarborough.clay.web@flsenate.gov",
+      "phone": "904-723-2035",
+      "districtPhone": "904-723-2035",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S4",
+        "https://www.flsenate.gov/Senators/S4",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4633&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Clay_Yarborough",
+        "https://en.wikipedia.org/wiki/Clay_Yarborough",
+        "https://flsenate.gov/Senators/2022-2024/S4",
+        "https://justfacts.votesmart.org/candidate/biography/172816/clay-yarborough",
+        "https://www.flsenate.gov/Senators/S4",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4633&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/50d5881b-ceac-49a2-98db-87ef6e09438c",
+      "name": "Colleen Burton",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "12",
+      "party": "Republican",
+      "email": "burton.colleen.web@flsenate.gov",
+      "phone": "863-413-1529",
+      "districtPhone": "863-413-1529",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S12",
+        "https://www.flsenate.gov/Senators/S12",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4616&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Colleen_Burton_(Florida)",
+        "https://en.wikipedia.org/wiki/Colleen_Burton",
+        "https://flsenate.gov/Senators/2022-2024/S12",
+        "https://justfacts.votesmart.org/candidate/149396/colleen-burton",
+        "https://www.flsenate.gov/Senators/S12",
+        "https://www.linkedin.com/in/colleenburton",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4616&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/fca5c9b2-da9e-4836-a3d5-366a25350976",
+      "name": "Corey Simon",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "3",
+      "party": "Republican",
+      "email": "simon.corey.web@flsenate.gov",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S3",
+        "https://www.flsenate.gov/Senators/S3"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Corey_Simon",
+        "https://en.wikipedia.org/wiki/Corey_Simon",
+        "https://flsenate.gov/Senators/2022-2024/S3",
+        "https://justfacts.votesmart.org/candidate/biography/209207/corey-simon",
+        "https://www.flsenate.gov/Senators/S3"
+      ]
+    },
+    {
+      "id": "ocd-person/66308162-9b64-4d34-a8bc-fac71407f7d5",
+      "name": "Dan Daley",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "96",
+      "party": "Democratic",
+      "email": "dan.daley@flhouse.gov",
+      "phone": "954-697-4390",
+      "districtPhone": "954-697-4390",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4757&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4757",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4757&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4757",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4757",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4757&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dan_Daley",
+        "https://en.wikipedia.org/wiki/Dan_Daley",
+        "https://justfacts.votesmart.org/candidate/biography/149318/dan-daley",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4757&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4757",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4757&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4757",
+        "https://www.linkedin.com/in/dan-daley-36914029",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4757",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4757&LegislativeTermId=88"
+      ]
+    },
+    {
+      "id": "ocd-person/767d2aef-21ee-4b6d-b64b-ed9350abaa60",
+      "name": "Dana Trabulsy",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "84",
+      "party": "Republican",
+      "email": "dana.trabulsy@flhouse.gov",
+      "phone": "772-710-1410",
+      "districtPhone": "772-710-1410",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4788&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4788",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4788",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4788&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dana_Trabulsy",
+        "https://en.wikipedia.org/wiki/Dana_Trabulsy",
+        "https://justfacts.votesmart.org/candidate/biography/194522/dana-trabulsy",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4788&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4788",
+        "https://www.linkedin.com/in/dana-trabulsy-ab419bb",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4788",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4788&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/5a852452-a855-44a6-aa71-1e07e48c0c89",
+      "name": "Danny Alvarez",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "69",
+      "party": "Republican",
+      "email": "danny.alvarez@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4889&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4889",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4889",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4889&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Danny_Alvarez",
+        "https://en.wikipedia.org/wiki/Danny_Alvarez",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4889&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4889",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4889",
+        "https://www.linkedin.com/in/danielalvarezsr",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4889&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/ed30b061-bbdc-44f3-8a40-e574646d6cf8",
+      "name": "Daniel Perez",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "116",
+      "party": "Republican",
+      "email": "daniel.perez@flhouse.gov",
+      "phone": "305-463-1230",
+      "districtPhone": "305-463-1230",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4690&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4690",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4690",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4690",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4690&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Daniel_Anthony_Perez",
+        "https://en.wikipedia.org/wiki/Daniel_Perez_(politician)",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4690&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4690",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4690",
+        "https://www.linkedin.com/in/daniel-perez-2b747253",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4690",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4690&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/55815523-33b5-4d42-9864-28e00b805e68",
+      "name": "Danny Burgess",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "23",
+      "party": "Republican",
+      "email": "burgess.danny.web@flsenate.gov",
+      "phone": "813-779-7059",
+      "districtPhone": "813-779-7059",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S23",
+        "https://www.flsenate.gov/Senators/S20",
+        "https://www.flsenate.gov/Senators/S23"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Daniel_Burgess",
+        "https://en.wikipedia.org/wiki/Danny_Burgess",
+        "https://flsenate.gov/Senators/2022-2024/S23",
+        "https://justfacts.votesmart.org/candidate/biography/149394/danny-burgess-jr",
+        "https://www.flsenate.gov/Senators/S20",
+        "https://www.flsenate.gov/Senators/S23",
+        "https://www.linkedin.com/in/danny-burgess-7285976b"
+      ]
+    },
+    {
+      "id": "ocd-person/971fb9ac-b0f3-45df-89f0-f24b6ba9b5a3",
+      "name": "Danny Nix",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "75",
+      "party": "Republican",
+      "email": "danny.nix@flhouse.gov",
+      "phone": "941-899-0810",
+      "districtPhone": "941-899-0810",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4921&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4921&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4921",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4921&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Danny_Nix",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4921&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4921&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4921",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4921&LegislativeTermId=91",
+        "https://www.linkedin.com/in/danny-nix-ccim-403a0260"
+      ]
+    },
+    {
+      "id": "ocd-person/3de11937-c291-4561-bee5-4f747665cb37",
+      "name": "Darryl Rouson",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "16",
+      "party": "Democratic",
+      "email": "rouson.darryl.web@flsenate.gov",
+      "phone": "727-822-6828",
+      "districtPhone": "727-822-6828",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S16",
+        "https://www.flsenate.gov/Senators/2018-2020/S19",
+        "https://www.flsenate.gov/Senators/s16",
+        "https://www.flsenate.gov/Senators/s19"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Darryl_Rouson",
+        "https://en.wikipedia.org/wiki/Darryl_Rouson",
+        "https://flsenate.gov/Senators/2022-2024/S16",
+        "https://justfacts.votesmart.org/candidate/biography/104952/darryl-rouson",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S19",
+        "https://www.flsenate.gov/Senators/s16",
+        "https://www.flsenate.gov/Senators/s19",
+        "https://www.linkedin.com/in/darryl-rouson-76a9a87"
+      ]
+    },
+    {
+      "id": "ocd-person/2c1c37bb-fd17-46d6-9694-8f2757f6da3e",
+      "name": "Daryl Campbell",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "99",
+      "party": "Democratic",
+      "email": "daryl.campbell@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4843&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4843",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4843",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4843&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Daryl_Campbell",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4843&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4843",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4843",
+        "https://www.linkedin.com/in/darylcampbell",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4843&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/686a3de8-6df1-4144-85bc-edaad7fe1708",
+      "name": "David Borrero",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "111",
+      "party": "Republican",
+      "email": "david.borrero@flhouse.gov",
+      "phone": "786-984-8910",
+      "districtPhone": "786-984-8910",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4794&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4794",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4794",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4794&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Borrero",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4794&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4794",
+        "https://www.linkedin.com/in/david-borrero-107371147",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4794",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4794&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/e4bf077a-8468-49a6-a75c-24ee5076352e",
+      "name": "Dave Smith",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Republican",
+      "email": "david.smith@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4718&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4718",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4718",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4718&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Smith_(Florida)",
+        "https://en.wikipedia.org/wiki/David_Smith_(Florida_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/146175/david-smith",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4718&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4718",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4718",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4718&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/c082de7e-0a73-43a6-94e7-48180a1af3d6",
+      "name": "Dean Black",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Republican",
+      "email": "dean.black@flhouse.gov",
+      "phone": "904-530-9730",
+      "districtPhone": "904-530-9730",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4865&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4865",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4865",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4865&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dean_Black",
+        "https://justfacts.votesmart.org/candidate/biography/124330/dean-black",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4865&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4865",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4865",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4865&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/a41e2c13-be68-4af3-8229-3c657b8d980d",
+      "name": "Debbie Mayfield",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "19",
+      "party": "Republican",
+      "email": "mayfield.debbie.web@flsenate.gov",
+      "phone": "321-409-2025",
+      "districtPhone": "321-409-2025",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S19",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4456",
+        "https://www.flsenate.gov/Senators/2018-2020/S17",
+        "https://www.flsenate.gov/Senators/s17",
+        "https://www.flsenate.gov/Senators/s19",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4456&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Debbie_Mayfield",
+        "https://en.wikipedia.org/wiki/Debbie_Mayfield",
+        "https://flsenate.gov/Senators/2022-2024/S19",
+        "https://justfacts.votesmart.org/candidate/biography/107965/debbie-mayfield",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4456",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S17",
+        "https://www.flsenate.gov/Senators/s17",
+        "https://www.flsenate.gov/Senators/s19",
+        "https://www.linkedin.com/in/deborah-mayfield-332b6660",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4456&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/88b67b7d-e856-43b3-9ae3-90092919c4e5",
+      "name": "Debra Tendrich",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "89",
+      "party": "Democratic",
+      "email": "debra.tendrich@flhouse.gov",
+      "phone": "561-954-0850",
+      "districtPhone": "561-954-0850",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4924&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4924",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4924"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Debra_Tendrich",
+        "https://en.wikipedia.org/wiki/Debra_Tendrich",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4924&LegislativeTermId=91",
+        "https://www.debraforhouse.com/about",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4924",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4924",
+        "https://www.linkedin.com/in/eatbetterlivebetter"
+      ]
+    },
+    {
+      "id": "ocd-person/8407b440-b679-4d84-b642-de35869461a4",
+      "name": "Demi Busatta",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "114",
+      "party": "Republican",
+      "email": "demi.busatta@flhouse.gov",
+      "phone": "305-686-6840",
+      "districtPhone": "305-686-6840",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4800&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4800",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4800",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4800&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Demi_Busatta_Cabrera",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4800&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4800",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4800",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4800&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/1be9ca60-ccf5-4beb-835a-3c292e04eaef",
+      "name": "Dianne Hart-Lowman",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "63",
+      "party": "Democratic",
+      "email": "dianne.hart-lowman@flhouse.gov",
+      "phone": "813-738-0410",
+      "districtPhone": "813-738-0410",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4736&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4736",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4736",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4736&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dianne_Hart",
+        "https://en.wikipedia.org/wiki/Dianne_Hart",
+        "https://justfacts.votesmart.org/candidate/biography/172926/dianne-hart",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4736&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4736",
+        "https://www.linkedin.com/in/dianne-hart-26961750",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4736",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4736&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/c45cbed2-9b2e-4507-a6d1-3f960d330c34",
+      "name": "Don Gaetz",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "1",
+      "party": "Republican",
+      "email": "gaetz.don.web@flsenate.gov",
+      "phone": "850-595-1036",
+      "districtPhone": "850-595-1036",
+      "links": [
+        "https://www.flsenate.gov/Senators/s1"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Don_Gaetz",
+        "https://en.wikipedia.org/wiki/Don_Gaetz",
+        "https://justfacts.votesmart.org/candidate/biography/67756/don-gaetz",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/s1"
+      ]
+    },
+    {
+      "id": "ocd-person/bcb3b06f-882e-4012-af21-4c9ba68d093d",
+      "name": "Dotie Joseph",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "108",
+      "party": "Democratic",
+      "email": "dotie.joseph@flhouse.gov",
+      "phone": "305-564-5060",
+      "districtPhone": "305-564-5060",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4716&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4716",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4716",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4716",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4716&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dotie_Joseph",
+        "https://en.wikipedia.org/wiki/Dotie_Joseph",
+        "https://justfacts.votesmart.org/candidate/biography/184493/dotie-joseph",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4716&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4716",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4716",
+        "https://www.linkedin.com/in/dotiej",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4716",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4716&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/c585b9bb-83d4-4d01-8a02-778578cfe2d6",
+      "name": "Doug Bankson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Republican",
+      "email": "doug.bankson@flhouse.gov",
+      "phone": "407-598-8470",
+      "districtPhone": "407-598-8470",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4873&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4873",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4873&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Doug_Bankson",
+        "https://justfacts.votesmart.org/candidate/biography/173235/doug-bankson",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4873&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4873",
+        "https://www.linkedin.com/in/douglasbankson",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4873&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/0e375630-02a4-4e59-ac80-869f9a199b2a",
+      "name": "Ed Hooper",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "21",
+      "party": "Republican",
+      "email": "hooper.ed.web@flsenate.gov",
+      "phone": "727-771-2102",
+      "districtPhone": "727-771-2102",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S21",
+        "https://www.flsenate.gov/Senators/2018-2020/S16",
+        "https://www.flsenate.gov/Senators/s16",
+        "https://www.flsenate.gov/Senators/s21"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ed_Hooper",
+        "https://en.wikipedia.org/wiki/Ed_Hooper_(politician)",
+        "https://flsenate.gov/Senators/2022-2024/S21",
+        "https://justfacts.votesmart.org/candidate/biography/53831/ed-hooper",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S16",
+        "https://www.flsenate.gov/Senators/s16",
+        "https://www.flsenate.gov/Senators/s21"
+      ]
+    },
+    {
+      "id": "ocd-person/e2d16b6f-6522-46c6-9817-3d4f4d1b66ce",
+      "name": "Emily Gregory",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "87",
+      "party": "Democratic",
+      "email": "emily.gregory@flhouse.gov",
+      "phone": "561-614-8350",
+      "districtPhone": "561-614-8350",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5069"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Emily_Gregory",
+        "https://en.wikipedia.org/wiki/Emily_Gregory_(politician)",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5069",
+        "https://www.linkedin.com/in/emily-gregory-5923a96"
+      ]
+    },
+    {
+      "id": "ocd-person/30a6de56-a2b6-44b4-ab5a-e1bc6d944c93",
+      "name": "Erika Booth",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Republican",
+      "email": "erika.booth@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4914&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4914",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4914"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Erika_Booth",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4914&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4914",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4914",
+        "https://www.linkedin.com/in/erika-b-33a859124"
+      ]
+    },
+    {
+      "id": "ocd-person/9cf042e6-01c0-4f8e-aab5-68508a0fda66",
+      "name": "Erin Grall",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "29",
+      "party": "Republican",
+      "email": "grall.erin.web@flsenate.gov",
+      "phone": "772-595-1398",
+      "districtPhone": "772-595-1398",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S29",
+        "https://www.flsenate.gov/Senators/S29",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4637&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Erin_Grall",
+        "https://en.wikipedia.org/wiki/Erin_Grall",
+        "https://flsenate.gov/Senators/2022-2024/S29",
+        "https://gralllawgroup.com/attorneys/erin-k-grall",
+        "https://justfacts.votesmart.org/candidate/biography/117112/erin-grall",
+        "https://www.flsenate.gov/Senators/S29",
+        "https://www.linkedin.com/in/erin-grall-8929094a",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4637&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/38674fed-3bec-4623-a5eb-d31e4851323f",
+      "name": "Fabián Basabe",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "106",
+      "party": "Republican",
+      "email": "fabian.basabe@flhouse.gov",
+      "phone": "305-564-4780",
+      "districtPhone": "305-564-4780",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4900&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4900",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4900",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4900&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Fabi%C3%A1n_Basabe",
+        "https://en.wikipedia.org/wiki/Fabi%C3%A1n_Basabe",
+        "https://justfacts.votesmart.org/candidate/biography/209439/fabian-basabe",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4900&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4900",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4900",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4900&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/1d219f7c-140b-48fd-ac39-4683c48dbc87",
+      "name": "Felicia Robinson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "104",
+      "party": "Democratic",
+      "email": "felicia.robinson@flhouse.gov",
+      "phone": "305-488-5490",
+      "districtPhone": "305-488-5490",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4791&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4791",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4791",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4791",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4791&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Felicia_Simone_Robinson",
+        "https://justfacts.votesmart.org/candidate/biography/130220/felicia-robinson",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4791&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4791",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4791",
+        "https://www.linkedin.com/in/felicia-simone-robinson-bb737829",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4791",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4791&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/5a138490-70a4-46fa-967e-8739d1ea7456",
+      "name": "Fentrice Driskell",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "67",
+      "party": "Democratic",
+      "email": "fentrice.driskell@flhouse.gov",
+      "phone": "813-535-8580",
+      "districtPhone": "813-535-8580",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4745&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4745&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4745",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4745",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4745&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Fentrice_Driskell",
+        "https://en.wikipedia.org/wiki/Fentrice_Driskell",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4745&LegislativeTermId=90",
+        "https://www.carltonfields.com/team/d/fentrice-d-driskell",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4745&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4745",
+        "https://www.linkedin.com/in/fentricedriskell",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4745",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4745&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/741003ec-e46f-4ae8-a3af-ce2a2aba5cd4",
+      "name": "Fiona McFarland",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "73",
+      "party": "Republican",
+      "email": "fiona.mcfarland@flhouse.gov",
+      "phone": "941-899-0940",
+      "districtPhone": "941-899-0940",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4780&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4780",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4780",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4780&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Fiona_McFarland",
+        "https://en.wikipedia.org/wiki/Fiona_McFarland",
+        "https://justfacts.votesmart.org/candidate/194559/fiona-mcfarland",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4780&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4780",
+        "https://www.linkedin.com/in/ffmcfarland",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4780",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4780&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/3c9e6522-75aa-40d0-870c-1792d5178b04",
+      "name": "Gallop Franklin",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Democratic",
+      "email": "gallop.franklin@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4863&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4863",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4863",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4863&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gallop_Franklin",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4863&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4863",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4863",
+        "https://www.linkedin.com/in/gallop-franklin-222485a3",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4863&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/cd3ba8e7-7c51-444b-bff3-e0c29de30660",
+      "name": "Gayle Harrell",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "31",
+      "party": "Republican",
+      "email": "harrell.gayle.web@flsenate.gov",
+      "phone": "772-221-4019",
+      "districtPhone": "772-221-4019",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S31",
+        "https://www.flsenate.gov/Senators/2018-2020/S25",
+        "https://www.flsenate.gov/Senators/s25",
+        "https://www.flsenate.gov/Senators/s31"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gayle_Harrell",
+        "https://en.wikipedia.org/wiki/Gayle_Harrell",
+        "https://flsenate.gov/Senators/2022-2024/S31",
+        "https://justfacts.votesmart.org/candidate/biography/53962/gayle-harrell",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S25",
+        "https://www.flsenate.gov/Senators/s25",
+        "https://www.flsenate.gov/Senators/s31",
+        "https://www.linkedin.com/in/gayle-harrell-79992915"
+      ]
+    },
+    {
+      "id": "ocd-person/fd753355-7d8a-4eda-ab3c-8a6478e1ac73",
+      "name": "Hilary Holley",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "51",
+      "party": "Republican",
+      "email": "hilary.holley@flhouse.gov",
+      "phone": "863-656-8520",
+      "districtPhone": "863-656-8520",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5072"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Hilary_Holley",
+        "https://en.wikipedia.org/wiki/Hilary_Holley",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5072",
+        "https://www.linkedin.com/in/hilarywholley"
+      ]
+    },
+    {
+      "id": "ocd-person/d38a5a91-afd4-46d2-9bd3-7ccaf7aa0d2b",
+      "name": "Hillary Cassel",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "101",
+      "party": "Republican",
+      "email": "hillary.cassel@flhouse.gov",
+      "phone": "954-872-0180",
+      "districtPhone": "954-872-0180",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4895&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4895",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4895",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4895&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Hillary_Cassel",
+        "https://en.wikipedia.org/wiki/Hillary_Cassel",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4895&LegislativeTermId=90",
+        "https://www.cassel.law/hbc.html",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4895",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4895",
+        "https://www.linkedin.com/in/hillary-cassel-2044705",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4895&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/3b65ecb0-8a3d-469c-9db4-b70c8724610f",
+      "name": "Ileana Garcia",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "36",
+      "party": "Republican",
+      "email": "garcia.ileana.web@flsenate.gov",
+      "phone": "305-442-6841",
+      "districtPhone": "305-442-6841",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S36",
+        "https://www.flsenate.gov/Senators/S36",
+        "https://www.flsenate.gov/Senators/S37"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ileana_Garcia",
+        "https://en.wikipedia.org/wiki/Ileana_Garcia",
+        "https://flsenate.gov/Senators/2022-2024/S36",
+        "https://justfacts.votesmart.org/candidate/biography/194449/ileana-garcia",
+        "https://www.flsenate.gov/Senators/S36",
+        "https://www.flsenate.gov/Senators/S37"
+      ]
+    },
+    {
+      "id": "ocd-person/b65fb87d-0544-4058-8ad6-9cbd3622a330",
+      "name": "J.J. Grow",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Republican",
+      "email": "jj.grow@flhouse.gov",
+      "phone": "352-654-0490",
+      "districtPhone": "352-654-0490",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4909",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4909&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/J.J._Grow",
+        "https://justfacts.votesmart.org/candidate/217872/jj-grow",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4909",
+        "https://www.linkedin.com/in/jj-grow-41077b14",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4909&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/797767ca-fadc-49d9-a7a5-5722baf6557e",
+      "name": "James Buchanan",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "74",
+      "party": "Republican",
+      "email": "james.buchanan@flhouse.gov",
+      "phone": "941-732-0430",
+      "districtPhone": "941-732-0430",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4731&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4731",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4731",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4731&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/James_Buchanan_(Florida)",
+        "https://en.wikipedia.org/wiki/James_Buchanan_(Florida_politician)",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4731&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4731",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4731",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4731&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/d03b8661-852b-44ab-b7c2-aa3bf14acd39",
+      "name": "Jim Mooney",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "120",
+      "party": "Republican",
+      "email": "james.mooney@flhouse.gov",
+      "phone": "305-315-0780",
+      "districtPhone": "305-315-0780",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4797&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4797",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4797",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4797",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4797&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jim_Mooney",
+        "https://justfacts.votesmart.org/candidate/biography/194453/james-mooney",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4797&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4797",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4797",
+        "https://www.linkedin.com/in/flkeysrealtor",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4797",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4797&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/b1525f57-c2db-407e-bca9-66675cc4d3ff",
+      "name": "Jason Brodeur",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "10",
+      "party": "Republican",
+      "email": "brodeur.jason.web@flsenate.gov",
+      "phone": "407-333-1802",
+      "districtPhone": "407-333-1802",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S10",
+        "https://www.flsenate.gov/Senators/S10"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Brodeur",
+        "https://en.wikipedia.org/wiki/Jason_Brodeur",
+        "https://flsenate.gov/Senators/2022-2024/S10",
+        "https://justfacts.votesmart.org/candidate/biography/117042/jason-brodeur",
+        "https://www.flsenate.gov/Senators/S10",
+        "https://www.linkedin.com/in/jason-brodeur-mph-mba-0057b67"
+      ]
+    },
+    {
+      "id": "ocd-person/2bae38cc-f703-446b-93ec-576c0e388760",
+      "name": "Jason Shoaf",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Republican",
+      "email": "jason.shoaf@flhouse.gov",
+      "phone": "850-295-5680",
+      "districtPhone": "850-295-5680",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4756&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4756",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4756",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4756",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4756&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Shoaf",
+        "https://en.wikipedia.org/wiki/Jason_Shoaf",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4756&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4756",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4756",
+        "https://www.linkedin.com/in/jason-shoaf-6b553a37",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4756",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4756&LegislativeTermId=88"
+      ]
+    },
+    {
+      "id": "ocd-person/42278250-8dc9-4fcc-ab11-964aa8e369e7",
+      "name": "Jason Pizzo",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "37",
+      "party": "Independent",
+      "email": "pizzo.jason.web@flsenate.gov",
+      "phone": "954-893-5045",
+      "districtPhone": "954-893-5045",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S37",
+        "https://www.flsenate.gov/Senators/s37"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Pizzo",
+        "https://en.wikipedia.org/wiki/Jason_Pizzo",
+        "https://flsenate.gov/Senators/2022-2024/S37",
+        "https://justfacts.votesmart.org/candidate/biography/172750/jason-pizzo",
+        "https://www.flsenate.gov/Senators/s37",
+        "https://www.linkedin.com/in/jason-pizzo-91a55913"
+      ]
+    },
+    {
+      "id": "ocd-person/29c38853-2773-45d3-bc17-0979def1ab54",
+      "name": "Jay Trumbull",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "2",
+      "party": "Republican",
+      "email": "trumbull.jay.web@flsenate.gov",
+      "phone": "850-747-5454",
+      "districtPhone": "850-747-5454",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S2",
+        "https://www.flsenate.gov/Senators/S2"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_Trumbull",
+        "https://en.wikipedia.org/wiki/Jay_Trumbull",
+        "https://flsenate.gov/Senators/2022-2024/S2",
+        "https://justfacts.votesmart.org/candidate/biography/149501/jay-trumbull",
+        "https://www.flsenate.gov/Senators/S2"
+      ]
+    },
+    {
+      "id": "ocd-person/5bd19ebd-e225-49a5-b0f5-42f6380a9fa8",
+      "name": "Jeff Holcomb",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "53",
+      "party": "Republican",
+      "email": "jeff.holcomb@flhouse.gov",
+      "phone": "352-675-0100",
+      "districtPhone": "352-675-0100",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4890&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4890",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4890&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeff_Holcomb_(Florida)",
+        "https://justfacts.votesmart.org/candidate/biography/158287/jeff-holcomb",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4890&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4890",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4890&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/68e0a17f-338b-497b-ba07-1f74e9623f1d",
+      "name": "Jennifer Bradley",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "6",
+      "party": "Republican",
+      "email": "bradley.jennifer.web@flsenate.gov",
+      "phone": "904-278-2085",
+      "districtPhone": "904-278-2085",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S6",
+        "https://www.flsenate.gov/Senators/S6"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Bradley",
+        "https://en.wikipedia.org/wiki/Jennifer_Bradley",
+        "https://flsenate.gov/Senators/2022-2024/S6",
+        "https://justfacts.votesmart.org/candidate/biography/194419/jennifer-bradley",
+        "https://www.flsenate.gov/Senators/S6",
+        "https://www.linkedin.com/in/jennifer-bradley-a32ba839"
+      ]
+    },
+    {
+      "id": "ocd-person/7fb5a540-2c3c-4661-8495-2e0e02ab8644",
+      "name": "Jennifer Canady",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "50",
+      "party": "Republican",
+      "email": "jennifer.canady@flhouse.gov",
+      "phone": "863-450-4795",
+      "districtPhone": "863-450-4795",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4879&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4879",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4879&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Canady",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4879&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4879",
+        "https://www.linkedin.com/in/jennifer-canady-29551a60",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4879&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/28e33eaa-f6cf-4158-83fe-aff91d0cd8f0",
+      "name": "Jennifer Kincart Jonsson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "49",
+      "party": "Republican",
+      "email": "jennifer.jonsson@flhouse.gov",
+      "phone": "863-486-0440",
+      "districtPhone": "863-486-0440",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4918",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4918&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Kincart_Jonsson",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4918",
+        "https://www.linkedin.com/in/jennifer-kincart-jonsson1222",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4918&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/ca476441-7c7a-4f21-ba55-207c21a7d51d",
+      "name": "Rita Harris",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "44",
+      "party": "Democratic",
+      "email": "rita.harris@flhouse.gov",
+      "phone": "407-751-1380",
+      "districtPhone": "407-751-1380",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4877&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4877",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4877",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4877&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Harris",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4877&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4877",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4877",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4877&LegislativeTermId=90",
+        "https://www.ritaforflorida.com"
+      ]
+    },
+    {
+      "id": "ocd-person/bb2ae855-2e7a-4744-9271-a8ae1af89428",
+      "name": "Tae Edmonds",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "88",
+      "party": "Democratic",
+      "email": "jervonte.edmonds@flhouse.gov",
+      "phone": "561-242-5530",
+      "districtPhone": "561-242-5530",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4842&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4842",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4842&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jervonte_Edmonds",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4842&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4842",
+        "https://www.linkedin.com/in/jervonte-“tae”-edmonds-51b47a52",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4842&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/8dd703e2-8024-47c5-a22b-87a36db841cb",
+      "name": "Jessica Baker",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Republican",
+      "email": "jessica.baker@flhouse.gov",
+      "phone": "904-667-0280",
+      "districtPhone": "904-667-0280",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4866&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4866",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4866&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jessica_Baker",
+        "https://en.wikipedia.org/wiki/Jessica_Baker",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4866&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4866",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4866&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/c70f231f-92e2-4a55-a59b-fcf113ab51af",
+      "name": "Jim Boyd",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "20",
+      "party": "Republican",
+      "email": "boyd.jim.web@flsenate.gov",
+      "phone": "941-742-6445",
+      "districtPhone": "941-742-6445",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S20",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4511&LegislativeTermId=87",
+        "https://www.flsenate.gov/Senators/S20",
+        "https://www.flsenate.gov/Senators/S21"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jim_Boyd",
+        "https://en.wikipedia.org/wiki/Jim_Boyd_(politician)",
+        "https://flsenate.gov/Senators/2022-2024/S20",
+        "https://justfacts.votesmart.org/candidate/biography/117037/jim-boyd",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4511&LegislativeTermId=87",
+        "https://www.flhouse.gov/Sections/Representatives/representatives.aspx",
+        "https://www.flsenate.gov/Senators/S20",
+        "https://www.flsenate.gov/Senators/S21"
+      ]
+    },
+    {
+      "id": "ocd-person/24b4458a-bc61-42f8-805a-6bc43edf6acb",
+      "name": "Joe Gruters",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "22",
+      "party": "Republican",
+      "email": "gruters.joe.web@flsenate.gov",
+      "phone": "941-378-6309",
+      "districtPhone": "941-378-6309",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S22",
+        "https://www.flsenate.gov/Senators/2018-2020/S23",
+        "https://www.flsenate.gov/Senators/s22",
+        "https://www.flsenate.gov/Senators/s23"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joe_Gruters",
+        "https://en.wikipedia.org/wiki/Joe_Gruters",
+        "https://flsenate.gov/Senators/2022-2024/S22",
+        "https://justfacts.votesmart.org/candidate/biography/17342/joe-gruters",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S23",
+        "https://www.flsenate.gov/Senators/s22",
+        "https://www.flsenate.gov/Senators/s23",
+        "https://www.gruterscpa.com/joe-gruters",
+        "https://www.linkedin.com/in/joegruters"
+      ]
+    },
+    {
+      "id": "ocd-person/fa6bc3c9-a107-4954-adf1-e1461e9f3520",
+      "name": "Johanna López",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "43",
+      "party": "Democratic",
+      "email": "johanna.lopez@flhouse.gov",
+      "phone": "407-751-1060",
+      "districtPhone": "407-751-1060",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4875&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4875",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4875&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Johanna_Lopez",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4875&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4875",
+        "https://www.linkedin.com/in/johannaocps",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4875&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/5055fc3a-3cdd-4f4d-addb-23634fd1df92",
+      "name": "John Snyder",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "86",
+      "party": "Republican",
+      "email": "john.snyder@flhouse.gov",
+      "phone": "772-510-0120",
+      "districtPhone": "772-510-0120",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4787&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4787",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4787",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4787&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Snyder",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4787&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4787",
+        "https://www.linkedin.com/in/john-snyder-9838494a",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4787",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4787&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/c7ee0194-6ff9-4b95-83ee-bac26e80467d",
+      "name": "Jon Albert",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "48",
+      "party": "Republican",
+      "email": "jon.albert@flhouse.gov",
+      "phone": "863-500-8310",
+      "districtPhone": "863-500-8310",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4917&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4917",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4917&SessionId=105"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jon_Albert",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4917&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4917",
+        "https://www.linkedin.com/in/jon-albert-mba-2430a654",
+        "https://www.linkedin.com/in/jonathan-albert-mba-2430a654",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4917&SessionId=105"
+      ]
+    },
+    {
+      "id": "ocd-person/e5e1f892-4d9e-464e-b58d-6acf50069b75",
+      "name": "Jonathan Martin",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "33",
+      "party": "Republican",
+      "email": "martin.jonathan.web@flsenate.gov",
+      "phone": "239-338-2570",
+      "districtPhone": "239-338-2570",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S33",
+        "https://www.flsenate.gov/Senators/S33"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Allen_Martin",
+        "https://en.wikipedia.org/wiki/Jonathan_Martin_(Florida_politician)",
+        "https://flsenate.gov/Senators/2022-2024/S33",
+        "https://justfacts.votesmart.org/candidate/biography/138146/jonathan-martin",
+        "https://www.flsenate.gov/Senators/S33",
+        "https://www.linkedin.com/in/jonathanmartinesq"
+      ]
+    },
+    {
+      "id": "ocd-person/c3e8a214-183a-4b9c-970c-5332e83eb8e6",
+      "name": "Jose Alvarez",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "46",
+      "party": "Democratic",
+      "email": "jose.alvarez@flhouse.gov",
+      "phone": "407-964-8050",
+      "districtPhone": "407-964-8050",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4916&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4916"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jose_A._Alvarez",
+        "https://en.wikipedia.org/wiki/Jose_Alvarez_(Florida_politician)",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4916&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4916",
+        "https://www.linkedin.com/in/jose-alvarez11"
+      ]
+    },
+    {
+      "id": "ocd-person/6c673f21-8f64-44b7-831f-d3d2e9c78eb3",
+      "name": "Juan Porras",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "119",
+      "party": "Republican",
+      "email": "juancarlos.porras@flhouse.gov",
+      "phone": "305-252-4307",
+      "districtPhone": "305-252-4307",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4898&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4898",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4898"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Juan_Carlos_Porras",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4898&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4898",
+        "https://www.linkedin.com/in/juan-porras-9a1268134",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4898"
+      ]
+    },
+    {
+      "id": "ocd-person/09ff6379-dbcc-4aa2-bc70-0b2fa9fd69ec",
+      "name": "Judson Sapp",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Republican",
+      "email": "judson.sapp@flhouse.gov",
+      "phone": "386-249-7060",
+      "districtPhone": "386-249-7060",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4907",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4907&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Judson_Sapp",
+        "https://en.wikipedia.org/wiki/Judson_Sapp",
+        "https://justfacts.votesmart.org/candidate/biography/182254/judson-sapp",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4907",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4907&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/d1296445-72e8-45e5-ad0e-4443275176ef",
+      "name": "Karen Gonzalez Pittman",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "65",
+      "party": "Republican",
+      "email": "karen.pittman@flhouse.gov",
+      "phone": "813-726-1940",
+      "districtPhone": "813-726-1940",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4888&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4888",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4888&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Karen_Gonzalez_Pittman",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4888&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4888",
+        "https://www.linkedin.com/in/karen-gonzalez-pittman-92216190",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4888&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/ae123d54-1076-49b2-84f9-2897b7d60ebd",
+      "name": "Kathleen Passidomo",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "28",
+      "party": "Republican",
+      "email": "passidomo.kathleen.web@flsenate.gov",
+      "phone": "863-674-7122",
+      "districtPhone": "863-674-7122",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S28",
+        "https://www.flsenate.gov/Senators/2018-2020/S28",
+        "https://www.flsenate.gov/Senators/s28"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kathleen_Passidomo",
+        "https://en.wikipedia.org/wiki/Kathleen_Passidomo",
+        "https://flsenate.gov/Senators/2022-2024/S28",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S28",
+        "https://www.flsenate.gov/Senators/s28",
+        "https://www.linkedin.com/in/kathleen-passidomo-7063b413"
+      ]
+    },
+    {
+      "id": "ocd-person/43356d29-3396-423e-9286-f7bd1e52ebde",
+      "name": "Kaylee Tuck",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "83",
+      "party": "Republican",
+      "email": "kaylee.tuck@flhouse.gov",
+      "phone": "863-462-5019",
+      "districtPhone": "863-462-5019",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4776&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4776",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4776"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kaylee_Tuck",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4776&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4776",
+        "https://www.linkedin.com/in/kayleetuck",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4776"
+      ]
+    },
+    {
+      "id": "ocd-person/9c87088c-e5a4-4902-b3cb-4477e062de66",
+      "name": "Keith Truenow",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "13",
+      "party": "Republican",
+      "email": "truenow.keith.web@flsenate.gov",
+      "phone": "352-750-3133",
+      "districtPhone": "352-750-3133",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4772&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/s13?pref=full",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4772",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4772&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Keith_Truenow",
+        "https://en.wikipedia.org/wiki/Keith_Truenow",
+        "https://justfacts.votesmart.org/candidate/biography/194608/keith-truenow",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4772&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/s13?pref=full",
+        "https://www.linkedin.com/in/keith-truenow-42ba2043",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4772",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4772&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/8eff1a19-557d-4a5d-8a3b-c77015a7babe",
+      "name": "Kelly Skidmore",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "92",
+      "party": "Democratic",
+      "email": "kelly.skidmore@flhouse.gov",
+      "phone": "561-407-6490",
+      "districtPhone": "561-407-6490",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4786&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4786",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4786",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4786"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kelly_Skidmore",
+        "https://en.wikipedia.org/wiki/Kelly_Skidmore",
+        "https://justfacts.votesmart.org/candidate/68159/kelly-skidmore",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4786&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4786",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4786",
+        "https://www.linkedin.com/in/kelly-skidmore-3107a92b",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4786"
+      ]
+    },
+    {
+      "id": "ocd-person/313e81ee-19af-4d9d-9186-fbbca7e6d65d",
+      "name": "Kevin Chambliss",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "117",
+      "party": "Democratic",
+      "email": "kevin.chambliss@flhouse.gov",
+      "phone": "305-237-5968",
+      "districtPhone": "305-237-5968",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4798",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4798",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Chambliss",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4798",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4798",
+        "https://www.linkedin.com/in/kevin-chambliss-sr-1b09ab26",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4798&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/7cf27467-9070-4d4a-9a45-24bfe980dfb8",
+      "name": "Kevin Steele",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "55",
+      "party": "Republican",
+      "email": "kevin.steele@flhouse.gov",
+      "phone": "727-766-0190",
+      "districtPhone": "727-766-0190",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4881&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4881",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4881"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Steele",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4881&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4881",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4881"
+      ]
+    },
+    {
+      "id": "ocd-person/e809e1f7-641f-47c7-8754-964f1ceae10d",
+      "name": "Kim Kendall",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Republican",
+      "email": "kim.kendall@flhouse.gov",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4905",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4905",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4905&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kim_Kendall",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4905",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4905",
+        "https://www.linkedin.com/in/kim-kendall-bb91a2120",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4905&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/d6c0ddf5-2821-4510-83d1-da9eb422739a",
+      "name": "Kim Berfield",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "58",
+      "party": "Republican",
+      "email": "kim.berfield@flhouse.gov",
+      "phone": "727-351-8820",
+      "districtPhone": "727-351-8820",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4210&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4210",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4210",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4210&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Berfield",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4210&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4210",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4210",
+        "https://www.linkedin.com/in/kimberfield",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4210&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/469b8c3d-5133-43c1-8598-b63ea936f135",
+      "name": "Kim Daniels",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Democratic",
+      "email": "kimberly.daniels@flhouse.gov",
+      "phone": "904-659-7180",
+      "districtPhone": "904-659-7180",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4652&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4652",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4652"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Daniels",
+        "https://en.wikipedia.org/wiki/Kimberly_Daniels",
+        "https://kimberlydaniels.com",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4652&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4652",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4652"
+      ]
+    },
+    {
+      "id": "ocd-person/efa5f0b9-e10e-4ae0-a352-db879b1e0d3b",
+      "name": "Kiyan Michael",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Republican",
+      "email": "kiyan.michael@flhouse.gov",
+      "phone": "904-561-1010",
+      "districtPhone": "904-561-1010",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4869&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4869",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4869&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kiyan_Michael",
+        "https://electkiyan.com",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4869&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4869",
+        "https://www.linkedin.com/in/kiyan-michael-018b815",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4869&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/e4a84025-e4fd-4d36-8e12-64bd9f61ed6d",
+      "name": "Kristen Arrington",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "25",
+      "party": "Democratic",
+      "email": "arrington.kristen.web@flsenate.gov",
+      "phone": "407-846-5187",
+      "districtPhone": "407-846-5187",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4774&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/s25",
+        "https://www.flsenate.gov/Senators/S25",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4774"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kristen_Arrington",
+        "https://en.wikipedia.org/wiki/Kristen_Arrington",
+        "https://justfacts.votesmart.org/candidate/biography/194624/kristen-arrington",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4774&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/s25",
+        "https://www.flsenate.gov/Senators/S25",
+        "https://www.linkedin.com/in/arrington4fl",
+        "https://www.linkedin.com/in/kristen-arrington",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4774"
+      ]
+    },
+    {
+      "id": "ocd-person/2f86f22f-b277-4441-b322-b1fbfb017b74",
+      "name": "LaVon Bracy Davis",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "15",
+      "party": "Democratic",
+      "email": "bracydavis.lavon.web@flsenate.gov",
+      "phone": "407-245-0194",
+      "districtPhone": "407-245-0194",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4874&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4874",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4874",
+        "https://www.flsenate.gov/Senators/S15",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4874&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/LaVon_Bracy_Davis",
+        "https://en.wikipedia.org/wiki/LaVon_Bracy_Davis",
+        "https://justfacts.votesmart.org/candidate/biography/209432/lavon-bracy-davis",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4874&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4874",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4874",
+        "https://www.flsenate.gov/Senators/S15",
+        "https://www.linkedin.com/in/lavon-bracy-davis-212528175",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4874&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/f835385b-0837-4cfc-a81c-54982ba185d7",
+      "name": "Lauren Melo",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "82",
+      "party": "Republican",
+      "email": "lauren.melo@flhouse.gov",
+      "phone": "863-674-8600",
+      "districtPhone": "863-674-8600",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4784&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4784",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4784",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4784",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4784&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lauren_Melo",
+        "https://justfacts.votesmart.org/candidate/194529/lauren-melo",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4784&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4784",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4784",
+        "https://www.linkedin.com/in/lauren-melo-8b146441",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4784",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4784&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/56263ea0-3c5c-45cb-998d-ac7cf8db5446",
+      "name": "Lawrence McClure",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "68",
+      "party": "Republican",
+      "email": "lawrence.mcclure@flhouse.gov",
+      "phone": "813-730-8600",
+      "districtPhone": "813-730-8600",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4686&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4686",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4686"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lawrence_McClure",
+        "https://en.wikipedia.org/wiki/Lawrence_McClure",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4686&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4686",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4686"
+      ]
+    },
+    {
+      "id": "ocd-person/69e5941c-0def-4c79-a33e-c318ff516c9a",
+      "name": "Leonard Spencer",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "45",
+      "party": "Democratic",
+      "email": "leonard.spencer@flhouse.gov",
+      "phone": "407-598-8680",
+      "districtPhone": "407-598-8680",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4915&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4915",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4915&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Leonard_Spencer",
+        "https://justfacts.votesmart.org/candidate/217900/leonard-spencer",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4915&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4915",
+        "https://www.linkedin.com/in/leonardkspencer",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4915&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/7d59a4fe-d0f1-43a8-93b4-bcd3b7fe5b4e",
+      "name": "Linda Chaney",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "61",
+      "party": "Republican",
+      "email": "linda.chaney@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4778&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4778",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4778",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4778"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Linda_Chaney",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4778&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4778",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4778",
+        "https://www.linkedin.com/in/linda-j-chaney-44b02b161",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4778"
+      ]
+    },
+    {
+      "id": "ocd-person/8bcd1df3-2697-42a9-842a-f3cced1fcb0f",
+      "name": "Lindsay Cross",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "60",
+      "party": "Democratic",
+      "email": "lindsay.cross@flhouse.gov",
+      "phone": "727-629-6770",
+      "districtPhone": "727-629-6770",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4887&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4887",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4887",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4887&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lindsay_Cross",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4887&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4887",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4887",
+        "https://www.linkedin.com/in/lindsay-cross-96677820",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4887&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/314f9b75-2167-4b73-b7b8-9c7dee31aaee",
+      "name": "Lisa Dunkley",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "97",
+      "party": "Democratic",
+      "email": "lisa.dunkley@flhouse.gov",
+      "phone": "954-910-2360",
+      "districtPhone": "954-910-2360",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4893&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4893",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4893&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lisa_Dunkley",
+        "https://justfacts.votesmart.org/candidate/biography/209448/lisa-dunkley",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4893&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4893",
+        "https://www.linkedin.com/in/lisa-dunkley-26b45524",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4893&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/762d321c-5bbe-4513-b9f0-7e3d8a6972f5",
+      "name": "Lori Berman",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "26",
+      "party": "Democratic",
+      "email": "berman.lori.web@flsenate.gov",
+      "phone": "561-292-6014",
+      "districtPhone": "561-292-6014",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S26",
+        "https://www.flsenate.gov/Senators/2018-2020/S31",
+        "https://www.flsenate.gov/Senators/s26",
+        "https://www.flsenate.gov/Senators/s31"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lori_Berman",
+        "https://en.wikipedia.org/wiki/Lori_Berman",
+        "https://flsenate.gov/Senators/2022-2024/S26",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S31",
+        "https://www.flsenate.gov/Senators/s26",
+        "https://www.flsenate.gov/Senators/s31",
+        "https://www.linkedin.com/in/lori-berman-8980b714"
+      ]
+    },
+    {
+      "id": "ocd-person/3038008c-cb9b-4735-92b4-b8f2be9c5d8e",
+      "name": "Mack Bernard",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "24",
+      "party": "Democratic",
+      "email": "bernard.mack.web@flsenate.gov",
+      "phone": "561-650-6880",
+      "districtPhone": "561-650-6880",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4422&SessionId=70",
+        "https://www.flsenate.gov/Senators/S24"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mack_Bernard",
+        "https://en.wikipedia.org/wiki/Mack_Bernard",
+        "https://justfacts.votesmart.org/candidate/biography/112529/mack-bernard",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4422&SessionId=70",
+        "https://www.flhouse.gov/Sections/Representatives/representatives.aspx",
+        "https://www.flsenate.gov/Senators/S24"
+      ]
+    },
+    {
+      "id": "ocd-person/5eb39c7e-3582-4269-a012-7a88c54623c9",
+      "name": "Marie Woodson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "105",
+      "party": "Democratic",
+      "email": "marie.woodson@flhouse.gov",
+      "phone": "954-250-6010",
+      "districtPhone": "954-250-6010",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4789&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4789",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4789",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4789&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Marie_Woodson",
+        "https://en.wikipedia.org/wiki/Marie_Woodson",
+        "https://justfacts.votesmart.org/candidate/194484/marie-woodson",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4789&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4789",
+        "https://www.linkedin.com/in/marie-woodson-582b9827",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4789",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4789&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/7079537f-b144-4304-b389-8e572e62e1c9",
+      "name": "Meg Weinberger",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "94",
+      "party": "Republican",
+      "email": "meg.weinberger@flhouse.gov",
+      "phone": "561-576-0340",
+      "districtPhone": "561-576-0340",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4926",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4926&LegislativeTermId=91",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4926&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Meg_Weinberger",
+        "https://justfacts.votesmart.org/candidate/217966/meg-weinberger",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4926",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4926&LegislativeTermId=91",
+        "https://www.linkedin.com/in/megan-o-neill-weinberger-49878433",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4926&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/1c170657-03fb-4ab7-ae9f-f8e83568471e",
+      "name": "Mike Gottlieb",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "102",
+      "party": "Democratic",
+      "email": "mike.gottlieb@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4724&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4724",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4724",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4724&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Gottlieb",
+        "https://en.wikipedia.org/wiki/Michael_Gottlieb_(politician)",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4724&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4724",
+        "https://www.linkedin.com/in/michael-gottlieb-b5b61a35",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4724",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4724&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/fc683ed7-c458-46b4-a133-6ab6916237d0",
+      "name": "Michael Owen",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "70",
+      "party": "Republican",
+      "email": "michael.owen@flhouse.gov",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4919",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4919",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4919&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Owen_(Florida)",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4919",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4919",
+        "https://www.linkedin.com/in/michael-owen-01235b37",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4919&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/9b6f17f5-ec19-4302-8a45-2b40175bb39b",
+      "name": "Michele Rayner",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "62",
+      "party": "Democratic",
+      "email": "michele.rayner@flhouse.gov",
+      "phone": "727-629-6820",
+      "districtPhone": "727-629-6820",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4781&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4781",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4781",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4781"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michele_Rayner",
+        "https://en.wikipedia.org/wiki/Michele_Rayner",
+        "https://justfacts.votesmart.org/candidate/194561/michele-rayner",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4781&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4781",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4781",
+        "https://www.linkedin.com/in/mkrayner",
+        "https://www.linkedin.com/in/mkrg",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4781"
+      ]
+    },
+    {
+      "id": "ocd-person/a3c0aa9f-c261-4904-b73b-4dc127778222",
+      "name": "Michelle Salzman",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Republican",
+      "email": "michelle.salzman@flhouse.gov",
+      "phone": "850-988-1160",
+      "districtPhone": "850-988-1160",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4763",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4763",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michelle_Salzman",
+        "https://justfacts.votesmart.org/candidate/biography/193539/michelle-salzman",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4763",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4763",
+        "https://www.linkedin.com/in/michellesalzman",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4763&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/9a44c892-cd4a-452b-88cb-435e8ece8d82",
+      "name": "Mike Giallombardo",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "79",
+      "party": "Republican",
+      "email": "mike.giallombardo@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4783&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4783",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4783"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Giallombardo",
+        "https://justfacts.votesmart.org/candidate/biography/146155/mike-giallombardo",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4783&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4783",
+        "https://www.linkedin.com/in/mike-giallombardo-61405350",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4783"
+      ]
+    },
+    {
+      "id": "ocd-person/a4a0a7bf-62c4-412e-9501-007d712009ca",
+      "name": "Mike Redondo",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "118",
+      "party": "Republican",
+      "email": "mike.redondo@flhouse.gov",
+      "phone": "305-564-4730",
+      "districtPhone": "305-564-4730",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4902&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4902",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4902",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4902&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Redondo",
+        "https://en.wikipedia.org/wiki/Mike_Redondo",
+        "https://redondolawfirm.com/about/mike-redondo",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4902",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4902",
+        "https://www.linkedin.com/in/mike-redondo-6702901a",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4902&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/04a025da-737a-4580-9c0f-64531e9cbbec",
+      "name": "Mitch Rosenwald",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "98",
+      "party": "Democratic",
+      "email": "mitch.rosenwald@flhouse.gov",
+      "phone": "954-481-0340",
+      "districtPhone": "954-481-0340",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4927&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4927",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4927&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mitch_Rosenwald",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4927&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4927",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4927&LegislativeTermId=91",
+        "https://www.linkedin.com/in/mitch-rosenwald-b2a981238"
+      ]
+    },
+    {
+      "id": "ocd-person/4a001cb2-e0ab-4036-a85d-b4f8ab3664cc",
+      "name": "Monique Miller",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Republican",
+      "email": "monique.miller@flhouse.gov",
+      "phone": "321-497-8170",
+      "districtPhone": "321-497-8170",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4913",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4913",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4913&LegislativeTermId=91",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4913&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Monique_Miller",
+        "https://en.wikipedia.org/wiki/Monique_Miller_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/153863/monique-miller",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4913",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4913",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4913&LegislativeTermId=91",
+        "https://www.linkedin.com/in/monique-miller-44a971",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4913&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/609d82db-51d0-4705-a6c4-4d0bd487a61f",
+      "name": "Nan Cobb",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Republican",
+      "email": "nan.cobb@flhouse.gov",
+      "phone": "352-747-1540",
+      "districtPhone": "352-747-1540",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4910",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4910&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nan_Cobb",
+        "https://justfacts.votesmart.org/candidate/217878/nan-cobb",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4910",
+        "https://www.linkedin.com/in/nan-cobb-95294711",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4910&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/7fa0c00f-c006-401c-88e7-06485e394c34",
+      "name": "Nathan Boyles",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Republican",
+      "email": "nathan.boyles@flhouse.gov",
+      "phone": "850-750-4470",
+      "districtPhone": "850-750-4470",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=5063",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5063"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nathan_Boyles",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=5063",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5063",
+        "https://www.linkedin.com/in/nathan-boyles-ba1b08199"
+      ]
+    },
+    {
+      "id": "ocd-person/618247ea-caa1-462c-a29a-636c1720fd14",
+      "name": "Nick DiCeglie",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "18",
+      "party": "Republican",
+      "email": "diceglie.nick.web@flsenate.gov",
+      "phone": "727-563-1910",
+      "districtPhone": "727-563-1910",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S18",
+        "https://www.flsenate.gov/Senators/S18",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4735&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nick_DiCeglie",
+        "https://en.wikipedia.org/wiki/Nick_DiCeglie",
+        "https://flsenate.gov/Senators/2022-2024/S18",
+        "https://www.flsenate.gov/Senators/S18",
+        "https://www.linkedin.com/in/nick-diceglie-64582416",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4735&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/4bae75ba-b3df-4780-984b-144ae4d80a77",
+      "name": "Omar Blanco",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "115",
+      "party": "Republican",
+      "email": "omar.blanco@flhouse.gov",
+      "phone": "305-850-6410",
+      "districtPhone": "305-850-6410",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4929",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4929",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4929&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Omar_Blanco",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4929",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4929",
+        "https://www.linkedin.com/in/omar-blanco-0b236055",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4929&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/0a0ec0a3-4f1d-4cd8-b790-d51bff717798",
+      "name": "Paula Stark",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "47",
+      "party": "Republican",
+      "email": "paula.stark@flhouse.gov",
+      "phone": "407-548-1930",
+      "districtPhone": "407-548-1930",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4878&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4878",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4878",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4878"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Paula_Stark",
+        "https://en.wikipedia.org/wiki/Paula_Stark",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4878&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4878",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4878",
+        "https://www.linkedin.com/in/paula-stark-7a010734",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4878"
+      ]
+    },
+    {
+      "id": "ocd-person/ab654947-84ed-4526-9b00-487642499106",
+      "name": "Peggy Gossett-Seidman",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "91",
+      "party": "Republican",
+      "email": "peggy.gossettseidman@flhouse.gov",
+      "phone": "561-571-4670",
+      "districtPhone": "561-571-4670",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4891&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4891",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4891&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Peggy_Gossett-Seidman",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4891&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4891",
+        "https://www.linkedin.com/in/peggy-gossett-seidman-86a2b8161",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4891&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/25748543-5a46-49c2-bc52-f7d39c18a2e6",
+      "name": "Griff Griffitts",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Republican",
+      "email": "griff.griffitts@flhouse.gov",
+      "phone": "850-804-1950",
+      "districtPhone": "850-804-1950",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4862&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4862",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4862"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Philip_Griffitts",
+        "https://en.wikipedia.org/wiki/Philip_Griffitts",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4862&LegislativeTermId=90",
+        "https://votegriff.com/meet-griff",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4862",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4862"
+      ]
+    },
+    {
+      "id": "ocd-person/ff372569-d6f5-4bd0-8d36-569a7458f3e2",
+      "name": "RaShon Young",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Democratic",
+      "email": "rashon.young@flhouse.gov",
+      "phone": "407-557-4530",
+      "districtPhone": "407-557-4530",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=5065"
+      ],
+      "sources": [
+        "https://ballotpedia.org/RaShon_Young",
+        "https://en.wikipedia.org/wiki/RaShon_Young",
+        "https://justfacts.votesmart.org/candidate/biography/223242/rashon-young",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=5065",
+        "https://www.linkedin.com/in/rashon-young-71ab48175"
+      ]
+    },
+    {
+      "id": "ocd-person/1b25c111-e59b-429e-a6b7-fd22a38c1581",
+      "name": "Rachel Plakon",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Republican",
+      "email": "rachel.plakon@flhouse.gov",
+      "phone": "407-263-3931",
+      "districtPhone": "407-263-3931",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4871&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4871",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4871"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rachel_Plakon",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4871&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4871",
+        "https://www.linkedin.com/in/rachelsaunders5778",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4871"
+      ]
+    },
+    {
+      "id": "ocd-person/6d1623ae-0b24-4007-9c0f-af352ea22180",
+      "name": "Ralph Massullo",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "11",
+      "party": "Republican",
+      "email": "massullo.ralph.web@flsenate.gov",
+      "phone": "352-666-5707",
+      "districtPhone": "352-666-5707",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4624&LegislativeTermId=90",
+        "https://ralphmassullo.com/",
+        "https://www.flsenate.gov/Senators/S11",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4624",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4624&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ralph_Massullo_Jr.",
+        "https://en.wikipedia.org/wiki/Ralph_Massullo",
+        "https://justfacts.votesmart.org/candidate/biography/172870/ralph-massullo-jr",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4624&LegislativeTermId=90",
+        "https://ralphmassullo.com",
+        "https://www.flsenate.gov/Senators/S11",
+        "https://www.linkedin.com/in/ralph-massullo-69ab3b20",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4624",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4624&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/2a415c08-da66-402b-ada6-93390a5df820",
+      "name": "Randy Maggard",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "54",
+      "party": "Republican",
+      "email": "randy.maggard@flhouse.gov",
+      "phone": "813-768-0030",
+      "districtPhone": "813-768-0030",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4758&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4758",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4758",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4758&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Randy_Maggard",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4758&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4758",
+        "https://www.linkedin.com/in/randy-maggard-32b19125",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4758",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4758&LegislativeTermId=88"
+      ]
+    },
+    {
+      "id": "ocd-person/c95a0c72-09d5-40dc-8df8-a865051b9ea0",
+      "name": "Richard Gentry",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Republican",
+      "email": "richard.gentry@flhouse.gov",
+      "phone": "386-251-1100",
+      "districtPhone": "386-251-1100",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4911",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4911&LegislativeTermId=91",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4911&SessionId=105"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Richard_Gentry",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4911",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4911&LegislativeTermId=91",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4911&SessionId=105"
+      ]
+    },
+    {
+      "id": "ocd-person/50be2c32-37ea-4b93-9525-21d7b6f0b463",
+      "name": "Rob Long",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "90",
+      "party": "Democratic",
+      "email": "rob.long@flhouse.gov",
+      "phone": "561-903-1310",
+      "districtPhone": "561-903-1310",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5067"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rob_Long",
+        "https://en.wikipedia.org/wiki/Rob_Long_(Florida_politician)",
+        "https://www.delraybeachfl.gov/government/city-commission/deputy-vice-mayor-rob-long",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5067",
+        "https://www.linkedin.com/in/roblongpbc"
+      ]
+    },
+    {
+      "id": "ocd-person/c63b8e5e-fd63-45a1-b7e9-16595039f34a",
+      "name": "Robbie Brackett",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Republican",
+      "email": "robert.brackett@flhouse.gov",
+      "phone": "772-365-9230",
+      "districtPhone": "772-365-9230",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4870&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4870",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4870&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Brackett",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4870&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4870",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4870&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/de5ddba1-d7fe-41da-9f36-16a03b0b22fc",
+      "name": "Alex Andrade",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Republican",
+      "email": "alex.andrade@flhouse.gov",
+      "phone": "850-542-1980",
+      "districtPhone": "850-542-1980",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4710&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4710",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4710",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4710&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alex_Andrade",
+        "https://en.wikipedia.org/wiki/Alex_Andrade_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/184315/alex-andrade",
+        "https://mhw-law.com/alex-andrade",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4710&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4710",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4710",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4710&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/caf95c6f-3143-433e-8654-c17d39b94f88",
+      "name": "Chuck Brannan",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Republican",
+      "email": "chuck.brannan@flhouse.gov",
+      "phone": "386-400-1980",
+      "districtPhone": "386-400-1980",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4708&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4708",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4708",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4708&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chuck_Brannan",
+        "https://en.wikipedia.org/wiki/Chuck_Brannan",
+        "https://justfacts.votesmart.org/candidate/biography/184319/chuck-brannan-iii",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4708&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4708",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4708",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4708&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/67c201cf-9aaa-4a06-8dda-28e93ea27f6b",
+      "name": "Robin Bartleman",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "103",
+      "party": "Democratic",
+      "email": "robin.bartleman@flhouse.gov",
+      "phone": "954-872-1770",
+      "districtPhone": "954-872-1770",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4793&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4793",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4793",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4793&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robin_Bartleman",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4793&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4793",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4793",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4793&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/3194701f-dfa8-40e9-9081-56aa20c63f6e",
+      "name": "Rosalind Osgood",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "32",
+      "party": "Democratic",
+      "email": "osgood.rosalind.web@flsenate.gov",
+      "phone": "954-321-2705",
+      "districtPhone": "954-321-2705",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S32",
+        "https://www.flsenate.gov/Senators/S32",
+        "https://www.senatorosgood.com/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rosalind_Osgood",
+        "https://en.wikipedia.org/wiki/Rosalind_Osgood",
+        "https://flsenate.gov/Senators/2022-2024/S32",
+        "https://justfacts.votesmart.org/candidate/biography/200762/rosalind-osgood",
+        "https://www.flsenate.gov/Senators/S32",
+        "https://www.linkedin.com/in/dr-rosalind-osgood-7739b834",
+        "https://www.senatorosgood.com"
+      ]
+    },
+    {
+      "id": "ocd-person/baa03ffb-0948-4975-9e3a-c3fb9c0fcf40",
+      "name": "Ryan Chamberlin",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Republican",
+      "email": "ryan.chamberlin@flhouse.gov",
+      "phone": "352-635-0450",
+      "districtPhone": "352-635-0450",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4901&LegislativeTermId=90",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4901&LegislativeTermId=91",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4901",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4901"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ryan_Chamberlin",
+        "https://en.wikipedia.org/wiki/Ryan_Chamberlin",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4901&LegislativeTermId=90",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4901&LegislativeTermId=91",
+        "https://ryanchamberlin.com",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4901",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4901",
+        "https://www.linkedin.com/in/ryandchamberlin",
+        "https://www.ryanchamberlin.com"
+      ]
+    },
+    {
+      "id": "ocd-person/965e180a-177f-49ac-baba-0f0c7fe9a836",
+      "name": "Sam Garrison",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Republican",
+      "email": "sam.garrison@flhouse.gov",
+      "phone": "904-375-3300",
+      "districtPhone": "904-375-3300",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4767&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4767",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4767",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4767",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4767&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sam_Garrison",
+        "https://justfacts.votesmart.org/candidate/biography/193775/sam-garrison",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4767&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4767",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4767",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4767",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4767&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/2da96449-663b-48ed-ab70-ef4e433afda3",
+      "name": "Sam Greco",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Republican",
+      "email": "sam.greco@flhouse.gov",
+      "phone": "386-446-7644",
+      "districtPhone": "386-446-7644",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4906",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4906&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sam_Greco",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4906",
+        "https://www.linkedin.com/in/samuel-greco",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4906&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/6e6024d7-d66b-437d-b4a7-1e96bc365d5d",
+      "name": "Samantha Scott",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "52",
+      "party": "Republican",
+      "email": "samantha.scott@flhouse.gov",
+      "phone": "352-635-0260",
+      "districtPhone": "352-635-0260",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5070"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Samantha_Scott",
+        "https://en.wikipedia.org/wiki/Samantha_Scott_(politician)",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=5070"
+      ]
+    },
+    {
+      "id": "ocd-person/c844e345-f2a8-42fa-9ef9-d278bcb8fa4c",
+      "name": "Shane Abbott",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Republican",
+      "email": "shane.abbott@flhouse.gov",
+      "phone": "850-633-5180",
+      "districtPhone": "850-633-5180",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4864&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4864",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4864&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Shane_Abbott",
+        "https://en.wikipedia.org/wiki/Shane_Abbott",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4864&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4864",
+        "https://www.linkedin.com/in/shane-abbott-b4a93655",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4864&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/a8a2eaa4-449b-441f-96bb-d8a3e8191479",
+      "name": "Shev Jones",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "34",
+      "party": "Democratic",
+      "email": "jones.shevrin.web@flsenate.gov",
+      "phone": "305-493-6002",
+      "districtPhone": "305-493-6002",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S34",
+        "https://www.flsenate.gov/Senators/S34",
+        "https://www.flsenate.gov/Senators/S35",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4559&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Shevrin_Jones",
+        "https://en.wikipedia.org/wiki/Shevrin_D._Jones",
+        "https://flsenate.gov/Senators/2022-2024/S34",
+        "https://justfacts.votesmart.org/candidate/biography/142186/shevrin-jones",
+        "https://www.flsenate.gov/Senators/S34",
+        "https://www.flsenate.gov/Senators/S35",
+        "https://www.linkedin.com/in/shevrin-jones-916b776",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4559&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/5844fc0a-b2d2-4a09-baa7-6774e684326a",
+      "name": "Stan McClain",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "9",
+      "party": "Republican",
+      "email": "mcclain.stan.web@flsenate.gov",
+      "phone": "352-264-4040",
+      "districtPhone": "352-264-4040",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4658&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/S9",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4658",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4658&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stan_McClain",
+        "https://en.wikipedia.org/wiki/Stan_McClain",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4658&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/S9",
+        "https://www.linkedin.com/in/stan-mcclain-88441818",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4658",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4658&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/811dfa67-2615-4d45-9cf9-bd1a587a34fe",
+      "name": "Susan Valdés",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "64",
+      "party": "Republican",
+      "email": "susan.valdes@flhouse.gov",
+      "phone": "813-726-1070",
+      "districtPhone": "813-726-1070",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4752&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4752",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4752",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4752&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Susan_Valdes",
+        "https://en.wikipedia.org/wiki/Susan_Valdes",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4752&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4752",
+        "https://www.linkedin.com/in/susan-valdes-a18a275a",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4752",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4752&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/a5af681e-9679-4fed-83a3-ed16405055cb",
+      "name": "Susan Plasencia",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Republican",
+      "email": "susan.plasencia@flhouse.gov",
+      "phone": "407-633-3730",
+      "districtPhone": "407-633-3730",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4872&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4872",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4872",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4872&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Susan_Plasencia",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4872&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4872",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4872",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4872&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/4ba15ff2-a717-4ea5-ad72-34e673ef63d8",
+      "name": "Taylor Yarkosky",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Republican",
+      "email": "taylor.yarkosky@flhouse.gov",
+      "phone": "352-995-0130",
+      "districtPhone": "352-995-0130",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4868&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4868",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4868"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Taylor_Yarkosky",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4868&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4868",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4868",
+        "https://www.tayloryarkosky.com/about"
+      ]
+    },
+    {
+      "id": "ocd-person/04066eef-919c-4dc9-a655-ebc5e185f0c7",
+      "name": "Tom Leek",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "7",
+      "party": "Republican",
+      "email": "leek.tom.web@flsenate.gov",
+      "phone": "386-446-7610",
+      "districtPhone": "386-446-7610",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4662&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/S7",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4662"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_Leek",
+        "https://en.wikipedia.org/wiki/Tom_Leek",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4662&LegislativeTermId=90",
+        "https://www.flsenate.gov/Senators/S7",
+        "https://www.linkedin.com/in/thomasjleek",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4662"
+      ]
+    },
+    {
+      "id": "ocd-person/ed56c597-3652-45a5-9c01-de0bf3eb8ab9",
+      "name": "Patt Maney",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Republican",
+      "email": "patt.maney@flhouse.gov",
+      "phone": "850-904-1020",
+      "districtPhone": "850-904-1020",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4764&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4764",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4764",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4764",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4764&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/T._Patt_Maney",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4764&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4764",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4764",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4764",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4764&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/36219a90-2f5f-4ac6-b6ad-04139103c70c",
+      "name": "Tiffany Esposito",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "77",
+      "party": "Republican",
+      "email": "tiffany.esposito@flhouse.gov",
+      "phone": "239-445-0150",
+      "districtPhone": "239-445-0150",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4892&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4892",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4892&LegislativeTermId=90"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tiffany_Esposito",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4892&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4892",
+        "https://www.linkedin.com/in/tiffanyesposito",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4892&LegislativeTermId=90"
+      ]
+    },
+    {
+      "id": "ocd-person/8c728fd0-2a3b-48ea-88a9-c7d675eb05d0",
+      "name": "Tina Polsky",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "30",
+      "party": "Democratic",
+      "email": "polsky.tina.web@flsenate.gov",
+      "phone": "561-443-8170",
+      "districtPhone": "561-443-8170",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S30",
+        "https://www.flsenate.gov/Senators/S30"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tina_Polsky",
+        "https://en.wikipedia.org/wiki/Tina_Polsky",
+        "https://flsenate.gov/Senators/2022-2024/S30",
+        "https://justfacts.votesmart.org/candidate/biography/184461/tina-polsky",
+        "https://www.flsenate.gov/Senators/S30",
+        "https://www.linkedin.com/in/tina-scott-polsky-esq-0126a211"
+      ]
+    },
+    {
+      "id": "ocd-person/a44181b6-df0b-466d-9989-d369083201aa",
+      "name": "Toby Overdorf",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "85",
+      "party": "Republican",
+      "email": "toby.overdorf@flhouse.gov",
+      "phone": "772-403-9560",
+      "districtPhone": "772-403-9560",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4728&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4728",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4728",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4728",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4728&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Toby_Overdorf",
+        "https://en.wikipedia.org/wiki/Toby_Overdorf",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4728&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4728",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4728",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4728",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4728&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/4ae2bacf-d265-42a5-888d-5050015a6602",
+      "name": "Tommy Wright",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "8",
+      "party": "Republican",
+      "email": "wright.tom.web@flsenate.gov",
+      "phone": "386-304-7630",
+      "districtPhone": "386-304-7630",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S8",
+        "https://www.flsenate.gov/Senators/2018-2020/S14",
+        "https://www.flsenate.gov/Senators/s14",
+        "https://www.flsenate.gov/Senators/s8"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_Wright_(Florida)",
+        "https://en.wikipedia.org/wiki/Tom_A._Wright",
+        "https://flsenate.gov/Senators/2022-2024/S8",
+        "https://justfacts.votesmart.org/candidate/biography/185832/tom-wright",
+        "https://www.flsenate.gov/Senators",
+        "https://www.flsenate.gov/Senators/",
+        "https://www.flsenate.gov/Senators/2018-2020/S14",
+        "https://www.flsenate.gov/Senators/s14",
+        "https://www.flsenate.gov/Senators/s8"
+      ]
+    },
+    {
+      "id": "ocd-person/35f68144-b99b-4f86-b223-726897926bfa",
+      "name": "Tom Fabricio",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "110",
+      "party": "Republican",
+      "email": "tom.fabricio@flhouse.gov",
+      "phone": "305-564-4980",
+      "districtPhone": "305-564-4980",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4792&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4792",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4792",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4792",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4792&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_Fabricio",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4792&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4792",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4792",
+        "https://www.linkedin.com/in/tom-fabricio-9894121",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4792",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4792&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/217f848d-99c2-43aa-98d2-6fee2812c1e6",
+      "name": "Traci Koster",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "66",
+      "party": "Republican",
+      "email": "traci.koster@flhouse.gov",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4779",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Traci_Koster",
+        "https://en.wikipedia.org/wiki/Traci_Koster",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4779",
+        "https://www.linkedin.com/in/traci-koster-8a234b3",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4779&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/03362949-948c-415d-a5b6-f99e8fbc6495",
+      "name": "Tracie Davis",
+      "state": "FL",
+      "chamber": "upper",
+      "district": "5",
+      "party": "Democratic",
+      "email": "davis.tracie.web@flsenate.gov",
+      "phone": "904-359-2575",
+      "districtPhone": "904-359-2575",
+      "links": [
+        "https://flsenate.gov/Senators/2022-2024/S5",
+        "https://www.flsenate.gov/Senators/S5"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tracie_Davis",
+        "https://en.wikipedia.org/wiki/Tracie_Davis",
+        "https://flsenate.gov/Senators/2022-2024/S5",
+        "https://justfacts.votesmart.org/candidate/biography/172818/tracie-davis",
+        "https://www.flsenate.gov/Senators/S5",
+        "https://www.linkedin.com/in/tracie-davis-115a27b8"
+      ]
+    },
+    {
+      "id": "ocd-person/ac26aaa6-1f59-4893-ae7f-30f5d2e5d8fc",
+      "name": "Tyler Sirois",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Republican",
+      "email": "tyler.sirois@flhouse.gov",
+      "phone": "321-447-2060",
+      "districtPhone": "321-447-2060",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4748",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tyler_Sirois",
+        "https://en.wikipedia.org/wiki/Tyler_Sirois",
+        "https://justfacts.votesmart.org/candidate/biography/117237/tyler-sirois",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4748",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4748&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/2d1c1c14-3ff1-468e-920a-07a081df4775",
+      "name": "Vanessa Oliver",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "76",
+      "party": "Republican",
+      "email": "vanessa.oliver@flhouse.gov",
+      "phone": "941-621-0480",
+      "districtPhone": "941-621-0480",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4922",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4922&LegislativeTermId=91",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4922&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Vanessa_Oliver",
+        "https://justfacts.votesmart.org/candidate/217937/vanessa-oliver",
+        "https://militaryheritagemuseum.org/meet-vanessa-oliver",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4922",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4922&LegislativeTermId=91",
+        "https://www.linkedin.com/in/vanessa-oliver-288a815b",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4922&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/7cba4eb9-69b5-431d-817e-41f54ccf9ceb",
+      "name": "Wallace Aristide",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "107",
+      "party": "Democratic",
+      "email": "wallace.aristide@flhouse.gov",
+      "phone": "305-488-5530",
+      "districtPhone": "305-488-5530",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4928",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4928",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4928&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Wallace_Aristide",
+        "https://en.wikipedia.org/wiki/Wallace_Aristide",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4928",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4928",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4928&LegislativeTermId=91",
+        "https://www.linkedin.com/company/succeed-with-aristide",
+        "https://www.linkedin.com/in/wallace-aristide-6680a7124",
+        "https://www.linkedin.com/in/wallace-aristide-ba5615a2"
+      ]
+    },
+    {
+      "id": "ocd-person/f2b23850-7feb-484e-8ed2-68e2f6108fbf",
+      "name": "Webster Barnaby",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Republican",
+      "email": "webster.barnaby@flhouse.gov",
+      "phone": "386-736-5042",
+      "districtPhone": "386-736-5042",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4770&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4770",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4770",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4770&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Webster_Barnaby",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4770&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4770",
+        "https://www.linkedin.com/in/webster-barnaby-87951943",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4770",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4770&LegislativeTermId=89"
+      ]
+    },
+    {
+      "id": "ocd-person/042b27f1-ec82-497e-958c-ebe5da28b706",
+      "name": "Will Robinson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "71",
+      "party": "Republican",
+      "email": "will.robinson@flhouse.gov",
+      "phone": "941-242-8430",
+      "districtPhone": "941-242-8430",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4733&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4733",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4733",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4733&LegislativeTermId=88"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Will_Robinson",
+        "https://blalockwalters.com/attorneys/william-c-robinson-jr",
+        "https://en.wikipedia.org/wiki/Will_Robinson_(Florida_politician)",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4733&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4733",
+        "https://www.linkedin.com/in/williamcrobinsonjr",
+        "https://www.myfloridahouse.gov/Representatives",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4733",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4733&LegislativeTermId=88",
+        "https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx"
+      ]
+    },
+    {
+      "id": "ocd-person/17ae3cd7-1aa0-44b4-baab-ed839b6776a6",
+      "name": "Wyman Duggan",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Republican",
+      "email": "wyman.duggan@flhouse.gov",
+      "phone": "904-659-6920",
+      "districtPhone": "904-659-6920",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4712&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4712",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4712"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Wyman_Duggan",
+        "https://en.wikipedia.org/wiki/Wyman_Duggan",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4712&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4712",
+        "https://www.linkedin.com/in/wyman-duggan-68481a2a",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4712",
+        "https://www.rtlaw.com/profile/attorneys/wyman-r-duggan-shareholder"
+      ]
+    },
+    {
+      "id": "ocd-person/88aacea0-124a-4980-b046-90cfb0cda4db",
+      "name": "Yvette Benarroch",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "81",
+      "party": "Republican",
+      "email": "yvette.benarroch@flhouse.gov",
+      "phone": "239-232-8810",
+      "districtPhone": "239-232-8810",
+      "links": [
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4923",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4923",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4923&LegislativeTermId=91"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Yvette_Benarroch",
+        "https://en.wikipedia.org/wiki/Yvette_Benarroch",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4923",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4923",
+        "https://www.linkedin.com/in/yvette-benarroch-1a6b3378",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4923&LegislativeTermId=91"
+      ]
+    },
+    {
+      "id": "ocd-person/0f5d2710-6b7c-4444-8a45-ea3e917805ba",
+      "name": "Yvonne Hinson",
+      "state": "FL",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Democratic",
+      "email": "yvonne.hinson@flhouse.gov",
+      "phone": "352-663-1140",
+      "districtPhone": "352-663-1140",
+      "links": [
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4768&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4768",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4768",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4768",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4768&LegislativeTermId=89"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Yvonne_Hayes_Hinson",
+        "https://en.wikipedia.org/wiki/Yvonne_Hayes_Hinson",
+        "https://justfacts.votesmart.org/candidate/biography/182253/yvonne-hinson",
+        "https://myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4768&LegislativeTermId=90",
+        "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4768",
+        "https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4768",
+        "https://www.linkedin.com/in/yvonne-hinson-0406b612",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4768",
+        "https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4768&LegislativeTermId=89"
+      ]
+    }
+  ]
+}

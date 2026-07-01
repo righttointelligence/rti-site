@@ -1,0 +1,1642 @@
+{
+  "abbr": "AK",
+  "name": "Alaska",
+  "sourceUrl": "https://data.openstates.org/people/current/ak.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 60,
+  "upperCount": 20,
+  "lowerCount": 40,
+  "legislators": [
+    {
+      "id": "ocd-person/2a1a6b8f-1f9c-4a1b-9059-7b2f8cc93ed9",
+      "name": "Alyse Galvin",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Independent",
+      "email": "representative.alyse.galvin@akleg.gov",
+      "phone": "907-269-0190",
+      "districtPhone": "907-269-0190",
+      "links": [
+        "https://akhouse.org/rep-galvin/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gal",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gal"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-galvin",
+        "https://ballotpedia.org/Alyse_Galvin",
+        "https://en.wikipedia.org/wiki/Alyse_Galvin",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=GAL",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gal",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gal"
+      ]
+    },
+    {
+      "id": "ocd-person/7db414a5-dd7e-48a9-aba2-9c0204f93a5c",
+      "name": "Andi Story",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Democratic",
+      "email": "representative.andi.story@akleg.gov",
+      "links": [
+        "https://akhouse.org/rep-story/",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=sto",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=sto",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=STO",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=sto",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=sto"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-story",
+        "https://ballotpedia.org/Andi_Story",
+        "https://en.wikipedia.org/wiki/Andi_Story",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=STO",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=sto",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=sto"
+      ]
+    },
+    {
+      "id": "ocd-person/822df52b-f962-478d-8bf5-3bbe3c9dd811",
+      "name": "Andrew Gray",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Democratic",
+      "email": "representative.andrew.gray@akleg.gov",
+      "phone": "907-269-0123",
+      "districtPhone": "907-269-0123",
+      "links": [
+        "https://akhouse.org/rep-gray/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gry",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gry"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-gray",
+        "https://ballotpedia.org/Andrew_Gray_(Alaska)",
+        "https://en.wikipedia.org/wiki/Andrew_Gray_(politician)",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=GRY",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gry",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gry"
+      ]
+    },
+    {
+      "id": "ocd-person/e1989648-fdd3-4e88-a0f0-9e27e75c0f03",
+      "name": "Andy Josephson",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Democratic",
+      "email": "representative.andy.josephson@akleg.gov",
+      "phone": "907-269-0265",
+      "districtPhone": "907-269-0265",
+      "links": [
+        "https://akhouse.org/rep_josephson/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=jos",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=jos",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=jos",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=jos",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jos"
+      ],
+      "sources": [
+        "https://akhouse.org/rep_josephson",
+        "https://ballotpedia.org/Andrew_L._Josephson",
+        "https://en.wikipedia.org/wiki/Andy_Josephson",
+        "https://justfacts.votesmart.org/candidate/140434/andy-josephson",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=jos",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=JOS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=jos",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jos",
+        "https://www.linkedin.com/in/andrew-josephson-34157829"
+      ]
+    },
+    {
+      "id": "ocd-person/1ac31dd3-6e42-43b1-91b0-4da4a1399543",
+      "name": "Ashley Carrick",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Democratic",
+      "email": "representative.ashley.carrick@akleg.gov",
+      "phone": "907-452-6084",
+      "districtPhone": "907-452-6084",
+      "links": [
+        "https://akhouse.org/rep-carrick/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=cai",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cai"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-carrick",
+        "https://ballotpedia.org/Ashley_Carrick",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=CAI",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=cai",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cai",
+        "https://www.linkedin.com/in/ashley-carrick-a102a2119"
+      ]
+    },
+    {
+      "id": "ocd-person/a160c8f2-f8a9-4429-9bc2-e14831545503",
+      "name": "Becky Schwanke",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Republican",
+      "email": "representative.rebecca.schwanke@akleg.gov",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=scw"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Becky_Schwanke",
+        "https://justfacts.votesmart.org/candidate/biography/218216/rebecca-schwanke",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=scw",
+        "https://www.linkedin.com/in/rebeccaschwanke"
+      ]
+    },
+    {
+      "id": "ocd-person/bfdc2ee2-7760-4119-9d68-4962f1e1a285",
+      "name": "Bert Stedman",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "A",
+      "party": "Republican",
+      "email": "senator.bert.stedman@akleg.gov",
+      "phone": "907-225-8088",
+      "districtPhone": "907-225-8088",
+      "links": [
+        "https://alaskasenate.org/stedman/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=smn",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=smn",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=smn",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=smn",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=smn"
+      ],
+      "sources": [
+        "https://alaskasenate.org/stedman",
+        "https://ballotpedia.org/Bert_K._Stedman",
+        "https://en.wikipedia.org/wiki/Bert_Stedman",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=smn",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=SMN",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=smn",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=smn"
+      ]
+    },
+    {
+      "id": "ocd-person/354dc869-cbaf-4298-89cd-c691c0f52a1e",
+      "name": "Bill Elam",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Republican",
+      "email": "representative.bill.elam@akleg.gov",
+      "phone": "907-283-7223",
+      "districtPhone": "907-283-7223",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ela"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_Elam",
+        "https://en.wikipedia.org/wiki/Bill_Elam",
+        "https://justfacts.votesmart.org/candidate/biography/196774/bill-elam",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ela",
+        "https://www.linkedin.com/in/bill-elam-b6970213"
+      ]
+    },
+    {
+      "id": "ocd-person/57554431-caac-4074-a8d8-40a4e6289ec1",
+      "name": "Bill Wielechowski",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "K",
+      "party": "Democratic",
+      "email": "senator.bill.wielechowski@akleg.gov",
+      "phone": "907-269-0120",
+      "districtPhone": "907-269-0120",
+      "links": [
+        "https://alaskasenate.org/wielechowski/",
+        "https://senatorbill.org/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=wie",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=wie",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=wie",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=wie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=wie"
+      ],
+      "sources": [
+        "https://alaskasenate.org/wielechowski",
+        "https://ballotpedia.org/Bill_Wielechowski",
+        "https://en.wikipedia.org/wiki/Bill_Wielechowski",
+        "https://justfacts.votesmart.org/candidate/biography/68283/bill-wielechowski",
+        "https://senatorbill.org",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=wie",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=WIE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=wie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=wie",
+        "https://www.linkedin.com/in/bill-wielechowski-641866"
+      ]
+    },
+    {
+      "id": "ocd-person/b097e069-345d-42da-b821-0c2c9747ccfc",
+      "name": "Bryce Edgmon",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Independent",
+      "email": "representative.bryce.edgmon@akleg.gov",
+      "phone": "907-269-0275",
+      "districtPhone": "907-269-0275",
+      "links": [
+        "https://akhousemajority.com/rep-edgmon/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=edg",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=edg",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=edg",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=edg",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=edg"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-edgmon",
+        "https://ballotpedia.org/Bryce_E._Edgmon",
+        "https://ballotpedia.org/Bryce_Edgmon",
+        "https://en.wikipedia.org/wiki/Bryce_Edgmon",
+        "https://justfacts.votesmart.org/candidate/biography/68319/bryce-edgmon",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=edg",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=EDG",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=edg",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=edg",
+        "https://www.linkedin.com/in/bryce-edgmon-8a05b765"
+      ]
+    },
+    {
+      "id": "ocd-person/8ed150a0-45be-4844-abe5-d921c9f5a435",
+      "name": "Calvin Schrage",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Independent",
+      "email": "representative.calvin.schrage@akleg.gov",
+      "phone": "907-269-0205",
+      "districtPhone": "907-269-0205",
+      "links": [
+        "https://akhouse.org/rep-schrage/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=scg",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=SCG",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=scg",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=scg"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-schrage",
+        "https://ballotpedia.org/Calvin_Schrage",
+        "https://en.wikipedia.org/wiki/Calvin_Schrage",
+        "https://justfacts.votesmart.org/candidate/biography/194416/calvin-schrage",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=SCG",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=scg",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=scg",
+        "https://www.linkedin.com/in/calvinschrage"
+      ]
+    },
+    {
+      "id": "ocd-person/c9bf1b47-3ed8-49e8-9535-2a7094c52d1a",
+      "name": "Carolyn Hall",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Democratic",
+      "email": "representative.carolyn.hall@akleg.gov",
+      "phone": "907-269-0117",
+      "districtPhone": "907-269-0117",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hll"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carolyn_Hall",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hll",
+        "https://www.jensenhall.com",
+        "https://www.linkedin.com/in/carolyn-hall"
+      ]
+    },
+    {
+      "id": "ocd-person/4ac9a4bf-e2d9-4257-a360-9e91dc234deb",
+      "name": "Cathy Giessel",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "E",
+      "party": "Republican",
+      "email": "senator.cathy.giessel@akleg.gov",
+      "phone": "907-269-0181",
+      "districtPhone": "907-269-0181",
+      "links": [
+        "https://alaskasenate.org/giessel/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=gie",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=gie",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=GIE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gie"
+      ],
+      "sources": [
+        "https://alaskasenate.org/giessel",
+        "https://ballotpedia.org/Catherine_A._Giessel",
+        "https://en.wikipedia.org/wiki/Cathy_Giessel",
+        "https://justfacts.votesmart.org/candidate/biography/117402/cathy-giessel",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=gie",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=GIE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gie"
+      ]
+    },
+    {
+      "id": "ocd-person/f1816065-31d1-4757-b8b9-714e15daeccf",
+      "name": "Cathy Tilton",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "M",
+      "party": "Republican",
+      "email": "senator.cathy.tilton@akleg.gov",
+      "links": [
+        "https://akhousemajority.com/rep-tilton/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=TTN"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-tilton",
+        "https://ballotpedia.org/Cathy_L._Tilton",
+        "https://cathytilton.com",
+        "https://en.wikipedia.org/wiki/Cathy_Tilton",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=TLT",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=tlt",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=TTN",
+        "https://www.linkedin.com/in/cathy-tilton-5b736744"
+      ]
+    },
+    {
+      "id": "ocd-person/7474d172-6c90-47f9-aae1-9f66c9518be2",
+      "name": "Chuck Kopp",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Republican",
+      "email": "representative.chuck.kopp@akleg.gov",
+      "phone": "907-269-0200",
+      "districtPhone": "907-269-0200",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/30?code=kop",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=kop",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kop"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Charles_M._Kopp",
+        "https://en.wikipedia.org/wiki/Chuck_Kopp",
+        "https://justfacts.votesmart.org/candidate/biography/171542/charles-kopp",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=kop",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kop",
+        "https://www.linkedin.com/in/chuck-kopp-b026097b"
+      ]
+    },
+    {
+      "id": "ocd-person/7dcdf7b8-530a-4b81-85b6-745af9224eb1",
+      "name": "Dan Saddler",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Republican",
+      "email": "representative.dan.saddler@akleg.gov",
+      "phone": "907-334-2630",
+      "districtPhone": "907-334-2630",
+      "links": [
+        "https://akhousemajority.com/rep-saddler/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=sad",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=SAD",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=sad",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=sad"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-saddler",
+        "https://ballotpedia.org/Dan_Saddler",
+        "https://en.wikipedia.org/wiki/Dan_Saddler",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=sad",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=SAD",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=sad",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=sad",
+        "https://www.linkedin.com/in/dan-saddler-420a9aa5"
+      ]
+    },
+    {
+      "id": "ocd-person/e1a32811-98f9-484f-8d4b-12df7eab4183",
+      "name": "David Nelson",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Republican",
+      "email": "representative.david.nelson@akleg.gov",
+      "phone": "907-269-0216",
+      "districtPhone": "907-269-0216",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/32?code=ned",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ned"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Nelson_(Alaska)",
+        "https://en.wikipedia.org/wiki/David_Nelson_(Alaska_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/194410/david-nelson",
+        "https://nelsonforalaska.com/meet-david",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=ned",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ned"
+      ]
+    },
+    {
+      "id": "ocd-person/d7d4a21d-942e-46f7-92b6-237f1741b025",
+      "name": "DeLena Johnson",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Republican",
+      "email": "representative.delena.johnson@akleg.gov",
+      "phone": "907-376-4958",
+      "districtPhone": "907-376-4958",
+      "links": [
+        "https://akhousemajority.com/rep-d-johnson/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=JHS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jim"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-d-johnson",
+        "https://ballotpedia.org/Delena_Johnson",
+        "https://en.wikipedia.org/wiki/DeLena_Johnson",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=JHS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jhs",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jim",
+        "https://www.linkedin.com/in/delena-johnson-a7070248"
+      ]
+    },
+    {
+      "id": "ocd-person/fbe52f5e-1dd2-4d44-9205-b2ebbbe39eee",
+      "name": "Donna Mears",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Democratic",
+      "email": "representative.donna.mears@akleg.gov",
+      "phone": "907-269-0100",
+      "districtPhone": "907-269-0100",
+      "links": [
+        "https://akhouse.org/rep-mears/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mea",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mea"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-mears",
+        "https://ballotpedia.org/Donna_Mears",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MEA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mea",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mea",
+        "https://www.linkedin.com/in/donna-c-mears-p-e-0a30b0a"
+      ]
+    },
+    {
+      "id": "ocd-person/cd3ca264-553d-4e21-a993-e3f5097b1b77",
+      "name": "Donny Olson",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "T",
+      "party": "Democratic",
+      "email": "senator.donald.olson@akleg.gov",
+      "links": [
+        "https://alaskasenate.org/olson/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=ols",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=ols",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=ols",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=ols",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ols"
+      ],
+      "sources": [
+        "https://alaskasenate.org/olson",
+        "https://ballotpedia.org/Donald_C._Olson",
+        "https://en.wikipedia.org/wiki/Donny_Olson",
+        "https://justfacts.votesmart.org/candidate/biography/27314/donald-olson",
+        "https://senatorolson.wordpress.com",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=ols",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=OLS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=ols",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ols"
+      ]
+    },
+    {
+      "id": "ocd-person/6e6762ad-37ca-4166-982c-75aab9701d0c",
+      "name": "Elexie Moore",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Republican",
+      "email": "representative.elexie.moore@akleg.gov",
+      "phone": "907-373-6285",
+      "districtPhone": "907-373-6285",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=moo"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Elexie_Moore",
+        "https://justfacts.votesmart.org/candidate/biography/218162/elexie-moore",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=moo"
+      ]
+    },
+    {
+      "id": "ocd-person/2ba2d14f-a08a-4f05-a9d4-5ca63d09561e",
+      "name": "Elvi Gray-Jackson",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "G",
+      "party": "Democratic",
+      "email": "senator.elvi.gray-jackson@akleg.gov",
+      "phone": "907-269-0174",
+      "districtPhone": "907-269-0174",
+      "links": [
+        "https://alaskasenate.org/gray-jackson/",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=gra",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=gra",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=GRA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gra",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gra"
+      ],
+      "sources": [
+        "https://alaskasenate.org/gray-jackson",
+        "https://ballotpedia.org/Elvi_Gray-Jackson",
+        "https://en.wikipedia.org/wiki/Elvi_Gray-Jackson",
+        "https://justfacts.votesmart.org/candidate/biography/105212/elvi-gray-jackson",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=GRA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=gra",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=gra",
+        "https://www.linkedin.com/in/elvi-gray-jackson-6640983"
+      ]
+    },
+    {
+      "id": "ocd-person/4511370e-1ac8-4135-a622-d5b533faeb43",
+      "name": "Forrest Dunbar",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "J",
+      "party": "Democratic",
+      "email": "senator.forrest.dunbar@akleg.gov",
+      "phone": "907-269-0246",
+      "districtPhone": "907-269-0246",
+      "links": [
+        "https://alaskasenate.org/dunbar/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=dnb",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=dnb"
+      ],
+      "sources": [
+        "https://alaskasenate.org/dunbar",
+        "https://ballotpedia.org/Forrest_Dunbar",
+        "https://en.wikipedia.org/wiki/Forrest_Dunbar",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=DNB",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=dnb",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=dnb",
+        "https://www.forrestdunbar.com",
+        "https://www.linkedin.com/in/forrest-dunbar-4a61b113"
+      ]
+    },
+    {
+      "id": "ocd-person/498eadb3-9999-4055-9358-84ccfe64f788",
+      "name": "Frank Tomaszewski",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Republican",
+      "email": "representative.frank.tomaszewski@akleg.gov",
+      "phone": "907-456-8172",
+      "districtPhone": "907-456-8172",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/33?code=tmz",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=tmz"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Frank_Tomaszewski",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=TMZ",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=tmz",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=tmz"
+      ]
+    },
+    {
+      "id": "ocd-person/abb33c56-f4ba-4c95-938e-658677368ca4",
+      "name": "Garret Nelson",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Republican",
+      "email": "representative.garret.nelson@akleg.gov",
+      "phone": "907-376-3370",
+      "districtPhone": "907-376-3370",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=neg"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Garret_Nelson",
+        "https://en.wikipedia.org/wiki/Garret_Nelson",
+        "https://justfacts.votesmart.org/candidate/biography/232030/garret-nelson",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=neg",
+        "https://www.linkedin.com/in/garret-nelson-b487a846"
+      ]
+    },
+    {
+      "id": "ocd-person/f5c83068-a809-4f57-8b77-1e77c87ee93b",
+      "name": "Gary Stevens",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "C",
+      "party": "Republican",
+      "email": "senator.gary.stevens@akleg.gov",
+      "phone": "907-486-4925",
+      "districtPhone": "907-486-4925",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/30?code=stg",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=stg",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=stg",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=stg",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=stg"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gary_Stevens",
+        "https://en.wikipedia.org/wiki/Gary_Stevens_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/12784/gary-stevens",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=stg",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=STG",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=stg",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=stg"
+      ]
+    },
+    {
+      "id": "ocd-person/a1adb2e5-3c63-4032-81e8-9e787976ca63",
+      "name": "Genevieve Mina",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Democratic",
+      "email": "representative.genevieve.mina@akleg.gov",
+      "phone": "907-269-0144",
+      "districtPhone": "907-269-0144",
+      "links": [
+        "https://akhouse.org/rep-mina/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mna",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mna"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-mina",
+        "https://ballotpedia.org/Genevieve_Mina",
+        "https://en.wikipedia.org/wiki/Genevieve_Mina",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MNA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mna",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mna",
+        "https://www.linkedin.com/in/genevieve-mina-04594592"
+      ]
+    },
+    {
+      "id": "ocd-person/627922d3-e631-4c32-841f-148f061b0c75",
+      "name": "George Rauscher",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "O",
+      "party": "Republican",
+      "email": "senator.george.rauscher@akleg.gov",
+      "phone": "907-373-6287",
+      "districtPhone": "907-373-6287",
+      "links": [
+        "https://akhousemajority.com/rep-rauscher/",
+        "https://alaskasenateminority.com/senator-george-rauscher/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=rau",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=rau",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=rau",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=RAU",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=rau",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=rac",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=rau",
+        "https://www.aksenaterepublicans.org/2026/george-rauscher/"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-rauscher",
+        "https://alaskasenateminority.com/senator-george-rauscher",
+        "https://ballotpedia.org/George_Rauscher",
+        "https://en.wikipedia.org/wiki/George_Rauscher",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=rau",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=RAU",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=rau",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=rac",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=rau",
+        "https://www.aksenaterepublicans.org/2026/george-rauscher"
+      ]
+    },
+    {
+      "id": "ocd-person/f6cd7b64-a3f3-44ec-89a1-68c17fa6d4c9",
+      "name": "James Kaufman",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "F",
+      "party": "Republican",
+      "email": "senator.james.kaufman@akleg.gov",
+      "phone": "907-269-0244",
+      "districtPhone": "907-269-0244",
+      "links": [
+        "https://alaskasenate.org/kaufman/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=kau",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=KAU",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=kau",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kau"
+      ],
+      "sources": [
+        "https://alaskasenate.org/kaufman",
+        "https://ballotpedia.org/James_Kaufman",
+        "https://en.wikipedia.org/wiki/James_D._Kaufman",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=KAU",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=kau",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kau",
+        "https://www.linkedin.com/in/james-kaufman-299042a",
+        "https://www.senatorkaufman.com"
+      ]
+    },
+    {
+      "id": "ocd-person/9d56634b-f2d0-43fe-b20e-ed2465b0ad9c",
+      "name": "Jamie Allard",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Republican",
+      "email": "representative.jamie.allard@akleg.gov",
+      "phone": "907-269-0250",
+      "districtPhone": "907-269-0250",
+      "links": [
+        "https://akhousemajority.com/rep-allard/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=alr",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=alr"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-allard",
+        "https://ballotpedia.org/Jamie_Allard",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=ALR",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=alr",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=alr"
+      ]
+    },
+    {
+      "id": "ocd-person/b2eaa848-d651-4521-9abb-21b68da5d5c6",
+      "name": "Jeremy Bynum",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Republican",
+      "email": "representative.jeremy.bynum@akleg.gov",
+      "phone": "907-247-4672",
+      "districtPhone": "907-247-4672",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=byn"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Bynum",
+        "https://justfacts.votesmart.org/candidate/biography/200111/jeremy-bynum",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=byn"
+      ]
+    },
+    {
+      "id": "ocd-person/e14b5980-9a38-4420-8903-70738802edf6",
+      "name": "Jesse Bjorkman",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "D",
+      "party": "Republican",
+      "email": "senator.jesse.bjorkman@akleg.gov",
+      "phone": "907-283-7996",
+      "districtPhone": "907-283-7996",
+      "links": [
+        "https://alaskasenate.org/bjorkman/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=bjk",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=bjk"
+      ],
+      "sources": [
+        "https://alaskasenate.org/bjorkman",
+        "https://ballotpedia.org/Jesse_Bjorkman",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=BJK",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=bjk",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=bjk",
+        "https://www.votebjorkman.com/about"
+      ]
+    },
+    {
+      "id": "ocd-person/1ae3974e-660d-4526-b351-fff9b689b51a",
+      "name": "Jesse Kiehl",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "B",
+      "party": "Democratic",
+      "email": "senator.jesse.kiehl@akleg.gov",
+      "links": [
+        "https://alaskasenate.org/kiehl/",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=kie",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=kie",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=kie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kie"
+      ],
+      "sources": [
+        "https://alaskasenate.org/kiehl",
+        "https://ballotpedia.org/Jesse_Kiehl",
+        "https://en.wikipedia.org/wiki/Jesse_Kiehl",
+        "https://justfacts.votesmart.org/candidate/biography/141440/jesse-kiehl",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=KIE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=kie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kie",
+        "https://www.linkedin.com/in/jesse-kiehl-58a79615"
+      ]
+    },
+    {
+      "id": "ocd-person/a5fc1d39-03f4-427f-9266-8baf789b6ac6",
+      "name": "Jubilee Underwood",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Republican",
+      "email": "representative.jubilee.underwood@akleg.gov",
+      "phone": "907-373-1842",
+      "districtPhone": "907-373-1842",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=und"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jubilee_Underwood",
+        "https://en.wikipedia.org/wiki/Jubilee_Underwood",
+        "https://justfacts.votesmart.org/candidate/218161/jubilee-underwood",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=und",
+        "https://www.linkedin.com/in/jubileeunderwood"
+      ]
+    },
+    {
+      "id": "ocd-person/a66f1539-56d3-458c-8ac0-3aff6907a69d",
+      "name": "Julie Coulombe",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Republican",
+      "email": "representative.julie.coulombe@akleg.gov",
+      "phone": "907-269-0222",
+      "districtPhone": "907-269-0222",
+      "links": [
+        "https://akhousemajority.com/rep-coulombe/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=cou",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cou"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-coulombe",
+        "https://ballotpedia.org/Julie_Coulombe",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=COU",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=cou",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cou"
+      ]
+    },
+    {
+      "id": "ocd-person/722ec3e9-7e0d-4dda-bf19-11d873df7031",
+      "name": "Justin Ruffridge",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Republican",
+      "email": "representative.justin.ruffridge@akleg.gov",
+      "phone": "907-465-2693",
+      "districtPhone": "907-465-2693",
+      "links": [
+        "https://akhousemajority.com/rep-ruffridge/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=ruf",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ruf",
+        "https://www.repruffridge.com/"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-ruffridge",
+        "https://ballotpedia.org/Justin_Ruffridge",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=RUF",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=ruf",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=ruf",
+        "https://www.linkedin.com/in/justin-ruffridge-a803a0133",
+        "https://www.repruffridge.com"
+      ]
+    },
+    {
+      "id": "ocd-person/ddad148b-d8ed-4eff-826d-3861709eb500",
+      "name": "Kelly Merrick",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "L",
+      "party": "Republican",
+      "email": "senator.kelly.merrick@akleg.gov",
+      "phone": "907-269-3630",
+      "districtPhone": "907-269-3630",
+      "links": [
+        "https://alaskasenate.org/merrick/",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=mrr",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=mrr",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MRR",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mrr",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mrr"
+      ],
+      "sources": [
+        "https://alaskasenate.org/merrick",
+        "https://ballotpedia.org/Kelly_Merrick",
+        "https://en.wikipedia.org/wiki/Kelly_Merrick",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MRR",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mrr",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mrr"
+      ]
+    },
+    {
+      "id": "ocd-person/0160c6d2-4090-4143-8e23-f8501501bdd0",
+      "name": "Kevin McCabe",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Republican",
+      "email": "representative.kevin.mccabe@akleg.gov",
+      "phone": "907-376-2679",
+      "districtPhone": "907-376-2679",
+      "links": [
+        "https://akhousemajority.com/rep-mccabe/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=mca",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mca",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mca"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-mccabe",
+        "https://ballotpedia.org/Kevin_McCabe_(Alaska)",
+        "https://en.wikipedia.org/wiki/Kevin_J._McCabe",
+        "https://justfacts.votesmart.org/candidate/biography/194398/kevin-mccabe",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MCA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mca",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mca",
+        "https://www.linkedin.com/in/kevin-mccabe-b28b341"
+      ]
+    },
+    {
+      "id": "ocd-person/a669e6fd-ba4c-42db-b2e8-079600a60f58",
+      "name": "Ky Holland",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Nonpartisan",
+      "email": "representative.ky.holland@akleg.gov",
+      "phone": "907-269-0199",
+      "districtPhone": "907-269-0199",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hla"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ky_Holland",
+        "https://en.wikipedia.org/wiki/Ky_Holland",
+        "https://justfacts.votesmart.org/candidate/219598/ky-holland",
+        "https://kyholland.com",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hla",
+        "https://www.linkedin.com/in/kyholland"
+      ]
+    },
+    {
+      "id": "ocd-person/c66c309d-1612-4eab-863c-59e34b643e2c",
+      "name": "Löki Tobin",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "I",
+      "party": "Democratic",
+      "email": "senator.loki.tobin@akleg.gov",
+      "phone": "907-269-0169",
+      "districtPhone": "907-269-0169",
+      "links": [
+        "https://alaskasenate.org/tobin/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=tob",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=tob"
+      ],
+      "sources": [
+        "https://alaskasenate.org/tobin",
+        "https://ballotpedia.org/Loki_Tobin",
+        "https://en.wikipedia.org/wiki/Löki_Tobin",
+        "https://pridefoundation.org/team/gale-tobin",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=TOB",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=tob",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=tob",
+        "https://www.linkedin.com/in/l%C3%B6ki-gale-tobin-ma-908674167"
+      ]
+    },
+    {
+      "id": "ocd-person/2d74c456-7818-42bc-a284-63026fbbfc56",
+      "name": "Louise Stutes",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Republican",
+      "email": "representative.louise.stutes@akleg.gov",
+      "phone": "907-486-8872",
+      "districtPhone": "907-486-8872",
+      "links": [
+        "https://akhouse.org/rep_stutes",
+        "https://akhouse.org/rep_stutes/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=sts",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=sts",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=sts",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=STS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=sts",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=sts"
+      ],
+      "sources": [
+        "https://akhouse.org/rep_stutes",
+        "https://ballotpedia.org/Louise_Stutes",
+        "https://en.wikipedia.org/wiki/Louise_Stutes",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=sts",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=STS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=sts",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=sts"
+      ]
+    },
+    {
+      "id": "ocd-person/e187d603-9202-4f64-80b0-6366702aec11",
+      "name": "Lyman Hoffman",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "S",
+      "party": "Democratic",
+      "email": "senator.lyman.hoffman@akleg.gov",
+      "links": [
+        "https://alaskasenate.org/hoffman/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=hof",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=hof",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=hof",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=hof",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hof"
+      ],
+      "sources": [
+        "https://alaskasenate.org/hoffman",
+        "https://ballotpedia.org/Lyman_Hoffman",
+        "https://en.wikipedia.org/wiki/Lyman_Hoffman",
+        "https://justfacts.votesmart.org/candidate/biography/8816/lyman-hoffman",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=hof",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=HOF",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=hof",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hof",
+        "https://www.linkedin.com/in/lyman-hoffman-8291a536"
+      ]
+    },
+    {
+      "id": "ocd-person/0b2d5ec3-c1b2-4b09-8444-144c92125cc4",
+      "name": "Matt Claman",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "H",
+      "party": "Democratic",
+      "email": "senator.matt.claman@akleg.gov",
+      "phone": "907-269-0130",
+      "districtPhone": "907-269-0130",
+      "links": [
+        "https://alaskasenate.org/matt-claman/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=cla",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=cla",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=cla",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=CLA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=cla",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cla"
+      ],
+      "sources": [
+        "https://alaskasenate.org/matt-claman",
+        "https://ballotpedia.org/Matt_Claman",
+        "https://en.wikipedia.org/wiki/Matt_Claman",
+        "https://justfacts.votesmart.org/candidate/biography/71396/matt-claman",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=cla",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=CLA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=cla",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cla",
+        "https://www.linkedin.com/in/matt-claman-55440717"
+      ]
+    },
+    {
+      "id": "ocd-person/5ef3ef20-0fd1-41a3-be56-7844d169bba8",
+      "name": "Maxine Dibert",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Democratic",
+      "email": "representative.maxine.dibert@akleg.gov",
+      "phone": "907-451-4347",
+      "districtPhone": "907-451-4347",
+      "links": [
+        "https://akhouse.org/rep-dibert/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=dib",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=dib"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-dibert",
+        "https://ballotpedia.org/Maxine_Dibert",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=DIB",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=dib",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=dib",
+        "https://www.linkedin.com/in/maxine-dibert-52715566"
+      ]
+    },
+    {
+      "id": "ocd-person/aea19844-4572-4086-9462-e50ad3ff4b76",
+      "name": "Mia Costello",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Republican",
+      "email": "representative.mia.costello@akleg.gov",
+      "phone": "907-269-0200",
+      "districtPhone": "907-269-0200",
+      "links": [
+        "https://akleg.gov/legislator.php?id=cos",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=cos",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=cos",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=cos",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cos"
+      ],
+      "sources": [
+        "https://akleg.gov/legislator.php?id=cos",
+        "https://ballotpedia.org/Mia_Costello",
+        "https://en.wikipedia.org/wiki/Mia_Costello",
+        "https://justfacts.votesmart.org/candidate/117406/mia-costello",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=cos",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=cos",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=cos",
+        "https://www.linkedin.com/in/mia-costello-6a0b118",
+        "https://www.linkedin.com/in/repmiacostello"
+      ]
+    },
+    {
+      "id": "ocd-person/c50de9c3-90a3-4c6d-9003-50e12c6c5246",
+      "name": "Mike Cronk",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "R",
+      "party": "Republican",
+      "email": "senator.mike.cronk@akleg.gov",
+      "links": [
+        "https://akhousemajority.com/rep-cronk/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=crn",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=crn",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=crn"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-cronk",
+        "https://ballotpedia.org/Mike_Cronk",
+        "https://en.wikipedia.org/wiki/Mike_Cronk",
+        "https://justfacts.votesmart.org/candidate/biography/194392/mike-cronk",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=CRN",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=crn",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=crn"
+      ]
+    },
+    {
+      "id": "ocd-person/3f4670ef-c5b7-4a5b-bd91-9f8605a0affa",
+      "name": "Mike Prax",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Republican",
+      "email": "representative.mike.prax@akleg.gov",
+      "phone": "907-451-2723",
+      "districtPhone": "907-451-2723",
+      "links": [
+        "https://akhousemajority.com/rep-prax/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=pra",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=pra",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=pra"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-prax",
+        "https://ballotpedia.org/Glenn_Prax",
+        "https://en.wikipedia.org/wiki/Mike_Prax",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=PRA",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=pra",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=pra"
+      ]
+    },
+    {
+      "id": "ocd-person/14f39e67-1604-4eb4-8000-99c699f196a0",
+      "name": "Neal Foster",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Democratic",
+      "email": "representative.neal.foster@akleg.gov",
+      "phone": "907-443-5036",
+      "districtPhone": "907-443-5036",
+      "links": [
+        "https://akhousemajority.com/rep-foster/",
+        "https://akleg.gov/legislator.php?id=fon",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=fon",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=fon",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=fon",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=fon",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=fon"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-foster",
+        "https://akleg.gov/legislator.php?id=fon",
+        "https://ballotpedia.org/Neal_Foster",
+        "https://en.wikipedia.org/wiki/Neal_Foster",
+        "https://justfacts.votesmart.org/candidate/116449/neal-foster",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=fon",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=fon",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=FON",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=fon",
+        "https://www.linkedin.com/in/neal-foster-78938b26"
+      ]
+    },
+    {
+      "id": "ocd-person/1454451c-f821-4b6d-903e-07bef45ab0de",
+      "name": "Nellie Jimmie",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Democratic",
+      "email": "representative.nellie.unangiq.jimmie@akleg.gov",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jim"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nellie_Jimmie",
+        "https://en.wikipedia.org/wiki/Nellie_Jimmie",
+        "https://justfacts.votesmart.org/candidate/biography/218218/nellie-jimmie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=jim"
+      ]
+    },
+    {
+      "id": "ocd-person/5637be3f-7a59-48cc-8f8a-ad7a8bac8ee9",
+      "name": "Rebecca Himschoot",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Independent",
+      "email": "representative.rebecca.himschoot@akleg.gov",
+      "links": [
+        "https://akhouse.org/rep-himschoot/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=hms",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hms"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-himschoot",
+        "https://ballotpedia.org/Rebecca_Himschoot",
+        "https://en.wikipedia.org/wiki/Rebecca_Himschoot",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=HMS",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=hms",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hms",
+        "https://www.linkedin.com/in/rebecca-himschoot-64937b132"
+      ]
+    },
+    {
+      "id": "ocd-person/82334f7b-8119-4494-bf3e-a7ddb09536bd",
+      "name": "Rob Yundt",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "N",
+      "party": "Republican",
+      "email": "senator.robert.yundt@akleg.gov",
+      "phone": "907-376-4866",
+      "districtPhone": "907-376-4866",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=yun"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Yundt",
+        "https://en.wikipedia.org/wiki/Robert_Yundt",
+        "https://justfacts.votesmart.org/candidate/biography/194395/robert-yundt-ii",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=yun",
+        "https://www.linkedin.com/in/robert-yundt-4a96b49a"
+      ]
+    },
+    {
+      "id": "ocd-person/697cb834-6aa1-44f1-9c6e-9cf57ad30774",
+      "name": "Robert Myers",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "Q",
+      "party": "Republican",
+      "email": "senator.robert.myers@akleg.gov",
+      "phone": "907-451-2157",
+      "districtPhone": "907-451-2157",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/32?code=mye",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MYE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mye",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mye"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Myers_Jr._(Alaska)",
+        "https://en.wikipedia.org/wiki/Robert_Myers_Jr.",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=MYE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=mye",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=mye"
+      ]
+    },
+    {
+      "id": "ocd-person/c3b004d2-d62a-45de-a212-382396a20b59",
+      "name": "Robyn Frier",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Democratic",
+      "email": "representative.robyn.frier@akleg.gov",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=bur",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=frb"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robyn_Burke",
+        "https://ballotpedia.org/Robyn_Frier",
+        "https://en.wikipedia.org/wiki/Robyn_Burke",
+        "https://justfacts.votesmart.org/candidate/biography/218219/robyn-burke",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=bur",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=frb",
+        "https://www.linkedin.com/in/robyn-niayuq-burke-20a378161"
+      ]
+    },
+    {
+      "id": "ocd-person/6cec7228-ed13-47f6-b896-59f927789f6d",
+      "name": "Sara Hannan",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Democratic",
+      "email": "representative.sara.hannan@akleg.gov",
+      "links": [
+        "https://akhouse.org/rep-hannan/",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=hnn",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=hnn",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=hnn",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hnn"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-hannan",
+        "https://ballotpedia.org/Sara_Hannan",
+        "https://en.wikipedia.org/wiki/Sara_Hannan",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=HNN",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=hnn",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=hnn",
+        "https://www.linkedin.com/in/sara-hannan-a75774103"
+      ]
+    },
+    {
+      "id": "ocd-person/e8756722-e9e9-4246-95e3-13019cb3bd50",
+      "name": "Sarah Vance",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Republican",
+      "email": "representative.sarah.vance@akleg.gov",
+      "phone": "907-235-2921",
+      "districtPhone": "907-235-2921",
+      "links": [
+        "https://akhousemajority.com/rep-vance/",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=van",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=van",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=van",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=van"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-vance",
+        "https://ballotpedia.org/Sarah_Vance_(Alaska)",
+        "https://en.wikipedia.org/wiki/Sarah_Vance_(politician)",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=VAN",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=van",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=van"
+      ]
+    },
+    {
+      "id": "ocd-person/53f7b86b-ce31-4199-86ef-f566ae9aa02c",
+      "name": "Scott Kawasaki",
+      "state": "AK",
+      "chamber": "upper",
+      "district": "P",
+      "party": "Democratic",
+      "email": "senator.scott.kawasaki@akleg.gov",
+      "phone": "907-456-7423",
+      "districtPhone": "907-456-7423",
+      "links": [
+        "https://aksenatedems.com/sen-kawasaki/",
+        "https://alaskasenate.org/kawasaki/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=kaw",
+        "https://www.akleg.gov/basis/Member/Detail/31?code=kaw",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=kaw",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=kaw",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kaw"
+      ],
+      "sources": [
+        "https://aksenatedems.com/sen-kawasaki",
+        "https://alaskasenate.org/kawasaki",
+        "https://ballotpedia.org/Scott_Kawasaki",
+        "https://en.wikipedia.org/wiki/Scott_Kawasaki",
+        "https://justfacts.votesmart.org/candidate/27313/scott-kawasaki",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/30?code=kaw",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=KAW",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=kaw",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=kaw",
+        "https://www.linkedin.com/in/scott-kawasaki-88539115"
+      ]
+    },
+    {
+      "id": "ocd-person/6692f2e6-2ad5-4b9c-a3f5-a0243c087064",
+      "name": "Steve St. Clair",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Republican",
+      "email": "representative.steve.st.clair@akleg.gov",
+      "phone": "970-376-3725",
+      "districtPhone": "970-376-3725",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=stc"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steve_St._Clair",
+        "https://justfacts.votesmart.org/candidate/biography/171463/steve-st-clair",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=stc"
+      ]
+    },
+    {
+      "id": "ocd-person/132c5970-0ed3-4a8c-baa9-2917196daedb",
+      "name": "Ted Eischeid",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Democratic",
+      "email": "representative.ted.eischeid@akleg.gov",
+      "phone": "907-269-0240",
+      "districtPhone": "907-269-0240",
+      "links": [
+        "https://www.akleg.gov/basis/Member/Detail/34?code=eis"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ted_Eischeid",
+        "https://en.wikipedia.org/wiki/Ted_Eischeid",
+        "https://justfacts.votesmart.org/candidate/biography/164969/ted-eischeid",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=eis",
+        "https://www.linkedin.com/in/tedeischeid"
+      ]
+    },
+    {
+      "id": "ocd-person/ede005ce-9d29-4b8e-8b24-b2136d05edf6",
+      "name": "Will Stapp",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Republican",
+      "email": "representative.will.stapp@akleg.gov",
+      "phone": "907-452-1088",
+      "districtPhone": "907-452-1088",
+      "links": [
+        "https://akhousemajority.com/rep-stapp/",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=spp",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=spp"
+      ],
+      "sources": [
+        "https://akhousemajority.com/rep-stapp",
+        "https://ballotpedia.org/Will_Stapp",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=SPP",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=spp",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=spp",
+        "https://www.linkedin.com/in/will-stapp-a8ab2a44"
+      ]
+    },
+    {
+      "id": "ocd-person/c1d170a4-d099-43cb-b7e5-5a9db63ae716",
+      "name": "Zack Fields",
+      "state": "AK",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Democratic",
+      "email": "representative.zack.fields@akleg.gov",
+      "phone": "907-269-0106",
+      "districtPhone": "907-269-0106",
+      "links": [
+        "https://akhouse.org/rep-fields/",
+        "https://www.akleg.gov/basis/Member/Detail/32?code=fie",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=fie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=fie"
+      ],
+      "sources": [
+        "https://akhouse.org/rep-fields",
+        "https://ballotpedia.org/Zack_Fields_(Alaska)",
+        "https://en.wikipedia.org/wiki/Zack_Fields",
+        "https://w3.akleg.gov",
+        "https://w3.akleg.gov/",
+        "https://www.akleg.gov/basis/mbr_info.asp?session=33",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=FIE",
+        "https://www.akleg.gov/basis/Member/Detail/33?code=fie",
+        "https://www.akleg.gov/basis/Member/Detail/34?code=fie",
+        "https://www.linkedin.com/in/zack-fields-1aab7912",
+        "https://zackfields.blogspot.com"
+      ]
+    }
+  ]
+}

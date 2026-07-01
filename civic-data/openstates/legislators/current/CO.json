@@ -1,0 +1,1970 @@
+{
+  "abbr": "CO",
+  "name": "Colorado",
+  "sourceUrl": "https://data.openstates.org/people/current/co.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 100,
+  "upperCount": 35,
+  "lowerCount": 65,
+  "legislators": [
+    {
+      "id": "ocd-person/a033ad21-bdb7-4af2-be2e-e21c3e4cfa24",
+      "name": "Adrienne Benavidez",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "21",
+      "party": "Democratic",
+      "email": "adrienne.benavidez.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/adrienne-benavidez"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adrienne_Benavidez",
+        "https://en.wikipedia.org/wiki/Adrienne_Benavidez",
+        "https://justfacts.votesmart.org/candidate/biography/29901/adrienne-benavidez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/adrienne-benavidez",
+        "https://www.linkedin.com/in/adrienne-benavidez-ba903a6"
+      ]
+    },
+    {
+      "id": "ocd-person/45c957a4-0017-4c0c-8650-393d656fc5a0",
+      "name": "Alex Valdez",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Democratic",
+      "email": "alex.valdez.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/alex-valdez"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alex_Valdez_(Colorado)",
+        "https://en.wikipedia.org/wiki/Alex_Valdez",
+        "https://justfacts.votesmart.org/candidate/biography/181727/alex-valdez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/alex-valdez"
+      ]
+    },
+    {
+      "id": "ocd-person/34dbb5f1-239b-4924-911e-27ff91bde5cd",
+      "name": "Amy Paschal",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Democratic",
+      "email": "amy.paschal.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/amy-paschal"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Amy_Paschal",
+        "https://en.wikipedia.org/wiki/Amy_Paschal",
+        "https://justfacts.votesmart.org/candidate/biography/217141/amy-paschal",
+        "https://leg.colorado.gov/legislators/amy-paschal",
+        "https://www.linkedin.com/in/amy-paschal"
+      ]
+    },
+    {
+      "id": "ocd-person/278f042b-4fe3-4325-ad59-bc240e4fda0c",
+      "name": "Andy Boesenecker",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "53",
+      "party": "Democratic",
+      "email": "andrew.boesenecker.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/andrew-boesenecker"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Andrew_Boesenecker",
+        "https://en.wikipedia.org/wiki/Andrew_Boesenecker",
+        "https://justfacts.votesmart.org/candidate/biography/196267/andrew-boesenecker",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/andrew-boesenecker",
+        "https://www.linkedin.com/in/andrew-boesenecker-477657134"
+      ]
+    },
+    {
+      "id": "ocd-person/561892b1-c618-43cb-9767-9237514f0a92",
+      "name": "Tony Hartsook",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "44",
+      "party": "Republican",
+      "email": "anthony.hartsook.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/anthony-hartsook"
+      ],
+      "sources": [
+        "https://anthonyhartsook.home.blog",
+        "https://ballotpedia.org/Anthony_Hartsook",
+        "https://en.wikipedia.org/wiki/Anthony_Hartsook",
+        "https://justfacts.votesmart.org/candidate/biography/204894/anthony-hartsook",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/anthony-hartsook",
+        "https://www.linkedin.com/in/anthony-hartsook-a5a1ba3b"
+      ]
+    },
+    {
+      "id": "ocd-person/af9e96aa-fb8b-49bb-96d8-e6c2c1ceb2b5",
+      "name": "Ava Flanell",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Republican",
+      "email": "ava.flanell.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/ava-flanell"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ava_Flanell",
+        "https://en.wikipedia.org/wiki/Ava_Flanell",
+        "https://justfacts.votesmart.org/candidate/biography/228974/ava-flanell",
+        "https://leg.colorado.gov/legislators/ava-flanell",
+        "https://www.linkedin.com/in/avaflanell"
+      ]
+    },
+    {
+      "id": "ocd-person/6d1fcaf0-ed3d-4772-876f-09dc5e931556",
+      "name": "Barbara Kirkmeyer",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "23",
+      "party": "Republican",
+      "email": "barbara.kirkmeyer.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/barbara-kirkmeyer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Barbara_Kirkmeyer",
+        "https://en.wikipedia.org/wiki/Barbara_Kirkmeyer",
+        "https://justfacts.votesmart.org/candidate/biography/29991/barbara-kirkmeyer",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/barbara-kirkmeyer",
+        "https://www.linkedin.com/in/barb-kirkmeyer-8173183b"
+      ]
+    },
+    {
+      "id": "ocd-person/ade56d2d-41d7-436d-b76b-85051f036c7a",
+      "name": "Bob Marshall",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "43",
+      "party": "Democratic",
+      "email": "bob.marshall.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/bob-marshall"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Marshall_(Colorado)",
+        "https://en.wikipedia.org/wiki/Bob_Marshall_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206203/robert-marshall",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/bob-marshall"
+      ]
+    },
+    {
+      "id": "ocd-person/5a396024-8dcf-438c-beca-a730e972d9d8",
+      "name": "Brandi Bradley",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Republican",
+      "email": "brandi.bradley.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/brandi-bradley",
+        "https://www.coloradohouserepublicans.com/brandi-bradley/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brandi_Bradley",
+        "https://en.wikipedia.org/wiki/Brandi_Bradley",
+        "https://justfacts.votesmart.org/candidate/biography/206196/brandi-bradley",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/brandi-bradley",
+        "https://www.coloradohouserepublicans.com/brandi-bradley"
+      ]
+    },
+    {
+      "id": "ocd-person/fa9b604d-5981-4de1-97bc-9400e03909c9",
+      "name": "Brianna Titone",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Democratic",
+      "email": "brianna.titone.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/brianna-titone"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brianna_Titone",
+        "https://en.wikipedia.org/wiki/Brianna_Titone",
+        "https://justfacts.votesmart.org/candidate/biography/181766/brianna-titone",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/brianna-titone",
+        "https://www.linkedin.com/in/brianna-titone-36b1419"
+      ]
+    },
+    {
+      "id": "ocd-person/2d0d060c-6d5f-45da-a069-fe2be14547eb",
+      "name": "Byron Pelton",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "1",
+      "party": "Republican",
+      "email": "byron.pelton.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/byron-pelton"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Byron_Pelton",
+        "https://en.wikipedia.org/wiki/Byron_Pelton",
+        "https://justfacts.votesmart.org/candidate/biography/206103/byron-pelton",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/byron-pelton"
+      ]
+    },
+    {
+      "id": "ocd-person/5f8d1bd0-329b-4a87-8d2f-cb62b8f2e921",
+      "name": "Carlos Barron",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "48",
+      "party": "Republican",
+      "email": "carlos.barron.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/carlos-barron"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carlos_Barron",
+        "https://en.wikipedia.org/wiki/Carlos_Barron_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217172/carlos-barron",
+        "https://leg.colorado.gov/legislators/carlos-barron",
+        "https://www.linkedin.com/in/representative-elect-carlos-barron-1664695a"
+      ]
+    },
+    {
+      "id": "ocd-person/0ddf3b75-c450-419e-8235-553157770e49",
+      "name": "Cathy Kipp",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "14",
+      "party": "Democratic",
+      "email": "cathy.kipp.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/cathy-kipp"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cathy_Kipp",
+        "https://en.wikipedia.org/wiki/Cathy_Kipp",
+        "https://justfacts.votesmart.org/candidate/biography/21982/cathy-kipp",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/cathy-kipp",
+        "https://www.linkedin.com/in/cathy-kipp-009a3541"
+      ]
+    },
+    {
+      "id": "ocd-person/a34a6b10-12d9-4109-86d1-76c311463333",
+      "name": "Cecelia Espenoza",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Democratic",
+      "email": "cecelia.espenoza.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/cecelia-espenoza"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cecelia_Espenoza",
+        "https://en.wikipedia.org/wiki/Cecelia_Espenoza",
+        "https://justfacts.votesmart.org/candidate/biography/217129/cecelia-espenoza",
+        "https://leg.colorado.gov/legislators/cecelia-espenoza",
+        "https://www.linkedin.com/in/cecelia-espenoza"
+      ]
+    },
+    {
+      "id": "ocd-person/faaae748-7c57-47df-bdf7-1811e0a61458",
+      "name": "Chad Clifford",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Democratic",
+      "email": "chad.clifford.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/chad-clifford"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chad_Clifford",
+        "https://en.wikipedia.org/wiki/Chad_Clifford",
+        "https://justfacts.votesmart.org/candidate/biography/214547/chad-clifford",
+        "https://leg.colorado.gov/legislators/chad-clifford",
+        "https://www.linkedin.com/in/chadclifford"
+      ]
+    },
+    {
+      "id": "ocd-person/f72691ec-a5a0-413b-a344-e452009551a2",
+      "name": "Chris Kolker",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "16",
+      "party": "Democratic",
+      "email": "chris.kolker.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/chris-kolker"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chris_Kolker",
+        "https://en.wikipedia.org/wiki/Chris_Kolker",
+        "https://justfacts.votesmart.org/candidate/biography/181774/chris-kolker",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/chris-kolker",
+        "https://www.linkedin.com/in/christopher-kolker-7a07214"
+      ]
+    },
+    {
+      "id": "ocd-person/0c428ee3-a327-4906-96c9-c46da7dfd7f1",
+      "name": "Chris Richardson",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "56",
+      "party": "Republican",
+      "email": "chris.richardson.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/chris-richardson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chris_Richardson_(Colorado)",
+        "https://en.wikipedia.org/wiki/Chris_Richardson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217179/chris-richardson",
+        "https://leg.colorado.gov/legislators/chris-richardson",
+        "https://www.linkedin.com/in/christopher-richardson-163a372"
+      ]
+    },
+    {
+      "id": "ocd-person/715df6f2-cef6-4b88-b745-0207c8ffb4ff",
+      "name": "Cleave Simpson",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "6",
+      "party": "Republican",
+      "email": "cleave.simpson.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/cleave-simpson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cleave_Simpson_Jr.",
+        "https://en.wikipedia.org/wiki/Cleave_Simpson",
+        "https://justfacts.votesmart.org/candidate/biography/191801/cleave-simpson",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/cleave-simpson",
+        "https://www.linkedin.com/in/cleave-simpson-48055038"
+      ]
+    },
+    {
+      "id": "ocd-person/df050043-0b4f-4b51-8df0-ffd6cd6cd5b2",
+      "name": "Dan Woog",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Republican",
+      "email": "dan.woog.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/dan-woog"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dan_Woog",
+        "https://en.wikipedia.org/wiki/Dan_Woog",
+        "https://justfacts.votesmart.org/candidate/biography/191765/dan-woog",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/dan-woog",
+        "https://www.linkedin.com/in/dan-woog-9784b322"
+      ]
+    },
+    {
+      "id": "ocd-person/f38f9f4b-9d3a-4e79-a96f-fab94d553d89",
+      "name": "Dusty Johnson",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "63",
+      "party": "Republican",
+      "email": "dustyforcolorado@gmail.com",
+      "links": [
+        "https://leg.colorado.gov/legislators/dusty-johnson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dusty_Johnson_(Colorado)",
+        "https://en.wikipedia.org/wiki/Dusty_A._Johnson",
+        "https://justfacts.votesmart.org/candidate/biography/217185/dusty-johnson",
+        "https://leg.colorado.gov/legislators/dusty-johnson",
+        "https://www.linkedin.com/in/dusty-a-johnson-30a7b58b"
+      ]
+    },
+    {
+      "id": "ocd-person/4be512fb-5ebc-422c-a858-d250cb5568ad",
+      "name": "Dylan Roberts",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "8",
+      "party": "Democratic",
+      "email": "dylan.roberts.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/dylan-roberts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dylan_Roberts",
+        "https://en.wikipedia.org/wiki/Dylan_Roberts",
+        "https://justfacts.votesmart.org/candidate/biography/179465/dylan-roberts",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/dylan-roberts",
+        "https://www.linkedin.com/in/dylan-roberts-b214b933"
+      ]
+    },
+    {
+      "id": "ocd-person/c02b7bf5-a583-43c0-b6d6-2e757c7d42b7",
+      "name": "Eliza Hamrick",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "61",
+      "party": "Democratic",
+      "email": "eliza.hamrick.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/eliza-hamrick"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Eliza_Hamrick",
+        "https://en.wikipedia.org/wiki/Eliza_Hamrick",
+        "https://justfacts.votesmart.org/candidate/biography/206235/eliza-hamrick",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/eliza-hamrick"
+      ]
+    },
+    {
+      "id": "ocd-person/bd50bf12-cf63-4a3d-a887-93008333e694",
+      "name": "Elizabeth Velasco",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "57",
+      "party": "Democratic",
+      "email": "elizabeth.velasco.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/elizabeth-velasco"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Elizabeth_Velasco",
+        "https://en.wikipedia.org/wiki/Elizabeth_Velasco",
+        "https://justfacts.votesmart.org/candidate/biography/206233/elizabeth-velasco",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/elizabeth-velasco"
+      ]
+    },
+    {
+      "id": "ocd-person/c8c1a9c5-c7c2-4894-8829-fc83251bcaf2",
+      "name": "Emily Sirota",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Democratic",
+      "email": "emily.sirota.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/emily-sirota"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Emily_Sirota",
+        "https://en.wikipedia.org/wiki/Emily_Sirota",
+        "https://justfacts.votesmart.org/candidate/biography/181733/emily-sirota",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/emily-sirota",
+        "https://www.linkedin.com/in/emilysirota"
+      ]
+    },
+    {
+      "id": "ocd-person/e0edd86c-a50d-4e78-96ac-f3e8217de4a8",
+      "name": "Gretchen Rydin",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Democratic",
+      "email": "gretchen.rydin.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/gretchen-rydin"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gretchen_Rydin",
+        "https://en.wikipedia.org/wiki/Gretchen_Rydin",
+        "https://justfacts.votesmart.org/candidate/biography/217161/gretchen-rydin",
+        "https://leg.colorado.gov/legislators/gretchen-rydin",
+        "https://www.linkedin.com/in/gretchen-rydin-32174b73"
+      ]
+    },
+    {
+      "id": "ocd-person/506f18ea-3611-408b-aa0e-73adf9681efe",
+      "name": "Iman Jodeh",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "29",
+      "party": "Democratic",
+      "email": "iman.jodeh.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/iman-jodeh"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Iman_Jodeh",
+        "https://en.wikipedia.org/wiki/Iman_Jodeh",
+        "https://justfacts.votesmart.org/candidate/biography/191807/iman-jodeh",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/iman-jodeh",
+        "https://www.linkedin.com/in/ijodeh"
+      ]
+    },
+    {
+      "id": "ocd-person/48d0af72-b21b-44a5-afc2-325b80f1c551",
+      "name": "Jacque Phillips",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Democratic",
+      "email": "jacqueline.phillips.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jacque-phillips",
+        "https://leg.colorado.gov/legislators/jacqueline-phillips"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jacque_Phillips",
+        "https://en.wikipedia.org/wiki/Jacqueline_Phillips",
+        "https://justfacts.votesmart.org/candidate/biography/173291/jacque-phillips",
+        "https://leg.colorado.gov/legislators/jacque-phillips",
+        "https://leg.colorado.gov/legislators/jacqueline-phillips",
+        "https://www.jacquephillips.com",
+        "https://www.linkedin.com/in/dr-jacque-phillips-esq-583b9512"
+      ]
+    },
+    {
+      "id": "ocd-person/e4e1f1a9-7134-4d90-9fed-2aa7a0e3a307",
+      "name": "James Coleman",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "33",
+      "party": "Democratic",
+      "email": "james.coleman.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/james-coleman"
+      ],
+      "sources": [
+        "https://ballotpedia.org/James_Coleman_(Colorado)",
+        "https://en.wikipedia.org/wiki/James_Coleman_(politician)",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/james-coleman",
+        "https://www.linkedin.com/in/james-coleman-54206612"
+      ]
+    },
+    {
+      "id": "ocd-person/09ef4f5a-7c9d-463a-8ab6-52c861f97a74",
+      "name": "Jamie Jackson",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "41",
+      "party": "Democratic",
+      "email": "jamie.jackson.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jamie-jackson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jamie_Jackson_(Colorado)",
+        "https://leg.colorado.gov/legislators/jamie-jackson",
+        "https://www.linkedin.com/in/jamie-jackson-denver"
+      ]
+    },
+    {
+      "id": "ocd-person/2718c918-a38c-49c2-a120-5503164f959f",
+      "name": "Janice Marchman",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "15",
+      "party": "Democratic",
+      "email": "janice.marchman.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/janice-marchman"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Janice_Marchman",
+        "https://en.wikipedia.org/wiki/Janice_Marchman",
+        "https://justfacts.votesmart.org/candidate/biography/206115/janice-marchman",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/janice-marchman",
+        "https://www.linkedin.com/in/janice-marchman-a123a32b"
+      ]
+    },
+    {
+      "id": "ocd-person/2372415a-2aea-4423-8a3a-bed2d40493a6",
+      "name": "Janice Rich",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "7",
+      "party": "Republican",
+      "email": "janicerichsd7@gmail.com",
+      "links": [
+        "https://leg.colorado.gov/legislators/janice-rich"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Janice_Rich",
+        "https://en.wikipedia.org/wiki/Janice_Rich",
+        "https://justfacts.votesmart.org/candidate/biography/181791/janice-rich",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/janice-rich",
+        "https://www.linkedin.com/in/janice-rich-12205032"
+      ]
+    },
+    {
+      "id": "ocd-person/544a4247-320e-456a-b5dd-f0373bdad788",
+      "name": "Jarvis Caldwell",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Republican",
+      "email": "jarvis.caldwell.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jarvis-caldwell"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jarvis_Caldwell",
+        "https://en.wikipedia.org/wiki/Jarvis_Caldwell",
+        "https://justfacts.votesmart.org/candidate/biography/217144/jarvis-caldwell",
+        "https://leg.colorado.gov/legislators/jarvis-caldwell",
+        "https://www.linkedin.com/in/jarvis-caldwell"
+      ]
+    },
+    {
+      "id": "ocd-person/d2b25169-0772-4e97-aa9e-49f82f0f5d08",
+      "name": "Javier Mabrey",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Democratic",
+      "email": "javier.mabrey.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/javier-mabrey"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Javier_Mabrey",
+        "https://justfacts.votesmart.org/candidate/biography/206129/javier-mabrey",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/javier-mabrey",
+        "https://www.linkedin.com/in/javier-mabrey-70571162"
+      ]
+    },
+    {
+      "id": "ocd-person/c2cade07-9c95-4439-938c-77ac4ed44fab",
+      "name": "Jeff Bridges",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "26",
+      "party": "Democratic",
+      "email": "jeff.bridges.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jeff-bridges"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeff_Bridges",
+        "https://en.wikipedia.org/wiki/Jeff_Bridges_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/169966/jeff-bridges",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jeff-bridges",
+        "https://www.linkedin.com/in/jeffbridges"
+      ]
+    },
+    {
+      "id": "ocd-person/4aba3e11-9554-405d-b926-5435eb77fa26",
+      "name": "Jennifer Bacon",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Democratic",
+      "email": "jennifer.bacon.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jennifer-bacon"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Bacon",
+        "https://en.wikipedia.org/wiki/Jennifer_Bacon",
+        "https://justfacts.votesmart.org/candidate/191820/jennifer-bacon",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jennifer-bacon",
+        "https://www.linkedin.com/in/jennifer-bacon-303"
+      ]
+    },
+    {
+      "id": "ocd-person/655c629d-72f6-45d1-bd8f-a241e200d089",
+      "name": "Jenny Willford",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Democratic",
+      "email": "jenny.willford.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jenny-willford"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jenny_Willford",
+        "https://en.wikipedia.org/wiki/Jenny_Willford",
+        "https://justfacts.votesmart.org/candidate/biography/199555/jenny-willford",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jenny-willford",
+        "https://www.linkedin.com/in/jennyclaywillford"
+      ]
+    },
+    {
+      "id": "ocd-person/c06af980-c553-4f79-a39d-295b7226f029",
+      "name": "Jessie Danielson",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "22",
+      "party": "Democratic",
+      "email": "jessie.danielson.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/jessie-danielson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jessie_Danielson",
+        "https://en.wikipedia.org/wiki/Jessie_Danielson",
+        "https://justfacts.votesmart.org/candidate/biography/149351/jessie-danielson",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jessie-danielson"
+      ]
+    },
+    {
+      "id": "ocd-person/8e95ac06-ddbb-4f6c-ba7e-854a92860be4",
+      "name": "John Carson",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "30",
+      "party": "Republican",
+      "email": "john.carson.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/john-carson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Carson_(Colorado)",
+        "https://en.wikipedia.org/wiki/John_Carson_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/220723/john-carson",
+        "https://leg.colorado.gov/legislators/john-carson",
+        "https://www.linkedin.com/in/johnkcarson"
+      ]
+    },
+    {
+      "id": "ocd-person/829879ea-a9a3-42b6-8f5f-d209b1cc961d",
+      "name": "Judy Amabile",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "18",
+      "party": "Democratic",
+      "email": "judy.amabile.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/judy-amabile"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Judith_Amabile",
+        "https://ballotpedia.org/Judy_Amabile",
+        "https://en.wikipedia.org/wiki/Judy_Amabile",
+        "https://justfacts.votesmart.org/candidate/biography/191835/judy-amabile",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/judy-amabile",
+        "https://www.linkedin.com/in/judyamabilehd13"
+      ]
+    },
+    {
+      "id": "ocd-person/8dae5ba5-6741-4aca-8c1e-24f014fda187",
+      "name": "Julie Gonzales",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "34",
+      "party": "Democratic",
+      "email": "julie.gonzales.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/julie-gonzales"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julie_Gonzales",
+        "https://en.wikipedia.org/wiki/Julie_Gonzales",
+        "https://justfacts.votesmart.org/candidate/biography/181717/julie-gonzales",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/julie-gonzales",
+        "https://www.linkedin.com/in/julie-gonzales-50aa3556"
+      ]
+    },
+    {
+      "id": "ocd-person/53facaaf-5673-4c76-b15a-6b5061965ae1",
+      "name": "Julie McCluskie",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Democratic",
+      "email": "julie.mccluskie.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/julie-mccluskie"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julie_McCluskie",
+        "https://en.wikipedia.org/wiki/Julie_McCluskie",
+        "https://justfacts.votesmart.org/candidate/biography/181795/julie-mccluskie",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/julie-mccluskie",
+        "https://www.linkedin.com/in/juliemccluskie"
+      ]
+    },
+    {
+      "id": "ocd-person/0c2271df-5808-42ff-9550-700f454b8b3a",
+      "name": "Junie Joseph",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Democratic",
+      "email": "junie.joseph.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/junie-joseph"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Junie_Joseph",
+        "https://en.wikipedia.org/wiki/Junie_Joseph",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/junie-joseph",
+        "https://www.linkedin.com/in/junie-j-27a44a75"
+      ]
+    },
+    {
+      "id": "ocd-person/7631027c-2467-4112-8f03-abad6c6ed8f2",
+      "name": "Karen McCormick",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Democratic",
+      "email": "karen.mccormick.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/karen-mccormick"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Karen_McCormick",
+        "https://en.wikipedia.org/wiki/Karen_McCormick",
+        "https://justfacts.votesmart.org/candidate/180213/karen-mccormick",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/karen-mccormick",
+        "https://www.linkedin.com/in/karen-mccormick-dvm-2400a812"
+      ]
+    },
+    {
+      "id": "ocd-person/fa06bf42-5305-4b04-95d0-a63f94ae8913",
+      "name": "Katie Stewart",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "59",
+      "party": "Democratic",
+      "email": "katie.stewart.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/katie-stewart"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Katie_Stewart_(Colorado)",
+        "https://en.wikipedia.org/wiki/Katie_Stewart_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217181/katie-stewart",
+        "https://leg.colorado.gov/legislators/katie-stewart",
+        "https://www.linkedin.com/in/katie-stewart-colorado"
+      ]
+    },
+    {
+      "id": "ocd-person/f0fa561d-39cf-48f3-ae8c-84b4d30d2662",
+      "name": "Katie Wallace",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "17",
+      "party": "Democratic",
+      "email": "katie.wallace.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/katie-wallace"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Katie_Wallace",
+        "https://en.wikipedia.org/wiki/Katie_Wallace",
+        "https://justfacts.votesmart.org/candidate/biography/222022/katie-wallace",
+        "https://leg.colorado.gov/legislators/katie-wallace",
+        "https://www.linkedin.com/in/wallace-katie"
+      ]
+    },
+    {
+      "id": "ocd-person/767c8676-7cf0-45bf-9e20-e615d4d13c5e",
+      "name": "Ken DeGraaf",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Republican",
+      "email": "ken.degraaf.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/ken-degraaf"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kenneth_DeGraaf",
+        "https://en.wikipedia.org/wiki/Ken_DeGraaf",
+        "https://justfacts.votesmart.org/candidate/biography/206169/kenneth-degraaf",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/ken-degraaf",
+        "https://www.linkedin.com/in/kendegraaf"
+      ]
+    },
+    {
+      "id": "ocd-person/f84befdc-bf1b-4b0b-92df-27155caf403f",
+      "name": "Kenny Nguyen",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Democratic",
+      "email": "kenny.nguyen.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/kenny-nguyen"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kenny_Nguyen",
+        "https://en.wikipedia.org/wiki/Kenny_Nguyen_(politician)",
+        "https://leg.colorado.gov/legislators/kenny-nguyen",
+        "https://oedit.colorado.gov/kenny-nguyen",
+        "https://www.linkedin.com/in/kenny-nguyen-167638a0"
+      ]
+    },
+    {
+      "id": "ocd-person/f376a75e-e0b0-4bf7-95b1-0931ade3bdb8",
+      "name": "Kyle Brown",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Democratic",
+      "email": "kyle.brown.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/kyle-brown"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kyle_Brown_(Colorado)",
+        "https://en.wikipedia.org/wiki/Kyle_Brown_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/211356/kyle-brown",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/kyle-brown",
+        "https://www.linkedin.com/in/kyle-brown-0905677"
+      ]
+    },
+    {
+      "id": "ocd-person/ebf0c3de-2f58-436f-af67-12863f9cb552",
+      "name": "Kyle Mullica",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "24",
+      "party": "Democratic",
+      "email": "kyle.mullica.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/kyle-mullica"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kyle_Mullica",
+        "https://en.wikipedia.org/wiki/Kyle_Mullica",
+        "https://justfacts.votesmart.org/candidate/biography/148897/kyle-mullica",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/kyle-mullica",
+        "https://www.linkedin.com/in/kyle-mullica-51aa9629"
+      ]
+    },
+    {
+      "id": "ocd-person/c9fd6b10-91a3-44ec-ac6a-48f73eee3ed1",
+      "name": "Larry Liston",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "10",
+      "party": "Republican",
+      "email": "larry.liston.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/larry-liston"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Larry_Liston",
+        "https://en.wikipedia.org/wiki/Larry_Liston",
+        "https://justfacts.votesmart.org/candidate/biography/30002/larry-liston",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/larry-liston",
+        "https://www.linkedin.com/in/larry-liston-12120410"
+      ]
+    },
+    {
+      "id": "ocd-person/a2745e24-bcf2-40f8-aa77-fad08d873ab1",
+      "name": "Larry Suckla",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "58",
+      "party": "Republican",
+      "email": "larry.suckla.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/larry-don-suckla",
+        "https://leg.colorado.gov/legislators/larry-suckla"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Larry_Suckla",
+        "https://en.wikipedia.org/wiki/Larry_Don_Suckla",
+        "https://justfacts.votesmart.org/candidate/biography/149010/larry-suckla",
+        "https://leg.colorado.gov/legislators/larry-don-suckla",
+        "https://leg.colorado.gov/legislators/larry-suckla"
+      ]
+    },
+    {
+      "id": "ocd-person/475639af-fb56-4fde-9a78-213593db91d0",
+      "name": "Lesley Smith",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "49",
+      "party": "Democratic",
+      "email": "lesley.smith.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lesley-smith"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lesley_Smith_(Colorado)",
+        "https://en.wikipedia.org/wiki/Lesley_Smith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217173/lesley-smith",
+        "https://leg.colorado.gov/legislators/lesley-smith",
+        "https://www.linkedin.com/in/lesley-smith-colorado"
+      ]
+    },
+    {
+      "id": "ocd-person/d5ec869e-db7a-480f-b270-428805b90cee",
+      "name": "Lindsay Gilchrist",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Democratic",
+      "email": "lindsay.gilchrist.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lindsay-gilchrist"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lindsay_Gilchrist",
+        "https://en.wikipedia.org/wiki/Lindsay_Gilchrist",
+        "https://justfacts.votesmart.org/candidate/biography/217132/lindsay-gilchrist",
+        "https://leg.colorado.gov/legislators/lindsay-gilchrist",
+        "https://www.gilchristandcompany.com/lindsay-gilchrist",
+        "https://www.linkedin.com/in/lindsay-gilchrist-5a373214"
+      ]
+    },
+    {
+      "id": "ocd-person/2de0a3a1-a1e3-477f-88b9-3212fa52fb9c",
+      "name": "Lindsey Daugherty",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "19",
+      "party": "Democratic",
+      "email": "lindsey.daugherty.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lindsey-daugherty"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lindsey_Daugherty",
+        "https://en.wikipedia.org/wiki/Lindsey_Daugherty",
+        "https://justfacts.votesmart.org/candidate/biography/191838/lindsey-daugherty",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lindsey-daugherty",
+        "https://www.linkedin.com/in/lindsey-daugherty-6396aa21"
+      ]
+    },
+    {
+      "id": "ocd-person/5226ebdd-0710-49da-b446-61fac19765ce",
+      "name": "Lisa Cutter",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "20",
+      "party": "Democratic",
+      "email": "lisa.cutter.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lisa-cutter"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lisa_Cutter",
+        "https://en.wikipedia.org/wiki/Lisa_Cutter",
+        "https://justfacts.votesmart.org/candidate/biography/181764/lisa-cutter",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lisa-cutter",
+        "https://www.linkedin.com/in/lisa-cutter-8525413"
+      ]
+    },
+    {
+      "id": "ocd-person/e1a861fa-2163-4ef5-a891-fc9d36c2504b",
+      "name": "Lisa Feret",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Democratic",
+      "email": "lisa.feret.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lisa-feret"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lisa_Feret",
+        "https://en.wikipedia.org/wiki/Lisa_Feret",
+        "https://justfacts.votesmart.org/candidate/biography/217148/lisa-feret",
+        "https://leg.colorado.gov/legislators/lisa-feret",
+        "https://www.linkedin.com/in/lisaferet"
+      ]
+    },
+    {
+      "id": "ocd-person/fce5c955-f43d-4f80-bad5-8369223bc0ea",
+      "name": "Lisa Frizell",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "2",
+      "party": "Republican",
+      "email": "lisa.frizell.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lisa-frizell"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lisa_Frizell",
+        "https://en.wikipedia.org/wiki/Lisa_Frizell",
+        "https://justfacts.votesmart.org/candidate/biography/206207/lisa-frizell",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lisa-frizell",
+        "https://www.linkedin.com/in/lisa-frizell"
+      ]
+    },
+    {
+      "id": "ocd-person/d7569723-ddde-4706-a857-422804198fa8",
+      "name": "Lorena García",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Democratic",
+      "email": "lorena.garcia.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lorena-garc%C3%ADa",
+        "https://leg.colorado.gov/legislators/lorena-garcia"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lorena_Garcia",
+        "https://en.wikipedia.org/wiki/Lorena_Garcia_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/211290/lorena-garcia",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lorena-garc%C3%ADa",
+        "https://leg.colorado.gov/legislators/lorena-garcia",
+        "https://www.linkedin.com/in/lorena-e-garcia"
+      ]
+    },
+    {
+      "id": "ocd-person/8de5b6ec-a488-4f1f-b96d-d78b90cb7fe7",
+      "name": "Lori Goldstein",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Democratic",
+      "email": "lori.goldstein.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lori-goldstein"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lori_Goldstein",
+        "https://en.wikipedia.org/wiki/Lori_Goldstein_(politician)",
+        "https://leg.colorado.gov/legislators/lori-goldstein",
+        "https://www.linkedin.com/in/lori-bryner-goldstein-50420765"
+      ]
+    },
+    {
+      "id": "ocd-person/d450c0d3-b829-4855-ad0d-1228c5284a4f",
+      "name": "Lori Garcia Sander",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "65",
+      "party": "Republican",
+      "email": "lori garciasander.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lori-garcia-sander"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lori_Sander",
+        "https://en.wikipedia.org/wiki/Lori_Garcia_Sander",
+        "https://justfacts.votesmart.org/candidate/217188/lori-garcia-sander",
+        "https://leg.colorado.gov/legislators/lori-garcia-sander",
+        "https://www.linkedin.com/in/lori-garcia-sander-bb2552325"
+      ]
+    },
+    {
+      "id": "ocd-person/e5055578-02cb-435c-9fe0-b877318e3b1b",
+      "name": "Lynda Zamora Wilson",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "9",
+      "party": "Republican",
+      "email": "lynda.zamorawilson.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/lynda-zamora-wilson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lynda_Zamora_Wilson",
+        "https://en.wikipedia.org/wiki/Lynda_Zamora_Wilson",
+        "https://justfacts.votesmart.org/candidate/biography/206113/lynda-wilson",
+        "https://leg.colorado.gov/legislators/lynda-zamora-wilson",
+        "https://www.linkedin.com/in/lyndazamora"
+      ]
+    },
+    {
+      "id": "ocd-person/2582d3dd-20c0-4d15-83a0-3b6dab1e98d2",
+      "name": "Mandy Lindsay",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "42",
+      "party": "Democratic",
+      "email": "mandy.lindsay.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/mandy-lindsay"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mandy_Lindsay",
+        "https://en.wikipedia.org/wiki/Mandy_Lindsay",
+        "https://justfacts.votesmart.org/candidate/biography/201403/mandy-lindsay",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mandy-lindsay"
+      ]
+    },
+    {
+      "id": "ocd-person/ce4bd827-c1bc-4736-a580-f4f0215e727d",
+      "name": "Manny Rutinel",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Democratic",
+      "email": "manny.rutinel.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/manny-rutinel"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Manny_Rutinel",
+        "https://en.wikipedia.org/wiki/Manny_Rutinel",
+        "https://justfacts.votesmart.org/candidate/biography/212843/manny-rutinel",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/manny-rutinel",
+        "https://www.linkedin.com/in/mannyrutinel",
+        "https://www.mannyforcolorado.com/meetmanny"
+      ]
+    },
+    {
+      "id": "ocd-person/c0cfa7d3-2c5e-4b68-8692-2e1b6f1b3372",
+      "name": "Marc Catlin",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "5",
+      "party": "Republican",
+      "email": "marc.catlin.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/marc-catlin"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Marc_Catlin",
+        "https://en.wikipedia.org/wiki/Marc_Catlin",
+        "https://justfacts.votesmart.org/candidate/biography/176449/marc-catlin",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/marc-catlin",
+        "https://www.linkedin.com/in/marc-catlin-a35476b4"
+      ]
+    },
+    {
+      "id": "ocd-person/5dbb7ac2-a4c8-42b8-bfb1-1b012737fa74",
+      "name": "Marc Snyder",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "12",
+      "party": "Democratic",
+      "email": "marc.snyder.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/marc-snyder"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Marc_Snyder",
+        "https://en.wikipedia.org/wiki/Marc_Snyder",
+        "https://justfacts.votesmart.org/candidate/biography/181752/marc-snyder",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/marc-snyder",
+        "https://www.linkedin.com/in/marc-snyder-5158716"
+      ]
+    },
+    {
+      "id": "ocd-person/b4002b84-79a0-481a-94a8-00136c2dabb6",
+      "name": "Mark Baisley",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "4",
+      "party": "Republican",
+      "email": "mark.baisley@senate.co.com",
+      "links": [
+        "https://leg.colorado.gov/legislators/mark-baisley"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Baisley",
+        "https://en.wikipedia.org/wiki/Mark_Baisley",
+        "https://justfacts.votesmart.org/candidate/biography/66344/mark-baisley",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mark-baisley",
+        "https://www.linkedin.com/in/mark-baisley-7946595"
+      ]
+    },
+    {
+      "id": "ocd-person/9e1ed481-cc42-4186-a8fe-891abba60162",
+      "name": "Mary Bradfield",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Republican",
+      "email": "mary.bradfield.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/mary-bradfield"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mary_Bradfield",
+        "https://en.wikipedia.org/wiki/Mary_Bradfield",
+        "https://justfacts.votesmart.org/candidate/biography/191847/mary-bradfield",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mary-bradfield"
+      ]
+    },
+    {
+      "id": "ocd-person/4a72c7ee-c3e5-4c61-8e79-3301cb70a599",
+      "name": "Matt Ball",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "31",
+      "party": "Democratic",
+      "email": "matt.ball.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/matt-ball"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Ball",
+        "https://en.wikipedia.org/wiki/Matthew_Ball_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/138590/matthew-ball",
+        "https://leg.colorado.gov/legislators/matt-ball",
+        "https://www.linkedin.com/in/matthew-ball-06385a261"
+      ]
+    },
+    {
+      "id": "ocd-person/9e529237-916b-407c-a60e-abd8e0708329",
+      "name": "Matt Soper",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "54",
+      "party": "Republican",
+      "email": "matthew.soper.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/matt-soper"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Soper",
+        "https://en.wikipedia.org/wiki/Matt_Soper",
+        "https://justfacts.votesmart.org/candidate/biography/181789/matt-soper",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/matt-soper",
+        "https://www.linkedin.com/in/matthewsoper"
+      ]
+    },
+    {
+      "id": "ocd-person/27716b46-14de-4097-a29c-1a882ae3cd3a",
+      "name": "Matt Martinez",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "62",
+      "party": "Democratic",
+      "email": "matthew.martinez.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/matthew-martinez"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matthew_Martinez",
+        "https://en.wikipedia.org/wiki/Matthew_Martinez_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/191769/matthew-martinez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/matthew-martinez",
+        "https://www.linkedin.com/in/matthew-martinez-2a882094"
+      ]
+    },
+    {
+      "id": "ocd-person/fe11081d-5ca9-4f88-a143-04aed94e45f9",
+      "name": "Max Brooks",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "45",
+      "party": "Republican",
+      "email": "max.brooks.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/max-brooks"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Max_Brooks",
+        "https://en.wikipedia.org/wiki/Max_Brooks_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217168/max-brooks",
+        "https://leg.colorado.gov/legislators/max-brooks",
+        "https://www.linkedin.com/in/maxbrooksmarketing"
+      ]
+    },
+    {
+      "id": "ocd-person/8e6bc6cb-fe7e-4640-a938-eb32536e95c5",
+      "name": "Meg Froelich",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Democratic",
+      "email": "meg.froelich.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/meg-froelich"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Meg_Froelich",
+        "https://en.wikipedia.org/wiki/Meg_Froelich",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/meg-froelich",
+        "https://www.linkedin.com/in/meg-froelich-2b6a823"
+      ]
+    },
+    {
+      "id": "ocd-person/c1a18202-08ad-487f-99bb-b1a606c15a22",
+      "name": "Meghan Lukens",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Democratic",
+      "email": "meghan.lukens.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/meghan-lukens"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Meghan_Lukens",
+        "https://en.wikipedia.org/wiki/Meghan_Lukens",
+        "https://justfacts.votesmart.org/candidate/biography/206173/meghan-lukens",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/meghan-lukens",
+        "https://www.linkedin.com/in/meghan-lukens-000a1513a"
+      ]
+    },
+    {
+      "id": "ocd-person/9c2accab-1bbf-495c-8036-137e48ba684d",
+      "name": "Michael Carter",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Democratic",
+      "email": "michael.carter.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/michael-carter"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Carter_(Colorado)",
+        "https://leg.colorado.gov/legislators/michael-carter",
+        "https://www.linkedin.com/in/michael-carter-82a0196"
+      ]
+    },
+    {
+      "id": "ocd-person/b680cb39-442c-4dd2-81bd-88696cfe9df2",
+      "name": "Mike Weissman",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "28",
+      "party": "Democratic",
+      "email": "mike.weissman.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/mike-weissman"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Weissman",
+        "https://en.wikipedia.org/wiki/Mike_Weissman",
+        "https://justfacts.votesmart.org/candidate/biography/169997/mike-weissman",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mike-weissman",
+        "https://www.linkedin.com/in/mjweissman"
+      ]
+    },
+    {
+      "id": "ocd-person/d8b6809c-61d9-4ea3-b21b-c846051468c2",
+      "name": "Monica Duran",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Democratic",
+      "email": "monica.duran.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/monica-duran"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Monica_Duran",
+        "https://en.wikipedia.org/wiki/Monica_Duran",
+        "https://justfacts.votesmart.org/candidate/biography/173284/monica-duran",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/monica-duran",
+        "https://www.linkedin.com/in/monica-duran-25a96726"
+      ]
+    },
+    {
+      "id": "ocd-person/64f01ef4-238f-4e48-9657-e221e0d030c0",
+      "name": "Naquetta Ricks",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Democratic",
+      "email": "naquetta.ricks.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/naquetta-ricks"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Naquetta_Ricks",
+        "https://en.wikipedia.org/wiki/Naquetta_Ricks",
+        "https://justfacts.votesmart.org/candidate/191811/naquetta-ricks",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/naquetta-ricks",
+        "https://www.linkedin.com/in/naquetta-ricks-mba-726a19b"
+      ]
+    },
+    {
+      "id": "ocd-person/4d753f6e-b7e3-420d-a684-e9a27f7ab27b",
+      "name": "Nick Hinrichsen",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "3",
+      "party": "Democratic",
+      "email": "nick.hinrichsen.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/nick-hinrichsen"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nick_Hinrichsen",
+        "https://en.wikipedia.org/wiki/Nick_Hinrichsen",
+        "https://justfacts.votesmart.org/candidate/biography/202704/nick-hinrichsen",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/nick-hinrichsen",
+        "https://www.linkedin.com/in/nick-hinrichsen-b1722468"
+      ]
+    },
+    {
+      "id": "ocd-person/04df7ed2-3683-4e00-ae08-9660cd6d878b",
+      "name": "Rebecca Keltie",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Republican",
+      "email": "rebecca.keltie.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/rebecca-keltie"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rebecca_Keltie",
+        "https://en.wikipedia.org/wiki/Rebecca_Keltie",
+        "https://justfacts.votesmart.org/candidate/biography/195381/rebecca-keltie",
+        "https://leg.colorado.gov/legislators/rebecca-keltie",
+        "https://www.linkedin.com/in/rebecca-keltie-9155b63"
+      ]
+    },
+    {
+      "id": "ocd-person/ef2507af-95ba-4a2f-84d5-84771785bfc2",
+      "name": "Rebekah Stewart",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Democratic",
+      "email": "rebekah.stewart.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/rebekah-stewart"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rebekah_Stewart",
+        "https://justfacts.votesmart.org/candidate/biography/211176/rebekah-stewart",
+        "https://leg.colorado.gov/legislators/rebekah-stewart",
+        "https://www.linkedin.com/in/rebekahforco",
+        "https://www.linkedin.com/in/rebekahkstewart"
+      ]
+    },
+    {
+      "id": "ocd-person/d5be5146-f7a9-46eb-86f9-b0d1cebc4e9c",
+      "name": "Regina English",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Democratic",
+      "email": "regina.english.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/regina-english"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Regina_English",
+        "https://en.wikipedia.org/wiki/Regina_English",
+        "https://justfacts.votesmart.org/candidate/biography/206155/regina-english",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/regina-english",
+        "https://www.linkedin.com/in/regina-english-1b4bb218"
+      ]
+    },
+    {
+      "id": "ocd-person/5dae0c7f-430e-42a2-906d-9e177782f91b",
+      "name": "Rick Taggart",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "55",
+      "party": "Republican",
+      "email": "rick.taggart.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/rick-taggart"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rick_Taggart",
+        "https://en.wikipedia.org/wiki/Rick_Taggart",
+        "https://justfacts.votesmart.org/candidate/biography/157546/rick-taggart",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/rick-taggart",
+        "https://www.linkedin.com/in/rick-taggart-b3b44128"
+      ]
+    },
+    {
+      "id": "ocd-person/ab377224-ab70-4c20-a535-baa429520e7c",
+      "name": "Robert Rodriguez",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "32",
+      "party": "Democratic",
+      "email": "robert.rodriguez.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/robert-rodriguez"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_Rodriguez_(Colorado)",
+        "https://en.wikipedia.org/wiki/Robert_Rodriguez_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181713/robert-rodriguez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/robert-rodriguez"
+      ]
+    },
+    {
+      "id": "ocd-person/45cd06eb-9967-4468-9e4e-677549e7638d",
+      "name": "Rod Pelton",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "35",
+      "party": "Republican",
+      "email": "rod.pelton.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/rod-pelton"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rod_Pelton",
+        "https://ballotpedia.org/Rodney_Pelton",
+        "https://en.wikipedia.org/wiki/Rod_Pelton",
+        "https://justfacts.votesmart.org/candidate/biography/148937/rod-pelton",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/rod-pelton"
+      ]
+    },
+    {
+      "id": "ocd-person/9b1256a4-11c6-4c9e-81e6-2e0a3c5871be",
+      "name": "Ron Weinberg",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "51",
+      "party": "Republican",
+      "email": "ron.weinberg.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/ron-weinberg"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ron_Weinberg",
+        "https://en.wikipedia.org/wiki/Ron_Weinberg",
+        "https://justfacts.votesmart.org/candidate/biography/211297/ron-weinberg",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/ron-weinberg",
+        "https://www.linkedin.com/in/ron-weinberg-03129371"
+      ]
+    },
+    {
+      "id": "ocd-person/e7b1210b-3400-4ad4-a461-a55023e54042",
+      "name": "Ryan Gonzalez",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "50",
+      "party": "Republican",
+      "email": "ryan.gonzalez.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/ryan-gonzalez"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ryan_Gonzalez",
+        "https://en.wikipedia.org/wiki/Ryan_Gonzalez",
+        "https://justfacts.votesmart.org/candidate/biography/206221/ryan-gonzalez",
+        "https://leg.colorado.gov/legislators/ryan-gonzalez",
+        "https://www.linkedin.com/in/ryanagonzalez"
+      ]
+    },
+    {
+      "id": "ocd-person/66254480-6178-4312-8a18-268ec84153cc",
+      "name": "Scott Bottoms",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Republican",
+      "email": "scott.bottoms.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/scott-bottoms",
+        "https://www.coloradohouserepublicans.com/scott-bottoms/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Scott_Bottoms",
+        "https://en.wikipedia.org/wiki/Scott_Bottoms",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/scott-bottoms",
+        "https://www.coloradohouserepublicans.com/scott-bottoms",
+        "https://www.linkedin.com/in/scott-bottoms-48425b81"
+      ]
+    },
+    {
+      "id": "ocd-person/fb530f21-a08e-473c-b215-9a4de6a86ee9",
+      "name": "Scott Bright",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "13",
+      "party": "Republican",
+      "email": "scott.bright.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/scott-bright"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Scott_Bright_(Colorado)",
+        "https://en.wikipedia.org/wiki/Scott_Bright",
+        "https://justfacts.votesmart.org/candidate/biography/217067/scott-bright",
+        "https://leg.colorado.gov/legislators/scott-bright",
+        "https://scottbright.net",
+        "https://www.linkedin.com/in/scott-bright-6874378"
+      ]
+    },
+    {
+      "id": "ocd-person/cba33581-a61a-41c5-9773-c949f2b06d0a",
+      "name": "Scott Slaugh",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "64",
+      "party": "Republican",
+      "email": "scott.slaugh.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/scott-slaugh"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Scott_Slaugh",
+        "https://en.wikipedia.org/wiki/Scott_Slaugh",
+        "https://justfacts.votesmart.org/candidate/biography/229503/scott-slaugh",
+        "https://leg.colorado.gov/legislators/scott-slaugh",
+        "https://www.linkedin.com/in/scott-slaugh-myfallriverhome"
+      ]
+    },
+    {
+      "id": "ocd-person/56e058a4-2a75-4864-8d5e-18c1c98f6960",
+      "name": "Sean Camacho",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Democratic",
+      "email": "sean.camacho.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/sean-camacho"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sean_Camacho",
+        "https://en.wikipedia.org/wiki/Sean_Camacho",
+        "https://justfacts.votesmart.org/candidate/biography/206136/sean-camacho",
+        "https://leg.colorado.gov/legislators/sean-camacho",
+        "https://www.linkedin.com/in/sean-camacho-86462063"
+      ]
+    },
+    {
+      "id": "ocd-person/b44045eb-e2fb-4723-9e91-d68fb55c0bf7",
+      "name": "Sheila Lieder",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Democratic",
+      "email": "sheila.lieder.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/sheila-lieder"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sheila_Lieder",
+        "https://en.wikipedia.org/wiki/Sheila_Lieder",
+        "https://justfacts.votesmart.org/candidate/biography/210740/sheila-lieder",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/sheila-lieder",
+        "https://www.linkedin.com/in/sheilalieder"
+      ]
+    },
+    {
+      "id": "ocd-person/3e7145a3-8729-497c-a168-db98d22cf015",
+      "name": "Stephanie Luck",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "60",
+      "party": "Republican",
+      "email": "stephanie.luck.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/stephanie-luck"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Luck",
+        "https://en.wikipedia.org/wiki/Stephanie_Luck",
+        "https://justfacts.votesmart.org/candidate/biography/181704/stephanie-luck",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/stephanie-luck",
+        "https://www.linkedin.com/in/smluck"
+      ]
+    },
+    {
+      "id": "ocd-person/09af4a19-c07e-49b2-b320-104f3784705b",
+      "name": "Steven Woodrow",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Democratic",
+      "email": "steven.woodrow.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/steven-woodrow"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steven_Woodrow",
+        "https://en.wikipedia.org/wiki/Steven_Woodrow",
+        "https://justfacts.votesmart.org/candidate/biography/189634/steven-woodrow",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/steven-woodrow",
+        "https://www.linkedin.com/in/stevenlezell"
+      ]
+    },
+    {
+      "id": "ocd-person/489b3afa-1e08-40f4-918a-f01c186b6f73",
+      "name": "Tammy Story",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Democratic",
+      "email": "tammy.story.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/tammy-story"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tammy_Story",
+        "https://en.wikipedia.org/wiki/Tammy_Story",
+        "https://justfacts.votesmart.org/candidate/biography/169987/tammy-story",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tammy-story"
+      ]
+    },
+    {
+      "id": "ocd-person/851b5f31-0694-4674-a3b8-468b6eb1f0a8",
+      "name": "Tisha Mauro",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "46",
+      "party": "Democratic",
+      "email": "tisha.mauro.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/tisha-mauro"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tisha_Mauro",
+        "https://en.wikipedia.org/wiki/Tisha_Mauro",
+        "https://justfacts.votesmart.org/candidate/biography/206211/tisha-mauro",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tisha-mauro",
+        "https://www.linkedin.com/in/tisha-mauro-248a5733"
+      ]
+    },
+    {
+      "id": "ocd-person/dc9056b8-fb9c-4a66-99b8-210acce64bff",
+      "name": "Tom Sullivan",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "27",
+      "party": "Democratic",
+      "email": "tom.sullivan.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/tom-sullivan"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_Sullivan_(Colorado)",
+        "https://en.wikipedia.org/wiki/Tom_Sullivan_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/169958/tom-sullivan",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tom-sullivan"
+      ]
+    },
+    {
+      "id": "ocd-person/473bd095-778d-4418-8e61-96a2b8005c8e",
+      "name": "Tony Exum",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "11",
+      "party": "Democratic",
+      "email": "tony.exum.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/tony-exum"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thomas_Exum,_Sr.",
+        "https://en.wikipedia.org/wiki/Tony_Exum",
+        "https://justfacts.votesmart.org/candidate/biography/138722/tony-exum-sr",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tony-exum",
+        "https://www.linkedin.com/in/exum4citycouncil"
+      ]
+    },
+    {
+      "id": "ocd-person/f3cd2006-7729-41b0-a009-0c5cf64e95e0",
+      "name": "Ty Winter",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "47",
+      "party": "Republican",
+      "email": "ty.winter.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/ty-winter"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ty_Winter",
+        "https://en.wikipedia.org/wiki/Ty_Winter",
+        "https://justfacts.votesmart.org/candidate/biography/206214/ty-winter",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/ty-winter"
+      ]
+    },
+    {
+      "id": "ocd-person/dbe86f29-2ecb-449e-aaf6-3fc91baf2e0e",
+      "name": "William Lindstedt",
+      "state": "CO",
+      "chamber": "upper",
+      "district": "25",
+      "party": "Democratic",
+      "email": "william.lindstedt.senate@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/william-lindstedt"
+      ],
+      "sources": [
+        "https://ballotpedia.org/William_Lindstedt",
+        "https://en.wikipedia.org/wiki/William_Lindstedt",
+        "https://justfacts.votesmart.org/candidate/biography/199491/william-lindstedt",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/william-lindstedt"
+      ]
+    },
+    {
+      "id": "ocd-person/e8a7d2a2-1907-450d-8c61-8c328839e922",
+      "name": "Yara Zokaie",
+      "state": "CO",
+      "chamber": "lower",
+      "district": "52",
+      "party": "Democratic",
+      "email": "yara.zokaie.house@coleg.gov",
+      "links": [
+        "https://leg.colorado.gov/legislators/yara-zokaie"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Yara_Zokaie",
+        "https://en.wikipedia.org/wiki/Yara_Zokaie",
+        "https://justfacts.votesmart.org/candidate/191790/yara-zokaie",
+        "https://leg.colorado.gov/legislators/yara-zokaie"
+      ]
+    }
+  ]
+}

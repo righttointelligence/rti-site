@@ -1,0 +1,409 @@
+{
+  "generatedAt": "2026-07-01T03:02:06.989Z",
+  "source": "Open States current legislator CSV bulk data",
+  "sourcePattern": "https://data.openstates.org/people/current/[ABBR].csv",
+  "stateCount": 50,
+  "totalLegislators": 7359,
+  "states": [
+    {
+      "abbr": "AL",
+      "name": "Alabama",
+      "count": 140,
+      "upperCount": 35,
+      "lowerCount": 105,
+      "sourceUrl": "https://data.openstates.org/people/current/al.csv"
+    },
+    {
+      "abbr": "AK",
+      "name": "Alaska",
+      "count": 60,
+      "upperCount": 20,
+      "lowerCount": 40,
+      "sourceUrl": "https://data.openstates.org/people/current/ak.csv"
+    },
+    {
+      "abbr": "AZ",
+      "name": "Arizona",
+      "count": 90,
+      "upperCount": 30,
+      "lowerCount": 60,
+      "sourceUrl": "https://data.openstates.org/people/current/az.csv"
+    },
+    {
+      "abbr": "AR",
+      "name": "Arkansas",
+      "count": 134,
+      "upperCount": 35,
+      "lowerCount": 99,
+      "sourceUrl": "https://data.openstates.org/people/current/ar.csv"
+    },
+    {
+      "abbr": "CA",
+      "name": "California",
+      "count": 120,
+      "upperCount": 40,
+      "lowerCount": 80,
+      "sourceUrl": "https://data.openstates.org/people/current/ca.csv"
+    },
+    {
+      "abbr": "CO",
+      "name": "Colorado",
+      "count": 100,
+      "upperCount": 35,
+      "lowerCount": 65,
+      "sourceUrl": "https://data.openstates.org/people/current/co.csv"
+    },
+    {
+      "abbr": "CT",
+      "name": "Connecticut",
+      "count": 187,
+      "upperCount": 36,
+      "lowerCount": 151,
+      "sourceUrl": "https://data.openstates.org/people/current/ct.csv"
+    },
+    {
+      "abbr": "DE",
+      "name": "Delaware",
+      "count": 62,
+      "upperCount": 21,
+      "lowerCount": 41,
+      "sourceUrl": "https://data.openstates.org/people/current/de.csv"
+    },
+    {
+      "abbr": "FL",
+      "name": "Florida",
+      "count": 158,
+      "upperCount": 40,
+      "lowerCount": 118,
+      "sourceUrl": "https://data.openstates.org/people/current/fl.csv"
+    },
+    {
+      "abbr": "GA",
+      "name": "Georgia",
+      "count": 233,
+      "upperCount": 54,
+      "lowerCount": 179,
+      "sourceUrl": "https://data.openstates.org/people/current/ga.csv"
+    },
+    {
+      "abbr": "HI",
+      "name": "Hawaii",
+      "count": 76,
+      "upperCount": 25,
+      "lowerCount": 51,
+      "sourceUrl": "https://data.openstates.org/people/current/hi.csv"
+    },
+    {
+      "abbr": "ID",
+      "name": "Idaho",
+      "count": 105,
+      "upperCount": 35,
+      "lowerCount": 70,
+      "sourceUrl": "https://data.openstates.org/people/current/id.csv"
+    },
+    {
+      "abbr": "IL",
+      "name": "Illinois",
+      "count": 176,
+      "upperCount": 58,
+      "lowerCount": 118,
+      "sourceUrl": "https://data.openstates.org/people/current/il.csv"
+    },
+    {
+      "abbr": "IN",
+      "name": "Indiana",
+      "count": 150,
+      "upperCount": 50,
+      "lowerCount": 100,
+      "sourceUrl": "https://data.openstates.org/people/current/in.csv"
+    },
+    {
+      "abbr": "IA",
+      "name": "Iowa",
+      "count": 150,
+      "upperCount": 50,
+      "lowerCount": 100,
+      "sourceUrl": "https://data.openstates.org/people/current/ia.csv"
+    },
+    {
+      "abbr": "KS",
+      "name": "Kansas",
+      "count": 165,
+      "upperCount": 40,
+      "lowerCount": 125,
+      "sourceUrl": "https://data.openstates.org/people/current/ks.csv"
+    },
+    {
+      "abbr": "KY",
+      "name": "Kentucky",
+      "count": 138,
+      "upperCount": 38,
+      "lowerCount": 100,
+      "sourceUrl": "https://data.openstates.org/people/current/ky.csv"
+    },
+    {
+      "abbr": "LA",
+      "name": "Louisiana",
+      "count": 144,
+      "upperCount": 39,
+      "lowerCount": 105,
+      "sourceUrl": "https://data.openstates.org/people/current/la.csv"
+    },
+    {
+      "abbr": "ME",
+      "name": "Maine",
+      "count": 187,
+      "upperCount": 35,
+      "lowerCount": 152,
+      "sourceUrl": "https://data.openstates.org/people/current/me.csv"
+    },
+    {
+      "abbr": "MD",
+      "name": "Maryland",
+      "count": 188,
+      "upperCount": 47,
+      "lowerCount": 141,
+      "sourceUrl": "https://data.openstates.org/people/current/md.csv"
+    },
+    {
+      "abbr": "MA",
+      "name": "Massachusetts",
+      "count": 198,
+      "upperCount": 40,
+      "lowerCount": 158,
+      "sourceUrl": "https://data.openstates.org/people/current/ma.csv"
+    },
+    {
+      "abbr": "MI",
+      "name": "Michigan",
+      "count": 148,
+      "upperCount": 38,
+      "lowerCount": 110,
+      "sourceUrl": "https://data.openstates.org/people/current/mi.csv"
+    },
+    {
+      "abbr": "MN",
+      "name": "Minnesota",
+      "count": 201,
+      "upperCount": 67,
+      "lowerCount": 134,
+      "sourceUrl": "https://data.openstates.org/people/current/mn.csv"
+    },
+    {
+      "abbr": "MS",
+      "name": "Mississippi",
+      "count": 174,
+      "upperCount": 52,
+      "lowerCount": 122,
+      "sourceUrl": "https://data.openstates.org/people/current/ms.csv"
+    },
+    {
+      "abbr": "MO",
+      "name": "Missouri",
+      "count": 192,
+      "upperCount": 34,
+      "lowerCount": 158,
+      "sourceUrl": "https://data.openstates.org/people/current/mo.csv"
+    },
+    {
+      "abbr": "MT",
+      "name": "Montana",
+      "count": 150,
+      "upperCount": 50,
+      "lowerCount": 100,
+      "sourceUrl": "https://data.openstates.org/people/current/mt.csv"
+    },
+    {
+      "abbr": "NE",
+      "name": "Nebraska",
+      "count": 49,
+      "upperCount": 0,
+      "lowerCount": 49,
+      "sourceUrl": "https://data.openstates.org/people/current/ne.csv"
+    },
+    {
+      "abbr": "NV",
+      "name": "Nevada",
+      "count": 63,
+      "upperCount": 21,
+      "lowerCount": 42,
+      "sourceUrl": "https://data.openstates.org/people/current/nv.csv"
+    },
+    {
+      "abbr": "NH",
+      "name": "New Hampshire",
+      "count": 415,
+      "upperCount": 24,
+      "lowerCount": 391,
+      "sourceUrl": "https://data.openstates.org/people/current/nh.csv"
+    },
+    {
+      "abbr": "NJ",
+      "name": "New Jersey",
+      "count": 120,
+      "upperCount": 40,
+      "lowerCount": 80,
+      "sourceUrl": "https://data.openstates.org/people/current/nj.csv"
+    },
+    {
+      "abbr": "NM",
+      "name": "New Mexico",
+      "count": 112,
+      "upperCount": 42,
+      "lowerCount": 70,
+      "sourceUrl": "https://data.openstates.org/people/current/nm.csv"
+    },
+    {
+      "abbr": "NY",
+      "name": "New York",
+      "count": 213,
+      "upperCount": 63,
+      "lowerCount": 150,
+      "sourceUrl": "https://data.openstates.org/people/current/ny.csv"
+    },
+    {
+      "abbr": "NC",
+      "name": "North Carolina",
+      "count": 170,
+      "upperCount": 50,
+      "lowerCount": 120,
+      "sourceUrl": "https://data.openstates.org/people/current/nc.csv"
+    },
+    {
+      "abbr": "ND",
+      "name": "North Dakota",
+      "count": 140,
+      "upperCount": 47,
+      "lowerCount": 93,
+      "sourceUrl": "https://data.openstates.org/people/current/nd.csv"
+    },
+    {
+      "abbr": "OH",
+      "name": "Ohio",
+      "count": 132,
+      "upperCount": 33,
+      "lowerCount": 99,
+      "sourceUrl": "https://data.openstates.org/people/current/oh.csv"
+    },
+    {
+      "abbr": "OK",
+      "name": "Oklahoma",
+      "count": 147,
+      "upperCount": 48,
+      "lowerCount": 99,
+      "sourceUrl": "https://data.openstates.org/people/current/ok.csv"
+    },
+    {
+      "abbr": "OR",
+      "name": "Oregon",
+      "count": 90,
+      "upperCount": 30,
+      "lowerCount": 60,
+      "sourceUrl": "https://data.openstates.org/people/current/or.csv"
+    },
+    {
+      "abbr": "PA",
+      "name": "Pennsylvania",
+      "count": 252,
+      "upperCount": 50,
+      "lowerCount": 202,
+      "sourceUrl": "https://data.openstates.org/people/current/pa.csv"
+    },
+    {
+      "abbr": "RI",
+      "name": "Rhode Island",
+      "count": 113,
+      "upperCount": 38,
+      "lowerCount": 75,
+      "sourceUrl": "https://data.openstates.org/people/current/ri.csv"
+    },
+    {
+      "abbr": "SC",
+      "name": "South Carolina",
+      "count": 170,
+      "upperCount": 46,
+      "lowerCount": 124,
+      "sourceUrl": "https://data.openstates.org/people/current/sc.csv"
+    },
+    {
+      "abbr": "SD",
+      "name": "South Dakota",
+      "count": 105,
+      "upperCount": 35,
+      "lowerCount": 70,
+      "sourceUrl": "https://data.openstates.org/people/current/sd.csv"
+    },
+    {
+      "abbr": "TN",
+      "name": "Tennessee",
+      "count": 132,
+      "upperCount": 33,
+      "lowerCount": 99,
+      "sourceUrl": "https://data.openstates.org/people/current/tn.csv"
+    },
+    {
+      "abbr": "TX",
+      "name": "Texas",
+      "count": 181,
+      "upperCount": 31,
+      "lowerCount": 150,
+      "sourceUrl": "https://data.openstates.org/people/current/tx.csv"
+    },
+    {
+      "abbr": "UT",
+      "name": "Utah",
+      "count": 104,
+      "upperCount": 29,
+      "lowerCount": 75,
+      "sourceUrl": "https://data.openstates.org/people/current/ut.csv"
+    },
+    {
+      "abbr": "VT",
+      "name": "Vermont",
+      "count": 180,
+      "upperCount": 30,
+      "lowerCount": 150,
+      "sourceUrl": "https://data.openstates.org/people/current/vt.csv"
+    },
+    {
+      "abbr": "VA",
+      "name": "Virginia",
+      "count": 139,
+      "upperCount": 40,
+      "lowerCount": 99,
+      "sourceUrl": "https://data.openstates.org/people/current/va.csv"
+    },
+    {
+      "abbr": "WA",
+      "name": "Washington",
+      "count": 147,
+      "upperCount": 49,
+      "lowerCount": 98,
+      "sourceUrl": "https://data.openstates.org/people/current/wa.csv"
+    },
+    {
+      "abbr": "WV",
+      "name": "West Virginia",
+      "count": 134,
+      "upperCount": 34,
+      "lowerCount": 100,
+      "sourceUrl": "https://data.openstates.org/people/current/wv.csv"
+    },
+    {
+      "abbr": "WI",
+      "name": "Wisconsin",
+      "count": 132,
+      "upperCount": 33,
+      "lowerCount": 99,
+      "sourceUrl": "https://data.openstates.org/people/current/wi.csv"
+    },
+    {
+      "abbr": "WY",
+      "name": "Wyoming",
+      "count": 93,
+      "upperCount": 31,
+      "lowerCount": 62,
+      "sourceUrl": "https://data.openstates.org/people/current/wy.csv"
+    }
+  ]
+}

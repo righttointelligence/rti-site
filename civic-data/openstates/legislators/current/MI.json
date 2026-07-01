@@ -1,0 +1,3393 @@
+{
+  "abbr": "MI",
+  "name": "Michigan",
+  "sourceUrl": "https://data.openstates.org/people/current/mi.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 148,
+  "upperCount": 38,
+  "lowerCount": 110,
+  "legislators": [
+    {
+      "id": "ocd-person/788d408d-cb80-43fd-802a-4778a930894d",
+      "name": "Alabas Farhat",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Democratic",
+      "email": "alabasfarhat@house.mi.gov",
+      "links": [
+        "https://housedems.com/Alabas-Farhat/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alabas_Farhat",
+        "https://en.wikipedia.org/wiki/Alabas_Farhat",
+        "https://housedems.com/Alabas-Farhat",
+        "https://housedems.com/Alabas-Farhat/",
+        "https://housedems.com/alabas-farhat/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/alabasf"
+      ]
+    },
+    {
+      "id": "ocd-person/81da0894-0569-4c8d-9c4e-befd39650fee",
+      "name": "Alicia St. Germaine",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "62",
+      "party": "Republican",
+      "email": "aliciastgermaine@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepAliciaStGermaine/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alicia_St._Germaine",
+        "https://en.wikipedia.org/wiki/Alicia_St._Germaine",
+        "https://gophouse.org/member/RepAliciaStGermaine/posts",
+        "https://justfacts.votesmart.org/candidate/206712/alicia-st-germaine",
+        "https://RepStGermaine.com",
+        "https://www.aliciastgermaine.com/about-alicia",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repAliciaSt. Germaine"
+      ]
+    },
+    {
+      "id": "ocd-person/5f160dff-1ce1-4606-a469-fdd08125beb4",
+      "name": "Amos O'Neal",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "94",
+      "party": "Democratic",
+      "email": "amosoneal@house.mi.gov",
+      "links": [
+        "https://housedems.com/amos-oneal/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Amos_O%27Neal",
+        "https://en.wikipedia.org/wiki/Amos_O%27Neal",
+        "https://housedems.com/amos-oneal",
+        "https://housedems.com/amos-oneal/",
+        "https://justfacts.votesmart.org/candidate/biography/76476/amos-oneal",
+        "https://www.gongwer.com/directories/bio.cfm?nameid=563201",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/amosoneal",
+        "https://www.michiganlcv.org/lawmaker/amos-oneal"
+      ]
+    },
+    {
+      "id": "ocd-person/527d59db-a346-4a91-8f98-e1b57947b58c",
+      "name": "Angela Rigas",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "79",
+      "party": "Republican",
+      "email": "angelarigas@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepAngelaRigas/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Angela_Rigas",
+        "https://en.wikipedia.org/wiki/Angela_Rigas",
+        "https://gophouse.org/member/RepAngelaRigas/about",
+        "https://gophouse.org/member/RepAngelaRigas/posts",
+        "https://justfacts.votesmart.org/candidate/biography/153583/angela-rigas",
+        "https://RepRigas.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repAngelaRigas",
+        "https://www.linkedin.com/in/angela-rigas-044280259"
+      ]
+    },
+    {
+      "id": "ocd-person/0db39d07-a543-4e52-82b0-457f406855e8",
+      "name": "Angela Witwer",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "76",
+      "party": "Democratic",
+      "email": "angelawitwer@house.mi.gov",
+      "links": [
+        "https://housedems.com/angela-witwer/",
+        "https://housedems.com/witwer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Angela_Witwer",
+        "https://en.wikipedia.org/wiki/Angela_Witwer",
+        "https://housedems.com/angela-witwer",
+        "https://housedems.com/angela-witwer/",
+        "https://housedems.com/witwer",
+        "https://justfacts.votesmart.org/candidate/182870/angela-witwer",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/angelawitwer"
+      ]
+    },
+    {
+      "id": "ocd-person/3a9d71dc-da5b-4bd3-8062-c8387292dc52",
+      "name": "Ann Bollin",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "49",
+      "party": "Republican",
+      "email": "annbollin@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repannbollin/about",
+        "https://gophouse.org/representatives/southeast/bollin/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ann_Bollin",
+        "https://en.wikipedia.org/wiki/Ann_Bollin",
+        "https://gophouse.org/member/repannbollin/about",
+        "https://gophouse.org/representatives/southeast/bollin",
+        "https://gophouse.org/representatives/southeast/bollin/",
+        "https://justfacts.votesmart.org/candidate/biography/182799/ann-bollin",
+        "https://RepBollin.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/ann-bollin-4382676"
+      ]
+    },
+    {
+      "id": "ocd-person/6d11944d-f19f-4697-811c-0c9dca750c57",
+      "name": "Aric Nesbitt",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "20",
+      "party": "Republican",
+      "email": "senanesbitt@senate.michigan.gov",
+      "links": [
+        "https://www.senatoraricnesbitt.com",
+        "https://www.senatoraricnesbitt.com/",
+        "https://www.senatoraricnesbitt.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Aric_Nesbitt",
+        "https://en.wikipedia.org/wiki/Aric_Nesbitt",
+        "https://justfacts.votesmart.org/candidate/biography/124278/aric-nesbitt",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/aric-nesbitt-9b5ab82",
+        "https://www.senatoraricnesbitt.com",
+        "https://www.senatoraricnesbitt.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/80ccf9a5-7303-4218-be3e-0ab6f8e90eee",
+      "name": "Betsy Coffia",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "103",
+      "party": "Democratic",
+      "email": "betsycoffia@house.mi.gov",
+      "links": [
+        "https://housedems.com/Betsy-Coffia/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Betsy_Coffia",
+        "https://en.wikipedia.org/wiki/Betsy_Coffia",
+        "https://housedems.com/Betsy-Coffia",
+        "https://housedems.com/Betsy-Coffia/",
+        "https://housedems.com/betsy-coffia/about",
+        "https://justfacts.votesmart.org/candidate/biography/140024/betsy-coffia",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/betsycoffia"
+      ]
+    },
+    {
+      "id": "ocd-person/5355f558-55bb-4f29-81eb-89179f55d69a",
+      "name": "Bill Schuette",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "95",
+      "party": "Republican",
+      "email": "billschuette@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepBillGSchuette/posts",
+        "https://gophouse.org/member/RepBillSchuette/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_G._Schuette",
+        "https://en.wikipedia.org/wiki/Bill_G._Schuette",
+        "https://gophouse.org/member/RepBillGSchuette/posts",
+        "https://gophouse.org/member/RepBillSchuette/about",
+        "https://gophouse.org/member/RepBillSchuette/posts",
+        "https://justfacts.votesmart.org/candidate/biography/213008/bill-schuette",
+        "https://RepSchuette.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repBillSchuette",
+        "https://www.linkedin.com/in/bill-g-schuette-807586171"
+      ]
+    },
+    {
+      "id": "ocd-person/04a88313-6387-44ab-972c-b000b3c316f4",
+      "name": "Brad Paquette",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Republican",
+      "email": "bradpaquette@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repbradpaquette/about",
+        "https://gophouse.org/representatives/southwest/paquette/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brad_Paquette",
+        "https://en.wikipedia.org/wiki/Brad_Paquette",
+        "https://gophouse.org/member/repbradpaquette/about",
+        "https://gophouse.org/representatives/southwest/paquette",
+        "https://gophouse.org/representatives/southwest/paquette/",
+        "https://justfacts.votesmart.org/candidate/biography/182888/brad-paquette",
+        "https://RepPaquette.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/brad-paquette-42755a31"
+      ]
+    },
+    {
+      "id": "ocd-person/38c62407-9471-40de-8a1c-44142573c79a",
+      "name": "Brad Slagh",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "85",
+      "party": "Republican",
+      "email": "bradleyslagh@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repbradleyslagh/about",
+        "https://gophouse.org/representatives/westmi/slagh/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bradley_Slagh",
+        "https://en.wikipedia.org/wiki/Bradley_Slagh",
+        "https://gophouse.org/member/repbradleyslagh/about",
+        "https://gophouse.org/representatives/westmi/slagh",
+        "https://gophouse.org/representatives/westmi/slagh/",
+        "https://justfacts.votesmart.org/candidate/biography/182918/bradley-slagh",
+        "https://RepSlagh.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/bradley-slagh-6b06249"
+      ]
+    },
+    {
+      "id": "ocd-person/0019e62f-6671-4085-b2d3-55d3c4a23717",
+      "name": "Brenda Carter",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "53",
+      "party": "Democratic",
+      "email": "brendacarter@house.mi.gov",
+      "links": [
+        "https://housedems.com/brenda-carter",
+        "https://housedems.com/brenda-carter/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brenda_Carter_(Michigan)",
+        "https://en.wikipedia.org/wiki/Brenda_Carter",
+        "https://housedems.com/brenda-carter",
+        "https://housedems.com/brenda-carter/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/brenda-carter-67217326"
+      ]
+    },
+    {
+      "id": "ocd-person/172b6e7c-3765-4978-bc03-3d19a92d5164",
+      "name": "Brian BeGole",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "71",
+      "party": "Republican",
+      "email": "brianbegole@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepBrianBeGole/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_BeGole",
+        "https://en.wikipedia.org/wiki/Brian_BeGole",
+        "https://gophouse.org/member/RepBrianBeGole/posts",
+        "https://justfacts.votesmart.org/candidate/206746/brian-begole",
+        "https://RepBeGole.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repBrianBeGole",
+        "https://www.linkedin.com/in/brian-begole-72020aa3"
+      ]
+    },
+    {
+      "id": "ocd-person/c925c469-552f-448d-a89f-ef456e15da21",
+      "name": "Bryan Posthumus",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "90",
+      "party": "Republican",
+      "email": "bryanposthumus@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repbryanposthumus/about",
+        "https://repposthumus.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bryan_Posthumus",
+        "https://en.wikipedia.org/wiki/Bryan_Posthumus",
+        "https://gophouse.org/member/repbryanposthumus/about",
+        "https://justfacts.votesmart.org/candidate/biography/193117/bryan-posthumus",
+        "https://repposthumus.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/bryan-posthumus-a9102414"
+      ]
+    },
+    {
+      "id": "ocd-person/60ae519b-a739-4dc5-80bb-c0161269607a",
+      "name": "Cam Cavitt",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "106",
+      "party": "Republican",
+      "email": "camcavitt@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepCamCavitt/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cameron_Cavitt",
+        "https://en.wikipedia.org/wiki/Cam_Cavitt",
+        "https://gophouse.org/member/RepCamCavitt/about",
+        "https://gophouse.org/member/RepCamCavitt/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206561/cam-cavitt",
+        "https://RepCavitt.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repCameronCavitt",
+        "https://www.linkedin.com/in/cameron-cavitt-9582ba12"
+      ]
+    },
+    {
+      "id": "ocd-person/86812673-e63a-4f36-aa3e-26de84380657",
+      "name": "Carol Glanville",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "84",
+      "party": "Democratic",
+      "email": "caglanville@house.mi.gov",
+      "links": [
+        "https://housedems.com/carol-glanville/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carol_Glanville",
+        "https://en.wikipedia.org/wiki/Carol_Glanville",
+        "https://housedems.com/carol-glanville",
+        "https://housedems.com/carol-glanville/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/caglanville"
+      ]
+    },
+    {
+      "id": "ocd-person/2f75473d-b2e6-49fd-914e-1e552ebc38a6",
+      "name": "Carrie Rheingans",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "47",
+      "party": "Democratic",
+      "email": "carrierheingans@house.mi.gov",
+      "links": [
+        "https://housedems.com/Carrie-Rheingans/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Carrie_Rheingans",
+        "https://en.wikipedia.org/wiki/Carrie_Rheingans",
+        "https://housedems.com/Carrie-Rheingans",
+        "https://housedems.com/Carrie-Rheingans/",
+        "https://housedems.com/carrie-rheingans/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/crheinga"
+      ]
+    },
+    {
+      "id": "ocd-person/b5b41ca8-2f16-4df4-9808-66b2a13bfecc",
+      "name": "Chedrick Greene",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "35",
+      "party": "Democratic",
+      "email": "sencgreene@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/greene/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chedrick_Greene",
+        "https://en.wikipedia.org/wiki/Chedrick_Greene",
+        "https://senatedems.com/greene"
+      ]
+    },
+    {
+      "id": "ocd-person/b0804883-3f8c-4341-bbc1-26a0346b37c4",
+      "name": "Curt VanderWall",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "102",
+      "party": "Republican",
+      "email": "curtisvanderwall@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepCurtisVanderWall/posts",
+        "https://www.senatorcurtvanderwall.com/",
+        "https://www.senatorcurtvanderwall.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Curt_VanderWall",
+        "https://en.wikipedia.org/wiki/Curt_VanderWall",
+        "https://gophouse.org/member/RepCurtisVanderWall/about",
+        "https://gophouse.org/member/RepCurtisVanderWall/posts",
+        "https://justfacts.votesmart.org/candidate/biography/132533/curt-vanderwall",
+        "https://RepVanderWall.com",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/curt-vanderwall-0620b4120",
+        "https://www.senatorcurtvanderwall.com",
+        "https://www.senatorcurtvanderwall.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/7e3c6932-35bd-43f6-b1ca-d8fd6d5c0040",
+      "name": "Cynthia Neeley",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "70",
+      "party": "Democratic",
+      "email": "cynthianeeley@house.mi.gov",
+      "links": [
+        "https://housedems.com/cynthia-neeley/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cynthia_Neeley",
+        "https://en.wikipedia.org/wiki/Cynthia_Neeley",
+        "https://housedems.com/cynthia-neeley",
+        "https://housedems.com/cynthia-neeley/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/cynthia-neeley-400616199",
+        "https://www.linkedin.com/in/cynthia-neeley-ab6b16116"
+      ]
+    },
+    {
+      "id": "ocd-person/30afc35e-fa35-448c-b303-e0f6cc456c77",
+      "name": "Dan Lauwers",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "25",
+      "party": "Republican",
+      "email": "sendlauwers@senate.michigan.gov",
+      "links": [
+        "https://www.senatordanlauwers.com",
+        "https://www.senatordanlauwers.com/",
+        "https://www.senatordanlauwers.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dan_Lauwers",
+        "https://en.wikipedia.org/wiki/Dan_Lauwers",
+        "https://justfacts.votesmart.org/candidate/biography/139989/dan-lauwers",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/dan-lauwers-617a262b",
+        "https://www.senatordanlauwers.com",
+        "https://www.senatordanlauwers.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/5d2fbcb4-0e27-4cb5-99bf-f94693b3aa12",
+      "name": "Darrin Camilleri",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "4",
+      "party": "Democratic",
+      "email": "sendcamilleri@senate.michigan.gov",
+      "links": [
+        "https://housedems.com/camilleri",
+        "https://senatedems.com/camilleri",
+        "https://senatedems.com/camilleri/",
+        "https://senatedems.com/camilleri/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Darrin_Camilleri",
+        "https://en.wikipedia.org/wiki/Darrin_Camilleri",
+        "https://housedems.com/camilleri",
+        "https://justfacts.votesmart.org/candidate/biography/170332/darrin-camilleri",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/camilleri",
+        "https://senatedems.com/camilleri/",
+        "https://senatedems.com/camilleri/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/darrin-quiroz-camilleri-aa088928"
+      ]
+    },
+    {
+      "id": "ocd-person/95434509-a8fd-4e25-9f04-a952416d6da3",
+      "name": "David Martin",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "68",
+      "party": "Republican",
+      "email": "davidmartin@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repdavidmartin/posts",
+        "https://repmartin.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Martin_(Michigan)",
+        "https://en.wikipedia.org/wiki/David_Martin_(Michigan_politician)",
+        "https://gophouse.org/member/repdavidmartin/posts",
+        "https://repmartin.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true"
+      ]
+    },
+    {
+      "id": "ocd-person/addfe9a4-4b73-4dec-95a9-4bb7cd0d6bd2",
+      "name": "Dave Prestin",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "108",
+      "party": "Republican",
+      "email": "daveprestin@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepDavePrestin/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Prestin",
+        "https://en.wikipedia.org/wiki/David_Prestin",
+        "https://gophouse.org/member/RepDavePrestin/about",
+        "https://gophouse.org/member/RepDavePrestin/posts",
+        "https://RepPrestin.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repDavidPrestin"
+      ]
+    },
+    {
+      "id": "ocd-person/f266a938-3705-4c7c-994f-859b2b6024dc",
+      "name": "Dayna Polehanki",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "5",
+      "party": "Democratic",
+      "email": "sendpolehanki@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/polehanki",
+        "https://senatedems.com/polehanki/",
+        "https://senatedems.com/polehanki/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dayna_Polehanki",
+        "https://en.wikipedia.org/wiki/Dayna_Polehanki",
+        "https://justfacts.votesmart.org/candidate/biography/182594/dayna-polehanki",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/polehanki",
+        "https://senatedems.com/polehanki/"
+      ]
+    },
+    {
+      "id": "ocd-person/7e4be084-8c26-421f-ab31-81893f7ac525",
+      "name": "Denise Mentzer",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "61",
+      "party": "Democratic",
+      "email": "denisementzer@house.mi.gov",
+      "links": [
+        "https://housedems.com/Denise-Mentzer/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Denise_Mentzer",
+        "https://housedems.com/Denise-Mentzer",
+        "https://housedems.com/Denise-Mentzer/",
+        "https://housedems.com/denise-mentzer/about",
+        "https://justfacts.votesmart.org/candidate/biography/206707/denise-mentzer",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/denise-mentzer-4b30268b"
+      ]
+    },
+    {
+      "id": "ocd-person/36e87b55-c5db-4331-8088-8fe1dbc544f9",
+      "name": "Donavan McKinney",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Democratic",
+      "email": "donavanmckinney@house.mi.gov",
+      "links": [
+        "https://housedems.com/Donavan-McKinney/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Donavan_McKinney",
+        "https://en.wikipedia.org/wiki/Donavan_McKinney",
+        "https://housedems.com/Donavan-McKinney",
+        "https://housedems.com/Donavan-McKinney/",
+        "https://housedems.com/donavan-mckinney/about",
+        "https://justfacts.votesmart.org/candidate/biography/170162/donavan-mckinney",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/donavan-mckinney-9735b24a"
+      ]
+    },
+    {
+      "id": "ocd-person/4a5a14f9-56b4-4f7a-ad0c-bfe3750912a3",
+      "name": "Donni Steele",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "54",
+      "party": "Republican",
+      "email": "donnisteele@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepDonniSteele/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Donni_Steele",
+        "https://en.wikipedia.org/wiki/Donni_Steele",
+        "https://gophouse.org/member/RepDonniSteele/about",
+        "https://gophouse.org/member/RepDonniSteele/posts",
+        "https://justfacts.votesmart.org/candidate/146908/donni-steele",
+        "https://RepDonniSteele.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repDonniSteele"
+      ]
+    },
+    {
+      "id": "ocd-person/2e512bae-42f3-4ce8-b565-df48469da08a",
+      "name": "Doug Wozniak",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "59",
+      "party": "Republican",
+      "email": "douglaswozniak@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repdougwozniak/posts",
+        "https://www.senatordougwozniak.com/",
+        "https://www.senatordougwozniak.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Douglas_Wozniak",
+        "https://en.wikipedia.org/wiki/Doug_Wozniak",
+        "https://gophouse.org/member/repdougwozniak/about",
+        "https://gophouse.org/member/repdougwozniak/posts",
+        "https://justfacts.votesmart.org/candidate/111696/douglas-wozniak",
+        "https://macombcountyrealestateattorney.com/attorneys",
+        "https://RepWozniak.com",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/douglas-wozniak-8317947"
+      ]
+    },
+    {
+      "id": "ocd-person/07ff51f1-6cd0-4004-b618-bc70e5a2e551",
+      "name": "Dylan Wegela",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Democratic",
+      "email": "dylanwegela@house.mi.gov",
+      "links": [
+        "https://housedems.com/Dylan-Wegela/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dylan_Wegela",
+        "https://en.wikipedia.org/wiki/Dylan_Wegela",
+        "https://housedems.com/Dylan-Wegela",
+        "https://housedems.com/Dylan-Wegela/",
+        "https://housedems.com/dylan-wegela/about",
+        "https://www.house.mi.gov/AllRepresentatives"
+      ]
+    },
+    {
+      "id": "ocd-person/4fc7e235-2446-405d-9a56-5e010017f617",
+      "name": "Ed McBroom",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "38",
+      "party": "Republican",
+      "email": "senemcbroom@senate.michigan.gov",
+      "links": [
+        "https://senatoredmcbroom.com/",
+        "https://www.senatoredmcbroom.com",
+        "https://www.senatoredmcbroom.com/",
+        "https://www.senatoredmcbroom.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ed_McBroom",
+        "https://en.wikipedia.org/wiki/Ed_McBroom",
+        "https://justfacts.votesmart.org/candidate/biography/124476/ed-mcbroom",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatoredmcbroom.com",
+        "https://www.senatoredmcbroom.com",
+        "https://www.senatoredmcbroom.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/10e1b0b6-8c1d-4f2b-b29a-08770991b1d4",
+      "name": "Emily Dievendorf",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "77",
+      "party": "Democratic",
+      "email": "emilydievendorf@house.mi.gov",
+      "links": [
+        "https://housedems.com/Emily-Dievendorf/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Emily_Dievendorf",
+        "https://en.wikipedia.org/wiki/Emily_Dievendorf",
+        "https://housedems.com/Emily-Dievendorf",
+        "https://housedems.com/Emily-Dievendorf/",
+        "https://housedems.com/emily-dievendorf/about",
+        "https://justfacts.votesmart.org/candidate/biography/206760/emily-dievendorf",
+        "https://www.gongwer.com/programming/bio.cfm?nameid=730401",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/emily-dievendorf-b078738a"
+      ]
+    },
+    {
+      "id": "ocd-person/ebc9981a-cbe1-4d37-99b0-89d3c350fd3f",
+      "name": "Erika Geiss",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "1",
+      "party": "Democratic",
+      "email": "senegeiss@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/geiss",
+        "https://senatedems.com/geiss/",
+        "https://senatedems.com/geiss/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Erika_Geiss",
+        "https://en.wikipedia.org/wiki/Erika_Geiss",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/geiss",
+        "https://senatedems.com/geiss/",
+        "https://www.linkedin.com/in/erikaswansongeiss"
+      ]
+    },
+    {
+      "id": "ocd-person/3d6727ea-1a91-414d-aac4-ba312cbfaabc",
+      "name": "Erin Byrnes",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Democratic",
+      "email": "erinbyrnes@house.mi.gov",
+      "links": [
+        "https://housedems.com/Erin-Byrnes/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Erin_Byrnes",
+        "https://en.wikipedia.org/wiki/Erin_Byrnes",
+        "https://housedems.com/Erin-Byrnes",
+        "https://housedems.com/Erin-Byrnes/",
+        "https://housedems.com/erin-byrnes/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/erin-byrnes"
+      ]
+    },
+    {
+      "id": "ocd-person/37cbe31c-4d9d-4f77-847f-ce463e1bec58",
+      "name": "Gina Johnsen",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "78",
+      "party": "Republican",
+      "email": "ginajohnsen@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepGinaJohnsen/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gina_Johnsen",
+        "https://en.wikipedia.org/wiki/Gina_Johnsen",
+        "https://gophouse.org/member/RepGinaJohnsen/posts",
+        "https://RepJohnsen.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repGinaJohnsen",
+        "https://www.linkedin.com/in/gina-johnsen-a6b08030"
+      ]
+    },
+    {
+      "id": "ocd-person/960d6487-b202-46fa-8905-e001b6954d5a",
+      "name": "Greg VanWoerkom",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "88",
+      "party": "Republican",
+      "email": "gregvanwoerkom@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repgregvanwoerkom/about",
+        "https://gophouse.org/representatives/westmi/vanwoerkom/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Greg_VanWoerkom",
+        "https://en.wikipedia.org/wiki/Greg_VanWoerkom",
+        "https://gophouse.org/member/repgregvanwoerkom/about",
+        "https://gophouse.org/representatives/westmi/vanwoerkom",
+        "https://gophouse.org/representatives/westmi/vanwoerkom/",
+        "https://justfacts.votesmart.org/candidate/biography/182920/greg-vanwoerkom",
+        "https://RepVanWoerkom.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/greg-vanwoerkom-916b8b5"
+      ]
+    },
+    {
+      "id": "ocd-person/fc7627d7-6c08-49e7-9edc-6f419443ffaa",
+      "name": "Greg Alexander",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "98",
+      "party": "Republican",
+      "email": "gregalexander@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repgregalexander/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gregory_Alexander_(Michigan_House_of_Representatives_District_98)",
+        "https://gophouse.org/member/repgregalexander/about",
+        "https://gophouse.org/member/repgregalexander/posts",
+        "https://RepGregAlexander.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repGregoryAlexander"
+      ]
+    },
+    {
+      "id": "ocd-person/a3b57cdd-ae52-49af-9456-bc1f212fe970",
+      "name": "Greg Markkanen",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "110",
+      "party": "Republican",
+      "email": "gregmarkkanen@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repgregmarkkanen/about",
+        "https://gophouse.org/representatives/up/markkanen/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gregory_Markkanen",
+        "https://en.wikipedia.org/wiki/Gregory_Markkanen",
+        "https://gophouse.org/member/repgregmarkkanen/about",
+        "https://gophouse.org/representatives/up/markkanen",
+        "https://gophouse.org/representatives/up/markkanen/",
+        "https://justfacts.votesmart.org/candidate/biography/170685/gregory-markkanen",
+        "https://RepMarkkanen.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true"
+      ]
+    },
+    {
+      "id": "ocd-person/6751fa70-04e4-45e1-b3c5-6e0a5a397f8f",
+      "name": "Helena Scott",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Democratic",
+      "email": "helenascott@house.mi.gov",
+      "links": [
+        "https://housedems.com/helena-scott/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Helena_Scott",
+        "https://en.wikipedia.org/wiki/Helena_Scott_(politician)",
+        "https://housedems.com/helena-scott",
+        "https://housedems.com/helena-scott/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/hhelenascott"
+      ]
+    },
+    {
+      "id": "ocd-person/fe33333e-a9ff-4279-ae47-1cc27703ee5c",
+      "name": "Jaime Greene",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "65",
+      "party": "Republican",
+      "email": "jaimegreene@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJaimeGreene/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jaime_Greene",
+        "https://en.wikipedia.org/wiki/Jaime_Greene",
+        "https://gophouse.org/member/RepJaimeGreene/posts",
+        "https://justfacts.votesmart.org/candidate/206721/jaime-greene",
+        "https://RepJaimeGreene.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJaimeGreene",
+        "https://www.linkedin.com/in/jaimegreene"
+      ]
+    },
+    {
+      "id": "ocd-person/af4a0996-bcf0-4e8f-9165-4290343e905f",
+      "name": "Jim DeSana",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Republican",
+      "email": "jamesdesana@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJamesDeSana/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/James_DeSana",
+        "https://en.wikipedia.org/wiki/James_DeSana",
+        "https://gophouse.org/member/RepJamesDeSana/about",
+        "https://gophouse.org/member/RepJamesDeSana/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206649/james-desana",
+        "https://RepDeSana.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJamesDeSana",
+        "https://www.linkedin.com/in/jim-desana-1423163b"
+      ]
+    },
+    {
+      "id": "ocd-person/ea1e2bf8-dd08-4785-a7f7-48e7c9e8a53c",
+      "name": "Jamie Thompson",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Republican",
+      "email": "jamiethompson@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJamieThompson/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jamie_Thompson",
+        "https://en.wikipedia.org/wiki/Jamie_Thompson_(politician)",
+        "https://gophouse.org/member/RepJamieThompson/about",
+        "https://gophouse.org/member/RepJamieThompson/posts",
+        "https://RepThompson.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJamieThompson",
+        "https://www.linkedin.com/in/jamie-thompson-92170939"
+      ]
+    },
+    {
+      "id": "ocd-person/d6da4c9b-26ef-4fa9-a1c6-a79d843abe09",
+      "name": "Jason Hoskins",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Democratic",
+      "email": "jasonhoskins@house.mi.gov",
+      "links": [
+        "https://housedems.com/Jason-Hoskins/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Hoskins",
+        "https://housedems.com/Jason-Hoskins",
+        "https://housedems.com/Jason-Hoskins/",
+        "https://housedems.com/jason-hoskins/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jasonmhoskins"
+      ]
+    },
+    {
+      "id": "ocd-person/9b0967d9-1238-4f90-8e03-233a17fc03e0",
+      "name": "Jason Morgan",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Democratic",
+      "email": "jasonmorgan@house.mi.gov",
+      "links": [
+        "https://housedems.com/Jason-Morgan/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Morgan",
+        "https://en.wikipedia.org/wiki/Jason_Morgan_(politician)",
+        "https://housedems.com/Jason-Morgan",
+        "https://housedems.com/Jason-Morgan/",
+        "https://housedems.com/jason-morgan/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jasontmorgan"
+      ]
+    },
+    {
+      "id": "ocd-person/4831928f-e1e5-4905-928b-633128aefa77",
+      "name": "Jason Woolford",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "50",
+      "party": "Republican",
+      "email": "jasonwoolford@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJasonWoolford/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Woolford",
+        "https://en.wikipedia.org/wiki/Jason_Woolford",
+        "https://gophouse.org/member/RepJasonWoolford",
+        "https://justfacts.votesmart.org/candidate/biography/206690/jason-woolford",
+        "https://www.linkedin.com/in/jason-woolford-949224b"
+      ]
+    },
+    {
+      "id": "ocd-person/124196c5-fa79-4958-97c1-364026ae5f36",
+      "name": "Jaz Martus",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "69",
+      "party": "Democratic",
+      "email": "jaspermartus@house.mi.gov",
+      "links": [
+        "https://housedems.com/Jasper-Martus/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jasper_Martus",
+        "https://en.wikipedia.org/wiki/Jasper_Martus",
+        "https://housedems.com/Jasper-Martus",
+        "https://housedems.com/Jasper-Martus/",
+        "https://housedems.com/jasper-martus/about",
+        "https://justfacts.votesmart.org/candidate/biography/206738/jasper-martus",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jasperryanmartus00"
+      ]
+    },
+    {
+      "id": "ocd-person/569bf706-64ce-4dd7-8639-886beb018d8c",
+      "name": "Jay DeBoyer",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "63",
+      "party": "Republican",
+      "email": "jaydeboyer@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJayDeBoyer/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jay_DeBoyer",
+        "https://en.wikipedia.org/wiki/Jay_DeBoyer",
+        "https://gophouse.org/member/RepJayDeBoyer/about",
+        "https://gophouse.org/member/RepJayDeBoyer/posts",
+        "https://RepDeBoyer.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJayDeBoyer"
+      ]
+    },
+    {
+      "id": "ocd-person/a1c1163d-af8d-4b88-9365-07717d4a45c3",
+      "name": "Jeff Irwin",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "15",
+      "party": "Democratic",
+      "email": "senjirwin@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/irwin",
+        "https://senatedems.com/irwin/",
+        "https://senatedems.com/irwin/contact",
+        "https://senatedems.com/irwin/contact/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeff_Irwin",
+        "https://en.wikipedia.org/wiki/Jeff_Irwin_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/89555/jeff-irwin",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/irwin",
+        "https://senatedems.com/irwin/"
+      ]
+    },
+    {
+      "id": "ocd-person/99ac6698-e0f9-4ddf-9df6-2d82aa70468f",
+      "name": "Jennifer Conlin",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "48",
+      "party": "Democratic",
+      "email": "jenniferconlin@house.mi.gov",
+      "links": [
+        "https://housedems.com/Jennifer-Conlin/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Conlin",
+        "https://en.wikipedia.org/wiki/Jennifer_Conlin",
+        "https://housedems.com/Jennifer-Conlin",
+        "https://housedems.com/Jennifer-Conlin/",
+        "https://housedems.com/jennifer-conlin/about",
+        "https://justfacts.votesmart.org/candidate/biography/206688/jennifer-conlin",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jennifer-conlin-543756"
+      ]
+    },
+    {
+      "id": "ocd-person/be12c20b-e96b-4326-a1c2-8cabe83f4f2b",
+      "name": "Jennifer Wortz",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Republican",
+      "email": "jenniferwortz@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJenniferWortz/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Wortz",
+        "https://en.wikipedia.org/wiki/Jennifer_Wortz",
+        "https://gophouse.org/member/RepJenniferWortz/about",
+        "https://gophouse.org/member/RepJenniferWortz/posts",
+        "https://justfacts.votesmart.org/candidate/biography/217238/jennifer-wortz",
+        "https://mdoe.state.mi.us/legislators/Legislator/LegislatorDetail/5679",
+        "https://www.linkedin.com/in/jennifer-wortz-52572213"
+      ]
+    },
+    {
+      "id": "ocd-person/d1c4631b-145d-4418-8a29-24683b83ae44",
+      "name": "Jeremy Moss",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "7",
+      "party": "Democratic",
+      "email": "senjmoss@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/moss",
+        "https://senatedems.com/moss/",
+        "https://senatedems.com/moss/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Moss",
+        "https://en.wikipedia.org/wiki/Jeremy_Moss",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/moss",
+        "https://senatedems.com/moss/"
+      ]
+    },
+    {
+      "id": "ocd-person/549e485e-c1ea-4582-8db3-91d1e15fe27a",
+      "name": "Jerry Neyer",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "92",
+      "party": "Republican",
+      "email": "jerryneyer@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJerryNeyer/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jerry_Neyer",
+        "https://en.wikipedia.org/wiki/Jerry_Neyer",
+        "https://gophouse.org/member/RepJerryNeyer/about",
+        "https://gophouse.org/member/RepJerryNeyer/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206625/jerry-neyer",
+        "https://mdoe.state.mi.us/legislators/Legislator/LegislatorDetail/5650",
+        "https://RepNeyer.com",
+        "https://www.gongwer.com/directories/bio.cfm?nameid=736801",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJerryNeyer"
+      ]
+    },
+    {
+      "id": "ocd-person/e0a8928d-8ccc-4e1e-9ca5-d7f50642ff91",
+      "name": "Jim Runestad",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "23",
+      "party": "Republican",
+      "email": "senjrunestad@senate.michigan.gov",
+      "links": [
+        "https://www.senatorjimrunestad.com",
+        "https://www.senatorjimrunestad.com/",
+        "https://www.senatorjimrunestad.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jim_Runestad",
+        "https://en.wikipedia.org/wiki/Jim_Runestad",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/jimrunestad",
+        "https://www.senatorjimrunestad.com",
+        "https://www.senatorjimrunestad.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/8560a009-9142-4824-bec4-67559d8d0add",
+      "name": "Jimmie Wilson",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Democratic",
+      "email": "jimmiewilson@house.mi.gov",
+      "links": [
+        "https://housedems.com/Jimmie-Wilson-Jr/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jimmie_Wilson_Jr._(Michigan)",
+        "https://en.wikipedia.org/wiki/Jimmie_Wilson_Jr.",
+        "https://housedems.com/Jimmie-Wilson-Jr",
+        "https://housedems.com/Jimmie-Wilson-Jr/",
+        "https://housedems.com/jimmie-wilson-jr/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jimmie-wilson-jr-988765120"
+      ]
+    },
+    {
+      "id": "ocd-person/65bb5257-9a90-4b14-a7bd-aee9efd0ab55",
+      "name": "Joe Pavlov",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "64",
+      "party": "Republican",
+      "email": "josephpavlov@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJosephGPavlov"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joseph_Pavlov",
+        "https://en.wikipedia.org/wiki/Joseph_G._Pavlov",
+        "https://gophouse.org/member/RepJosephGPavlov",
+        "https://justfacts.votesmart.org/candidate/biography/217283/joseph-pavlov"
+      ]
+    },
+    {
+      "id": "ocd-person/19b8cf37-0b98-4194-9d2c-db6da3fae35c",
+      "name": "Joe Tate",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Democratic",
+      "email": "joetate@house.mi.gov",
+      "links": [
+        "https://housedems.com/joe-tate/",
+        "https://housedems.com/tate"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joseph_Tate",
+        "https://en.wikipedia.org/wiki/Joe_Tate_(politician)",
+        "https://housedems.com/joe-tate",
+        "https://housedems.com/joe-tate/",
+        "https://housedems.com/tate",
+        "https://justfacts.votesmart.org/candidate/biography/170153/joe-tate",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/joetate1"
+      ]
+    },
+    {
+      "id": "ocd-person/fd51ab83-f1b7-4044-b794-871ba167b504",
+      "name": "Joey Andrews",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Democratic",
+      "email": "joeyandrews@house.mi.gov",
+      "links": [
+        "https://housedems.com/joey-andrews/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joey_Andrews",
+        "https://en.wikipedia.org/wiki/Joey_Andrews",
+        "https://housedems.com/joey-andrews",
+        "https://housedems.com/Joey-Andrews",
+        "https://housedems.com/joey-andrews/",
+        "https://housedems.com/Joey-Andrews/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jbandrewsiv"
+      ]
+    },
+    {
+      "id": "ocd-person/de1a4de4-aa34-4487-98f8-27b140fed784",
+      "name": "John Cherry",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "27",
+      "party": "Democratic",
+      "email": "senjcherry@senate.michigan.gov",
+      "links": [
+        "https://housedems.com/cherry",
+        "https://senatedems.com/cherry",
+        "https://senatedems.com/cherry/",
+        "https://senatedems.com/cherry/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Cherry_(Michigan_representative)",
+        "https://en.wikipedia.org/wiki/John_Cherry_III_(politician)",
+        "https://housedems.com/cherry",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/cherry",
+        "https://senatedems.com/cherry/",
+        "https://senatedems.com/cherry/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/john-cherry-0b1b7215"
+      ]
+    },
+    {
+      "id": "ocd-person/071e391f-da3d-4e66-ae78-61a63bc23729",
+      "name": "John Damoose",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "37",
+      "party": "Republican",
+      "email": "senjdamoose@senate.michigan.gov",
+      "links": [
+        "https://repdamoose.com",
+        "https://www.senatorjohndamoose.com/",
+        "https://www.senatorjohndamoose.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Damoose",
+        "https://en.wikipedia.org/wiki/John_Damoose",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/johndamoose",
+        "https://www.senatorjohndamoose.com",
+        "https://www.senatorjohndamoose.com/",
+        "https://www.senatorjohndamoose.com/meet-your-senator"
+      ]
+    },
+    {
+      "id": "ocd-person/9f4f8b82-e4ee-4e50-a2ea-d46bbf264d34",
+      "name": "John Fitzgerald",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "83",
+      "party": "Democratic",
+      "email": "johnfitzgerald@house.mi.gov",
+      "links": [
+        "https://housedems.com/John-Fitzgerald/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Fitzgerald_(Michigan_House_candidate)",
+        "https://en.wikipedia.org/wiki/John_Wesley_Fitzgerald_(politician,_born_1990)",
+        "https://housedems.com/John-Fitzgerald",
+        "https://housedems.com/John-Fitzgerald/",
+        "https://housedems.com/john-fitzgerald/about",
+        "https://justfacts.votesmart.org/candidate/biography/199122/john-fitzgerald",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/john-fitzgerald-38b65980"
+      ]
+    },
+    {
+      "id": "ocd-person/e1147656-e038-47fa-ad70-4d206233db72",
+      "name": "J.R. Roth",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "104",
+      "party": "Republican",
+      "email": "johnroth@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repjohnroth/posts",
+        "https://reproth.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/John_Roth",
+        "https://en.wikipedia.org/wiki/John_Roth_(politician)",
+        "https://gophouse.org/member/repjohnroth/posts",
+        "https://justfacts.votesmart.org/candidate/193063/john-roth",
+        "https://reproth.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/john-roth-10b72822"
+      ]
+    },
+    {
+      "id": "ocd-person/5a58fa81-639b-4304-87ca-7471ba9ade96",
+      "name": "Jon Bumstead",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "32",
+      "party": "Republican",
+      "email": "senjbumstead@senate.michigan.gov",
+      "links": [
+        "https://www.senatorjonbumstead.com",
+        "https://www.senatorjonbumstead.com/",
+        "https://www.senatorjonbumstead.com/contact",
+        "https://www.senatorjonbumstead.com/contact/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jon_Bumstead",
+        "https://en.wikipedia.org/wiki/Jon_Bumstead",
+        "https://justfacts.votesmart.org/candidate/biography/123095/jon-bumstead",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/jon-bumstead-74280118",
+        "https://www.senatorjonbumstead.com",
+        "https://www.senatorjonbumstead.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/a16e3693-0703-40fb-b508-3b2812079548",
+      "name": "Jonathan Lindsey",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "17",
+      "party": "Republican",
+      "email": "senjlindsey@senate.michigan.gov",
+      "links": [
+        "https://www.senatorjonathanlindsey.com",
+        "https://www.senatorjonathanlindsey.com/",
+        "https://www.senatorjonathanlindsey.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Lindsey",
+        "https://en.wikipedia.org/wiki/Jonathan_Lindsey",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.senatorjonathanlindsey.com",
+        "https://www.senatorjonathanlindsey.com/",
+        "https://www.senatorjonathanlindsey.com/meet-your-senator"
+      ]
+    },
+    {
+      "id": "ocd-person/f66dcbe7-c834-4c23-83ca-38eb5d1a1ba9",
+      "name": "Joe Aragona",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "60",
+      "party": "Republican",
+      "email": "josepharagona@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJosephAragona/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joseph_Aragona",
+        "https://en.wikipedia.org/wiki/Joseph_Aragona",
+        "https://gophouse.org/member/RepJosephAragona/posts",
+        "https://RepJoeAragona.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJosephAragona",
+        "https://www.linkedin.com/in/joseph-aragona-b5530411",
+        "https://www.linkedin.com/in/joseph-aragona-mba-b5530411"
+      ]
+    },
+    {
+      "id": "ocd-person/e394293d-abd7-46a9-a60f-6c75e369468e",
+      "name": "Joe Bellino",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "16",
+      "party": "Republican",
+      "email": "senjbellino@senate.michigan.gov",
+      "links": [
+        "https://gophouse.org/representatives/southeast/bellino/",
+        "https://www.senatorjosephbellino.com/",
+        "https://www.senatorjosephbellino.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joseph_Bellino",
+        "https://en.wikipedia.org/wiki/Joe_Bellino_(politician)",
+        "https://gophouse.org/representatives/southeast/bellino",
+        "https://gophouse.org/representatives/southeast/bellino/",
+        "https://justfacts.votesmart.org/candidate/biography/170286/joe-bellino-jr",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.senatorjosephbellino.com",
+        "https://www.senatorjosephbellino.com/",
+        "https://www.senatorjosephbellino.com/meet-your-senator"
+      ]
+    },
+    {
+      "id": "ocd-person/ba49b4ef-08fb-48a0-b8a9-495a3605ef0a",
+      "name": "Joseph Fox",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "101",
+      "party": "Republican",
+      "email": "josephfox@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJosephFox/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joseph_Fox",
+        "https://en.wikipedia.org/wiki/Joseph_Fox_(Michigan_politician)",
+        "https://gophouse.org/member/RepJosephFox/about",
+        "https://gophouse.org/member/RepJosephFox/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206571/joseph-fox",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJosephFox"
+      ]
+    },
+    {
+      "id": "ocd-person/f6df9fad-c6ec-4abf-b175-ac1e9d672759",
+      "name": "Josh Schriver",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "66",
+      "party": "Republican",
+      "email": "joshschriver@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepJoshSchriver/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Josh_Schriver",
+        "https://en.wikipedia.org/wiki/Josh_Schriver",
+        "https://gophouse.org/member/RepJoshSchriver/about",
+        "https://gophouse.org/member/RepJoshSchriver/posts",
+        "https://joshuaschriver.com",
+        "https://justfacts.votesmart.org/candidate/206725/josh-schriver",
+        "https://RepSchriver.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJoshSchriver",
+        "https://www.linkedin.com/in/josh-schriver-526473379",
+        "https://www.linkedin.com/in/joshua-schriver-2769012b"
+      ]
+    },
+    {
+      "id": "ocd-person/192ea166-adcc-4d74-b497-2fd4db882a00",
+      "name": "Julie Brixie",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "73",
+      "party": "Democratic",
+      "email": "juliebrixie@house.mi.gov",
+      "links": [
+        "https://housedems.com/brixie",
+        "https://housedems.com/julie-brixie/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julie_Brixie",
+        "https://en.wikipedia.org/wiki/Julie_Brixie",
+        "https://housedems.com/brixie",
+        "https://housedems.com/julie-brixie",
+        "https://housedems.com/julie-brixie/",
+        "https://justfacts.votesmart.org/candidate/biography/76611/julie-brixie",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/juliebrixie"
+      ]
+    },
+    {
+      "id": "ocd-person/5154033e-e367-449c-a719-9437a309e269",
+      "name": "Julie Rogers",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "41",
+      "party": "Democratic",
+      "email": "julierogers@house.mi.gov",
+      "links": [
+        "https://housedems.com/julie-rogers/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Julie_Rogers",
+        "https://en.wikipedia.org/wiki/Julie_Rogers_(politician)",
+        "https://housedems.com/julie-rogers",
+        "https://housedems.com/julie-rogers/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/julie-m-rogers-ba491070"
+      ]
+    },
+    {
+      "id": "ocd-person/f5c9b37d-39a5-4c63-a526-6f35f45cf5cf",
+      "name": "Kara Hope",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "74",
+      "party": "Democratic",
+      "email": "karahope@house.mi.gov",
+      "links": [
+        "https://housedems.com/hope",
+        "https://housedems.com/kara-hope/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kara_Hope",
+        "https://en.wikipedia.org/wiki/Kara_Hope",
+        "https://housedems.com/hope",
+        "https://housedems.com/kara-hope",
+        "https://housedems.com/kara-hope/",
+        "https://justfacts.votesmart.org/candidate/biography/145282/kara-hope",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/kara-hope-523b2357"
+      ]
+    },
+    {
+      "id": "ocd-person/1b71cbce-bf12-4009-b1cd-79da2f22b9aa",
+      "name": "Karen Whitsett",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Democratic",
+      "email": "karenwhitsett@house.mi.gov",
+      "links": [
+        "https://housedems.com/karen-whitsett/",
+        "https://housedems.com/whitsett"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Karen_Whitsett",
+        "https://en.wikipedia.org/wiki/Karen_Whitsett",
+        "https://housedems.com/karen-whitsett",
+        "https://housedems.com/karen-whitsett/",
+        "https://housedems.com/whitsett",
+        "https://justfacts.votesmart.org/candidate/biography/182699/karen-whitsett",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/karen-whitsett-135609219"
+      ]
+    },
+    {
+      "id": "ocd-person/e3bae1dd-d4b9-48c3-8e40-112987214638",
+      "name": "Karl Bohnak",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "109",
+      "party": "Republican",
+      "email": "karlbohnak@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepKarlBohnak/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Karl_Bohnak",
+        "https://en.wikipedia.org/wiki/Karl_Bohnak",
+        "https://gophouse.org/member/RepKarlBohnak",
+        "https://www.linkedin.com/in/karl-bohnak-6337636"
+      ]
+    },
+    {
+      "id": "ocd-person/e21ee6f1-0fdc-4ee6-8432-6149de16046d",
+      "name": "Kathy Schmaltz",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "46",
+      "party": "Republican",
+      "email": "kathyschmaltz@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepKathySchmaltz/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kathy_Schmaltz",
+        "https://en.wikipedia.org/wiki/Kathy_Schmaltz",
+        "https://gophouse.org/member/RepKathySchmaltz/about",
+        "https://gophouse.org/member/RepKathySchmaltz/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206683/kathy-schmaltz",
+        "https://kathyschmaltz.com/aboutkathy",
+        "https://RepSchmaltz.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repKathySchmaltz",
+        "https://www.linkedin.com/in/kathy-schmaltz-0a106bb"
+      ]
+    },
+    {
+      "id": "ocd-person/6f366c7a-8dab-4d39-90b0-3a25760d2234",
+      "name": "Kelly Breen",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Democratic",
+      "email": "kellybreen@house.mi.gov",
+      "links": [
+        "https://housedems.com/kelly-breen/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kelly_Breen",
+        "https://en.wikipedia.org/wiki/Kelly_Breen_(politician)",
+        "https://housedems.com/kelly-breen",
+        "https://housedems.com/kelly-breen/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/kelly-breen-06a2818"
+      ]
+    },
+    {
+      "id": "ocd-person/f38453af-388f-48fc-a18e-f709dba5153c",
+      "name": "Ken Borton",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "105",
+      "party": "Republican",
+      "email": "kenborton@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repkenborton/about",
+        "https://repborton.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ken_Borton",
+        "https://en.wikipedia.org/wiki/Ken_Borton",
+        "https://gophouse.org/member/repkenborton/about",
+        "https://justfacts.votesmart.org/candidate/biography/146979/ken-borton",
+        "https://repborton.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/ken-borton-1b8126189"
+      ]
+    },
+    {
+      "id": "ocd-person/cf7ed8de-2df4-41ff-9dcb-489980b031a0",
+      "name": "Kevin Daley",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "26",
+      "party": "Republican",
+      "email": "senkdaley@senate.michigan.gov",
+      "links": [
+        "https://senatorkevindaley.com/",
+        "https://www.senatorkevindaley.com",
+        "https://www.senatorkevindaley.com/",
+        "https://www.senatorkevindaley.com/contact",
+        "https://www.senatorkevindaley.com/contact/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Daley",
+        "https://en.wikipedia.org/wiki/Kevin_Daley_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/105597/kevin-daley",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatorkevindaley.com",
+        "https://senatorkevindaley.com/",
+        "https://www.linkedin.com/in/kevin-daley-1913bb56",
+        "https://www.linkedin.com/in/kevin-daley-8229253b",
+        "https://www.senatorkevindaley.com",
+        "https://www.senatorkevindaley.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/cbfd5eae-d312-4498-a988-bcb52883f637",
+      "name": "Kevin Hertel",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "12",
+      "party": "Democratic",
+      "email": "senkhertel@senate.michigan.gov",
+      "links": [
+        "https://housedems.com/hertel",
+        "https://senatedems.com/hertel",
+        "https://senatedems.com/hertel/",
+        "https://senatedems.com/hertel/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Hertel",
+        "https://en.wikipedia.org/wiki/Kevin_Hertel",
+        "https://housedems.com/hertel",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/hertel",
+        "https://senatedems.com/hertel/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/kevin-hertel-404a7131"
+      ]
+    },
+    {
+      "id": "ocd-person/e1d87954-4ee4-4668-9075-c6240dbe8c9b",
+      "name": "Kimberly Edwards",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Democratic",
+      "email": "kimberlyedwards@house.mi.gov",
+      "links": [
+        "https://housedems.com/Kimberly-Edwards/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Edwards",
+        "https://en.wikipedia.org/wiki/Kimberly_Edwards",
+        "https://housedems.com/Kimberly-Edwards",
+        "https://housedems.com/Kimberly-Edwards/",
+        "https://housedems.com/kimberly-edwards/about",
+        "https://www.house.mi.gov/AllRepresentatives"
+      ]
+    },
+    {
+      "id": "ocd-person/642baa61-66d3-44c1-997f-58b2c5740b4f",
+      "name": "Kristian Grant",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "82",
+      "party": "Democratic",
+      "email": "kristiangrant@house.mi.gov",
+      "links": [
+        "https://housedems.com/Kristian-Grant/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kristian_Grant",
+        "https://en.wikipedia.org/wiki/Kristian_Grant",
+        "https://housedems.com/Kristian-Grant",
+        "https://housedems.com/Kristian-Grant/",
+        "https://housedems.com/kristian-grant/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/kristiangrant"
+      ]
+    },
+    {
+      "id": "ocd-person/4fa99fea-71fd-4f21-9f75-157e6a946c80",
+      "name": "Lana Theis",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "22",
+      "party": "Republican",
+      "email": "senltheis@senate.michigan.gov",
+      "links": [
+        "https://www.senatorlanatheis.com",
+        "https://www.senatorlanatheis.com/",
+        "https://www.senatorlanatheis.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lana_Theis",
+        "https://en.wikipedia.org/wiki/Lana_Theis",
+        "https://justfacts.votesmart.org/candidate/biography/149672/lana-theis",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/lana-theis-707a2411",
+        "https://www.senatorlanatheis.com",
+        "https://www.senatorlanatheis.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/64f12acb-0356-4726-ab8e-0c9c1945d5b0",
+      "name": "Laurie Pohutsky",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Democratic",
+      "email": "lauriepohutsky@house.mi.gov",
+      "links": [
+        "https://housedems.com/laurie-pohutsky/",
+        "https://housedems.com/pohutsky"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Laurie_Pohutsky",
+        "https://en.wikipedia.org/wiki/Laurie_Pohutsky",
+        "https://housedems.com/laurie-pohutsky",
+        "https://housedems.com/laurie-pohutsky/",
+        "https://housedems.com/pohutsky",
+        "https://justfacts.votesmart.org/candidate/biography/182747/laurie-pohutsky",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/laurie-pohutsky-74311712a"
+      ]
+    },
+    {
+      "id": "ocd-person/187a5c10-ccc0-4c94-a4c9-4c208ace4776",
+      "name": "Luke Meerman",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "89",
+      "party": "Republican",
+      "email": "lukemeerman@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/replukemeerman/posts",
+        "https://gophouse.org/representatives/southwest/meerman/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Luke_Meerman",
+        "https://en.wikipedia.org/wiki/Luke_Meerman",
+        "https://gophouse.org/member/replukemeerman/about",
+        "https://gophouse.org/member/replukemeerman/posts",
+        "https://gophouse.org/representatives/southwest/meerman",
+        "https://gophouse.org/representatives/southwest/meerman/",
+        "https://justfacts.votesmart.org/candidate/biography/182913/luke-meerman",
+        "https://RepMeerman.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/luke-meerman-b3613b66"
+      ]
+    },
+    {
+      "id": "ocd-person/cd44a574-079b-4fd8-82cd-0daea8d7ff96",
+      "name": "Mai Xiong",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Democratic",
+      "email": "maixiong@house.mi.gov",
+      "links": [
+        "https://housedems.com/mai-xiong/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mai_Xiong",
+        "https://en.wikipedia.org/wiki/Mai_Xiong",
+        "https://housedems.com/mai-xiong",
+        "https://www.linkedin.com/in/maixiongmi",
+        "https://www.voteformai.com/mai-xiongs-story-from-refugee-to-public-servant"
+      ]
+    },
+    {
+      "id": "ocd-person/dc6ff9c0-f2b1-433d-a96b-292cf05bcb50",
+      "name": "Mallory McMorrow",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "8",
+      "party": "Democratic",
+      "email": "senmmcmorrow@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/mcmorrow",
+        "https://senatedems.com/mcmorrow/",
+        "https://senatedems.com/mcmorrow/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mallory_McMorrow",
+        "https://en.wikipedia.org/wiki/Mallory_McMorrow",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/mcmorrow",
+        "https://senatedems.com/mcmorrow/",
+        "https://www.linkedin.com/in/mallorymcmorrow"
+      ]
+    },
+    {
+      "id": "ocd-person/8564d477-bb39-47a4-87e1-3ceacd7d3abe",
+      "name": "Mark Huizenga",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "30",
+      "party": "Republican",
+      "email": "senmhuizenga@senate.michigan.gov",
+      "links": [
+        "https://SenatorMarkHuizenga.com",
+        "https://SenatorMarkHuizenga.com/contact",
+        "https://www.senatormarkhuizenga.com/",
+        "https://www.senatormarkhuizenga.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Huizenga",
+        "https://en.wikipedia.org/wiki/Mark_Huizenga",
+        "https://justfacts.votesmart.org/candidate/biography/182877/mark-huizenga",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/markhuizenga",
+        "https://www.senatormarkhuizenga.com",
+        "https://www.senatormarkhuizenga.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/a5bb89cb-ac42-47c0-bcc8-96bf18e4d865",
+      "name": "Mark Tisdel",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "55",
+      "party": "Republican",
+      "email": "marktisdel@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repmarktisdel/about",
+        "https://reptisdel.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Tisdel",
+        "https://en.wikipedia.org/wiki/Mark_Tisdel",
+        "https://gophouse.org/member/repmarktisdel/about",
+        "https://justfacts.votesmart.org/candidate/biography/146854/mark-tisdel",
+        "https://reptisdel.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/mark-tisdel-64335636"
+      ]
+    },
+    {
+      "id": "ocd-person/a9e6b2e4-016d-481e-9f34-1f1b33d857ca",
+      "name": "Mary Cavanagh",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "6",
+      "party": "Democratic",
+      "email": "senmcavanagh@senate.michigan.gov",
+      "links": [
+        "https://housedems.com/mary-cavanagh/",
+        "https://senatedems.com/cavanagh",
+        "https://senatedems.com/cavanagh/",
+        "https://senatedems.com/cavanagh/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mary_Cavanagh",
+        "https://en.wikipedia.org/wiki/Mary_Cavanagh",
+        "https://justfacts.votesmart.org/candidate/biography/170222/mary-cavanagh",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/cavanagh",
+        "https://senatedems.com/cavanagh/",
+        "https://senatedems.com/cavanagh/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/mary-cavanagh-21254a56"
+      ]
+    },
+    {
+      "id": "ocd-person/33fdbffe-7e3d-4146-bd91-bddc098a7bf3",
+      "name": "Matt Bierlein",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "97",
+      "party": "Republican",
+      "email": "matthewbierlein@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepMatthewBierlein/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matthew_Bierlein",
+        "https://en.wikipedia.org/wiki/Matthew_Bierlein",
+        "https://gophouse.org/member/RepMatthewBierlein/about",
+        "https://gophouse.org/member/RepMatthewBierlein/posts",
+        "https://RepBierlein.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repMattBierlein",
+        "https://www.linkedin.com/in/matthew-bierlein-9a218261"
+      ]
+    },
+    {
+      "id": "ocd-person/dc7344e8-b8bf-4f0d-924d-4f4b5ea40554",
+      "name": "Matt Hall",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "42",
+      "party": "Republican",
+      "email": "matthall@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repmatthall/about",
+        "https://gophouse.org/representatives/southwest/hall/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Hall_(Michigan)",
+        "https://en.wikipedia.org/wiki/Matt_Hall_(politician)",
+        "https://gophouse.org/member/repmatthall/about",
+        "https://gophouse.org/representatives/southwest/hall",
+        "https://gophouse.org/representatives/southwest/hall/",
+        "https://justfacts.votesmart.org/candidate/biography/182843/matt-hall",
+        "https://RepMattHall.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/matt-hall-1651454a"
+      ]
+    },
+    {
+      "id": "ocd-person/42a456fa-8979-468f-b2a6-30f81ff20299",
+      "name": "Matt Koleszar",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Democratic",
+      "email": "mattkoleszar@house.mi.gov",
+      "links": [
+        "https://housedems.com/koleszar",
+        "https://housedems.com/matt-koleszar/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Koleszar",
+        "https://en.wikipedia.org/wiki/Matt_Koleszar",
+        "https://housedems.com/koleszar",
+        "https://housedems.com/matt-koleszar",
+        "https://housedems.com/matt-koleszar/",
+        "https://housedems.com/matt-koleszar/about",
+        "https://justfacts.votesmart.org/candidate/biography/182748/matt-koleszar",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/mattformichigan"
+      ]
+    },
+    {
+      "id": "ocd-person/cf865d78-f3ea-43f7-b843-a06dbb4bf4be",
+      "name": "Matt Longjohn",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Democratic",
+      "email": "mattlongjohn@house.mi.gov",
+      "links": [
+        "https://housedems.com/matt-longjohn/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Longjohn",
+        "https://en.wikipedia.org/wiki/Matthew_Longjohn",
+        "https://housedems.com/matt-longjohn",
+        "https://housedems.com/matt-longjohn/about",
+        "https://justfacts.votesmart.org/candidate/181077/matt-longjohn",
+        "https://www.linkedin.com/in/matt-longjohn-a9b76a147"
+      ]
+    },
+    {
+      "id": "ocd-person/241c969f-c72f-4acb-9a37-529e6ec0d955",
+      "name": "Matt Maddock",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "51",
+      "party": "Republican",
+      "email": "mattmaddock@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repmattmaddock/about",
+        "https://gophouse.org/representatives/southeast/maddock/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Maddock",
+        "https://en.wikipedia.org/wiki/Matt_Maddock",
+        "https://gophouse.org/member/repmattmaddock/about",
+        "https://gophouse.org/representatives/southeast/maddock",
+        "https://gophouse.org/representatives/southeast/maddock/",
+        "https://justfacts.votesmart.org/candidate/biography/152509/matt-maddock",
+        "https://RepMaddock.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/matt-maddock-a7155711"
+      ]
+    },
+    {
+      "id": "ocd-person/be2c96ad-1304-4c25-8cab-2c8ec5d6475f",
+      "name": "Michael Webber",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "9",
+      "party": "Republican",
+      "email": "senmwebber@senate.michigan.gov",
+      "links": [
+        "https://www.senatormichaelwebber.com",
+        "https://www.senatormichaelwebber.com/",
+        "https://www.senatormichaelwebber.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michael_Webber",
+        "https://en.wikipedia.org/wiki/Michael_Webber_(politician)",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/michael-webber-5984328",
+        "https://www.senatormichaelwebber.com",
+        "https://www.senatormichaelwebber.com/",
+        "https://www.senatormichaelwebber.com/meet-your-senator"
+      ]
+    },
+    {
+      "id": "ocd-person/0c9a2c44-5a9a-44cd-8470-5dad5c7b2c53",
+      "name": "Michele Hoitenga",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "36",
+      "party": "Republican",
+      "email": "senmhoitenga@senate.michigan.gov",
+      "links": [
+        "https://www.senatormichelehoitenga.com",
+        "https://www.senatormichelehoitenga.com/",
+        "https://www.senatormichelehoitenga.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michele_Hoitenga",
+        "https://en.wikipedia.org/wiki/Michele_Hoitenga",
+        "https://justfacts.votesmart.org/candidate/biography/170642/michele-hoitenga",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/michele-hoitenga-74319a4a",
+        "https://www.senatormichelehoitenga.com",
+        "https://www.senatormichelehoitenga.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/a93eaebe-bdac-4292-a28f-6a3b04efd191",
+      "name": "Mike Harris",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "52",
+      "party": "Republican",
+      "email": "mikeharris@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repmikeharris/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_R._Harris_(Michigan_House_of_Representatives_candidate)",
+        "https://en.wikipedia.org/wiki/Mike_Harris_(Michigan_politician)",
+        "https://gophouse.org/member/repmikeharris",
+        "https://gophouse.org/member/repmikeharris/",
+        "https://gophouse.org/member/repmikeharris/posts",
+        "https://justfacts.votesmart.org/candidate/biography/201449",
+        "https://RepHarris.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/mike-harris-71a492203"
+      ]
+    },
+    {
+      "id": "ocd-person/0991c39a-0216-491e-a2c1-e7b61b11275d",
+      "name": "Mike Hoadley",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "99",
+      "party": "Republican",
+      "email": "mikehoadley@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepMikeHoadley/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Hoadley",
+        "https://en.wikipedia.org/wiki/Mike_Hoadley",
+        "https://gophouse.org/member/RepMikeHoadley/about",
+        "https://gophouse.org/member/RepMikeHoadley/posts",
+        "https://RepHoadley.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repMikeHoadley"
+      ]
+    },
+    {
+      "id": "ocd-person/b34263be-1f2e-49db-a261-b30e76ba790a",
+      "name": "Mike McFall",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Democratic",
+      "email": "mikemcfall@house.mi.gov",
+      "links": [
+        "https://housedems.com/Mike-McFall/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_McFall",
+        "https://en.wikipedia.org/wiki/Mike_McFall",
+        "https://housedems.com/Mike-McFall",
+        "https://housedems.com/Mike-McFall/",
+        "https://housedems.com/mike-mcfall/about",
+        "https://justfacts.votesmart.org/candidate/biography/206541/mike-mcfall",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/mcmcfall"
+      ]
+    },
+    {
+      "id": "ocd-person/bdbada04-5616-4e9c-91db-f709e24d43f3",
+      "name": "Mike Mueller",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "72",
+      "party": "Republican",
+      "email": "mikemueller@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repmikemueller/about"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Mueller",
+        "https://en.wikipedia.org/wiki/Mike_Mueller",
+        "https://gophouse.org/member/repmikemueller/about",
+        "https://gophouse.org/representatives/southeast/mueller",
+        "https://gophouse.org/representatives/southeast/mueller/",
+        "https://justfacts.votesmart.org/candidate/biography/182821/mike-mueller",
+        "https://RepMueller.com",
+        "https://www.house.mi.gov/AllRepresentatives"
+      ]
+    },
+    {
+      "id": "ocd-person/0cec5462-4aa6-423a-a946-c13d03370565",
+      "name": "Morgan Foreman",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Democratic",
+      "email": "morganforeman@house.mi.gov",
+      "links": [
+        "https://housedems.com/morgan-foreman/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Morgan_Foreman",
+        "https://en.wikipedia.org/wiki/Morgan_Foreman",
+        "https://housedems.com/morgan-foreman",
+        "https://housedems.com/morgan-foreman/about",
+        "https://justfacts.votesmart.org/candidate/217233/morgan-foreman",
+        "https://www.linkedin.com/in/morganforeman"
+      ]
+    },
+    {
+      "id": "ocd-person/ffae0dee-fb80-4434-bc8c-8e510d3bc495",
+      "name": "Nancy DeBoer",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "86",
+      "party": "Republican",
+      "email": "nancydeboer@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepNancyDeBoer/posts",
+        "https://www.house.mi.gov/repdetail/repNancyDeBoer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nancy_De_Boer",
+        "https://en.wikipedia.org/wiki/Nancy_DeBoer",
+        "https://gophouse.org/member/RepNancyDeBoer/posts",
+        "https://nancydeboer.com/meet-nancy",
+        "https://RepDeBoer.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repNancyDe Boer",
+        "https://www.house.mi.gov/repdetail/repNancyDeBoer",
+        "https://www.linkedin.com/in/nancy-de-boer-65b64411"
+      ]
+    },
+    {
+      "id": "ocd-person/b8703f11-7463-4df6-aedb-9b3d51560bcb",
+      "name": "Nancy Jenkins-Arno",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Republican",
+      "email": "nancyjenkinsarno@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepNancyJenkinsArno/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nancy_Jenkins-Arno",
+        "https://en.wikipedia.org/wiki/Nancy_Jenkins",
+        "https://gophouse.org/member/RepNancyJenkinsArno",
+        "https://justfacts.votesmart.org/candidate/124164/nancy-jenkins-arno",
+        "https://www.linkedin.com/in/nancy-jenkins-60886717"
+      ]
+    },
+    {
+      "id": "ocd-person/2c6f93a7-f08a-4ad4-9424-cdd857401e6e",
+      "name": "Natalie Price",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Democratic",
+      "email": "natalieprice@house.mi.gov",
+      "links": [
+        "https://housedems.com/Natalie-Price/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Natalie_Price",
+        "https://en.wikipedia.org/wiki/Natalie_Price_(politician)",
+        "https://housedems.com/Natalie-Price",
+        "https://housedems.com/Natalie-Price/",
+        "https://housedems.com/natalie-price/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/votenatalieprice"
+      ]
+    },
+    {
+      "id": "ocd-person/3b59f672-58f4-4d87-8b6e-6f9cc63a4d4c",
+      "name": "Noah Arbit",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Democratic",
+      "email": "noaharbit@house.mi.gov",
+      "links": [
+        "https://housedems.com/Noah-Arbit/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Noah_Arbit",
+        "https://en.wikipedia.org/wiki/Noah_Arbit",
+        "https://housedems.com/Noah-Arbit",
+        "https://housedems.com/Noah-Arbit/",
+        "https://housedems.com/noah-arbit/about",
+        "https://justfacts.votesmart.org/candidate/biography/206607/noah-arbit",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/narbit"
+      ]
+    },
+    {
+      "id": "ocd-person/9cf66125-7bd7-4991-bee6-ddc21fd23b5d",
+      "name": "Parker Fairbairn",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "107",
+      "party": "Republican",
+      "email": "parker.fairbairn@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepParkerFairbairn"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Parker_Fairbairn",
+        "https://en.wikipedia.org/wiki/Parker_Fairbairn",
+        "https://gophouse.org/member/RepParkerFairbairn",
+        "https://gophouse.org/member/RepParkerFairbairn/about",
+        "https://justfacts.votesmart.org/candidate/biography/206554/parker-fairbairn",
+        "https://www.linkedin.com/in/parker-fairbairn-mba-14b146149"
+      ]
+    },
+    {
+      "id": "ocd-person/1a809c60-e0a4-4b43-bdba-43f097021b1f",
+      "name": "Pat Outman",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "91",
+      "party": "Republican",
+      "email": "patoutman@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/reppatoutman/about",
+        "https://repoutman.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Pat_Outman",
+        "https://en.wikipedia.org/wiki/Pat_Outman",
+        "https://gophouse.org/member/reppatoutman/about",
+        "https://repoutman.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/patrick-outman-93732b167"
+      ]
+    },
+    {
+      "id": "ocd-person/1d71200f-5f95-46e8-ac9b-a35c6c0178d8",
+      "name": "Paul Wojno",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "10",
+      "party": "Democratic",
+      "email": "senpwojno@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/wojno",
+        "https://senatedems.com/wojno/",
+        "https://senatedems.com/wojno/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Paul_Wojno",
+        "https://en.wikipedia.org/wiki/Paul_Wojno",
+        "https://justfacts.votesmart.org/candidate/biography/11873/paul-wojno",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/wojno",
+        "https://senatedems.com/wojno/"
+      ]
+    },
+    {
+      "id": "ocd-person/f749bf7e-46bc-482d-ac6e-60288f3b722e",
+      "name": "Pauline Wendzel",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Republican",
+      "email": "paulinewendzel@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/reppaulinewendzel/about"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Pauline_Wendzel",
+        "https://en.wikipedia.org/wiki/Pauline_Wendzel",
+        "https://gophouse.org/member/reppaulinewendzel/about",
+        "https://gophouse.org/representatives/southwest/wendzel",
+        "https://gophouse.org/representatives/southwest/wendzel/",
+        "https://justfacts.votesmart.org/candidate/biography/182892/pauline-wendzel",
+        "https://RepWendzel.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/pauline-wendzel-08725b52"
+      ]
+    },
+    {
+      "id": "ocd-person/026c8d4d-bdd5-4b1f-838e-12c191323540",
+      "name": "Penelope Tsernoglou",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "75",
+      "party": "Democratic",
+      "email": "penelopetsernoglou@house.mi.gov",
+      "links": [
+        "https://housedems.com/Penelope-Tsernoglou/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Penelope_Tsernoglou",
+        "https://en.wikipedia.org/wiki/Penelope_Tsernoglou",
+        "https://housedems.com/Penelope-Tsernoglou",
+        "https://housedems.com/Penelope-Tsernoglou/",
+        "https://housedems.com/penelope-tsernoglou/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/penelope-tsernoglou-6a267a6"
+      ]
+    },
+    {
+      "id": "ocd-person/8e6c8809-d207-477d-8bdc-6646878249c5",
+      "name": "Peter Herzberg",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Democratic",
+      "email": "peterherzberg@house.mi.gov",
+      "links": [
+        "https://housedems.com/peter-herzberg/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Peter_Herzberg",
+        "https://en.wikipedia.org/wiki/Peter_Herzberg",
+        "https://housedems.com/peter-herzberg",
+        "https://www.linkedin.com/in/peter-herzberg-607469179"
+      ]
+    },
+    {
+      "id": "ocd-person/67081474-baf6-465a-bcd2-b2b84ab5c36b",
+      "name": "Phil Green",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "67",
+      "party": "Republican",
+      "email": "repphilgreen@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repphilgreen/about",
+        "https://gophouse.org/representatives/thumb/green/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phil_Green",
+        "https://en.wikipedia.org/wiki/Phil_Green_(politician)",
+        "https://gophouse.org/member/repphilgreen/about",
+        "https://gophouse.org/representatives/thumb/green",
+        "https://gophouse.org/representatives/thumb/green/",
+        "https://justfacts.votesmart.org/candidate/biography/182905/phil-green",
+        "https://RepPhilGreen.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/phil-green-84032891"
+      ]
+    },
+    {
+      "id": "ocd-person/a61c6338-85df-446c-854a-17991386d252",
+      "name": "Phil Skaggs",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "80",
+      "party": "Democratic",
+      "email": "philskaggs@house.mi.gov",
+      "links": [
+        "https://housedems.com/Phil-Skaggs/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phil_Skaggs",
+        "https://en.wikipedia.org/wiki/Phil_Skaggs",
+        "https://housedems.com/Phil-Skaggs",
+        "https://housedems.com/Phil-Skaggs/",
+        "https://housedems.com/phil-skaggs/about",
+        "https://justfacts.votesmart.org/candidate/biography/187892/phil-skaggs",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/philskaggsmi"
+      ]
+    },
+    {
+      "id": "ocd-person/6c955ba2-9448-43ae-8d7f-c3d76329ad60",
+      "name": "Rachelle Smit",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "43",
+      "party": "Republican",
+      "email": "rachellesmit@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepRachelleSmit/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rachelle_Smit",
+        "https://en.wikipedia.org/wiki/Rachelle_Smit",
+        "https://gophouse.org/member/RepRachelleSmit/about",
+        "https://gophouse.org/member/RepRachelleSmit/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206922/rachelle-smit",
+        "https://RepSmit.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repRachelleSmit",
+        "https://www.linkedin.com/in/rachel-smit-247b47116"
+      ]
+    },
+    {
+      "id": "ocd-person/1a16bef8-b655-46da-a5c5-07a8c5569eed",
+      "name": "Ranjeev Puri",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Democratic",
+      "email": "ranjeevpuri@house.mi.gov",
+      "links": [
+        "https://housedems.com/ranjeev-puri/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ranjeev_Puri",
+        "https://en.wikipedia.org/wiki/Ranjeev_Puri",
+        "https://housedems.com/ranjeev-puri",
+        "https://housedems.com/ranjeev-puri/",
+        "https://housedems.com/ranjeev-puri/about",
+        "https://justfacts.votesmart.org/candidate/biography/193245/ranjeev-puri",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/ranjeevpuri"
+      ]
+    },
+    {
+      "id": "ocd-person/50d75ced-0a70-4f88-aada-57015d799fd0",
+      "name": "Reggie Miller",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Democratic",
+      "email": "reggiemiller@house.mi.gov",
+      "links": [
+        "https://housedems.com/Reggie-Miller/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Reggie_Miller",
+        "https://housedems.com/Reggie-Miller",
+        "https://housedems.com/Reggie-Miller/",
+        "https://housedems.com/reggie-miller/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/reggie-miller-87a0745b"
+      ]
+    },
+    {
+      "id": "ocd-person/ae5a3a48-9948-4c6c-95c2-c2d0915fd866",
+      "name": "Regina Weiss",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Democratic",
+      "email": "reginaweiss@house.mi.gov",
+      "links": [
+        "https://housedems.com/regina-weiss/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Regina_Weiss",
+        "https://en.wikipedia.org/wiki/Regina_Weiss",
+        "https://housedems.com/regina-weiss",
+        "https://housedems.com/regina-weiss/",
+        "https://housedems.com/regina-weiss/about",
+        "https://justfacts.votesmart.org/candidate/biography/193207/regina-weiss",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/regina-weiss-543a0789"
+      ]
+    },
+    {
+      "id": "ocd-person/9c525554-fb85-45f3-87fa-cf6a3208ce32",
+      "name": "Rick Outman",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "33",
+      "party": "Republican",
+      "email": "senroutman@senate.michigan.gov",
+      "links": [
+        "https://www.senatorrickoutman.com",
+        "https://www.senatorrickoutman.com/",
+        "https://www.senatorrickoutman.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rick_Outman",
+        "https://en.wikipedia.org/wiki/Rick_Outman",
+        "https://justfacts.votesmart.org/candidate/biography/105560/rick-outman",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.senatorrickoutman.com",
+        "https://www.senatorrickoutman.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/b6d8b86d-2975-4d07-83fe-a1841f39806b",
+      "name": "Roger Hauck",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "34",
+      "party": "Republican",
+      "email": "senrhauck@senate.michigan.gov",
+      "links": [
+        "https://gophouse.org/representatives/central/hauck/",
+        "https://www.senatorrogerhauck.com",
+        "https://www.senatorrogerhauck.com/",
+        "https://www.senatorrogerhauck.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Roger_Hauck",
+        "https://en.wikipedia.org/wiki/Roger_Hauck",
+        "https://gophouse.org/representatives/central/hauck",
+        "https://gophouse.org/representatives/central/hauck/",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.senatorrogerhauck.com",
+        "https://www.senatorrogerhauck.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/cd36ab04-a62b-41fa-8b91-d6c792f6719e",
+      "name": "Roger Victory",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "31",
+      "party": "Republican",
+      "email": "senrvictory@senate.michigan.gov",
+      "links": [
+        "https://www.senatorrogervictory.com",
+        "https://www.senatorrogervictory.com/",
+        "https://www.senatorrogervictory.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Roger_Victory",
+        "https://en.wikipedia.org/wiki/Roger_Victory",
+        "https://justfacts.votesmart.org/candidate/biography/140004/roger-victory",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/roger-victory-a9b9ba70",
+        "https://www.linkedin.com/in/roger-victory-b5364898",
+        "https://www.senatorrogervictory.com",
+        "https://www.senatorrogervictory.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/cda45c1f-0a65-4c08-b912-a90cd945f4ec",
+      "name": "Ron Robinson",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "58",
+      "party": "Republican",
+      "email": "ronrobinson@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepRonRobinson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ron_Robinson_(Michigan_House_of_Representatives_candidate)",
+        "https://en.wikipedia.org/wiki/Ron_Robinson_(politician)",
+        "https://gophouse.org/member/RepRonRobinson",
+        "https://www.linkedin.com/in/ron-robinson-b3027760"
+      ]
+    },
+    {
+      "id": "ocd-person/3e24c95f-2ed8-442a-a41f-1a3a9a0b95ed",
+      "name": "Rosemary Bayer",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "13",
+      "party": "Democratic",
+      "email": "senrbayer@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/bayer",
+        "https://senatedems.com/bayer/",
+        "https://senatedems.com/bayer/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rosemary_Bayer",
+        "https://en.wikipedia.org/wiki/Rosemary_Bayer",
+        "https://justfacts.votesmart.org/candidate/biography/182604/rosemary-bayer",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/bayer",
+        "https://senatedems.com/bayer/",
+        "https://www.linkedin.com/in/rosemarybayer"
+      ]
+    },
+    {
+      "id": "ocd-person/8d0d58dd-a718-4f8f-bb7f-c530e039c0c5",
+      "name": "Ruth Johnson",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "24",
+      "party": "Republican",
+      "email": "senrjohnson@senate.michigan.gov",
+      "links": [
+        "https://www.senatorruthjohnson.com",
+        "https://www.senatorruthjohnson.com/",
+        "https://www.senatorruthjohnson.com/contact",
+        "https://www.senatorruthjohnson.com/contact/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ruth_Johnson",
+        "https://en.wikipedia.org/wiki/Ruth_Johnson",
+        "https://justfacts.votesmart.org/candidate/biography/20090/ruth-johnson",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/ruth-johnson-609a9632",
+        "https://www.senatorruthjohnson.com",
+        "https://www.senatorruthjohnson.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/c1ac9f88-970a-4930-8249-7c15e77210ed",
+      "name": "Rylee Linting",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Republican",
+      "email": "ryleelinting@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepRyleeLinting"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rylee_Linting",
+        "https://en.wikipedia.org/wiki/Rylee_Linting",
+        "https://gophouse.org/member/RepRyleeLinting",
+        "https://www.linkedin.com/in/rylee-linting-89806221a"
+      ]
+    },
+    {
+      "id": "ocd-person/9271c2c7-01d8-44f1-95a4-1496b8716268",
+      "name": "Sam Singh",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "28",
+      "party": "Democratic",
+      "email": "senssingh@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/singh",
+        "https://senatedems.com/singh/",
+        "https://senatedems.com/singh/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sam_Singh",
+        "https://en.wikipedia.org/wiki/Sam_Singh",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/singh",
+        "https://senatedems.com/singh/",
+        "https://senatedems.com/singh/bio",
+        "https://www.linkedin.com/in/samsingh"
+      ]
+    },
+    {
+      "id": "ocd-person/5a99ab1c-62e3-4424-9bb1-310ffcecc3e3",
+      "name": "Samantha Steckloff",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Democratic",
+      "email": "samanthasteckloff@house.mi.gov",
+      "links": [
+        "https://housedems.com/samantha-steckloff/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Samantha_Steckloff",
+        "https://en.wikipedia.org/wiki/Samantha_Steckloff",
+        "https://housedems.com/samantha-steckloff",
+        "https://housedems.com/samantha-steckloff/",
+        "https://justfacts.votesmart.org/candidate/biography/146811/samantha-steckloff",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/samantha-steckloff-78a51158"
+      ]
+    },
+    {
+      "id": "ocd-person/08eac592-a25a-444f-aea7-db0cdfa79e7b",
+      "name": "Sarah Anthony",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "21",
+      "party": "Democratic",
+      "email": "sensanthony@senate.michigan.gov",
+      "links": [
+        "https://housedems.com/anthony",
+        "https://senatedems.com/anthony",
+        "https://senatedems.com/anthony/",
+        "https://senatedems.com/anthony/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sarah_Anthony",
+        "https://en.wikipedia.org/wiki/Sarah_Anthony",
+        "https://housedems.com/anthony",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/anthony",
+        "https://senatedems.com/anthony/",
+        "https://senatedems.com/anthony/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/sarah-anthony-7a311624"
+      ]
+    },
+    {
+      "id": "ocd-person/ef5b60a6-d301-4433-8e85-6c14ba254011",
+      "name": "Sarah Lightner",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "45",
+      "party": "Republican",
+      "email": "sarahlightner@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repsarahlightner/about",
+        "https://gophouse.org/representatives/central/lightner/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sarah_Lightner",
+        "https://en.wikipedia.org/wiki/Sarah_Lightner",
+        "https://gophouse.org/member/repsarahlightner/about",
+        "https://gophouse.org/representatives/central/lightner",
+        "https://gophouse.org/representatives/central/lightner/",
+        "https://RepLightner.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/sarah-lightner-4a5b41161"
+      ]
+    },
+    {
+      "id": "ocd-person/c15f272e-73f2-410c-8afe-1cc91ad3603a",
+      "name": "Sean McCann",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "19",
+      "party": "Democratic",
+      "email": "sensmccann@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/mccann",
+        "https://senatedems.com/mccann/",
+        "https://senatedems.com/mccann/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sean_McCann",
+        "https://en.wikipedia.org/wiki/Sean_McCann_(politician)",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/mccann",
+        "https://senatedems.com/mccann/",
+        "https://www.linkedin.com/in/sean-mccann-3164a3"
+      ]
+    },
+    {
+      "id": "ocd-person/55a6fa48-006b-48ee-bffd-655ed7e56fce",
+      "name": "Sharon MacDonell",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "56",
+      "party": "Democratic",
+      "email": "sharonmacdonell@house.mi.gov",
+      "links": [
+        "https://housedems.com/Sharon-MacDonell/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sharon_MacDonell",
+        "https://en.wikipedia.org/wiki/Sharon_MacDonell",
+        "https://housedems.com/Sharon-MacDonell",
+        "https://housedems.com/Sharon-MacDonell/",
+        "https://housedems.com/sharon-macdonell/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/sharonmacd"
+      ]
+    },
+    {
+      "id": "ocd-person/1d297b7e-2e51-4e1a-a208-2f5505e9f1f7",
+      "name": "Stephanie Chang",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "3",
+      "party": "Democratic",
+      "email": "senschang@senate.michigan.gov",
+      "phone": "313-922-6949",
+      "districtPhone": "313-922-6949",
+      "links": [
+        "https://senatedems.com/chang",
+        "https://senatedems.com/chang/",
+        "https://senatedems.com/chang/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Chang",
+        "https://en.wikipedia.org/wiki/Stephanie_Chang",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/chang",
+        "https://senatedems.com/chang/",
+        "https://www.linkedin.com/in/stephanie-chang-a2286019"
+      ]
+    },
+    {
+      "id": "ocd-person/ea254169-e403-4e29-ab06-8f40fb869ac2",
+      "name": "Stephanie Young",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Democratic",
+      "email": "stephanieyoung@house.mi.gov",
+      "links": [
+        "https://housedems.com/stephanie-young/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Young",
+        "https://en.wikipedia.org/wiki/Stephanie_Young_(politician)",
+        "https://housedems.com/stephanie-young",
+        "https://housedems.com/stephanie-young/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/stephanie-a-young-56b68570"
+      ]
+    },
+    {
+      "id": "ocd-person/a071cb31-2347-40a8-a88b-ec72bacdeffd",
+      "name": "Stephen Wooden",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "81",
+      "party": "Democratic",
+      "email": "stephenwooden@house.mi.gov",
+      "links": [
+        "https://housedems.com/stephen-wooden/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephen_Wooden",
+        "https://en.wikipedia.org/wiki/Stephen_Wooden",
+        "https://housedems.com/stephen-wooden",
+        "https://housedems.com/stephen-wooden/about",
+        "https://justfacts.votesmart.org/candidate/biography/187891/stephen-wooden",
+        "https://www.linkedin.com/in/stephenwooden"
+      ]
+    },
+    {
+      "id": "ocd-person/4dee484b-79f4-4ca2-92dc-2ed7e0623d6b",
+      "name": "Steve Carra",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Republican",
+      "email": "stevecarra@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/repstevecarra/about",
+        "https://repcarra.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steve_Carra",
+        "https://en.wikipedia.org/wiki/Steve_Carra",
+        "https://gophouse.org/member/repstevecarra/about",
+        "https://repcarra.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true"
+      ]
+    },
+    {
+      "id": "ocd-person/c62d1d8e-1e35-48c2-a869-6801ad396875",
+      "name": "Steve Frisbie",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "44",
+      "party": "Republican",
+      "email": "stevefrisbie@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepSteveFrisbie/about"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steve_Frisbie",
+        "https://en.wikipedia.org/wiki/Steve_Frisbie",
+        "https://gophouse.org/member/RepSteveFrisbie/about",
+        "https://justfacts.votesmart.org/candidate/132236/steve-frisbie",
+        "https://www.linkedin.com/in/steve-frisbie-80428823"
+      ]
+    },
+    {
+      "id": "ocd-person/38c58e5f-715a-4943-a8d9-2b557db3db02",
+      "name": "Sue Shink",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "14",
+      "party": "Democratic",
+      "email": "sensshink@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/shink",
+        "https://senatedems.com/shink/",
+        "https://senatedems.com/shink/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sue_Shink",
+        "https://en.wikipedia.org/wiki/Sue_Shink",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/shink",
+        "https://senatedems.com/shink/",
+        "https://senatedems.com/shink/bio",
+        "https://www.linkedin.com/in/sue-shink-521a80158"
+      ]
+    },
+    {
+      "id": "ocd-person/8e302b97-4868-4575-a56f-3881e91ae0f8",
+      "name": "Sylvia Santana",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "2",
+      "party": "Democratic",
+      "email": "senssantana@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/santana",
+        "https://senatedems.com/santana/",
+        "https://senatedems.com/santana/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sylvia_Santana",
+        "https://en.wikipedia.org/wiki/Sylvia_Santana",
+        "https://justfacts.votesmart.org/candidate/biography/170218/sylvia-santana",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/santana",
+        "https://senatedems.com/santana/",
+        "https://www.linkedin.com/in/sylvia-santana-88968973"
+      ]
+    },
+    {
+      "id": "ocd-person/c96aa62f-6a2c-4d37-9074-2c25875c639b",
+      "name": "Thomas Albert",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "18",
+      "party": "Republican",
+      "email": "sentalbert@senate.michigan.gov",
+      "links": [
+        "https://gophouse.org/representatives/westmi/albert/",
+        "https://www.senatorthomasalbert.com",
+        "https://www.senatorthomasalbert.com/",
+        "https://www.senatorthomasalbert.com/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thomas_Albert_(Michigan)",
+        "https://en.wikipedia.org/wiki/Thomas_Albert_(politician)",
+        "https://gophouse.org/representatives/westmi/albert",
+        "https://gophouse.org/representatives/westmi/albert/",
+        "https://justfacts.votesmart.org/candidate/biography/170553/thomas-albert",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/thomas-albert-19587739",
+        "https://www.senatorthomasalbert.com",
+        "https://www.senatorthomasalbert.com/"
+      ]
+    },
+    {
+      "id": "ocd-person/58e6e432-e6a2-44f4-8dda-cc3d8e01ca7e",
+      "name": "Tom Kuhn",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "57",
+      "party": "Republican",
+      "email": "tomkuhn@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepTomKuhn/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thomas_Kuhn",
+        "https://en.wikipedia.org/wiki/Thomas_Kuhn_(Michigan_politician)",
+        "https://gophouse.org/member/RepTomKuhn/about",
+        "https://gophouse.org/member/RepTomKuhn/posts",
+        "https://RepKuhn.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repThomasKuhn"
+      ]
+    },
+    {
+      "id": "ocd-person/679924dd-c6da-467c-9a9c-1f5a22aa1787",
+      "name": "Tim Kelly",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "93",
+      "party": "Republican",
+      "email": "timkelly@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepTimKelly/",
+        "https://gophouse.org/representatives/central/kelly/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tim_Kelly_(Michigan_state_representative)",
+        "https://en.wikipedia.org/wiki/Tim_Kelly_%28Michigan_politician%29",
+        "https://gophouse.org/member/RepTimKelly",
+        "https://gophouse.org/representatives/central/kelly",
+        "https://gophouse.org/representatives/central/kelly/",
+        "https://justfacts.votesmart.org/candidate/biography/65644/tim-kelly",
+        "https://www.linkedin.com/in/tim-kelly-2b67bb6"
+      ]
+    },
+    {
+      "id": "ocd-person/6b7aadaf-f690-487f-bec8-95f095f6b565",
+      "name": "Timmy Beson",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "96",
+      "party": "Republican",
+      "email": "timothybeson@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/reptimothybeson/about",
+        "https://repbeson.com"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Timothy_Beson",
+        "https://en.wikipedia.org/wiki/Timothy_Beson",
+        "https://gophouse.org/member/reptimothybeson/about",
+        "https://justfacts.votesmart.org/candidate/biography/193073/timothy-beson",
+        "https://repbeson.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/timmy-beson-23604793"
+      ]
+    },
+    {
+      "id": "ocd-person/462dc80a-8642-40d7-9c22-f6234da5451e",
+      "name": "Tom Kunse",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "100",
+      "party": "Republican",
+      "email": "tomkunse@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepTomKunse/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_Kunse",
+        "https://en.wikipedia.org/wiki/Tom_Kunse",
+        "https://gophouse.org/member/RepTomKunse/about",
+        "https://gophouse.org/member/RepTomKunse/posts",
+        "https://RepKunse.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repTomKunse"
+      ]
+    },
+    {
+      "id": "ocd-person/787d9bda-d4dd-47fe-aaf0-348c505211e4",
+      "name": "Tonya Phillips",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Democratic",
+      "email": "tonyamyersphillips@house.mi.gov",
+      "links": [
+        "https://housedems.com/tonya-myers-phillips/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tonya_Myers_Phillips",
+        "https://en.wikipedia.org/wiki/Tonya_Myers_Phillips",
+        "https://housedems.com/tonya-myers-phillips",
+        "https://justfacts.votesmart.org/candidate/biography/192381/tonya-phillips",
+        "https://www.linkedin.com/in/tonyamyersphillips"
+      ]
+    },
+    {
+      "id": "ocd-person/4d548157-c00e-4131-bf2b-5838ffc5281a",
+      "name": "Tullio Liberati",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Democratic",
+      "email": "tullioliberati@house.mi.gov",
+      "links": [
+        "https://housedems.com/tullio-liberati/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tullio_Liberati",
+        "https://en.wikipedia.org/wiki/Tullio_Liberati",
+        "https://housedems.com/tullio-liberati",
+        "https://housedems.com/tullio-liberati/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true"
+      ]
+    },
+    {
+      "id": "ocd-person/38d2f8c4-f40c-44b7-a2dd-57a4d5375572",
+      "name": "Tyrone Carter",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Democratic",
+      "email": "tyronecarter@house.mi.gov",
+      "links": [
+        "https://housedems.com/tyrone-carter",
+        "https://housedems.com/tyrone-carter/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tyrone_Carter",
+        "https://en.wikipedia.org/wiki/Tyrone_Carter_(politician)",
+        "https://housedems.com/tyrone-carter",
+        "https://housedems.com/tyrone-carter/",
+        "https://justfacts.votesmart.org/candidate/biography/153394/tyrone-carter",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/michigan-state-rep-tyrone-carter-56945020",
+        "https://www.linkedin.com/in/tyrone-carter-56945020"
+      ]
+    },
+    {
+      "id": "ocd-person/3cef42f4-ef0b-43c2-b0b8-01f7f399af2f",
+      "name": "Veronica Klinefelt",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "11",
+      "party": "Democratic",
+      "email": "senvklinefelt@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/klinefelt",
+        "https://senatedems.com/klinefelt/",
+        "https://senatedems.com/klinefelt/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Veronica_Klinefelt",
+        "https://en.wikipedia.org/wiki/Veronica_Klinefelt",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/klinefelt",
+        "https://senatedems.com/klinefelt/",
+        "https://senatedems.com/klinefelt/bio",
+        "https://www.linkedin.com/in/veronica-klinefelt-13774b125"
+      ]
+    },
+    {
+      "id": "ocd-person/8c335851-e7f6-40d6-b83c-fe413f21934e",
+      "name": "Veronica Paiz",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Democratic",
+      "email": "veronicapaiz@house.mi.gov",
+      "links": [
+        "https://housedems.com/Veronica-Paiz/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Veronica_Paiz",
+        "https://en.wikipedia.org/wiki/Veronica_Paiz",
+        "https://housedems.com/Veronica-Paiz",
+        "https://housedems.com/Veronica-Paiz/",
+        "https://housedems.com/veronica-paiz/about",
+        "https://justfacts.votesmart.org/candidate/206581/veronica-paiz",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/vpaiz"
+      ]
+    },
+    {
+      "id": "ocd-person/a9f36e83-23ad-4912-a183-8b1e93ef3e81",
+      "name": "Will Bruck",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Republican",
+      "email": "williambruck@house.mi.gov",
+      "links": [
+        "https://gophouse.org/member/RepWilliamBruck/posts"
+      ],
+      "sources": [
+        "https://ballotpedia.org/William_Bruck",
+        "https://en.wikipedia.org/wiki/William_Bruck",
+        "https://gophouse.org/member/RepWilliamBruck/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206654/william-bruck",
+        "https://RepBruck.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repWilliamBruck",
+        "https://www.linkedin.com/in/william-bruck-29351284"
+      ]
+    },
+    {
+      "id": "ocd-person/6f36a657-51ea-4c74-b1fd-7bc69ad222bd",
+      "name": "Will Snyder",
+      "state": "MI",
+      "chamber": "lower",
+      "district": "87",
+      "party": "Democratic",
+      "email": "willsnyder@house.mi.gov",
+      "links": [
+        "https://housedems.com/Will-Snyder/"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Will_Snyder_(Michigan)",
+        "https://en.wikipedia.org/wiki/Will_Snyder_(politician)",
+        "https://housedems.com/Will-Snyder",
+        "https://housedems.com/Will-Snyder/",
+        "https://housedems.com/will-snyder/about",
+        "https://justfacts.votesmart.org/candidate/biography/206639/will-snyder",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/william-snyder-97838454"
+      ]
+    },
+    {
+      "id": "ocd-person/de38477b-6f3e-44cd-96d0-bd81ff831948",
+      "name": "Winnie Brinks",
+      "state": "MI",
+      "chamber": "upper",
+      "district": "29",
+      "party": "Democratic",
+      "email": "senwbrinks@senate.michigan.gov",
+      "links": [
+        "https://senatedems.com/brinks",
+        "https://senatedems.com/brinks/",
+        "https://senatedems.com/brinks/contact"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Winnie_Brinks",
+        "https://en.wikipedia.org/wiki/Winnie_Brinks",
+        "https://justfacts.votesmart.org/candidate/biography/143374/winnie-brinks",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/brinks",
+        "https://senatedems.com/brinks/",
+        "https://www.linkedin.com/in/winnie-brinks-771a8a3a"
+      ]
+    }
+  ]
+}

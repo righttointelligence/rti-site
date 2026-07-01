@@ -1,0 +1,2828 @@
+{
+  "abbr": "OH",
+  "name": "Ohio",
+  "sourceUrl": "https://data.openstates.org/people/current/oh.csv",
+  "source": "openstates-current-legislator-csv",
+  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "count": 132,
+  "upperCount": 33,
+  "lowerCount": 99,
+  "legislators": [
+    {
+      "id": "ocd-person/0c6a7bcf-e990-41a0-b59c-923f05771880",
+      "name": "Adam Bird",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "63",
+      "party": "Republican",
+      "email": "rep63@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/adam-c-bird",
+        "https://ohiohouse.gov/members/adam-c-bird"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adam_Bird",
+        "https://en.wikipedia.org/wiki/Adam_Bird",
+        "https://justfacts.votesmart.org/candidate/biography/189482/adam-bird",
+        "https://ohiohouse.gov/members/adam-c-bird",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/78912d95-3dac-4487-810a-74be41508ebb",
+      "name": "Adam Holmes",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "97",
+      "party": "Republican",
+      "email": "rep97@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/adam-holmes",
+        "https://www.ohiohouse.gov/adam-holmes",
+        "https://www.ohiohouse.gov/members/adam-holmes"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adam_Holmes",
+        "https://en.wikipedia.org/wiki/Adam_Holmes",
+        "https://justfacts.votesmart.org/candidate/biography/186245/adam-holmes",
+        "https://ohiohouse.gov/adam-holmes",
+        "https://ohiohouse.gov/members/adam-holmes",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/adamholmes2016",
+        "https://www.ohiohouse.gov/members/adam-holmes",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/b04e2962-e7c6-46b8-9a99-d7a6d3a32717",
+      "name": "Adam Mathews",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "56",
+      "party": "Republican",
+      "email": "rep56@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/adam-mathews"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Adam_Mathews",
+        "https://en.wikipedia.org/wiki/Adam_Mathews",
+        "https://ohiohouse.gov/members/adam-mathews",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/adamfmathews",
+        "https://www.ohiohouse.gov/members/adam-mathews"
+      ]
+    },
+    {
+      "id": "ocd-person/6a1fc3b1-ebfd-47b7-adec-ddcd84d137c9",
+      "name": "Al Cutrona",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "33",
+      "party": "Republican",
+      "email": "sd33@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/al-cutrona",
+        "https://www.ohiohouse.gov/members/al-cutrona",
+        "https://www.ohiosenate.gov/members/al-cutrona"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Alessandro_Cutrona",
+        "https://en.wikipedia.org/wiki/Alessandro_Cutrona",
+        "https://ohiohouse.gov/al-cutrona",
+        "https://ohiohouse.gov/members/al-cutrona",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/al-cutrona",
+        "https://www.ohiosenate.gov/members/al-cutrona"
+      ]
+    },
+    {
+      "id": "ocd-person/debec71d-fcfb-4422-9c9e-c6a8709cbb3a",
+      "name": "Al Landis",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "31",
+      "party": "Republican",
+      "email": "sd31@ohiosenate.gov",
+      "links": [
+        "https://ohiosenate.gov/members/al-landis"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Al_Landis",
+        "https://en.wikipedia.org/wiki/Al_Landis",
+        "https://justfacts.votesmart.org/candidate/biography/120624/al-landis",
+        "https://ohiosenate.gov/members/al-landis",
+        "https://www.legislature.ohio.gov/legislators/senate-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/07c054e9-9a51-41b2-994a-8f63b0148d07",
+      "name": "Andrea White",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "36",
+      "party": "Republican",
+      "email": "rep36@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/andrea-white",
+        "https://ohiohouse.gov/members/andrea-white"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Andrea_White",
+        "https://en.wikipedia.org/wiki/Andrea_White_(politician)",
+        "https://justfacts.votesmart.org/candidate/189450/andrea-white",
+        "https://ohiohouse.gov/andrea-white",
+        "https://ohiohouse.gov/members/andrea-white",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/andrea-white-99104b18a"
+      ]
+    },
+    {
+      "id": "ocd-person/c61c8eaf-1de9-419d-a5dc-c96787315578",
+      "name": "Andrew Brenner",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "19",
+      "party": "Republican",
+      "email": "sd19@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/andrew-o-brenner",
+        "https://www.ohiosenate.gov/senators/brenner"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Andrew_Brenner",
+        "https://en.wikipedia.org/wiki/Andrew_Brenner",
+        "https://justfacts.votesmart.org/candidate/biography/120481/andrew-brenner",
+        "https://ohiosenate.gov/members/andrew-o-brenner",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/andrew-brenner-4471316",
+        "https://www.linkedin.com/in/andrew-brenner-a44714309",
+        "https://www.ohiosenate.gov/members/andrew-o-brenner",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/4ed8184a-01ff-4bdc-a06c-cbf8b4c73fd6",
+      "name": "Angie King",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "84",
+      "party": "Republican",
+      "email": "rep84@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/angela-n-king"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Angela_King",
+        "https://en.wikipedia.org/wiki/Angela_King_(Ohio_politician)",
+        "https://ohiohouse.gov/members/angela-n-king",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/angie-king-mba-2430523",
+        "https://www.ohiohouse.gov/members/angela-n-king"
+      ]
+    },
+    {
+      "id": "ocd-person/3bfe0748-5423-4fcf-9962-905d2b747f23",
+      "name": "Anita Somani",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "8",
+      "party": "Democratic",
+      "email": "rep08@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/anita-somani"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Anita_Somani",
+        "https://en.wikipedia.org/wiki/Anita_Somani",
+        "https://justfacts.votesmart.org/candidate/biography/210315/anita-somani",
+        "https://ohiohouse.gov/members/anita-somani",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/anita-somani-5a64942a",
+        "https://www.ohiohouse.gov/members/anita-somani"
+      ]
+    },
+    {
+      "id": "ocd-person/6d39391d-7068-4ad3-866d-4ee59890ce6e",
+      "name": "Ashley Bryant Bailey",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "26",
+      "party": "Democratic",
+      "email": "rep26@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/ashley-bryant-bailey"
+      ],
+      "sources": [
+        "https://ashleybryantbailey.com",
+        "https://ballotpedia.org/Ashley_Bryant_Bailey",
+        "https://ohiohouse.gov/members/ashley-bryant-bailey",
+        "https://www.linkedin.com/in/ashleylbryant"
+      ]
+    },
+    {
+      "id": "ocd-person/550986e6-b595-4fa8-9424-8e09327cf060",
+      "name": "Bernie Willis",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "74",
+      "party": "Republican",
+      "email": "rep74@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/bernard-willis"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bernard_Willis",
+        "https://justfacts.votesmart.org/candidate/biography/209726/bernard-willis",
+        "https://ohiohouse.gov/members/bernard-willis",
+        "https://willisforohio.nationbuilder.com/about_bernie",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/bernie-willis-754b04257",
+        "https://www.linkedin.com/in/colonel-bernie-bunyan-willis-2a57b538",
+        "https://www.ohiohouse.gov/members/bernard-willis"
+      ]
+    },
+    {
+      "id": "ocd-person/dc1a25bf-ebf6-4d5c-b5c3-32f9fdb8b2ed",
+      "name": "Beryl Piccolantonio",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "4",
+      "party": "Democratic",
+      "email": "rep04@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/beryl-piccolantonio"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beryl_Brown_Piccolantonio",
+        "https://ohiohouse.gov/members/beryl-piccolantonio",
+        "https://www.linkedin.com/in/berylpiccolantonio"
+      ]
+    },
+    {
+      "id": "ocd-person/de0a6483-7c16-43e1-a76b-c0cc98a9d7ed",
+      "name": "Beth Lear",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "61",
+      "party": "Republican",
+      "email": "rep61@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/beth-lear"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beth_Lear",
+        "https://en.wikipedia.org/wiki/Beth_Lear",
+        "https://ohiohouse.gov/members/beth-lear",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/beth-lear-1010ba19",
+        "https://www.ohiohouse.gov/members/beth-lear"
+      ]
+    },
+    {
+      "id": "ocd-person/2d01ff0c-25a8-49a2-b571-ab3a7866fcf2",
+      "name": "Beth Liston",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "16",
+      "party": "Democratic",
+      "email": "sd16@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/beth-liston",
+        "https://ohiosenate.gov/members/beth-liston",
+        "https://www.ohiohouse.gov/beth-liston",
+        "https://www.ohiohouse.gov/members/beth-liston"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Beth_Liston",
+        "https://en.wikipedia.org/wiki/Beth_Liston",
+        "https://ohiohouse.gov/beth-liston",
+        "https://ohiohouse.gov/members/beth-liston",
+        "https://ohiosenate.gov/members/beth-liston",
+        "https://ohiosenate.gov/members/beth-liston/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/beth-liston-462811131",
+        "https://www.ohiohouse.gov/members/beth-liston",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/10733ff7-ee19-4e86-9b5e-65619ddbf7bf",
+      "name": "Bill Reineke",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "26",
+      "party": "Republican",
+      "email": "sd26@ohiosenate.gov",
+      "links": [
+        "https://www.ohiohouse.gov/bill-reineke",
+        "https://www.ohiosenate.gov/members/bill-reineke",
+        "https://www.ohiosenate.gov/senators/reineke"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_Reineke",
+        "https://en.wikipedia.org/wiki/Bill_Reineke",
+        "https://ohiosenate.gov/members/bill-reineke",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiosenate.gov/members/bill-reineke",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/4cece9f3-e252-438b-8255-a2150a4ed599",
+      "name": "Bill Roemer",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "31",
+      "party": "Republican",
+      "email": "rep31@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/bill-roemer",
+        "https://www.ohiohouse.gov/bill-roemer",
+        "https://www.ohiohouse.gov/members/bill-roemer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bill_Roemer",
+        "https://en.wikipedia.org/wiki/Bill_Roemer",
+        "https://justfacts.votesmart.org/candidate/biography/134327/bill-roemer",
+        "https://ohiohouse.gov/bill-roemer",
+        "https://ohiohouse.gov/members/bill-roemer",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/bill-roemer-557a1b1b",
+        "https://www.ohiohouse.gov/members/bill-roemer",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/cdc9f705-514e-4445-ac17-9aeac8f67e97",
+      "name": "Bob Peterson",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "91",
+      "party": "Republican",
+      "email": "rep91@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/bob-peterson",
+        "https://www.ohiosenate.gov/senators/peterson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bob_Peterson_(Ohio)",
+        "https://en.wikipedia.org/wiki/Bob_Peterson_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/95755/bob-peterson",
+        "https://ohiohouse.gov/members/bob-peterson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/bob-peterson-80952b12",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/1895e223-ba42-4e25-8cd0-915ca5cc2829",
+      "name": "Brian Lampton",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "70",
+      "party": "Republican",
+      "email": "rep70@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/brian-e-lampton",
+        "https://ohiohouse.gov/members/brian-e-lampton",
+        "https://ohiohouse.gov/members/brian-lampton"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Lampton",
+        "https://en.wikipedia.org/wiki/Brian_Lampton",
+        "https://justfacts.votesmart.org/candidate/biography/102740/brian-lampton",
+        "https://ohiohouse.gov/brian-e-lampton",
+        "https://ohiohouse.gov/members/brian-e-lampton",
+        "https://ohiohouse.gov/members/brian-lampton",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/brian-lampton-a6555614"
+      ]
+    },
+    {
+      "id": "ocd-person/a3ccce64-ea28-47dc-8bab-3af6ed2dd860",
+      "name": "Brian Lorenz",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "60",
+      "party": "Republican",
+      "email": "rep60@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/brian-lorenz"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Lorenz",
+        "https://brianlorenzohio.com",
+        "https://en.wikipedia.org/wiki/Brian_Lorenz",
+        "https://ohiohouse.gov/members/brian-lorenz",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/brianlorenz79"
+      ]
+    },
+    {
+      "id": "ocd-person/eb5ff860-2126-4ac5-8267-9d2d924c3967",
+      "name": "Brian Chavez",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "30",
+      "party": "Republican",
+      "email": "sd30@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/brian-m-chavez"
+      ],
+      "sources": [
+        "https://ohiosenate.gov/members/brian-m-chavez",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/brian-chavez-263012232",
+        "https://www.ohiosenate.gov/members/brian-m-chavez",
+        "https://www.ohiosenate.gov/members/brian-m-chavez/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/f4e6c51a-89bd-4841-848b-b1097fd3fc9d",
+      "name": "Brian Stewart",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "12",
+      "party": "Republican",
+      "email": "rep12@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/brian-stewart",
+        "https://ohiohouse.gov/members/brian-stewart"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Brian_Stewart_(Ohio)",
+        "https://en.wikipedia.org/wiki/Brian_Stewart_(politician)",
+        "https://ohiohouse.gov/brian-stewart",
+        "https://ohiohouse.gov/members/brian-stewart",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/brianstewartohio"
+      ]
+    },
+    {
+      "id": "ocd-person/2481dfc7-d260-49c6-9461-9e6048ed27a2",
+      "name": "Bride Sweeney",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "16",
+      "party": "Democratic",
+      "email": "rep16@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/bride-rose-sweeney",
+        "https://www.ohiohouse.gov/bride-rose-sweeney",
+        "https://www.ohiohouse.gov/members/bride-rose-sweeney"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Bride_Rose_Sweeney",
+        "https://en.wikipedia.org/wiki/Bride_Rose_Sweeney",
+        "https://justfacts.votesmart.org/candidate/biography/179029/bride-sweeney",
+        "https://ohiohouse.gov/bride-rose-sweeney",
+        "https://ohiohouse.gov/members/bride-rose-sweeney",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/bride-rose-sweeney",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/c58b6767-730d-4486-a08e-462ea3af3bfe",
+      "name": "Allison Russo",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "7",
+      "party": "Democratic",
+      "email": "rep07@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/c-allison-russo",
+        "https://www.ohiohouse.gov/c-allison-russo",
+        "https://www.ohiohouse.gov/members/c-allison-russo"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Allison_Russo",
+        "https://en.wikipedia.org/wiki/Allison_Russo",
+        "https://ohiohouse.gov/c-allison-russo",
+        "https://ohiohouse.gov/members/c-allison-russo",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/allison-russo-2244765",
+        "https://www.ohiohouse.gov/members/c-allison-russo",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/d7949531-f267-4e99-9611-87b3ec3e04ac",
+      "name": "Casey Weinstein",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "28",
+      "party": "Democratic",
+      "email": "sd28@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/casey-weinstein",
+        "https://ohiosenate.gov/members/casey-weinstein",
+        "https://www.ohiohouse.gov/casey-weinstein",
+        "https://www.ohiohouse.gov/members/casey-weinstein"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Casey_Weinstein",
+        "https://en.wikipedia.org/wiki/Casey_Weinstein",
+        "https://justfacts.votesmart.org/candidate/biography/175731/casey-weinstein",
+        "https://ohiohouse.gov/casey-weinstein",
+        "https://ohiohouse.gov/members/casey-weinstein",
+        "https://ohiosenate.gov/members/casey-weinstein",
+        "https://ohiosenate.gov/members/casey-weinstein/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/casey-weinstein-b383754",
+        "https://www.ohiohouse.gov/members/casey-weinstein",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/94ba65dd-57c5-4ab0-b607-5e310d50cae0",
+      "name": "Catherine Ingram",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "9",
+      "party": "Democratic",
+      "email": "sd09@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/catherine-d-ingram",
+        "https://www.ohiohouse.gov/catherine-d-ingram",
+        "https://www.ohiosenate.gov/members/catherine-d-ingram"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Catherine_Ingram",
+        "https://en.wikipedia.org/wiki/Catherine_Ingram",
+        "https://ohiohouse.gov/catherine-d-ingram",
+        "https://ohiosenate.gov/members/catherine-d-ingram",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/catherine-ingram-mba-558b9253",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiosenate.gov/members/catherine-d-ingram"
+      ]
+    },
+    {
+      "id": "ocd-person/5ba7ae7d-2f10-42b7-8784-8e734507ce33",
+      "name": "Cecil Thomas",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "25",
+      "party": "Democratic",
+      "email": "rep25@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/cecil-thomas",
+        "https://www.ohiosenate.gov/senators/thomas"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cecil_Thomas",
+        "https://en.wikipedia.org/wiki/Cecil_Thomas_(politician)",
+        "https://ohiohouse.gov/members/cecil-thomas",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/cecil-thomas-37933a9b",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/80daf159-0742-4a3f-9575-e6492155c911",
+      "name": "Chris Glassburn",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "15",
+      "party": "Democratic",
+      "email": "rep15@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/chris-glassburn"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Chris_Glassburn",
+        "https://ohiohouse.gov/members/chris-glassburn",
+        "https://ohiohouse.gov/members/chris-glassburn/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/b76c6e1e-8b9d-42bf-b615-73270b132773",
+      "name": "Christine Cockley",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "6",
+      "party": "Democratic",
+      "email": "rep06@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/christine-cockley"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Christine_Cockley",
+        "https://ohiohouse.gov/members/christine-cockley",
+        "https://ohiohouse.gov/members/christine-cockley/biography",
+        "https://www.linkedin.com/in/christinecockley"
+      ]
+    },
+    {
+      "id": "ocd-person/9ae0194c-0f5b-44c6-b84f-a0ec4d3f3a61",
+      "name": "Cindy Abrams",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "29",
+      "party": "Republican",
+      "email": "rep29@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/cindy-abrams",
+        "https://www.ohiohouse.gov/cindy-abrams",
+        "https://www.ohiohouse.gov/members/cindy-abrams"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Cindy_Abrams",
+        "https://en.wikipedia.org/wiki/Cindy_Abrams",
+        "https://justfacts.votesmart.org/candidate/biography/187372/cindy-abrams",
+        "https://ohiohouse.gov/cindy-abrams",
+        "https://ohiohouse.gov/members/cindy-abrams",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/cindy-abrams-661707a4",
+        "https://www.ohiohouse.gov/members/cindy-abrams",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/aede29b6-7798-45b7-8401-5004cf1c29f9",
+      "name": "Crystal Lett",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "11",
+      "party": "Democratic",
+      "email": "rep11@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/crystal-lett"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Crystal_Lett",
+        "https://justfacts.votesmart.org/candidate/biography/189384/crystal-lett",
+        "https://ohiohouse.gov/members/crystal-lett",
+        "https://ohiohouse.gov/members/crystal-lett/biography",
+        "https://www.linkedin.com/in/crystal-lett-93846410"
+      ]
+    },
+    {
+      "id": "ocd-person/cb2ddd04-e5b0-4c96-b217-d02b732eb896",
+      "name": "D.J. Swearingen",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "89",
+      "party": "Republican",
+      "email": "rep89@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/d-j-swearingen",
+        "https://www.ohiohouse.gov/d-j-swearingen",
+        "https://www.ohiohouse.gov/members/d-j-swearingen"
+      ],
+      "sources": [
+        "https://ballotpedia.org/D.J._Swearingen",
+        "https://en.wikipedia.org/wiki/D._J._Swearingen",
+        "https://en.wikipedia.org/wiki/Douglas_Swearingen,_Jr.",
+        "https://ohiohouse.gov/d-j-swearingen",
+        "https://ohiohouse.gov/members/d-j-swearingen",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/d-j-swearingen-5059bb25",
+        "https://www.ohiohouse.gov/members/d-j-swearingen",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.wickenslaw.com/team-member/douglas-swearingen-esq"
+      ]
+    },
+    {
+      "id": "ocd-person/1cc15373-6101-48fb-9597-d731c115eb70",
+      "name": "Dani Isaacsohn",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "24",
+      "party": "Democratic",
+      "email": "rep24@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/dani-isaacsohn"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dani_Isaacsohn",
+        "https://en.wikipedia.org/wiki/Dani_Isaacsohn",
+        "https://ohiohouse.gov/members/dani-isaacsohn",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/dani-isaacsohn-22b351135",
+        "https://www.ohiohouse.gov/members/dani-isaacsohn"
+      ]
+    },
+    {
+      "id": "ocd-person/04d4dc4f-a38a-4d50-8962-ea961550b2ff",
+      "name": "Dan Troy",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "23",
+      "party": "Democratic",
+      "email": "rep23@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/daniel-p-troy",
+        "https://ohiohouse.gov/members/daniel-p-troy"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dan_Troy",
+        "https://en.wikipedia.org/wiki/Dan_Troy",
+        "https://justfacts.votesmart.org/candidate/biography/8405/daniel-troy",
+        "https://ohiohouse.gov/daniel-p-troy",
+        "https://ohiohouse.gov/members/daniel-p-troy",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/﻿troy﻿﻿-dan﻿﻿iel-25044a13"
+      ]
+    },
+    {
+      "id": "ocd-person/a75181f0-f0e8-4af3-aefd-6cc08543af1a",
+      "name": "Darnell Brewer",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "22",
+      "party": "Democratic",
+      "email": "rep22@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/darnell-t-brewer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Darnell_Brewer",
+        "https://ohiohouse.gov/members/darnell-t-brewer",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/darnell-brewer-73a9866"
+      ]
+    },
+    {
+      "id": "ocd-person/170299dd-f2e4-463e-8b8b-ea3b75946120",
+      "name": "David Thomas",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "65",
+      "party": "Republican",
+      "email": "rep65@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/david-thomas"
+      ],
+      "sources": [
+        "https://ballotpedia.org/David_Thomas_(Ohio)",
+        "https://ohiohouse.gov/members/david-thomas",
+        "https://ohiohouse.gov/members/david-thomas/biography",
+        "https://www.linkedin.com/in/david-thomas-9a605a56"
+      ]
+    },
+    {
+      "id": "ocd-person/826530cc-f105-42c8-96db-e5ff7d1a966d",
+      "name": "Derrick Hall",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "34",
+      "party": "Democratic",
+      "email": "rep34@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/derrick-hall"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Derrick_Hall",
+        "https://ohiohouse.gov/members/derrick-hall",
+        "https://ohiohouse.gov/members/derrick-hall/biography",
+        "https://www.linkedin.com/in/thederrickhall"
+      ]
+    },
+    {
+      "id": "ocd-person/86352961-5ebc-408a-9f16-8d801c7476dc",
+      "name": "Desireè Tims",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "38",
+      "party": "Democratic",
+      "email": "rep38@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/desiree-tims"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Desiree_Tims",
+        "https://ohiohouse.gov/members/desiree-tims",
+        "https://ohiohouse.gov/members/desiree-tims/biography",
+        "https://www.desireetims.com",
+        "https://www.linkedin.com/in/desiree-t-47880b201"
+      ]
+    },
+    {
+      "id": "ocd-person/deed175e-5c44-48f0-b2c0-baa342b2baf1",
+      "name": "Diane Mullins",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "47",
+      "party": "Republican",
+      "email": "rep47@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/diane-mullins"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Diane_Mullins",
+        "https://ohiohouse.gov/members/diane-mullins",
+        "https://ohiohouse.gov/members/diane-mullins/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/74c1210d-fb56-4522-8d3a-0a2bb08c972b",
+      "name": "Dontavius Jarrells",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "1",
+      "party": "Democratic",
+      "email": "rep01@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/dontavius-l-jarrells",
+        "https://ohiohouse.gov/members/dontavius-l-jarrells"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Dontavius_Jarrells",
+        "https://en.wikipedia.org/wiki/Dontavius_Jarrells",
+        "https://justfacts.votesmart.org/candidate/166992/dontavius-jarrells",
+        "https://ohiohouse.gov/dontavius-l-jarrells",
+        "https://ohiohouse.gov/members/dontavius-l-jarrells",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/iamDontavius"
+      ]
+    },
+    {
+      "id": "ocd-person/bfe003c4-6a28-46d6-b831-07bfe8662926",
+      "name": "Elgin Rogers",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "42",
+      "party": "Democratic",
+      "email": "rep42@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/elgin-rogers-jr"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Elgin_Rogers_Jr.",
+        "https://ohiohouse.gov/members/elgin-rogers-jr",
+        "https://ohiohouse.gov/members/elgin-rogers-jr/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/1ebfe182-1b49-4e69-b7f3-2fd528c70d73",
+      "name": "Eric Synenberg",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "21",
+      "party": "Democratic",
+      "email": "rep21@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/eric-synenberg"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Eric_Synenberg",
+        "https://ohiohouse.gov/members/eric-synenberg",
+        "https://ohiohouse.gov/members/eric-synenberg/biography",
+        "https://synenberg.com/people/eric-synenberg",
+        "https://www.linkedin.com/in/eric-synenberg-93a81ba1"
+      ]
+    },
+    {
+      "id": "ocd-person/ab851536-a9e6-45d7-b2fe-fad70f5acf07",
+      "name": "Erika White",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "41",
+      "party": "Democratic",
+      "email": "rep41@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/erika-white"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Erika_White",
+        "https://ohiohouse.gov/members/erika-white",
+        "https://ohiohouse.gov/members/erika-white/biography",
+        "https://www.linkedin.com/in/erika-d-white-31840024"
+      ]
+    },
+    {
+      "id": "ocd-person/04e3c98a-4ede-4501-b914-4fa13fbad194",
+      "name": "Gary Click",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "88",
+      "party": "Republican",
+      "email": "rep88@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/gary-click",
+        "https://ohiohouse.gov/members/gary-click"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gary_Click",
+        "https://en.wikipedia.org/wiki/Gary_Click",
+        "https://justfacts.votesmart.org/candidate/biography/189500/gary-click",
+        "https://ohiohouse.gov/gary-click",
+        "https://ohiohouse.gov/members/gary-click",
+        "https://ohiohouse.gov/members/gary-click/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/gary-click-b19388148"
+      ]
+    },
+    {
+      "id": "ocd-person/b29aadca-f2da-4f09-8a1d-7aa328768507",
+      "name": "Gayle Manning",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "52",
+      "party": "Republican",
+      "email": "rep52@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/gayle-manning",
+        "https://www.ohiohouse.gov/gayle-manning",
+        "https://www.ohiohouse.gov/members/gayle-manning"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Gayle_L._Manning",
+        "https://en.wikipedia.org/wiki/Gayle_Manning",
+        "https://ohiohouse.gov/gayle-manning",
+        "https://ohiohouse.gov/members/gayle-manning",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/gayle-manning80-42669a43",
+        "https://www.ohiohouse.gov/members/gayle-manning",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/445d3fc7-d9a5-48d8-8869-f023aa274ae7",
+      "name": "George Lang",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "4",
+      "party": "Republican",
+      "email": "sd04@ohiosenate.gov",
+      "links": [
+        "https://www.ohiohouse.gov/george-f-lang",
+        "https://www.ohiosenate.gov/members/george-f-lang",
+        "https://www.ohiosenate.gov/senators/lang"
+      ],
+      "sources": [
+        "https://ballotpedia.org/George_Lang",
+        "https://en.wikipedia.org/wiki/George_Lang_(Ohio_politician)",
+        "https://ohiosenate.gov/members/george-f-lang",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiosenate.gov/members/george-f-lang",
+        "https://www.ohiosenate.gov/members/george-f-lang/biography",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/82dd3548-078a-41a8-8c5b-6c652d88d0d2",
+      "name": "Haraz Ghanbari",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "75",
+      "party": "Republican",
+      "email": "rep75@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/haraz-n-ghanbari",
+        "https://www.ohiohouse.gov/haraz-n-ghanbari",
+        "https://www.ohiohouse.gov/members/haraz-n-ghanbari"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Haraz_Ghanbari",
+        "https://en.wikipedia.org/wiki/Haraz_Ghanbari",
+        "https://justfacts.votesmart.org/candidate/biography/186374/haraz-ghanbari",
+        "https://ohiohouse.gov/haraz-n-ghanbari",
+        "https://ohiohouse.gov/members/haraz-n-ghanbari",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/haraznghanbari",
+        "https://www.ohiohouse.gov/members/haraz-n-ghanbari",
+        "https://www.ohiohouse.gov/members/haraz-n-ghanbari/biography",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/ed858ef9-97dc-4be8-97ab-006ea96923ae",
+      "name": "Hearcel Craig",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "15",
+      "party": "Democratic",
+      "email": "sd15@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/hearcel-f-craig",
+        "https://www.ohiosenate.gov/senators/craig"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Hearcel_Craig",
+        "https://en.wikipedia.org/wiki/Hearcel_Craig",
+        "https://justfacts.votesmart.org/candidate/biography/75244/hearcel-craig",
+        "https://ohiosenate.gov/members/hearcel-f-craig",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/hearcel-f-craig",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/098614cd-1972-4b98-ade6-4f5fa7cefe5b",
+      "name": "Heidi Workman",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "72",
+      "party": "Republican",
+      "email": "rep72@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/heidi-workman"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Heidi_Workman",
+        "https://ohiohouse.gov/members/heidi-workman",
+        "https://ohiohouse.gov/members/heidi-workman/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/ed31c4e5-e835-4c4c-9352-217f5dcf1037",
+      "name": "Ismail Mohamed",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "3",
+      "party": "Democratic",
+      "email": "rep03@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/ismail-mohamed"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ismail_Mohamed",
+        "https://en.wikipedia.org/wiki/Ismail_Mohamed_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/179050/ismail-mohamed",
+        "https://ohiohouse.gov/members/ismail-mohamed",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/ismail-mohamed-39a82681",
+        "https://www.ohiohouse.gov/members/ismail-mohamed"
+      ]
+    },
+    {
+      "id": "ocd-person/9c459852-5ff7-4607-a09a-6ee2480dece1",
+      "name": "Jack Daniels",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "32",
+      "party": "Republican",
+      "email": "rep32@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/jack-k-daniels"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jack_K._Daniels_(Ohio)",
+        "https://www.linkedin.com/in/jack-daniels-539b48285",
+        "https://www.ohiohouse.gov/members/jack-k-daniels"
+      ]
+    },
+    {
+      "id": "ocd-person/1a598246-01e8-44c8-beca-2c41e1bafb77",
+      "name": "Jim Hoops",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "81",
+      "party": "Republican",
+      "email": "rep81@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/james-m-hoops",
+        "https://ohiohouse.gov/members/james-m-hoops",
+        "https://www.ohiohouse.gov/james-m-hoops"
+      ],
+      "sources": [
+        "https://ballotpedia.org/James_Hoops",
+        "https://en.wikipedia.org/wiki/Jim_Hoops",
+        "https://justfacts.votesmart.org/candidate/biography/23423/jim-hoops",
+        "https://ohiohouse.gov/james-m-hoops",
+        "https://ohiohouse.gov/members/james-m-hoops",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/4b7cbc16-7a67-4a61-8fd5-77a857270774",
+      "name": "Jamie Callender",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "57",
+      "party": "Republican",
+      "email": "rep57@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/jamie-callender",
+        "https://www.ohiohouse.gov/jamie-callender",
+        "https://www.ohiohouse.gov/members/jamie-callender"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jamie_Callender",
+        "https://en.wikipedia.org/wiki/Jamie_Callender",
+        "https://justfacts.votesmart.org/candidate/biography/10051/james-callender",
+        "https://ohiohouse.gov/jamie-callender",
+        "https://ohiohouse.gov/members/jamie-callender",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jamie-callender-6919b91a",
+        "https://www.ohiohouse.gov/members/jamie-callender",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/c3b1dc5e-4913-4e2f-b2a8-4db5b3faa1bd",
+      "name": "Jane Timken",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "29",
+      "party": "Republican",
+      "email": "sd29@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/jane-m-timken"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jane_Timken",
+        "https://en.wikipedia.org/wiki/Jane_Timken",
+        "https://www.linkedin.com/in/jane-timken-0391737",
+        "https://www.ohiosenate.gov/members/jane-m-timken"
+      ]
+    },
+    {
+      "id": "ocd-person/fbd5ca34-d2ed-41d0-a0f8-03ee8eca8a4d",
+      "name": "Jason Stephens",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "93",
+      "party": "Republican",
+      "email": "rep93@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/jason-stephens",
+        "https://www.ohiohouse.gov/jason-stephens",
+        "https://www.ohiohouse.gov/members/jason-stephens"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jason_Stephens_(Ohio)",
+        "https://en.wikipedia.org/wiki/Jason_Stephens_(politician)",
+        "https://ohiohouse.gov/jason-stephens",
+        "https://ohiohouse.gov/members/jason-stephens",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jason-stephens-6828784a",
+        "https://www.ohiohouse.gov/members/jason-stephens",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/392629a2-7bb2-47df-8128-d4cd7d858324",
+      "name": "Jean Schmidt",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "62",
+      "party": "Republican",
+      "email": "rep62@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/jean-schmidt",
+        "https://ohiohouse.gov/members/jean-schmidt"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jean_Schmidt_(Ohio)",
+        "https://en.wikipedia.org/wiki/Jean_Schmidt",
+        "https://ohiohouse.gov/jean-schmidt",
+        "https://ohiohouse.gov/members/jean-schmidt",
+        "https://www.govtrack.us/congress/members/jean_schmidt/412010",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/60fdc824-a8ab-44fa-80ca-053d8698218e",
+      "name": "Jeff LaRe",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "73",
+      "party": "Republican",
+      "email": "rep73@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/jeff-lare",
+        "https://www.ohiohouse.gov/jeff-lare",
+        "https://www.ohiohouse.gov/members/jeff-lare"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jeff_LaRe",
+        "https://en.wikipedia.org/wiki/Jeff_LaRe",
+        "https://en.wikipedia.org/wiki/Jeffrey_LaRe",
+        "https://ohiohouse.gov/jeff-lare",
+        "https://ohiohouse.gov/members/jeff-lare",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jeff-lare-b90729103",
+        "https://www.ohiohouse.gov/members/jeff-lare",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/4817cf28-df1f-4ccc-bc09-25809222e530",
+      "name": "Jennifer Gross",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "45",
+      "party": "Republican",
+      "email": "rep45@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/jennifer-gross",
+        "https://ohiohouse.gov/members/jennifer-gross"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Gross",
+        "https://en.wikipedia.org/wiki/Jennifer_Gross_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/189460/jennifer-gross",
+        "https://ohiohouse.gov/jennifer-gross",
+        "https://ohiohouse.gov/members/jennifer-gross",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jengross"
+      ]
+    },
+    {
+      "id": "ocd-person/b27fdceb-e9c1-46b8-9fc2-323c3f6f784c",
+      "name": "Jerry Cirino",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "18",
+      "party": "Republican",
+      "email": "sd18@ohiosenate.gov",
+      "links": [
+        "https://ohiosenate.gov/members/jerry-c-cirino",
+        "https://www.ohiosenate.gov/senators/cirino"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jerry_Cirino",
+        "https://en.wikipedia.org/wiki/Jerry_Cirino",
+        "https://justfacts.votesmart.org/candidate/biography/189392/jerry-cirino",
+        "https://ohiosenate.gov/members/jerry-c-cirino",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/jerry-cirino-348b5815",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/ba95511f-3692-426c-bf85-c41ff737eeec",
+      "name": "Jim Thomas",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "49",
+      "party": "Republican",
+      "email": "rep49@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/jim-thomas"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jim_Thomas",
+        "https://en.wikipedia.org/wiki/Jim_Thomas_(tennis)",
+        "https://justfacts.votesmart.org/candidate/biography/209777/jim-thomas",
+        "https://ohiohouse.gov/members/jim-thomas",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/jim-thomas"
+      ]
+    },
+    {
+      "id": "ocd-person/f1715f7b-6a29-4dd2-a34f-b94c87088890",
+      "name": "Jodi Salvo",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "51",
+      "party": "Republican",
+      "email": "rep51@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/jodi-salvo"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Jodi_Salvo",
+        "https://justfacts.votesmart.org/candidate/biography/214050/jodi-salvo",
+        "https://ohiohouse.gov/members/jodi-salvo",
+        "https://ohiohouse.gov/members/jodi-salvo/biography",
+        "https://www.linkedin.com/in/jodi-salvo-a83ba7217"
+      ]
+    },
+    {
+      "id": "ocd-person/9d7cc971-9ed9-4918-b93f-39d41d35e565",
+      "name": "Johnathan Newman",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "80",
+      "party": "Republican",
+      "email": "rep80@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/johnathan-newman"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Johnathan_Newman",
+        "https://justfacts.votesmart.org/candidate/biography/214038/johnathan-newman",
+        "https://ohiohouse.gov/members/johnathan-newman",
+        "https://ohiohouse.gov/members/johnathan-newman/biography",
+        "https://www.linkedin.com/in/johnathan-newman-848993290"
+      ]
+    },
+    {
+      "id": "ocd-person/9b5a9ff9-b35a-49aa-aa64-5d2bab574843",
+      "name": "Joe Miller",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "53",
+      "party": "Democratic",
+      "email": "rep53@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/joseph-a-miller-iii",
+        "https://www.ohiohouse.gov/joseph-a-miller-iii",
+        "https://www.ohiohouse.gov/members/joseph-a-miller-iii"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Joe_Miller_(Ohio_House_District_53)",
+        "https://ballotpedia.org/Joe_Miller_(Ohio_House_District_56)",
+        "https://en.wikipedia.org/wiki/Joe_Miller_(Ohio_politician)",
+        "https://ohiohouse.gov/joseph-a-miller-iii",
+        "https://ohiohouse.gov/members/joseph-a-miller-iii",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/joe-miller-b7970618",
+        "https://www.ohiohouse.gov/members/joseph-a-miller-iii",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/1e52d1da-3e5c-442e-a460-d63b62709edf",
+      "name": "Josh Williams",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "44",
+      "party": "Republican",
+      "email": "rep44@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/josh-williams"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Josh_Williams",
+        "https://ohiohouse.gov/members/josh-williams",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/joshua-williams-712038122",
+        "https://www.ohiohouse.gov/members/josh-williams"
+      ]
+    },
+    {
+      "id": "ocd-person/ede2c8b0-9c35-4ebf-9a4a-4349fe4cc224",
+      "name": "Juanita Brent",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "18",
+      "party": "Democratic",
+      "email": "rep18@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/juanita-o-brent",
+        "https://www.ohiohouse.gov/juanita-o-brent",
+        "https://www.ohiohouse.gov/members/juanita-o-brent"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Juanita_Brent",
+        "https://en.wikipedia.org/wiki/Juanita_Brent",
+        "https://justfacts.votesmart.org/candidate/biography/179026/juanita-brent",
+        "https://ohiohouse.gov/juanita-o-brent",
+        "https://ohiohouse.gov/members/juanita-o-brent",
+        "https://ohiohouse.gov/members/juanita-o-brent/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/juanita-o-brent",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/9892fcd7-9432-425f-85a6-7599fbe3177d",
+      "name": "Justin Pizzulli",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "90",
+      "party": "Republican",
+      "email": "rep90@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/justin-pizzulli"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Justin_Pizzulli",
+        "https://en.wikipedia.org/wiki/Justin_Pizzulli",
+        "https://ohiohouse.gov/members/justin-pizzulli",
+        "https://ohiohouse.gov/members/justin-pizzulli/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/justin-pizzulli-031540279"
+      ]
+    },
+    {
+      "id": "ocd-person/a13af74a-5ade-4769-8a76-db942fe71002",
+      "name": "Karen Brownlee",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "28",
+      "party": "Democratic",
+      "email": "rep28@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/karen-brownlee"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Karen_Brownlee",
+        "https://ohiohouse.gov/members/karen-brownlee",
+        "https://ohiohouse.gov/members/karen-brownlee/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/97821235-4116-44d1-b58b-acf822bbdc58",
+      "name": "Kellie Deeter",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "54",
+      "party": "Republican",
+      "email": "rep54@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/kellie-deeter"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kellie_Deeter",
+        "https://en.wikipedia.org/wiki/Kellie_Deeter",
+        "https://justfacts.votesmart.org/candidate/biography/213991/kellie-deeter",
+        "https://ohiohouse.gov/members/kellie-deeter",
+        "https://ohiohouse.gov/members/kellie-deeter/biography",
+        "https://www.linkedin.com/in/dr-kellie-deeter-crna-cnp-a4203623"
+      ]
+    },
+    {
+      "id": "ocd-person/d9c3dfce-8b7f-402f-9dec-5179e38b528f",
+      "name": "Kent Smith",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "21",
+      "party": "Democratic",
+      "email": "sd21@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/kent-smith",
+        "https://ohiosenate.gov/members/kent-smith",
+        "https://www.ohiohouse.gov/kent-smith"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kent_Smith",
+        "https://en.wikipedia.org/wiki/Kent_Smith_(American_politician)",
+        "https://en.wikipedia.org/wiki/Kent_Smith_(politician)",
+        "https://ohiohouse.gov/kent-smith",
+        "https://ohiosenate.gov/members/kent-smith",
+        "https://www.kentsmith.org/about",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/kentksmith",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/cefb7a31-f46c-4145-9f38-901be3b70e60",
+      "name": "Kevin Miller",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "69",
+      "party": "Republican",
+      "email": "rep69@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/kevin-d-miller",
+        "https://ohiohouse.gov/members/kevin-d-miller"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Miller_(Ohio)",
+        "https://en.wikipedia.org/wiki/Kevin_D._Miller",
+        "https://ohiohouse.gov/kevin-d-miller",
+        "https://ohiohouse.gov/members/kevin-d-miller",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/94df9e98-c52e-466a-ba6b-29cc21ee02ea",
+      "name": "Kevin Ritter",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "94",
+      "party": "Republican",
+      "email": "rep94@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/kevin-ritter"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kevin_Ritter",
+        "https://ohiohouse.gov/members/kevin-ritter",
+        "https://ohiohouse.gov/members/kevin-ritter/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/936e5d50-e145-494b-a397-f56570530816",
+      "name": "Kristina Roegner",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "27",
+      "party": "Republican",
+      "email": "sd27@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/kristina-d-roegner",
+        "https://www.ohiosenate.gov/senators/roegner"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kristina_Daley_Roegner",
+        "https://en.wikipedia.org/wiki/Kristina_Roegner",
+        "https://ohiosenate.gov/members/kristina-d-roegner",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/kristina-roegner-728b7617",
+        "https://www.ohiosenate.gov/members/kristina-d-roegner",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/9578948b-5af3-46fd-9567-8438c67fa148",
+      "name": "Kyle Koehler",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "10",
+      "party": "Republican",
+      "email": "sd10@ohiosenate.gov",
+      "links": [
+        "https://ohiosenate.gov/members/kyle-koehler",
+        "https://www.ohiohouse.gov/kyle-koehler"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Kyle_Koehler",
+        "https://en.wikipedia.org/wiki/Kyle_Koehler",
+        "https://ohiohouse.gov/j-kyle-koehler",
+        "https://ohiosenate.gov/members/kyle-koehler",
+        "https://ohiosenate.gov/members/kyle-koehler/biography",
+        "https://www.linkedin.com/in/kylekoehler",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/b2c76bf8-569f-4e80-bd3d-fa8273a8356c",
+      "name": "Latyna Humphrey",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "2",
+      "party": "Democratic",
+      "email": "rep02@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/latyna-m-humphrey",
+        "https://ohiohouse.gov/members/latyna-m-humphrey"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Latyna_Humphrey",
+        "https://en.wikipedia.org/wiki/Latyna_Humphrey",
+        "https://ohiohouse.gov/latyna-m-humphrey",
+        "https://ohiohouse.gov/members/latyna-m-humphrey",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/latyna-m-humphrey-a25a47b4"
+      ]
+    },
+    {
+      "id": "ocd-person/19cbe255-2cdb-47c4-b70a-693b6bf6665b",
+      "name": "Lauren McNally",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "58",
+      "party": "Democratic",
+      "email": "rep58@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/lauren-mcnally"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Lauren_McNally",
+        "https://justfacts.votesmart.org/candidate/biography/174636/lauren-mcnally",
+        "https://ohiohouse.gov/members/lauren-mcnally",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/laurenmcnallyytown",
+        "https://www.ohiohouse.gov/members/lauren-mcnally"
+      ]
+    },
+    {
+      "id": "ocd-person/1dcb1bfa-861d-4d16-8d7d-02364e1b4def",
+      "name": "Levi Dean",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "71",
+      "party": "Republican",
+      "email": "rep71@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/levi-dean"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Levi_Dean",
+        "https://en.wikipedia.org/wiki/Levi_Dean",
+        "https://ohiohouse.gov/members/levi-dean",
+        "https://ohiohouse.gov/members/levi-dean/biography"
+      ]
+    },
+    {
+      "id": "ocd-person/5a9b2a16-6827-4e00-961a-f3de39538749",
+      "name": "Bill Blessing",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "8",
+      "party": "Republican",
+      "email": "sd08@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/louis-w-blessing-iii",
+        "https://www.ohiosenate.gov/senators/blessing"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Louis_W._Blessing,_III",
+        "https://en.wikipedia.org/wiki/Louis_Blessing",
+        "https://ohiosenate.gov/members/louis-w-blessing-iii",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/louis-blessing-3928431a",
+        "https://www.ohiosenate.gov/members/louis-w-blessing-iii",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/e4f9416c-1043-4737-899e-31410e94af1d",
+      "name": "Marilyn John",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "76",
+      "party": "Republican",
+      "email": "rep76@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/marilyn-s-john",
+        "https://ohiohouse.gov/members/marilyn-john",
+        "https://ohiohouse.gov/members/marilyn-s-john"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Marilyn_John",
+        "https://en.wikipedia.org/wiki/Marilyn_John",
+        "https://justfacts.votesmart.org/candidate/biography/161969/marilyn-john",
+        "https://ohiohouse.gov/marilyn-s-john",
+        "https://ohiohouse.gov/members/marilyn-john",
+        "https://ohiohouse.gov/members/marilyn-s-john",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/marilyn-john-78679a14a"
+      ]
+    },
+    {
+      "id": "ocd-person/292d1329-8a45-402b-8d6e-8f3b4726187a",
+      "name": "Mark Hiner",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "98",
+      "party": "Republican",
+      "email": "rep98@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/mark-hiner"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Hiner",
+        "https://ohiohouse.gov/members/mark-hiner",
+        "https://ohiohouse.gov/members/mark-hiner/biography",
+        "https://www.linkedin.com/in/mark-hiner-36204712"
+      ]
+    },
+    {
+      "id": "ocd-person/4af0e8db-ad18-424f-abfa-ce31e37c0b7d",
+      "name": "Mark Johnson",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "92",
+      "party": "Republican",
+      "email": "rep92@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/mark-johnson",
+        "https://ohiohouse.gov/members/mark-johnson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Johnson_(Ohio)",
+        "https://en.wikipedia.org/wiki/Mark_Johnson_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/189503/mark-johnson",
+        "https://ohiohouse.gov/mark-johnson",
+        "https://ohiohouse.gov/members/mark-johnson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/mark-johnson-35a57b30"
+      ]
+    },
+    {
+      "id": "ocd-person/2ae62dc8-e902-4a8e-99b7-182477c50bc3",
+      "name": "Mark Romanchuk",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "22",
+      "party": "Republican",
+      "email": "sd22@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/mark-romanchuk",
+        "https://www.ohiosenate.gov/senators/romanchuk"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Romanchuk",
+        "https://en.wikipedia.org/wiki/Mark_Romanchuk",
+        "https://justfacts.votesmart.org/candidate/135742/mark-romanchuk",
+        "https://ohiosenate.gov/members/mark-romanchuk",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/mark-romanchuk-46b63a6",
+        "https://www.ohiosenate.gov/members/mark-romanchuk",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/8750be20-9a0c-41e4-bb32-4061c787a7e2",
+      "name": "Mark Sigrist",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "10",
+      "party": "Democratic",
+      "email": "rep10@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/mark-sigrist"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mark_Sigrist",
+        "https://ohiohouse.gov/members/mark-sigrist",
+        "https://ohiohouse.gov/members/mark-sigrist/biography",
+        "https://www.linkedin.com/in/mark-sigrist-1013b86"
+      ]
+    },
+    {
+      "id": "ocd-person/23d51717-c6eb-4a2c-bd55-038c72593a61",
+      "name": "Matt Huffman",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "78",
+      "party": "Republican",
+      "email": "rep78@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/matt-huffman",
+        "https://www.ohiosenate.gov/members/matt-huffman",
+        "https://www.ohiosenate.gov/senators/huffman-m"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matt_Huffman",
+        "https://en.wikipedia.org/wiki/Matt_Huffman",
+        "https://ohiohouse.gov/members/matt-huffman",
+        "https://ohiohouse.gov/members/matt-huffman/biography",
+        "https://ohiosenate.gov/members/matt-huffman",
+        "https://www.540westmarket.com/people/matthew-c-huffman",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/matt-huffman-b9370052",
+        "https://www.ohiosenate.gov/members/matt-huffman",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/7ab0cf86-d569-4a6e-8677-8cd7721a9475",
+      "name": "Matt Kishman",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "50",
+      "party": "Republican",
+      "email": "rep50@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/matthew-kishman"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Matthew_Kishman",
+        "https://ohiohouse.gov/members/matthew-kishman",
+        "https://ohiohouse.gov/members/matthew-kishman/biography",
+        "https://www.linkedin.com/in/matthew-kishman-927b2025"
+      ]
+    },
+    {
+      "id": "ocd-person/fb957ddc-f41c-400d-ae32-47f7e729555b",
+      "name": "Melanie Miller",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "67",
+      "party": "Republican",
+      "email": "rep67@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/melanie-miller"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Melanie_Miller",
+        "https://en.wikipedia.org/wiki/Melanie_Miller_(politician)",
+        "https://ohiohouse.gov/members/melanie-miller",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/melanie-miller-5a2a087",
+        "https://www.melaniemillerforohio.com/meet-melanie",
+        "https://www.ohiohouse.gov/members/melanie-miller"
+      ]
+    },
+    {
+      "id": "ocd-person/75257af6-5d83-4d3b-b127-744aaa377c9f",
+      "name": "Meredith Craig",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "77",
+      "party": "Republican",
+      "email": "rep77@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/meredith-craig"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Meredith_Craig",
+        "https://ohiohouse.gov/members/meredith-craig",
+        "https://ohiohouse.gov/members/meredith-craig/biography",
+        "https://www.linkedin.com/in/meredithccraig"
+      ]
+    },
+    {
+      "id": "ocd-person/4b1e7c00-c159-407e-83d8-2eb24ba175db",
+      "name": "Meredith Lawson‐Rowe",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "5",
+      "party": "Democratic",
+      "email": "rep05@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/meredith-r-lawson-rowe"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Meredith_Lawson%E2%80%90Rowe",
+        "https://justfacts.votesmart.org/candidate/biography/213953/meredith-lawson-rowe",
+        "https://ohiohouse.gov/members/meredith-r-lawson-rowe",
+        "https://ohiohouse.gov/members/meredith-r-lawson-rowe/biography",
+        "https://www.linkedin.com/in/meredith-lawson-rowe-b0854311"
+      ]
+    },
+    {
+      "id": "ocd-person/100ae6b0-0c5d-4b97-9ac5-8ccb42b9168b",
+      "name": "Michele Grim",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "43",
+      "party": "Democratic",
+      "email": "rep43@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/michele-grim"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michele_Grim",
+        "https://justfacts.votesmart.org/candidate/biography/209757/michele-grim",
+        "https://ohiohouse.gov/members/michele-grim",
+        "https://ohiohouse.gov/members/michele-grim/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/michelegrim",
+        "https://www.ohiohouse.gov/members/michele-grim"
+      ]
+    },
+    {
+      "id": "ocd-person/79af20c0-6eb6-44a2-ba79-9c7e5e10ea04",
+      "name": "Michele Reynolds",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "3",
+      "party": "Republican",
+      "email": "reynolds@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/michele-reynolds"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michele_Reynolds",
+        "https://en.wikipedia.org/wiki/Michele_Reynolds",
+        "https://justfacts.votesmart.org/candidate/biography/209658/michele-reynolds",
+        "https://ohiosenate.gov/members/michele-reynolds",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/michele-reynolds-500545a6",
+        "https://www.ohiosenate.gov/members/michele-reynolds"
+      ]
+    },
+    {
+      "id": "ocd-person/d06c06f8-2f63-4a29-8388-ed0747b97f48",
+      "name": "Michelle Teska",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "55",
+      "party": "Republican",
+      "email": "rep55@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/michelle-teska"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Michelle_Teska",
+        "https://en.wikipedia.org/wiki/Michelle_Teska",
+        "https://justfacts.votesmart.org/candidate/biography/214059/michelle-teska",
+        "https://ohiohouse.gov/members/michelle-teska",
+        "https://ohiohouse.gov/members/michelle-teska/biography",
+        "https://www.linkedin.com/in/michelle-teska-9551b713a"
+      ]
+    },
+    {
+      "id": "ocd-person/cc85c295-299f-4de7-bb56-1de3a451951e",
+      "name": "Mike Dovilla",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "17",
+      "party": "Republican",
+      "email": "rep17@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/michael-d-dovilla",
+        "https://www.ohiohouse.gov/mike-dovilla"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Dovilla",
+        "https://en.wikipedia.org/wiki/Mike_Dovilla",
+        "https://www.linkedin.com/in/michaeldovilla",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/michael-d-dovilla"
+      ]
+    },
+    {
+      "id": "ocd-person/72bb7360-10c1-42d9-8781-32ddf8fef5fd",
+      "name": "Mike Odioso",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "30",
+      "party": "Republican",
+      "email": "rep30@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/mike-odioso"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Mike_Odioso",
+        "https://justfacts.votesmart.org/candidate/biography/213980/mike-odioso",
+        "https://ohiohouse.gov/members/mike-odioso",
+        "https://ohiohouse.gov/members/mike-odioso/biography",
+        "https://www.linkedin.com/in/mike-odioso-01913b36"
+      ]
+    },
+    {
+      "id": "ocd-person/062b9622-c2fa-4af2-bbea-704f0450dd47",
+      "name": "Monica Blasdel",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "79",
+      "party": "Republican",
+      "email": "rep79@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/monica-robb-blasdel"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Monica_Robb_Blasdel",
+        "https://en.wikipedia.org/wiki/Monica_Robb_Blasdel",
+        "https://justfacts.votesmart.org/candidate/biography/209711/monica-blasdel",
+        "https://ohiohouse.gov/members/monica-robb-blasdel",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/monica-robb-blasdel-89305940",
+        "https://www.ohiohouse.gov/members/monica-robb-blasdel"
+      ]
+    },
+    {
+      "id": "ocd-person/538fefb8-d8ae-48f5-bb07-4161e2ccac55",
+      "name": "Munira Abdullahi",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "9",
+      "party": "Democratic",
+      "email": "rep09@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/munira-abdullahi"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Munira_Abdullahi",
+        "https://en.wikipedia.org/wiki/Munira_Abdullahi",
+        "https://justfacts.votesmart.org/candidate/biography/209687/munira-abdullahi",
+        "https://ohiohouse.gov/members/munira-abdullahi",
+        "https://ohiohouse.gov/members/munira-yasin-abdullahi",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/munira-abdullahi-0b41b71a3",
+        "https://www.ohiohouse.gov/members/munira-abdullahi"
+      ]
+    },
+    {
+      "id": "ocd-person/d3508136-3927-461f-a2f0-a85665845ab1",
+      "name": "Nathan Manning",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "13",
+      "party": "Republican",
+      "email": "sd13@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/nathan-h-manning",
+        "https://www.ohiosenate.gov/senators/manning"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nathan_Manning",
+        "https://en.wikipedia.org/wiki/Nathan_Manning",
+        "https://justfacts.votesmart.org/candidate/biography/150617/nathan-manning",
+        "https://ohiosenate.gov/members/nathan-h-manning",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/nathan-h-manning",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/64305698-f25c-486e-b57f-00298cfbe15d",
+      "name": "Nick Santucci",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "64",
+      "party": "Republican",
+      "email": "rep64@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/nick-santucci"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nick_Santucci",
+        "https://ohiohouse.gov/members/nick-santucci",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/nickssantucci",
+        "https://www.ohiohouse.gov/members/nick-santucci"
+      ]
+    },
+    {
+      "id": "ocd-person/df5c391c-65e8-4d61-a9b9-0249ff6eddb7",
+      "name": "Nickie Antonio",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "23",
+      "party": "Democratic",
+      "email": "sd23@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/nickie-j-antonio",
+        "https://www.ohiosenate.gov/senators/antonio"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Nickie_Antonio",
+        "https://en.wikipedia.org/wiki/Nickie_Antonio",
+        "https://justfacts.votesmart.org/candidate/76941/nickie-antonio",
+        "https://ohiosenate.gov/members/nickie-j-antonio",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/nickieantonio",
+        "https://www.ohiosenate.gov/members/nickie-j-antonio",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/3329274c-22b6-4b0a-b12a-e64c5733bef9",
+      "name": "Paula Hicks-Hudson",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "11",
+      "party": "Democratic",
+      "email": "sd11@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/paula-hicks-hudson",
+        "https://ohiosenate.gov/members/paula-hicks-hudson",
+        "https://www.ohiohouse.gov/paula-hicks-hudson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Paula_Hicks-Hudson",
+        "https://en.wikipedia.org/wiki/Paula_Hicks-Hudson",
+        "https://justfacts.votesmart.org/candidate/biography/134208/paula-hicks-hudson",
+        "https://ohiohouse.gov/paula-hicks-hudson",
+        "https://ohiosenate.gov/members/paula-hicks-hudson",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/paula-hicks-hudson-a369b16",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/1e218942-95f6-43fe-b935-b19ab70fd5fc",
+      "name": "Phil Plummer",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "39",
+      "party": "Republican",
+      "email": "rep39@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/phil-plummer",
+        "https://www.ohiohouse.gov/members/phil-plummer",
+        "https://www.ohiohouse.gov/phil-plummer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phil_Plummer",
+        "https://en.wikipedia.org/wiki/Phil_Plummer",
+        "https://ohiohouse.gov/members/phil-plummer",
+        "https://ohiohouse.gov/phil-plummer",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/phil-plummer-4a423110",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/phil-plummer"
+      ]
+    },
+    {
+      "id": "ocd-person/78d5adbb-ec6a-4212-9cc7-335f5d9ded8c",
+      "name": "Phil Robinson",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "19",
+      "party": "Democratic",
+      "email": "rep19@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/phillip-m-robinson-jr",
+        "https://www.ohiohouse.gov/members/phillip-m-robinson-jr",
+        "https://www.ohiohouse.gov/phillip-m-robinson-jr"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Phil_Robinson",
+        "https://en.wikipedia.org/wiki/Phil_Robinson_(politician)",
+        "https://ohiohouse.gov/members/phillip-m-robinson-jr",
+        "https://ohiohouse.gov/phillip-m-robinson-jr",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/phillip-m-robinson-jr-698b274",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/phillip-m-robinson-jr"
+      ]
+    },
+    {
+      "id": "ocd-person/36f320a8-be34-43c2-ac73-ee87fbce6b0c",
+      "name": "Rachel Baker",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "27",
+      "party": "Democratic",
+      "email": "rep27@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/rachel-b-baker"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rachel_Baker",
+        "https://en.wikipedia.org/wiki/Rachel_Baker",
+        "https://ohiohouse.gov/members/rachel-b-baker",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/rachelbbaker",
+        "https://www.ohiohouse.gov/members/rachel-b-baker"
+      ]
+    },
+    {
+      "id": "ocd-person/d6ca7e4f-dcf2-4aad-a919-a2740bae649a",
+      "name": "Riordan McClain",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "87",
+      "party": "Republican",
+      "email": "rep87@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/riordan-t-mcclain",
+        "https://ohiohouse.gov/riordan-t-mcclain",
+        "https://www.ohiohouse.gov/riordan-t-mcclain"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Riordan_McClain",
+        "https://en.wikipedia.org/wiki/Riordan_McClain",
+        "https://ohiohouse.gov/members/riordan-t-mcclain",
+        "https://ohiohouse.gov/riordan-t-mcclain",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/riordan-mcclain-5a12a163",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/e0d52f86-e997-4299-9e50-972a2c208c20",
+      "name": "Rob McColley",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "1",
+      "party": "Republican",
+      "email": "sd01@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/rob-mccolley",
+        "https://www.ohiosenate.gov/senators/mccolley"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Robert_McColley",
+        "https://en.wikipedia.org/wiki/Rob_McColley",
+        "https://ohiosenate.gov/members/rob-mccolley",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/rob-mccolley-294b963",
+        "https://www.ohiosenate.gov/members/rob-mccolley",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/c34a852a-71fc-4b21-a594-bc4a75b799c8",
+      "name": "Rodney Creech",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "40",
+      "party": "Republican",
+      "email": "rep40@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/rodney-creech",
+        "https://ohiohouse.gov/rodney-creech"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Rodney_Creech",
+        "https://en.wikipedia.org/wiki/Rodney_Creech",
+        "https://justfacts.votesmart.org/candidate/161959/rodney-creech",
+        "https://ohiohouse.gov/members/rodney-creech",
+        "https://ohiohouse.gov/rodney-creech",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/52608475-9678-45ce-823a-74f9c931682c",
+      "name": "Ron Ferguson",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "96",
+      "party": "Republican",
+      "email": "rep96@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/ron-ferguson",
+        "https://ohiohouse.gov/ron-ferguson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ron_Ferguson",
+        "https://en.wikipedia.org/wiki/Ron_Ferguson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/150567/ron-ferguson",
+        "https://ohiohouse.gov/members/ron-ferguson",
+        "https://ohiohouse.gov/members/ron-ferguson/biography",
+        "https://ohiohouse.gov/ron-ferguson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/ronaldferguson"
+      ]
+    },
+    {
+      "id": "ocd-person/73e72147-0d40-4478-bbf6-3419f0e00b46",
+      "name": "Roy Klopfenstein",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "82",
+      "party": "Republican",
+      "email": "rep82@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/roy-klopfenstein"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Roy_Klopfenstein",
+        "https://en.wikipedia.org/wiki/Roy_Klopfenstein",
+        "https://justfacts.votesmart.org/candidate/biography/161926/roy-klopfenstein",
+        "https://ohiohouse.gov/members/roy-klopfenstein",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/roy-klopfenstein"
+      ]
+    },
+    {
+      "id": "ocd-person/d665e333-f7e3-43e2-b440-17920f62c60b",
+      "name": "Sandy O'Brien",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "32",
+      "party": "Republican",
+      "email": "sd32@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/sandra-obrien",
+        "https://www.ohiosenate.gov/senators/obrien"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sandra_O%27Brien_(Ohio)",
+        "https://en.wikipedia.org/wiki/Sandra_O%27Brien",
+        "https://justfacts.votesmart.org/candidate/biography/45864/sandra-obrien",
+        "https://ohiosenate.gov/members/sandra-obrien",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/sandra-obrien",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/5b3a7d10-e745-4985-ade9-d7fff6ae6af4",
+      "name": "Sarah Fowler Arthur",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "99",
+      "party": "Republican",
+      "email": "rep99@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/sarah-fowler-arthur",
+        "https://ohiohouse.gov/sarah-fowler-arthur"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sarah_Fowler",
+        "https://en.wikipedia.org/wiki/Sarah_Fowler_Arthur",
+        "https://justfacts.votesmart.org/candidate/biography/155716/sarah-fowler-arthur",
+        "https://ohiohouse.gov/members/sarah-fowler-arthur",
+        "https://ohiohouse.gov/sarah-fowler-arthur",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/52424e91-a002-4908-a205-4ea27cfe68da",
+      "name": "Scott Oelslager",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "48",
+      "party": "Republican",
+      "email": "rep48@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/scott-oelslager",
+        "https://www.ohiohouse.gov/members/scott-oelslager",
+        "https://www.ohiohouse.gov/scott-oelslager"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Scott_Oelslager",
+        "https://en.wikipedia.org/wiki/Scott_Oelslager",
+        "https://ohiohouse.gov/members/scott-oelslager",
+        "https://ohiohouse.gov/scott-oelslager",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/scott-oelslager"
+      ]
+    },
+    {
+      "id": "ocd-person/993f089c-60bf-418d-9704-fa92e4f01c71",
+      "name": "Sean Brennan",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "14",
+      "party": "Democratic",
+      "email": "rep14@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/sean-p-brennan"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sean_Brennan",
+        "https://justfacts.votesmart.org/candidate/biography/77347/sean-brennan",
+        "https://ohiohouse.gov/members/sean-p-brennan",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/sean-brennan-2a722839",
+        "https://www.ohiohouse.gov/members/sean-p-brennan"
+      ]
+    },
+    {
+      "id": "ocd-person/bb1ae016-cdfe-48aa-8bc5-9e3636e430f3",
+      "name": "Shane Wilkin",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "17",
+      "party": "Republican",
+      "email": "sd17@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/shane-wilkin",
+        "https://ohiosenate.gov/members/shane-wilkin",
+        "https://www.ohiohouse.gov/shane-wilkin"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Shane_Wilkin",
+        "https://en.wikipedia.org/wiki/Shane_Wilkin",
+        "https://ohiohouse.gov/shane-wilkin",
+        "https://ohiosenate.gov/members/shane-wilkin",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/shane-wilkin-32947920",
+        "https://www.ohiohouse.gov/members/member-directory"
+      ]
+    },
+    {
+      "id": "ocd-person/352d7ee9-256c-4195-a673-17b7ee200948",
+      "name": "Sharon Ray",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "66",
+      "party": "Republican",
+      "email": "rep66@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/sharon-a-ray",
+        "https://ohiohouse.gov/sharon-a-ray"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Sharon_Ray",
+        "https://en.wikipedia.org/wiki/Sharon_Ray",
+        "https://justfacts.votesmart.org/candidate/biography/94663/sharon-ray",
+        "https://ohiohouse.gov/members/sharon-a-ray",
+        "https://ohiohouse.gov/sharon-a-ray",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/sharon-ray-9532bb11"
+      ]
+    },
+    {
+      "id": "ocd-person/b21d9dcd-21e9-4071-936d-f89fc5d8f643",
+      "name": "Steve Huffman",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "5",
+      "party": "Republican",
+      "email": "sd05@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/stephen-a-huffman",
+        "https://www.ohiosenate.gov/senators/huffman-s"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Stephen_Huffman",
+        "https://en.wikipedia.org/wiki/Steve_Huffman_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/150587/stephen-huffman",
+        "https://ohiosenate.gov/members/stephen-a-huffman",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/drstevehuffman",
+        "https://www.ohiosenate.gov/members/stephen-a-huffman",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/854b6ce3-a4e1-46db-959a-aa286e4e8942",
+      "name": "Steve Demetriou",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "35",
+      "party": "Republican",
+      "email": "rep35@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/steve-demetriou"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steve_Demetriou",
+        "https://en.wikipedia.org/wiki/Steve_Demetriou",
+        "https://justfacts.votesmart.org/candidate/biography/209747/steve-demetriou",
+        "https://ohiohouse.gov/members/steve-demetriou",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/sjd3",
+        "https://www.ohiohouse.gov/members/steve-demetriou"
+      ]
+    },
+    {
+      "id": "ocd-person/26444e7e-72b2-4838-bc24-31899c90d504",
+      "name": "Steve Wilson",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "7",
+      "party": "Republican",
+      "email": "sd07@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/steve-wilson",
+        "https://www.ohiosenate.gov/senators/wilson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Steve_Wilson",
+        "https://en.wikipedia.org/wiki/Steve_Wilson_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/176515/steve-wilson",
+        "https://ohiosenate.gov/members/steve-wilson",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/steve-wilson-133354b5",
+        "https://www.ohiosenate.gov/members/steve-wilson",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/0e44b586-f6a4-44ee-b6b7-37fa8dc2e8cd",
+      "name": "Susan Manchester",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "12",
+      "party": "Republican",
+      "email": "sd12@ohiosenate.gov",
+      "phone": "419-820-8151",
+      "districtPhone": "419-820-8151",
+      "links": [
+        "https://ohiohouse.gov/susan-manchester",
+        "https://ohiosenate.gov/members/susan-manchester",
+        "https://www.ohiohouse.gov/members/susan-manchester",
+        "https://www.ohiohouse.gov/susan-manchester"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Susan_Manchester",
+        "https://en.wikipedia.org/wiki/Susan_Manchester",
+        "https://ohiohouse.gov/members/susan-manchester",
+        "https://ohiohouse.gov/susan-manchester",
+        "https://ohiosenate.gov/members/susan-manchester",
+        "https://ohiosenate.gov/members/susan-manchester/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/susan-manchester-14b16067",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/susan-manchester"
+      ]
+    },
+    {
+      "id": "ocd-person/a4c53220-d4a7-4591-b2d8-109516dc9401",
+      "name": "Terrence Upchurch",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "20",
+      "party": "Democratic",
+      "email": "rep20@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/terrence-upchurch",
+        "https://www.ohiohouse.gov/members/terrence-upchurch",
+        "https://www.ohiohouse.gov/terrence-upchurch"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Terrence_Upchurch",
+        "https://en.wikipedia.org/wiki/Terrence_Upchurch",
+        "https://justfacts.votesmart.org/candidate/biography/179023/terrence-upchurch",
+        "https://ohiohouse.gov/members/terrence-upchurch",
+        "https://ohiohouse.gov/terrence-upchurch",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/terrence-upchurch-179096109",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/terrence-upchurch"
+      ]
+    },
+    {
+      "id": "ocd-person/57300c34-0e2d-4e85-bdce-c4fb8c781541",
+      "name": "Terry Johnson",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "14",
+      "party": "Republican",
+      "email": "sd14@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/terry-johnson",
+        "https://www.ohiosenate.gov/senators/johnson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Terry_Johnson,_Ohio_Politician",
+        "https://en.wikipedia.org/wiki/Terry_Johnson_(Ohio_politician)",
+        "https://ohiosenate.gov/members/terry-johnson",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/terry-johnson",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/16e469e4-8014-4ba2-8fc4-91804d6ef491",
+      "name": "Tex Fischer",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "59",
+      "party": "Republican",
+      "email": "rep59@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/houseapp/members/tex-fischer",
+        "https://www.ohiohouse.gov/members/tex-fischer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tex_Fischer",
+        "https://ohiohouse.gov/houseapp/members/tex-fischer",
+        "https://www.linkedin.com/in/tex-fischer-65613570",
+        "https://www.ohiohouse.gov/members/tex-fischer"
+      ]
+    },
+    {
+      "id": "ocd-person/081534e7-8952-47f0-a722-ed627fb32069",
+      "name": "Thad Claggett",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "68",
+      "party": "Republican",
+      "email": "rep68@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/thaddeus-j-claggett"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thaddeus_Claggett",
+        "https://en.wikipedia.org/wiki/Thaddeus_Claggett",
+        "https://justfacts.votesmart.org/candidate/biography/189487/thaddeus-claggett",
+        "https://ohiohouse.gov/members/thaddeus-j-claggett",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/thaddeus-claggett-27386310",
+        "https://www.ohiohouse.gov/members/thaddeus-j-claggett"
+      ]
+    },
+    {
+      "id": "ocd-person/0fe32749-fe89-4f96-87d3-3d831bea2459",
+      "name": "Theresa Gavarone",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "2",
+      "party": "Republican",
+      "email": "sd02@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/theresa-gavarone",
+        "https://www.ohiosenate.gov/senators/gavarone"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Theresa_Gavarone",
+        "https://en.wikipedia.org/wiki/Theresa_Gavarone",
+        "https://ohiosenate.gov/members/theresa-gavarone",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/theresa-gavarone",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/a57f6c78-ac58-4f7d-870e-0d8052984cd9",
+      "name": "Tom Patton",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "24",
+      "party": "Republican",
+      "email": "sd24@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/thomas-f-patton",
+        "https://ohiosenate.gov/members/thomas-f-patton",
+        "https://www.ohiohouse.gov/members/thomas-f-patton",
+        "https://www.ohiohouse.gov/thomas-f-patton"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thomas_Patton",
+        "https://en.wikipedia.org/wiki/Tom_Patton",
+        "https://ohiohouse.gov/members/thomas-f-patton",
+        "https://ohiohouse.gov/thomas-f-patton",
+        "https://ohiosenate.gov/members/thomas-f-patton",
+        "https://ohiosenate.gov/members/thomas-f-patton/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/tom-patton-b4864389",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/thomas-f-patton"
+      ]
+    },
+    {
+      "id": "ocd-person/7948afad-ec3c-4e4c-a073-305fb8cd1b21",
+      "name": "Thomas Hall",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "46",
+      "party": "Republican",
+      "email": "rep46@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/thomas-hall",
+        "https://ohiohouse.gov/thomas-hall"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Thomas_Hall",
+        "https://en.wikipedia.org/wiki/Thomas_Hall_%28Ohio_politician%29",
+        "https://justfacts.votesmart.org/candidate/189462/thomas-hall",
+        "https://ohiohouse.gov/members/thomas-hall",
+        "https://ohiohouse.gov/thomas-hall",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/thomas-hall-513a2215a"
+      ]
+    },
+    {
+      "id": "ocd-person/fa5ff978-34ff-49d1-958e-4e356a8ef9d4",
+      "name": "Tim Barhorst",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "85",
+      "party": "Republican",
+      "email": "rep85@ohiohouse.gov",
+      "links": [
+        "https://www.ohiohouse.gov/members/tim-barhorst"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tim_Barhorst",
+        "https://en.wikipedia.org/wiki/Tim_Barhorst",
+        "https://ohiohouse.gov/members/tim-barhorst",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/tim-barhorst"
+      ]
+    },
+    {
+      "id": "ocd-person/01a80305-a667-4dda-9676-1e678bddde12",
+      "name": "Tim Schaffer",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "20",
+      "party": "Republican",
+      "email": "sd20@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/tim-schaffer",
+        "https://www.ohiosenate.gov/senators/schaffer"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tim_Schaffer",
+        "https://en.wikipedia.org/wiki/Tim_Schaffer",
+        "https://justfacts.votesmart.org/candidate/biography/45832/tim-schaffer",
+        "https://ohiosenate.gov/members/tim-schaffer",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/tim-schaffer-68849b22",
+        "https://www.ohiosenate.gov/members/tim-schaffer",
+        "https://www.ohiosenate.gov/senators"
+      ]
+    },
+    {
+      "id": "ocd-person/d2ecec1d-db13-4a47-836b-9e75f3a31c78",
+      "name": "Tom Young",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "37",
+      "party": "Republican",
+      "email": "rep37@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/tom-young",
+        "https://ohiohouse.gov/tom-young"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tom_Young_(Ohio)",
+        "https://en.wikipedia.org/wiki/Tom_Young_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/189452/tom-young",
+        "https://ohiohouse.gov/members/tom-young",
+        "https://ohiohouse.gov/tom-young",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/tom-young-46823011"
+      ]
+    },
+    {
+      "id": "ocd-person/7bcb4dfa-e4d3-46cd-b158-057b1b4b9a0a",
+      "name": "Tracy Richardson",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "86",
+      "party": "Republican",
+      "email": "rep86@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/tracy-m-richardson",
+        "https://www.ohiohouse.gov/members/tracy-m-richardson",
+        "https://www.ohiohouse.gov/tracy-m-richardson"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tracy_Richardson",
+        "https://en.wikipedia.org/wiki/Tracy_Richardson",
+        "https://justfacts.votesmart.org/candidate/biography/179156/tracy-richardson",
+        "https://ohiohouse.gov/members/tracy-m-richardson",
+        "https://ohiohouse.gov/tracy-m-richardson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/tracy-m-richardson"
+      ]
+    },
+    {
+      "id": "ocd-person/18864718-3e48-4236-9afb-b1a61e4c52e2",
+      "name": "Tristan Rader",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "13",
+      "party": "Democratic",
+      "email": "rep13@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/tristan-rader"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Tristan_Rader",
+        "https://ohiohouse.gov/members/tristan-rader",
+        "https://ohiohouse.gov/members/tristan-rader/biography",
+        "https://www.linkedin.com/in/twrader"
+      ]
+    },
+    {
+      "id": "ocd-person/09c752d1-59eb-4f43-b401-5092d801f4c1",
+      "name": "Ty Mathews",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "83",
+      "party": "Republican",
+      "email": "rep83@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/ty-d-mathews"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ty_Mathews",
+        "https://ohiohouse.gov/members/ty-d-mathews",
+        "https://ohiohouse.gov/members/ty-d-mathews/biography",
+        "https://www.linkedin.com/in/ty-mathews-494a16222"
+      ]
+    },
+    {
+      "id": "ocd-person/392b392f-7424-4826-9f65-6b84a805473b",
+      "name": "Ty Moore",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "95",
+      "party": "Republican",
+      "email": "rep95@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/ty-moore"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Ty_Moore",
+        "https://ohiohouse.gov/members/ty-moore",
+        "https://www.linkedin.com/in/ty-moore-36233031"
+      ]
+    },
+    {
+      "id": "ocd-person/8b367fce-9be2-4848-837a-a475c3d531e4",
+      "name": "Veronica Sims",
+      "state": "OH",
+      "chamber": "lower",
+      "district": "33",
+      "party": "Democratic",
+      "email": "rep33@ohiohouse.gov",
+      "links": [
+        "https://ohiohouse.gov/members/veronica-r-sims",
+        "https://ohiohouse.gov/members/veronica-sims"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Veronica_Sims",
+        "https://ohiohouse.gov/members/veronica-r-sims",
+        "https://ohiohouse.gov/members/veronica-r-sims/biography",
+        "https://ohiohouse.gov/members/veronica-sims",
+        "https://www.linkedin.com/in/veronica-r-sims-b21b857"
+      ]
+    },
+    {
+      "id": "ocd-person/bdc3493a-a22f-4a6b-b50e-b590216d8cfd",
+      "name": "Bill DeMora",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "25",
+      "party": "Democratic",
+      "email": "sd25@ohiosenate.gov",
+      "links": [
+        "https://www.ohiosenate.gov/members/william-p-demora"
+      ],
+      "sources": [
+        "https://ballotpedia.org/William_DeMora",
+        "https://en.wikipedia.org/wiki/Bill_DeMora",
+        "https://justfacts.votesmart.org/candidate/biography/23376/william-demora",
+        "https://ohiosenate.gov/members/william-p-demora",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/billdemora",
+        "https://www.ohiosenate.gov/members/william-p-demora"
+      ]
+    },
+    {
+      "id": "ocd-person/23c443b0-e2f7-4c7a-af1e-d67d7aa366ce",
+      "name": "Willis Blackshear",
+      "state": "OH",
+      "chamber": "upper",
+      "district": "6",
+      "party": "Democratic",
+      "email": "sd06@ohiosenate.gov",
+      "links": [
+        "https://ohiohouse.gov/members/willis-e-blackshear-jr",
+        "https://ohiohouse.gov/willis-e-blackshear-jr",
+        "https://ohiosenate.gov/members/willis-e-blackshear-jr"
+      ],
+      "sources": [
+        "https://ballotpedia.org/Willis_Blackshear_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/189447/willis-blackshear-jr",
+        "https://ohiohouse.gov/members/willis-e-blackshear-jr",
+        "https://ohiohouse.gov/willis-e-blackshear-jr",
+        "https://ohiosenate.gov/members/willis-e-blackshear-jr",
+        "https://ohiosenate.gov/members/willis-e-blackshear-jr/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory"
+      ]
+    }
+  ]
+}
