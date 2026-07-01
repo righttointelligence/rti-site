@@ -148,16 +148,16 @@ export default function Home() {
             <p className="idx">→ get involved</p>
             <p className="big">Want to do more than call?</p>
             <p className="body">
-              Follow the people building this in the open, and email us if you want to volunteer or
-              get more involved in the movement.
+              Follow the people building this in the open. If you want to help with research,
+              outreach, data, or the site, reach out directly.
             </p>
             <div className="involverow">
               <a href="https://x.com/kingbootoshi" rel="noreferrer" target="_blank">@kingbootoshi</a>
               <a href="https://x.com/0xSero" rel="noreferrer" target="_blank">@0xSero</a>
               <a href="https://x.com/RayFernando1337" rel="noreferrer" target="_blank">@RayFernando1337</a>
             </div>
-            <a className="involvecta" href="mailto:bootoshi@axia.agency">
-              Email us to volunteer →
+            <a className="involvecta" href="mailto:bootoshi@axia.agency?subject=Open%20Intelligence%20Institute">
+              bootoshi@axia.agency →
             </a>
           </div>
         </section>
