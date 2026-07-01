@@ -2,6 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "free-intelligence",
   "compatibility_date": "2026-06-24",
+  "account_id": "2a6651dc655dcafe6ab174d54987d644",
+  "routes": [
+    { "pattern": "righttointelligence.org", "custom_domain": true },
+    { "pattern": "www.righttointelligence.org", "custom_domain": true }
+  ],
   // Static SPA plus a tiny API for action logging.
   "main": "./worker.ts",
   "assets": {
@@ -19,7 +24,7 @@
     {
       "binding": "ACTIONS_DB",
       "database_name": "free_intelligence_actions",
-      "database_id": "5993988b-f117-44b0-b35e-ff1b29263a40",
+      "database_id": "6352214d-5e59-4b46-8d16-55879f86735a",
       "migrations_dir": "./migrations"
     }
   ]
