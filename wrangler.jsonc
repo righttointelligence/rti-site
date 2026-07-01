@@ -19,7 +19,7 @@
     {
       "binding": "ACTIONS_DB",
       "database_name": "free_intelligence_actions",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "5993988b-f117-44b0-b35e-ff1b29263a40",
       "migrations_dir": "./migrations"
     }
   ]
