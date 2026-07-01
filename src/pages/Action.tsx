@@ -307,9 +307,6 @@ function geoErrorMessage(error: GeolocationPositionError) {
 
 function lookupErrorMessage(error: unknown) {
   const message = error instanceof Error ? error.message : "";
-  if (message === "lookup_not_configured") {
-    return "Exact lookup needs the Open States key before launch. Use the official lookup for now.";
-  }
   if (message === "worker_not_running") {
     return "Exact lookup runs through the Cloudflare Worker, so this Vite preview cannot call it. Use the official lookup for now.";
   }
