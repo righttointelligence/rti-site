@@ -13,6 +13,23 @@ type StateDataset = {
   legislators: LocalLegislator[];
 };
 
+type BoundaryIndex = {
+  scale: number;
+  chambers: Record<"upper" | "lower", { districts: DistrictIndexEntry[] }>;
+};
+
+type DistrictIndexEntry = {
+  district: string;
+  bbox: [number, number, number, number];
+  assetPath: string;
+};
+
+type DistrictGeometry = {
+  district: string;
+  bbox: [number, number, number, number];
+  rings: number[][];
+};
+
 type SampleLocation = {
   label: string;
   stateKey: string;
@@ -36,11 +53,11 @@ const samples = await readSamples();
 let failures = 0;
 
 for (const sample of samples) {
-  const local = await readLocalDataset(sample.stateKey);
+  const local = await lookupLocalLawmakers(sample);
   const remote = await fetchOpenStatesGeo(sample, apiKey);
   const missing = remote.filter(
     (remoteLegislator) =>
-      !local.legislators.some(
+      !local.some(
         (localLegislator) =>
           localLegislator.chamber === remoteLegislator.chamber &&
           localLegislator.district === remoteLegislator.district &&
@@ -88,6 +105,65 @@ async function readLocalDataset(stateKey: string): Promise<StateDataset> {
   return JSON.parse(
     await readFile(`civic-data/openstates/legislators/current/${stateKey}.json`, "utf8"),
   ) as StateDataset;
+}
+
+async function lookupLocalLawmakers(sample: SampleLocation): Promise<LocalLegislator[]> {
+  const boundaries = JSON.parse(
+    await readFile(`civic-data/census/tiger2024/district-index/${sample.stateKey}.json`, "utf8"),
+  ) as BoundaryIndex;
+  const local = await readLocalDataset(sample.stateKey);
+  const x = Math.round(sample.longitude * boundaries.scale);
+  const y = Math.round(sample.latitude * boundaries.scale);
+  const lawmakers: LocalLegislator[] = [];
+
+  for (const chamber of ["upper", "lower"] as const) {
+    const district = await findDistrict(boundaries.chambers[chamber].districts, x, y);
+    if (!district) continue;
+    const legislator = local.legislators.find(
+      (candidate) => candidate.chamber === chamber && normalizeDistrict(candidate.district) === district,
+    );
+    if (legislator) lawmakers.push(legislator);
+  }
+
+  return lawmakers;
+}
+
+async function findDistrict(districts: DistrictIndexEntry[], x: number, y: number): Promise<string | null> {
+  const candidates = districts.filter((district) => {
+    const [minX, minY, maxX, maxY] = district.bbox;
+    return x >= minX && x <= maxX && y >= minY && y <= maxY;
+  });
+
+  for (const candidate of candidates) {
+    const district = JSON.parse(await readFile(candidate.assetPath.slice(1), "utf8")) as DistrictGeometry;
+    if (pointInDistrict(district, x, y)) return normalizeDistrict(district.district);
+  }
+  return null;
+}
+
+function pointInDistrict(district: DistrictGeometry, x: number, y: number): boolean {
+  let inside = false;
+  for (const ring of district.rings) {
+    if (pointInRing(ring, x, y)) inside = !inside;
+  }
+  return inside;
+}
+
+function pointInRing(ring: number[], x: number, y: number): boolean {
+  let inside = false;
+  for (let index = 0, previous = ring.length - 2; index < ring.length; previous = index, index += 2) {
+    const xi = ring[index];
+    const yi = ring[index + 1];
+    const xj = ring[previous];
+    const yj = ring[previous + 1];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+
+function normalizeDistrict(value: string): string {
+  if (!/^\d+$/.test(value)) return value;
+  return value.replace(/^0+/, "") || "0";
 }
 
 async function fetchOpenStatesGeo(sample: SampleLocation, key: string): Promise<GeoLawmaker[]> {

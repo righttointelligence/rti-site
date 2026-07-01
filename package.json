@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:api": "wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local --port 8787",
+    "dev:api": "bun run build && wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local --port 8787",
     "dev:worker": "bun run build && wrangler d1 migrations apply free_intelligence_actions --local && wrangler dev --local",
     "data:legislators": "bun run tools/civic-data/import-openstates-legislators.ts",
     "data:boundaries:manifest": "bun run tools/civic-data/write-census-boundary-manifest.ts",
+    "data:boundaries": "bun run tools/civic-data/build-census-districts.ts",
+    "data:runtime-assets": "bun run tools/civic-data/copy-runtime-assets.ts",
     "data:verify:openstates": "bun run tools/civic-data/verify-openstates-geo.ts",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && bun run data:runtime-assets",
     "preview": "vite preview",
     "deploy": "bun run build && wrangler deploy",
     "cf-typegen": "wrangler types"

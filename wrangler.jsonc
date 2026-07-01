@@ -12,7 +12,7 @@
   },
   "vars": {
     // Keep 0 unless importing a real historical action count.
-    // Exact lawmaker lookup uses OPENSTATES_API_KEY as a Cloudflare secret.
+    // Exact lawmaker lookup uses owned Census + Open States bulk-data assets.
     "ACTION_COUNT_OFFSET": "0"
   },
   "d1_databases": [

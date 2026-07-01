@@ -84,7 +84,7 @@ const manifest = {
 await writeJson(`${OUT_DIR}/manifest.json`, manifest);
 
 function normalizeLegislator(state: string, record: Record<string, string>): Legislator {
-  const chamber = record.current_chamber === "upper" ? "upper" : "lower";
+  const chamber = state === "NE" || record.current_chamber === "upper" ? "upper" : "lower";
   const capitolPhone = optional(record.capitol_voice);
   const districtPhone = optional(record.district_voice);
   return {

@@ -3,7 +3,7 @@
   "name": "Indiana",
   "sourceUrl": "https://data.openstates.org/people/current/in.csv",
   "source": "openstates-current-legislator-csv",
-  "fetchedAt": "2026-07-01T03:02:06.989Z",
+  "fetchedAt": "2026-07-01T03:40:54.496Z",
   "count": 150,
   "upperCount": 50,
   "lowerCount": 100,

@@ -2,7 +2,6 @@ type Env = {
   ACTIONS_DB: D1Database;
   ASSETS: { fetch(request: Request): Promise<Response> };
   ACTION_COUNT_OFFSET?: string;
-  OPENSTATES_API_KEY?: string;
 };
 
 type D1Database = {
@@ -81,6 +80,38 @@ type Lawmaker = {
   url?: string;
 };
 
+type Chamber = "upper" | "lower";
+
+type BoundaryIndex = {
+  scale: number;
+  chambers: Record<Chamber, { districts: DistrictIndexEntry[] }>;
+};
+
+type DistrictIndexEntry = {
+  district: string;
+  bbox: [number, number, number, number];
+  assetPath: string;
+};
+
+type DistrictGeometry = {
+  district: string;
+  bbox: [number, number, number, number];
+  rings: number[][];
+};
+
+type LegislatorDataset = {
+  legislators: Array<{
+    id: string;
+    name: string;
+    chamber: Chamber;
+    district: string;
+    party?: string;
+    email?: string;
+    phone?: string;
+    links?: string[];
+  }>;
+};
+
 function json(body: unknown, init?: ResponseInit): Response {
   return new Response(JSON.stringify(body), {
     ...init,
@@ -120,10 +151,6 @@ async function handleActionLog(request: Request, env: Env): Promise<Response> {
 }
 
 async function handleLawmakerLookup(request: Request, env: Env): Promise<Response> {
-  if (!env.OPENSTATES_API_KEY) {
-    return json({ error: "lookup_not_configured" }, { status: 503 });
-  }
-
   let body: { stateKey?: unknown; latitude?: unknown; longitude?: unknown };
   try {
     body = (await request.json()) as {
@@ -142,152 +169,139 @@ async function handleLawmakerLookup(request: Request, env: Env): Promise<Respons
     return json({ error: "invalid_location" }, { status: 400 });
   }
 
-  const apiUrl = new URL("https://v3.openstates.org/people.geo");
-  apiUrl.searchParams.set("lat", String(latitude));
-  apiUrl.searchParams.set("lng", String(longitude));
-  apiUrl.searchParams.append("include", "offices");
-  apiUrl.searchParams.set("apikey", env.OPENSTATES_API_KEY);
-
-  const response = await fetch(apiUrl, {
-    headers: { accept: "application/json" },
-  });
-  if (!response.ok) {
-    return json({ error: "lookup_failed" }, { status: 502 });
+  let lawmakers: Lawmaker[];
+  try {
+    lawmakers = await lookupOwnedLawmakers(request, env, stateKey, latitude, longitude);
+  } catch {
+    return json({ error: "local_lookup_failed" }, { status: 502 });
   }
-
-  const data = (await response.json()) as { results?: unknown };
-  const lawmakers = parseOpenStatesLawmakers(data, stateKey);
   if (lawmakers.length === 0) {
     return json({ error: "no_state_lawmakers_found" }, { status: 404 });
   }
 
-  return json({ ok: true, lawmakers });
+  return json({ ok: true, source: "owned-census-openstates-bulk", lawmakers });
 }
 
 function validCoordinate(value: number, min: number, max: number): boolean {
   return Number.isFinite(value) && value >= min && value <= max;
 }
 
-function parseOpenStatesLawmakers(data: { results?: unknown }, stateKey: string): Lawmaker[] {
-  if (!Array.isArray(data.results)) return [];
+async function lookupOwnedLawmakers(
+  request: Request,
+  env: Env,
+  stateKey: string,
+  latitude: number,
+  longitude: number,
+): Promise<Lawmaker[]> {
+  const boundaries = await readAssetJson<BoundaryIndex>(
+    request,
+    env,
+    `/civic-data/census/tiger2024/district-index/${stateKey}.json`,
+  );
+  const legislators = await readAssetJson<LegislatorDataset>(
+    request,
+    env,
+    `/civic-data/openstates/legislators/current/${stateKey}.json`,
+  );
+  const x = Math.round(longitude * boundaries.scale);
+  const y = Math.round(latitude * boundaries.scale);
 
-  const stateJurisdictionId = `ocd-jurisdiction/country:us/state:${stateKey.toLowerCase()}/government`;
-  const lawmakers = new Map<string, Lawmaker>();
-  for (const item of data.results) {
-    if (!item || typeof item !== "object") continue;
-    const result = item as { person?: unknown; current_role?: unknown; role?: unknown };
-    const person = result.person && typeof result.person === "object" ? result.person : result;
-    const role =
-      result.current_role ??
-      result.role ??
-      (person && typeof person === "object"
-        ? (person as Record<string, unknown>).current_role
-        : undefined);
-    if (!person || typeof person !== "object" || !role || typeof role !== "object") continue;
+  const districts = (
+    await Promise.all(
+      (["upper", "lower"] as const).map(async (chamber) => ({
+        chamber,
+        district: await findDistrict(request, env, boundaries.chambers[chamber]?.districts ?? [], x, y),
+      })),
+    )
+  ).filter((match): match is { chamber: Chamber; district: string } => Boolean(match.district));
 
-    const personRecord = person as Record<string, unknown>;
-    const roleRecord = role as Record<string, unknown>;
-    if (!isStateLegislativeRole(roleRecord, stateJurisdictionId, stateKey)) continue;
-
-    const chamber = chamberValue(roleRecord);
-    if (!chamber) continue;
-
-    const id = stringValue(personRecord.id) ?? `${stringValue(personRecord.name) ?? "unknown"}-${chamber}`;
-    if (lawmakers.has(`${id}-${chamber}`)) continue;
-
-    const contactDetails = Array.isArray(personRecord.contact_details)
-      ? personRecord.contact_details
-      : Array.isArray(personRecord.contactDetails)
-        ? personRecord.contactDetails
-        : [];
-    const offices = Array.isArray(personRecord.offices) ? personRecord.offices : [];
-    const links = Array.isArray(personRecord.links) ? personRecord.links : [];
-
-    lawmakers.set(`${id}-${chamber}`, {
-      id,
-      name: stringValue(personRecord.name) ?? "Unknown lawmaker",
+  const lawmakers: Lawmaker[] = [];
+  for (const { chamber, district } of districts) {
+    const legislator = legislators.legislators.find(
+      (candidate) => candidate.chamber === chamber && normalizeDistrict(candidate.district) === district,
+    );
+    if (!legislator) continue;
+    lawmakers.push({
+      id: legislator.id,
+      name: legislator.name,
       chamber,
-      chamberName: chamberNameValue(roleRecord, chamber),
-      district: stringValue(roleRecord.district) ?? stringValue(roleRecord.title) ?? "",
-      party: stringValue(personRecord.party),
-      phone: officePhoneValue(offices) ?? contactValue(contactDetails, "voice"),
-      email: contactValue(contactDetails, "email"),
-      url: stringValue(personRecord.openstates_url) ?? linkValue(links),
+      chamberName: chamberNameFor(stateKey, chamber),
+      district,
+      party: legislator.party,
+      phone: legislator.phone,
+      email: legislator.email,
+      url: legislator.links?.[0],
     });
   }
 
-  return Array.from(lawmakers.values()).sort((a, b) => chamberRank(a) - chamberRank(b));
+  return lawmakers.sort((a, b) => chamberRank(a) - chamberRank(b));
 }
 
-function isStateLegislativeRole(
-  roleRecord: Record<string, unknown>,
-  stateJurisdictionId: string,
-  stateKey: string,
-): boolean {
-  const jurisdictionId = stringValue(roleRecord.jurisdiction_id);
-  if (jurisdictionId) return jurisdictionId === stateJurisdictionId;
-
-  const divisionId = stringValue(roleRecord.division_id) ?? stringValue(roleRecord.id);
-  const statePrefix = `/state:${stateKey.toLowerCase()}/`;
-  return Boolean(
-    divisionId?.includes(statePrefix) &&
-      (divisionId.includes("/sldu:") || divisionId.includes("/sldl:")),
-  );
+async function readAssetJson<T>(request: Request, env: Env, path: string): Promise<T> {
+  const url = new URL(path, request.url);
+  const response = await env.ASSETS.fetch(new Request(url, { headers: { accept: "application/json" } }));
+  if (!response.ok) throw new Error(`asset_lookup_failed:${path}`);
+  const contentType = response.headers.get("content-type") ?? "";
+  if (!contentType.includes("application/json")) throw new Error(`asset_not_json:${path}`);
+  return (await response.json()) as T;
 }
 
-function chamberRank(lawmaker: Lawmaker): number {
-  return lawmaker.chamber === "upper" ? 0 : 1;
-}
+async function findDistrict(
+  request: Request,
+  env: Env,
+  districts: DistrictIndexEntry[],
+  x: number,
+  y: number,
+): Promise<string | null> {
+  const candidates = districts.filter((district) => {
+    const [minX, minY, maxX, maxY] = district.bbox;
+    return x >= minX && x <= maxX && y >= minY && y <= maxY;
+  });
 
-function chamberValue(roleRecord: Record<string, unknown>): "upper" | "lower" | null {
-  const classification = stringValue(roleRecord.org_classification) ?? stringValue(roleRecord.chamber);
-  if (classification === "upper" || classification === "lower") return classification;
-  const title = stringValue(roleRecord.title)?.toLowerCase() ?? "";
-  if (title.includes("senator") || title.includes("senate")) return "upper";
-  if (title.includes("representative") || title.includes("assembly") || title.includes("house")) {
-    return "lower";
+  for (const candidate of candidates) {
+    const district = await readAssetJson<DistrictGeometry>(request, env, candidate.assetPath);
+    const [minX, minY, maxX, maxY] = district.bbox;
+    if (x < minX || x > maxX || y < minY || y > maxY) continue;
+    if (pointInDistrict(district, x, y)) return normalizeDistrict(district.district);
   }
   return null;
 }
 
-function chamberNameValue(roleRecord: Record<string, unknown>, chamber: "upper" | "lower"): string {
-  const title = stringValue(roleRecord.title)?.toLowerCase() ?? "";
+function pointInDistrict(district: DistrictGeometry, x: number, y: number): boolean {
+  let inside = false;
+  for (const ring of district.rings) {
+    if (pointInRing(ring, x, y)) inside = !inside;
+  }
+  return inside;
+}
+
+function pointInRing(ring: number[], x: number, y: number): boolean {
+  let inside = false;
+  for (let index = 0, previous = ring.length - 2; index < ring.length; previous = index, index += 2) {
+    const xi = ring[index];
+    const yi = ring[index + 1];
+    const xj = ring[previous];
+    const yj = ring[previous + 1];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+
+function normalizeDistrict(value: string): string {
+  if (!/^\d+$/.test(value)) return value;
+  return value.replace(/^0+/, "") || "0";
+}
+
+function chamberNameFor(stateKey: string, chamber: Chamber): string {
+  if (stateKey === "NE") return "Nebraska Legislature";
   if (chamber === "upper") return "State Senate";
-  if (title.includes("assembly")) return "State Assembly";
-  if (title.includes("delegate")) return "State House of Delegates";
+  if (["CA", "NV", "NJ", "NY", "WI"].includes(stateKey)) return "State Assembly";
+  if (["MD", "VA", "WV"].includes(stateKey)) return "State House of Delegates";
   return "State House";
 }
 
-function contactValue(items: unknown[], type: string): string | undefined {
-  for (const item of items) {
-    if (!item || typeof item !== "object") continue;
-    const record = item as Record<string, unknown>;
-    if (stringValue(record.type) === type) return stringValue(record.value);
-  }
-  return undefined;
-}
-
-function officePhoneValue(items: unknown[]): string | undefined {
-  for (const item of items) {
-    if (!item || typeof item !== "object") continue;
-    const record = item as Record<string, unknown>;
-    const value = stringValue(record.voice) ?? stringValue(record.phone);
-    if (value) return value;
-  }
-  return undefined;
-}
-
-function linkValue(items: unknown[]): string | undefined {
-  for (const item of items) {
-    if (!item || typeof item !== "object") continue;
-    const value = stringValue((item as Record<string, unknown>).url);
-    if (value) return value;
-  }
-  return undefined;
-}
-
-function stringValue(value: unknown): string | undefined {
-  return typeof value === "string" && value.trim() ? value.trim() : undefined;
+function chamberRank(lawmaker: Lawmaker): number {
+  return lawmaker.chamber === "upper" ? 0 : 1;
 }
 
 export default {

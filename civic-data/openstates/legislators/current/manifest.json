@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:02:06.989Z",
+  "generatedAt": "2026-07-01T03:40:54.496Z",
   "source": "Open States current legislator CSV bulk data",
   "sourcePattern": "https://data.openstates.org/people/current/[ABBR].csv",
   "stateCount": 50,
@@ -217,8 +217,8 @@
       "abbr": "NE",
       "name": "Nebraska",
       "count": 49,
-      "upperCount": 0,
-      "lowerCount": 49,
+      "upperCount": 49,
+      "lowerCount": 0,
       "sourceUrl": "https://data.openstates.org/people/current/ne.csv"
     },
     {
