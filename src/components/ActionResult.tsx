@@ -4,9 +4,9 @@ import { STATES } from "../data/states";
 import { derivePrimaryAction } from "../lib/recommendation";
 import type { ActionKind, ActionLogResult } from "../lib/actions";
 
-// The result panel: one recommended action, one exact ask, one copyable
-// message, one official destination, one "I sent it" loop. Counts, provenance,
-// and extra contacts live in a collapsed secondary layer below the action.
+// The result panel: one recommended call action, one exact ask, one short
+// call script, one official lookup, and a call/voicemail/email-fallback loop.
+// Counts, provenance, and extra contacts live in a collapsed secondary layer.
 export default function ActionResult({
   stateKey,
   onConfirm,
@@ -18,7 +18,8 @@ export default function ActionResult({
   const aiSnapshot = STATE_AI_SNAPSHOTS[stateKey];
   const [copied, setCopied] = useState(false);
   const [confirmed, setConfirmed] = useState<ActionLogResult | null>(null);
-  const [logging, setLogging] = useState(false);
+  const [confirmedKind, setConfirmedKind] = useState<ActionKind | null>(null);
+  const [logging, setLogging] = useState<ActionKind | null>(null);
   const [error, setError] = useState<string | null>(null);
   if (!s) return null;
 
@@ -30,16 +31,17 @@ export default function ActionResult({
     setTimeout(() => setCopied(false), 1600);
   };
 
-  const confirm = async () => {
+  const confirm = async (kind: ActionKind) => {
     if (confirmed || logging) return;
     setError(null);
-    setLogging(true);
+    setLogging(kind);
     try {
-      setConfirmed(await onConfirm("email"));
+      setConfirmed(await onConfirm(kind));
+      setConfirmedKind(kind);
     } catch {
       setError("Could not log this yet. Please try again.");
     } finally {
-      setLogging(false);
+      setLogging(null);
     }
   };
 
@@ -66,7 +68,16 @@ export default function ActionResult({
               <p className="rv">{action.ask}</p>
             </div>
             <div className="rblock">
-              <p className="rk">1 / copy this message</p>
+              <p className="rk">1 / find who to call</p>
+              <a className="targetbtn" href={action.targetUrl} rel="noreferrer" target="_blank">
+                Find who to call →
+              </a>
+              <p className="rnote">
+                Goes to the <b>{action.targetLabel}</b>. {action.targetNote}
+              </p>
+            </div>
+            <div className="rblock">
+              <p className="rk">2 / say this on the call</p>
               <div className="script">
                 <button className={`copy${copied ? " done" : ""}`} onClick={copy}>
                   {copied ? "copied ✓" : "copy"}
@@ -74,35 +85,45 @@ export default function ActionResult({
                 <span>{action.script}</span>
               </div>
               <p className="rnote">
-                No policy homework required. We picked the first useful action for you, and OII does
-                not collect or see your name, email, or address.
+                Use this as a call script, not a copy-paste blast. If the office is closed, leave it
+                as a voicemail. If the official lookup asks for your address, you enter it there on
+                the official site — OII does not collect or see it.
               </p>
             </div>
             <div className="rblock">
-              <p className="rk">2 / open the official contact page</p>
-              <a className="targetbtn" href={action.targetUrl} rel="noreferrer" target="_blank">
-                Open official contact page →
-              </a>
-              <p className="rnote">
-                Goes to the <b>{action.targetLabel}</b>. {action.targetNote} If that office asks for
-                your address, you enter it there on the official site — not here.
-              </p>
-            </div>
-            <div className="rblock">
-              <p className="rk">3 / mark it done</p>
+              <p className="rk">3 / log what happened</p>
               <div className="confirm">
                 <button
                   className="confirmbtn"
                   disabled={Boolean(confirmed || logging)}
-                  onClick={() => void confirm()}
+                  onClick={() => void confirm("call")}
                 >
-                  {logging ? "logging..." : "✓ I sent it"}
+                  {logging === "call" ? "logging..." : "✓ I called"}
+                </button>
+                <button
+                  className="confirmbtn"
+                  disabled={Boolean(confirmed || logging)}
+                  onClick={() => void confirm("voicemail")}
+                >
+                  {logging === "voicemail" ? "logging..." : "✓ I left voicemail"}
+                </button>
+                <button
+                  className="confirmbtn"
+                  disabled={Boolean(confirmed || logging)}
+                  onClick={() => void confirm("email_fallback")}
+                >
+                  {logging === "email_fallback" ? "logging..." : "✓ I used email fallback"}
                 </button>
               </div>
+              <p className="rnote">
+                Calls are the default. Voicemail still counts. Email/contact form is the fallback if
+                you cannot call.
+              </p>
               {error && <p className="confirmed errorline">{error}</p>}
               {confirmed && (
                 <p className="confirmed">
-                  logged{confirmed.source === "local" ? " on this browser" : ""} — your action{" "}
+                  logged {actionKindLabel(confirmedKind)}
+                  {confirmed.source === "local" ? " on this browser" : ""} — your action{" "}
                   <b>#{confirmed.rank.toLocaleString()}</b>. thank you for adding your voice. tell a
                   friend and the count climbs.
                 </p>
@@ -116,9 +137,8 @@ export default function ActionResult({
           <div className="secondarybody">
             <p className="rv">
               This recommendation uses the current OII state action pack, official state links, and
-              public AI-legislation snapshot. The public path stays simple: copy the message, send
-              it through the official page above, and use the receipts here only if you want to
-              verify the recommendation.
+              public AI-legislation snapshot. The public path stays simple: find the official office,
+              make the call, and use the receipts here only if you want to verify the recommendation.
             </p>
             {aiSnapshot && (
               <p className="rv">
@@ -167,10 +187,10 @@ export default function ActionResult({
                   <a
                     className="sourcelink"
                     href={source.url}
-                  key={source.label}
-                  rel="noreferrer"
-                  target="_blank"
-                >
+                    key={source.label}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <b>{displayLinkLabel(source.label)}</b>
                     <span>{displayLinkNote(source.label, source.note)}</span>
                   </a>
@@ -204,4 +224,11 @@ function displayLinkNote(label: string, note: string) {
     return "Used by OII to verify state policy context. You do not need this to take the action.";
   }
   return note;
+}
+
+function actionKindLabel(kind: ActionKind | null) {
+  if (kind === "call") return "call";
+  if (kind === "voicemail") return "voicemail";
+  if (kind === "email_fallback") return "email fallback";
+  return "action";
 }

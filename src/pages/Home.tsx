@@ -41,12 +41,12 @@ export default function Home() {
           <p className="subcopy">
             New state laws could put local AI behind a license — turning open models into something
             you need permission to use.{" "}
-            <b>Choose your state. Copy the message. Send it to the right office. Done.</b>
+            <b>Choose your state. Find who to call. Read the script. Log the call.</b>
           </p>
           <Picker onGo={go} />
           <div className="launchstat">
             <b>50 states</b>
-            <span className="statlabel">one recommended action per state</span>
+            <span className="statlabel">one call-first action per state</span>
             <span className="liveline">
               <span className="livedot" /> sources available beneath each action
             </span>
@@ -120,8 +120,9 @@ export default function Home() {
             <p className="idx">→ now</p>
             <p className="big">Start with your state.</p>
             <p className="body">
-              Choose any state and get one useful action. State is enough to start. ZIP only matters
-              when you want exact representatives.
+              Choose any state and get one useful call script. State is enough to start. The
+              official lookup may ask for your address to find exact legislators; OII does not store
+              it.
             </p>
             <div className="endact">
               <Picker cta="Show my action →" onGo={go} />

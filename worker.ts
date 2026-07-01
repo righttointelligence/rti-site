@@ -66,7 +66,7 @@ const VALID_STATES = new Set([
   "WI",
   "WY",
 ]);
-const VALID_ACTIONS = new Set(["call", "email"]);
+const VALID_ACTIONS = new Set(["call", "voicemail", "email_fallback"]);
 
 function json(body: unknown, init?: ResponseInit): Response {
   return new Response(JSON.stringify(body), {

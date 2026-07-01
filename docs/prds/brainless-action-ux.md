@@ -7,10 +7,10 @@ Status: implementation contract
 
 1. A visitor should not be asked to research bills, search legislation, read policy pages, or decide which moving bill matters before taking action.
 2. Selecting a state must produce one complete action packet:
-   - one recommended action
+   - one recommended call action
    - one exact ask
-   - one copyable message
-   - one official contact destination
+   - one short call script
+   - one official lookup for who to call
    - one confirmation/logging loop
 3. The site must keep source credibility, but source detail belongs below the action as secondary trust/proof, not as the primary task.
 4. The site must not collect personal information for the default action path. No name, email, ZIP, address, IP, or user agent storage.
@@ -24,10 +24,10 @@ The current card exposes OII's research workflow as the citizen workflow. That i
 The citizen workflow should be:
 
 1. Choose state.
-2. Copy one message.
-3. Open one official contact page.
-4. Send the message.
-5. Mark the action done.
+2. Open the official state lookup.
+3. Call the listed state lawmaker office.
+4. Read the short call script.
+5. Log whether they called, left voicemail, or used email fallback.
 
 Research context still matters, but it should answer "why this action?" after the user already has the action. It should not become the action.
 
@@ -39,26 +39,31 @@ Keep the current hero and state picker. Tighten the promise around one action:
 
 > Choose your state. Copy the message. Send it to the right office. Done.
 
+Current call-first promise:
+
+> Choose your state. Find who to call. Read the script. Log the call.
+
 ### State Action Card
 
 The visible card should render these sections in this order:
 
 1. `do this now`
    - A single human sentence, for example:
-     `Send one message to your state lawmakers asking them to protect lawful local AI from licensing or preclearance.`
+     `Call your state lawmakers and ask them to protect lawful local AI from licensing or preclearance.`
 2. `why this state`
    - One to two sentences of context based on the state snapshot.
    - No instructions to search, read, or inspect bills.
 3. `the ask`
    - Use the state's existing ask, lightly normalized.
-4. `1 / copy this message`
-   - Existing copy button and script.
-5. `2 / open the official contact page`
+4. `1 / find who to call`
    - One prominent outbound link.
-   - Prefer official state legislator lookup or the highest-confidence official action portal.
-   - The button text should be action-oriented, for example `Open official contact page`.
-6. `3 / mark it done`
-   - One button: `I sent it`.
+   - Prefer official state legislator lookup.
+   - The button text should be action-oriented, for example `Find who to call`.
+5. `2 / say this on the call`
+   - Short copyable call script.
+   - Make clear the script is for a call or voicemail, not a copy-paste blast.
+6. `3 / log what happened`
+   - Buttons: `I called`, `I left voicemail`, `I used email fallback`.
 
 ### Secondary Trust Layer
 
@@ -86,7 +91,7 @@ Output:
 - `ask`
 - `script`
 
-The default copied script should not require name, city, or ZIP placeholders. Use a simplified opener such as:
+The default call script should not require name, city, or ZIP placeholders. Use a simplified opener such as:
 
 > Hi, I live in California.
 
@@ -94,13 +99,9 @@ If the official destination asks for constituent details, that happens on the of
 
 Target selection:
 
-1. If a state has a special time-sensitive official portal, use it:
-   - Colorado: Colorado AG pre-rulemaking comment form.
-   - Texas: Texas legislator lookup.
-   - California: California legislator lookup.
-2. Otherwise prefer an official state legislator lookup/contact route.
-3. If no clear legislator lookup exists, use the official state government portal or governor contact route.
-4. Never make bill search the primary target.
+1. Prefer an official state legislator lookup/contact route because state alone cannot identify exact districts.
+2. If no clear legislator lookup exists, use the official state government portal or governor contact route.
+3. Never make bill search the primary target.
 
 ## Copy Rules
 
@@ -129,8 +130,9 @@ Banned public-action phrasing in the visible primary flow:
 Preferred phrasing:
 
 - `No policy homework required.`
-- `We picked the first useful action for you.`
-- `Send this message to the official state contact page.`
+- `Calls are the default. Voicemail still counts.`
+- `Find who to call through the official state lookup.`
+- `Use this as a call script, not a copy-paste blast.`
 - `Sources are below if you want the receipts.`
 
 ## Acceptance Proof
@@ -138,9 +140,9 @@ Preferred phrasing:
 The run is complete when:
 
 1. The selected-state card no longer displays instructions to search/read/check bills in the primary flow.
-2. California, Colorado, Texas, and one low-activity state each show one official primary contact destination.
-3. The copy button still copies the right state script.
-4. The single confirmation button still logs locally in development.
+2. California, Colorado, Texas, and one low-activity state each show one official lookup for who to call.
+3. The copy button still copies the short call script.
+4. The call, voicemail, and email-fallback confirmation buttons still log locally in development.
 5. Source/provenance links still exist, but are secondary/collapsed.
 6. `bun run build` passes.
 7. Browser smoke checks show the homepage and selected-state action card without layout breakage.

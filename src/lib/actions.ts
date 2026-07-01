@@ -1,4 +1,4 @@
-export type ActionKind = "call" | "email";
+export type ActionKind = "call" | "voicemail" | "email_fallback";
 
 export type ActionLogResult = {
   rank: number;

@@ -5,7 +5,8 @@ import { STATE_OFFICIAL_LINKS } from "../data/state-official-links";
 
 // One complete, brainless action packet derived from existing state data.
 // The visitor never has to research, search, or choose a bill — the helper
-// picks the first useful official destination and a ready-to-send message.
+// sends them to the official state lookup for the strongest simple action:
+// a constituent phone call.
 export type PrimaryAction = {
   headline: string;
   context: string;
@@ -16,7 +17,7 @@ export type PrimaryAction = {
   targetNote: string;
 };
 
-type TargetKind = "ag" | "legislator" | "portal";
+type TargetKind = "legislator" | "portal";
 
 type Target = {
   label: string;
@@ -25,41 +26,16 @@ type Target = {
   kind: TargetKind;
 };
 
-// Time-sensitive official portals that beat the default legislator lookup.
-const SPECIAL_TARGETS: Record<string, Target> = {
-  CO: {
-    label: "Colorado Attorney General comment form",
-    url: "https://coag.gov/ai/automated-decision-making-technology-act-and-chatbot-safety-act-form/",
-    kind: "ag",
-    note: "Official Colorado Attorney General pre-rulemaking comment form for the ADMT and Chatbot Safety Acts.",
-  },
-  TX: {
-    label: "Texas legislator lookup",
-    url: "https://wrm.capitol.texas.gov/home",
-    kind: "legislator",
-    note: "Official Texas Legislature who-represents-me lookup.",
-  },
-  CA: {
-    label: "California legislator lookup",
-    url: "https://findyourrep.legislature.ca.gov/",
-    kind: "legislator",
-    note: "Official California Legislature legislator lookup.",
-  },
-};
-
-// Target selection: special portal first, then official legislator lookup,
-// then the state government portal, then governor contact. Never a bill search.
+// Target selection: official legislator lookup first, then the state government
+// portal, then governor contact. Never a bill search.
 function selectTarget(state: StateAction): Target {
-  const special = SPECIAL_TARGETS[state.abbr];
-  if (special) return special;
-
   const lookup = STATE_POLICY_LINKS[state.abbr]?.legislatorLookup;
   if (lookup?.url) {
     return {
       label: `${state.name} legislator lookup`,
       url: lookup.url,
       kind: "legislator",
-      note: lookup.note,
+      note: "Use the official lookup to find your state lawmakers. Enter any address details there, not on OII.",
     };
   }
 
@@ -81,32 +57,23 @@ function selectTarget(state: StateAction): Target {
   };
 }
 
-function buildHeadline(state: StateAction, target: Target): string {
-  if (target.kind === "ag") {
-    return `Send one message to the ${state.name} Attorney General asking them to keep lawful local AI out of licensing or preclearance rules.`;
-  }
-  return `Send one message to your ${state.name} lawmakers asking them to protect lawful local AI from licensing or preclearance.`;
+function buildHeadline(state: StateAction): string {
+  return `Call your ${state.name} state lawmakers and ask them to protect lawful local AI from licensing or preclearance.`;
 }
 
 // One to two sentences of "why this state" — plain facts, no homework verbs.
 function buildContext(state: StateAction, snapshot?: StateAiSnapshot): string {
   if (snapshot && snapshot.activeBills > 0) {
-    return `${state.name} has live AI legislation moving right now, so adding a lawful-local-AI safe harbor while the language is still open is the useful move.`;
+    return `${state.name} has live AI legislation moving right now. A real constituent call is the clearest simple signal that lawmakers should protect lawful local AI while the language is still open.`;
   }
   if (snapshot && snapshot.enactedBills > 0) {
-    return `${state.name} has already enacted AI-related law, so the useful move is keeping lawful local AI protected as those rules get implemented.`;
+    return `${state.name} has already enacted AI-related law. Calls now help keep lawful local AI protected as those rules get implemented and future bills get written.`;
   }
-  return `${state.name} has not moved a broad AI bill yet, which makes an early ask to protect lawful local AI especially useful.`;
+  return `${state.name} has not moved a broad AI bill yet. Early constituent calls make it easier to protect lawful local AI before a licensing framework appears.`;
 }
 
-// Reuse the state's vetted message body but drop the constituent-detail opener
-// so the default copy needs no name, city, or ZIP.
-function simplifyScript(state: StateAction): string {
-  const paragraphs = state.script.split("\n\n");
-  const body = paragraphs.slice(1).join("\n\n").trim();
-  const opener = `Hi, I live in ${state.name}.`;
-  const composed = body ? `${opener}\n\n${body}` : opener;
-  return composed.replace(/\s*\[(?:NAME|CITY|ZIP)\]/g, "");
+function buildCallScript(state: StateAction): string {
+  return `Hi, I live in ${state.name}. I'm calling to ask the member to protect lawful local and open-source AI.\n\nPeople should not need a license or platform approval just to run an open model on their own computer. Please support clear safe-harbor language for lawful local AI ownership, research, model modification, open-source publication, and local execution.\n\nCan you tell me where the member stands on licensing local AI?`;
 }
 
 export function derivePrimaryAction(
@@ -115,10 +82,10 @@ export function derivePrimaryAction(
 ): PrimaryAction {
   const target = selectTarget(state);
   return {
-    headline: buildHeadline(state, target),
+    headline: buildHeadline(state),
     context: buildContext(state, snapshot),
     ask: state.ask.trim(),
-    script: simplifyScript(state),
+    script: buildCallScript(state),
     targetLabel: target.label,
     targetUrl: target.url,
     targetNote: target.note,
