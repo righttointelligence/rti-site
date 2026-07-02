@@ -366,6 +366,23 @@ h1 {
   background: #fff;
   padding: 22px 24px;
 }
+/* action-page signature catch — for people who skipped the hero signup */
+.actsignup {
+  margin-top: 40px;
+  border: 1.5px solid var(--accent);
+  background: #fff;
+  padding: 22px 24px;
+  max-width: 640px;
+}
+.actsignup .signuprow {
+  margin-top: 14px;
+}
+.actsignuplede {
+  font-size: 14.5px;
+  color: var(--gray);
+  line-height: 1.65;
+  margin: 8px 0 0;
+}
 .signupdonehead {
   font-family: var(--display);
   font-weight: 700;

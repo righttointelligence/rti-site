@@ -7,6 +7,25 @@ export type SignupResult = {
 };
 
 const LOCAL_KEY = "rti:local-signup-count";
+const SIGNED_KEY = "rti:signed";
+
+// Remembered per-browser so we only ask people to sign once, wherever they
+// entered the funnel (hero stepper or action page).
+export function hasSigned(): boolean {
+  try {
+    return window.localStorage.getItem(SIGNED_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function markSigned(): void {
+  try {
+    window.localStorage.setItem(SIGNED_KEY, "1");
+  } catch {
+    /* private mode — the worst case is we ask again */
+  }
+}
 
 function localSignup(): SignupResult {
   const next = Number.parseInt(window.localStorage.getItem(LOCAL_KEY) ?? "0", 10) + 1;
@@ -34,6 +53,7 @@ export async function submitSignup(input: {
       throw new Error(typeof body?.error === "string" ? body.error : "signup_failed");
     }
     if (typeof body?.total !== "number") throw new Error("signup_failed");
+    markSigned();
     return { total: body.total, source: "api" };
   } catch (error) {
     if (error instanceof TypeError) return localSignup(); // network-less dev

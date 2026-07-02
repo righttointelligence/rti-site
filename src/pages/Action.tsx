@@ -16,6 +16,7 @@ import {
   formatCivicDataFreshness,
   type CivicDataFreshness,
 } from "../lib/civicDataFreshness";
+import ActionSignup from "../components/ActionSignup";
 
 type LookupStatus = "idle" | "locating" | "loading" | "ready" | "failed";
 
@@ -246,6 +247,8 @@ export default function Action() {
           )}
         </div>
         </div>
+
+        <ActionSignup stateKey={abbr} stateName={state.name} />
 
         <details className="secondary">
           <summary>why this recommendation + sources</summary>

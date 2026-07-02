@@ -236,6 +236,36 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
   return json({ ok: true, total: await countTotal(env) });
 }
 
+// Aggregate counts per state — what goes in front of a lawmaker:
+// "this many of your constituents signed, this many picked up the phone."
+// Aggregates only; no email or zip ever leaves the database.
+async function handleStats(env: Env): Promise<Response> {
+  const [signups, calls] = await Promise.all([
+    env.ACTIONS_DB.prepare(
+      "SELECT state_key AS state, COUNT(*) AS n FROM signups GROUP BY state_key",
+    ).all<{ state: string; n: number }>(),
+    env.ACTIONS_DB.prepare(
+      "SELECT state_key AS state, COUNT(*) AS n FROM actions GROUP BY state_key",
+    ).all<{ state: string; n: number }>(),
+  ]);
+  const states: Record<string, { signups: number; calls: number }> = {};
+  for (const row of signups.results ?? []) {
+    states[row.state] = { signups: row.n, calls: 0 };
+  }
+  for (const row of calls.results ?? []) {
+    states[row.state] = { ...(states[row.state] ?? { signups: 0, calls: 0 }), calls: row.n };
+  }
+  let totalSignups = 0, totalCalls = 0;
+  for (const s of Object.values(states)) {
+    totalSignups += s.signups;
+    totalCalls += s.calls;
+  }
+  return json(
+    { ok: true, totals: { signups: totalSignups, calls: totalCalls }, states },
+    { headers: { "cache-control": "public, max-age=60" } },
+  );
+}
+
 async function handleCount(env: Env): Promise<Response> {
   return json(
     { ok: true, total: await countTotal(env) },
@@ -505,6 +535,9 @@ export default {
     }
     if (url.pathname === "/api/count" && request.method === "GET") {
       return handleCount(env);
+    }
+    if (url.pathname === "/api/stats" && request.method === "GET") {
+      return handleStats(env);
     }
     return env.ASSETS.fetch(request);
   },
