@@ -2,6 +2,9 @@ type Env = {
   ACTIONS_DB: D1Database;
   ASSETS: { fetch(request: Request): Promise<Response> };
   ACTION_COUNT_OFFSET?: string;
+  // Optional Turnstile secret (wrangler secret put TURNSTILE_SECRET).
+  // When present, /api/signups requires a valid Turnstile token.
+  TURNSTILE_SECRET?: string;
 };
 
 type D1Database = {
@@ -156,6 +159,88 @@ async function handleActionLog(request: Request, env: Env): Promise<Response> {
   const offset = Number.parseInt(env.ACTION_COUNT_OFFSET ?? "0", 10) || 0;
   const total = offset + (row?.count ?? 0);
   return json({ ok: true, rank: total, total });
+}
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const ZIP_RE = /^\d{5}(-\d{4})?$/;
+
+async function verifyTurnstile(secret: string, token: string, ip: string | null): Promise<boolean> {
+  const form = new FormData();
+  form.set("secret", secret);
+  form.set("response", token);
+  if (ip) form.set("remoteip", ip);
+  const res = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+    method: "POST",
+    body: form,
+  });
+  const body = (await res.json().catch(() => null)) as { success?: boolean } | null;
+  return body?.success === true;
+}
+
+async function countTotal(env: Env): Promise<number> {
+  const row = await env.ACTIONS_DB.prepare(
+    "SELECT (SELECT COUNT(*) FROM actions) + (SELECT COUNT(*) FROM signups) AS count",
+  ).first<{ count: number }>();
+  const offset = Number.parseInt(env.ACTION_COUNT_OFFSET ?? "0", 10) || 0;
+  return offset + (row?.count ?? 0);
+}
+
+async function handleSignup(request: Request, env: Env): Promise<Response> {
+  let body: {
+    email?: unknown;
+    stateKey?: unknown;
+    zip?: unknown;
+    website?: unknown; // honeypot — humans never see this field
+    turnstileToken?: unknown;
+  };
+  try {
+    body = (await request.json()) as typeof body;
+  } catch {
+    return json({ error: "invalid_json" }, { status: 400 });
+  }
+
+  // Honeypot: bots autofill hidden fields; drop silently with a fake success.
+  if (typeof body.website === "string" && body.website.length > 0) {
+    return json({ ok: true, total: await countTotal(env) });
+  }
+
+  const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+  const stateKey = typeof body.stateKey === "string" ? body.stateKey : "";
+  const zipRaw = typeof body.zip === "string" ? body.zip.trim() : "";
+  if (!EMAIL_RE.test(email) || email.length > 254 || !VALID_STATES.has(stateKey)) {
+    return json({ error: "invalid_signup" }, { status: 400 });
+  }
+  const zip = zipRaw === "" ? null : ZIP_RE.test(zipRaw) ? zipRaw : undefined;
+  if (zip === undefined) {
+    return json({ error: "invalid_zip" }, { status: 400 });
+  }
+
+  if (env.TURNSTILE_SECRET) {
+    const token = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
+    const ip = request.headers.get("cf-connecting-ip");
+    if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) {
+      return json({ error: "verification_failed" }, { status: 403 });
+    }
+  }
+
+  const verifyToken = crypto.randomUUID();
+  await env.ACTIONS_DB.prepare(
+    `INSERT INTO signups (email, state_key, zip, verify_token, created_at)
+     VALUES (?, ?, ?, ?, datetime('now'))
+     ON CONFLICT(email) DO UPDATE SET state_key = excluded.state_key,
+       zip = COALESCE(excluded.zip, signups.zip)`,
+  )
+    .bind(email, stateKey, zip, verifyToken)
+    .run();
+
+  return json({ ok: true, total: await countTotal(env) });
+}
+
+async function handleCount(env: Env): Promise<Response> {
+  return json(
+    { ok: true, total: await countTotal(env) },
+    { headers: { "cache-control": "public, max-age=30" } },
+  );
 }
 
 async function handleLawmakerLookup(request: Request, env: Env): Promise<Response> {
@@ -411,6 +496,15 @@ export default {
     }
     if (url.pathname === "/api/lawmakers" && request.method === "OPTIONS") {
       return new Response(null, { status: 204 });
+    }
+    if (url.pathname === "/api/signups" && request.method === "POST") {
+      return handleSignup(request, env);
+    }
+    if (url.pathname === "/api/signups" && request.method === "OPTIONS") {
+      return new Response(null, { status: 204 });
+    }
+    if (url.pathname === "/api/count" && request.method === "GET") {
+      return handleCount(env);
     }
     return env.ASSETS.fetch(request);
   },

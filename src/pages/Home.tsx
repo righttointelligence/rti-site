@@ -4,8 +4,11 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import NeuralBoot from "../components/NeuralBoot";
 import Picker from "../components/Picker";
+import SignupForm from "../components/SignupForm";
+import LiveCounter from "../components/LiveCounter";
 import USMap from "../components/USMap";
 import { slugForAbbr } from "../lib/stateSlug";
+import { fetchCount } from "../lib/signup";
 
 const BEATS = [
   {
@@ -99,6 +102,17 @@ export default function Home() {
   const navigate = useNavigate();
   const isMobile = useIsMobile();
   const go = (abbr: string) => navigate(`/action/${slugForAbbr(abbr)}`);
+  const [total, setTotal] = useState<number | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    fetchCount().then((n) => {
+      if (alive && n !== null) setTotal(n);
+    });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   // reveal the manifesto beats on scroll (matches the prototype)
   useEffect(() => {
@@ -126,14 +140,15 @@ export default function Home() {
           <p className="subcopy">
             New state laws could put local AI behind a license — turning open models into something
             you need permission to use.{" "}
-            <b>Choose your state. Find exact offices. Read the script. Log the call.</b>
+            <b>Sign in 10 seconds. Then a two-minute call your state office actually hears.</b>
           </p>
           {isMobile && (
             <div className="heroboot" aria-hidden="true">
               <NeuralBoot className="herobootnet" opts={MOBILE_BOOT_OPTS} />
             </div>
           )}
-          <Picker onGo={go} />
+          <SignupForm onTotal={setTotal} />
+          <LiveCounter total={total} />
         </div>
       </header>
 
@@ -158,7 +173,7 @@ export default function Home() {
           </section>
         ))}
 
-        <section className="beat pad endbeat">
+        <section className="beat pad endbeat" id="start">
           <div className="endgrid">
             <div className="endtext">
               <p className="idx">→ now</p>
