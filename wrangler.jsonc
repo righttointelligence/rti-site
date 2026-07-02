@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "free-intelligence",
+  "name": "rti-site",
   "compatibility_date": "2026-06-24",
   "account_id": "2a6651dc655dcafe6ab174d54987d644",
   "routes": [

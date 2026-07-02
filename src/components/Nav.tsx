@@ -9,7 +9,7 @@ export default function Nav({ onHome = true }: { onHome?: boolean }) {
       <div className="row pad">
         <Link to="/" className="brandmini">
           <img className="glyph" src="/oii-logo.png" alt="" />
-          <span>Open Intelligence Institute</span>
+          <span>Right to Intelligence</span>
         </Link>
         <span className="navlinks">
           <a href={href("about")}>About</a>

@@ -1,9 +1,9 @@
-# OII Civic Lookup Data
+# RTI Civic Lookup Data
 
 This directory is the start of the owned lookup dataset for exact state lawmaker routing.
 
 The goal is to stop spending a live Open States API request for every visitor. Open States remains
-the upstream source and verification oracle, but OII should own the runtime data it serves.
+the upstream source and verification oracle, but RTI should own the runtime data it serves.
 
 ## Current Dataset
 

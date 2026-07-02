@@ -1,6 +1,6 @@
-# Free Intelligence — Open Intelligence Institute
+# Right to Intelligence
 
-Landing site for the Open Intelligence Institute: protect the right to run local AI.
+Landing site for the Right to Intelligence: protect the right to run local AI.
 
 Stack: **React 19 + Vite 7 + Tailwind v4 + react-router**, deployed to **Cloudflare Workers static assets** with **Cloudflare D1** for no-PII action logs.
 

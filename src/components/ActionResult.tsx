@@ -146,7 +146,7 @@ export default function ActionResult({
               )}
               {lookupError && <p className="rnote errorline">{lookupError}</p>}
               <p className="rnote">
-                Your browser asks first. OII uses your location once to find public state
+                Your browser asks first. RTI uses your location once to find public state
                 lawmakers and does not save it. If location fails or you prefer not to share it, use
                 the official lookup button.
               </p>
@@ -210,7 +210,7 @@ export default function ActionResult({
           <summary>why this recommendation</summary>
           <div className="secondarybody">
             <p className="rv">
-              This recommendation uses the current OII state action pack, official state links, and
+              This recommendation uses the current RTI state action pack, official state links, and
               public AI-legislation snapshot. The public path stays simple: find the official office,
               make the call, and use the receipts here only if you want to verify the recommendation.
             </p>
@@ -295,7 +295,7 @@ function displayLinkLabel(label: string) {
 
 function displayLinkNote(label: string, note: string) {
   if (/search|bill status|bills?/i.test(`${label} ${note}`)) {
-    return "Used by OII to verify state policy context. You do not need this to take the action.";
+    return "Used by RTI to verify state policy context. You do not need this to take the action.";
   }
   return note;
 }

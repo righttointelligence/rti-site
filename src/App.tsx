@@ -17,7 +17,7 @@ export default function App() {
                 Not a chatbot account. Not a rented API. A model you can run on your own machine,
                 inspect, repair, improve, and use without asking a platform to stay online.
               </p>
-              <p>That is the line OII exists to protect.</p>
+              <p>That is the line RTI exists to protect.</p>
             </Template>
           }
         />
@@ -46,7 +46,7 @@ export default function App() {
                 source-verified draft pack with official routes, provenance, and a plain-English ask.
               </p>
               <p>
-                OII does not need your name, address, or exact location to show the first action.
+                RTI does not need your name, address, or exact location to show the first action.
               </p>
             </Template>
           }

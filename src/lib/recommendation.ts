@@ -35,7 +35,7 @@ function selectTarget(state: StateAction): Target {
       label: `${state.name} legislator lookup`,
       url: lookup.url,
       kind: "legislator",
-      note: "Use the official lookup to find your state lawmakers. Enter any address details there, not on OII.",
+      note: "Use the official lookup to find your state lawmakers. Enter any address details there, not on RTI.",
     };
   }
 

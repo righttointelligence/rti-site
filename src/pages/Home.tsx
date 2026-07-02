@@ -15,7 +15,7 @@ const BEATS = [
     body: (
       <>
         Not a chatbot account. Not a rented API. A model you can run on your own machine, inspect,
-        repair, improve, and use without asking a platform to stay online. That is the line OII
+        repair, improve, and use without asking a platform to stay online. That is the line RTI
         exists to protect.
       </>
     ),
@@ -130,7 +130,7 @@ export default function Home() {
               <p className="big">Start with your state.</p>
               <p className="body">
                 Choose any state and get one useful call script. State is enough to start. The
-                official lookup may ask for your address to find exact legislators; OII does not
+                official lookup may ask for your address to find exact legislators; RTI does not
                 store it.
               </p>
               <div className="endact">

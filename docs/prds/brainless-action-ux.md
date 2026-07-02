@@ -19,7 +19,7 @@ Status: implementation contract
 
 ## Product Decision
 
-The current card exposes OII's research workflow as the citizen workflow. That is the wrong layer.
+The current card exposes RTI's research workflow as the citizen workflow. That is the wrong layer.
 
 The citizen workflow should be:
 
@@ -95,7 +95,7 @@ The default call script should not require name, city, or ZIP placeholders. Use 
 
 > Hi, I live in California.
 
-If the official destination asks for constituent details, that happens on the official site. OII should say plainly that it does not collect or see that information.
+If the official destination asks for constituent details, that happens on the official site. RTI should say plainly that it does not collect or see that information.
 
 Target selection:
 

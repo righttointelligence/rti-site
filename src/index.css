@@ -17,7 +17,7 @@
 }
 
 /* ======================================================================
-   Open Intelligence Institute — homepage styles (ported 1:1 from the
+   Right to Intelligence — homepage styles (ported 1:1 from the
    canonical prototype). Unlayered so they always win over Tailwind utilities.
    ====================================================================== */
 :root {
@@ -648,7 +648,7 @@ footer {
 }
 
 /* ======================================================================
-   Two-column beats — text + generated OII visual, alternating sides.
+   Two-column beats — text + generated RTI visual, alternating sides.
    ====================================================================== */
 .beatgrid {
   display: grid;

@@ -190,7 +190,7 @@ export default function Action() {
           )}
           {lookupError && <p className="actnote errorline">{lookupError}</p>}
           <p className="actnote">
-            Your browser asks first. OII uses your location once to find public state lawmakers and
+            Your browser asks first. RTI uses your location once to find public state lawmakers and
             does not save it.
           </p>
         </div>
@@ -279,7 +279,7 @@ function ActHeader() {
     <header className="actbar pad">
       <Link to="/" className="brandmini">
         <img className="glyph" src="/oii-logo.png" alt="" />
-        <span>Open Intelligence Institute</span>
+        <span>Right to Intelligence</span>
       </Link>
       <Link to="/#top" className="actbarlink">
         Change state

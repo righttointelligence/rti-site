@@ -1,10 +1,10 @@
-# Open Intelligence Institute Brief
+# Right to Intelligence Brief
 
 Date: 2026-07-01
 
 ## One-Sentence Summary
 
-Open Intelligence Institute exists to protect the lawful right to download, own, run, study, modify, publish, and locally execute open-weight AI models without a government license or platform permission.
+Right to Intelligence exists to protect the lawful right to download, own, run, study, modify, publish, and locally execute open-weight AI models without a government license or platform permission.
 
 ## Core Message
 
@@ -334,7 +334,7 @@ Do not expand scope into accounts, dashboards, volunteer CRM, or heavy policy to
 
 ## Short Copy/Paste Version
 
-Open Intelligence Institute protects the lawful right to run local and open-weight AI. The core ask is simple: people should not need a license, preclearance, or platform approval just to download, own, run, study, modify, publish, or locally execute an open AI model on their own hardware. Laws should target harmful conduct such as fraud, cybercrime, CSAM, harassment, nonconsensual intimate deepfakes, discrimination, and sabotage, not possession or local execution of a general-purpose tool.
+Right to Intelligence protects the lawful right to run local and open-weight AI. The core ask is simple: people should not need a license, preclearance, or platform approval just to download, own, run, study, modify, publish, or locally execute an open AI model on their own hardware. Laws should target harmful conduct such as fraud, cybercrime, CSAM, harassment, nonconsensual intimate deepfakes, discrimination, and sabotage, not possession or local execution of a general-purpose tool.
 
 The website turns that message into a two-minute constituent action. A visitor chooses their state, optionally uses browser location to find exact state lawmakers, reads a short call script, taps to call, and marks whether they called, left voicemail, or used email fallback. The site stores only self-reported action rows in Cloudflare D1: state, action type, and timestamp. It does not store names, emails, ZIPs, addresses, location, IP, or user agent.
 

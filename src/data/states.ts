@@ -4,7 +4,7 @@ import { STATE_POLICY_LINKS } from "./state-policy-links";
 
 // State action data is split into two layers:
 // 1. every-state baseline from the 50-state starter matrix;
-// 2. deeper source-verified draft packs for states where OII has current bill/action research.
+// 2. deeper source-verified draft packs for states where RTI has current bill/action research.
 export type Priority = "high" | "medium" | "baseline";
 export type Tier = "A" | "B" | "C";
 
@@ -200,11 +200,11 @@ function officialDirectorySources(abbr: string, name: string): SourceLink[] {
 function baselineSources(abbr: string, name: string): SourceLink[] {
   return [
     {
-      label: "OII 50-state starter matrix",
+      label: "RTI 50-state starter matrix",
       note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/state_matrix.csv",
     },
     {
-      label: "OII starter action list",
+      label: "RTI starter action list",
       note: "Local source file: projects/local-ai-freedom/source-material/starter-kit/data/actions.csv",
     },
     ...policySources(abbr),
@@ -221,7 +221,7 @@ function priorityForTier(tier: Tier): Priority {
 function buildBaselineFirst(abbr: string, name: string) {
   const snapshot = STATE_AI_SNAPSHOTS[abbr];
   if (!snapshot) {
-    return `${name} has a baseline OII action pack with official contact routes. The useful move is to ask state officials to protect lawful local AI before future rules are written around cloud labs and large platforms.`;
+    return `${name} has a baseline RTI action pack with official contact routes. The useful move is to ask state officials to protect lawful local AI before future rules are written around cloud labs and large platforms.`;
   }
 
   if (snapshot.activeBills >= 10) {
@@ -323,7 +323,7 @@ STATES.CO = {
     {
       label: "Colorado AG pre-rulemaking comment form",
       url: "https://coag.gov/ai/automated-decision-making-technology-act-and-chatbot-safety-act-form/",
-      note: "Immediate OII action window for ADMT and Chatbot Safety Acts.",
+      note: "Immediate RTI action window for ADMT and Chatbot Safety Acts.",
     },
     {
       label: "Find your Colorado legislator",
@@ -434,7 +434,7 @@ STATES.NY = {
   prio: "high",
   reviewStatus: "source-verified draft",
   first:
-    "New York has already moved frontier-model AI rules through the legislature, including the RAISE Act and a 2026 chapter amendment. The OII ask is not to erase enforcement. It is to make sure future New York AI rules do not turn ordinary local model ownership, research, open-source work, or local execution into permissioned activity.",
+    "New York has already moved frontier-model AI rules through the legislature, including the RAISE Act and a 2026 chapter amendment. The RTI ask is not to erase enforcement. It is to make sure future New York AI rules do not turn ordinary local model ownership, research, open-source work, or local execution into permissioned activity.",
   ask:
     "Ask New York offices to add explicit lawful local/open AI safe-harbor language to future AI bills and implementation guidance: no license, registration, or preclearance just to download, own, run, study, modify, or share open models.",
   script:
@@ -514,7 +514,7 @@ STATES.MA = {
     {
       label: "Massachusetts 194th General Court bill search",
       url: "https://malegislature.gov/Bills/Search",
-      note: "Official bill-search route; OII checked the current 194th General Court search page on 2026-06-30.",
+      note: "Official bill-search route; RTI checked the current 194th General Court search page on 2026-06-30.",
     },
     {
       label: "Massachusetts Find My Legislator",
@@ -554,7 +554,7 @@ STATES.PA = {
     {
       label: "Pennsylvania Bills & Resolutions search",
       url: "https://www.palegis.us/legislation/bills",
-      note: "Official General Assembly page; OII checked current-session keyword, sponsor, committee, and bill-number search routes on 2026-06-30.",
+      note: "Official General Assembly page; RTI checked current-session keyword, sponsor, committee, and bill-number search routes on 2026-06-30.",
     },
     {
       label: "Pennsylvania Legislation home",
@@ -619,7 +619,7 @@ STATES.MN = {
   prio: "high",
   reviewStatus: "source-verified draft",
   first:
-    "Minnesota has both active AI bills and enacted AI-related law. Official Revisor records show HF1606, an AI nudification bill, approved by the governor on 2026-05-07. The OII move is to keep abuse enforcement serious while preventing broader AI rules from requiring permission for lawful local/open AI.",
+    "Minnesota has both active AI bills and enacted AI-related law. Official Revisor records show HF1606, an AI nudification bill, approved by the governor on 2026-05-07. The RTI move is to keep abuse enforcement serious while preventing broader AI rules from requiring permission for lawful local/open AI.",
   ask:
     "Ask Minnesota legislators to preserve lawful local/open AI safe harbors in any AI safety, deepfake, education, consumer-protection, public-sector, labor, privacy, or automated-decision bill.",
   script:
@@ -1024,7 +1024,7 @@ STATES.NJ = {
     {
       label: "New Jersey official AI keyword search",
       url: "https://www.njleg.state.nj.us/bill-search",
-      note: "Official 2026 bill search; OII checked artificial intelligence keyword results through the legislature's public search API on 2026-06-30.",
+      note: "Official 2026 bill search; RTI checked artificial intelligence keyword results through the legislature's public search API on 2026-06-30.",
     },
     {
       label: "New Jersey A1170",
@@ -1049,7 +1049,7 @@ STATES.IL = {
   prio: "high",
   reviewStatus: "source-verified draft",
   first:
-    "Illinois is one of the highest-volume active AI bill states. Official 104th General Assembly records show a frontier AI safety bill sent to the governor, plus active work around AI systems in health insurance and AI companion products. The OII move is to keep enforcement real while making lawful local/open AI explicitly out of scope.",
+    "Illinois is one of the highest-volume active AI bill states. Official 104th General Assembly records show a frontier AI safety bill sent to the governor, plus active work around AI systems in health insurance and AI companion products. The RTI move is to keep enforcement real while making lawful local/open AI explicitly out of scope.",
   ask:
     "Ask Illinois offices to preserve clear safe harbors for lawful local model ownership, research, modification, self-hosting, and open-source publication in any frontier-model, health-insurance AI, companion AI, or automated-decision bill.",
   script:
@@ -1084,7 +1084,7 @@ STATES.IL = {
     {
       label: "Illinois current General Assembly API",
       url: "https://www.ilga.gov/API/Legislation/GetCurrentGeneralAssembly",
-      note: "Official ILGA API; OII checked the current 104th General Assembly on 2026-06-30.",
+      note: "Official ILGA API; RTI checked the current 104th General Assembly on 2026-06-30.",
     },
     {
       label: "Illinois SB315",
@@ -1104,7 +1104,7 @@ STATES.IL = {
     {
       label: "Illinois official AI search",
       url: "https://www.ilga.gov/Search?base=Legis&q=artificial%20intelligence",
-      note: "Official ILGA search route; OII checked current-session artificial intelligence results on 2026-06-30.",
+      note: "Official ILGA search route; RTI checked current-session artificial intelligence results on 2026-06-30.",
     },
   ],
 };
@@ -1299,7 +1299,7 @@ STATES.IA = {
   prio: "high",
   reviewStatus: "source-verified draft",
   first:
-    "Iowa has a live AI bill queue and an official legislature site that makes bill tracking unusually concrete: bill books, histories, daily legislation, subject indexes, amendments, fiscal notes, committees, and a find-your-legislator tool. Residents can act without waiting for OII to name every bill.",
+    "Iowa has a live AI bill queue and an official legislature site that makes bill tracking unusually concrete: bill books, histories, daily legislation, subject indexes, amendments, fiscal notes, committees, and a find-your-legislator tool. Residents can act without waiting for RTI to name every bill.",
   ask:
     "Ask Iowa legislators to protect lawful local model ownership, research, modification, self-hosting, local execution, and open-source publication in any AI, technology, education, labor, public-sector, consumer-protection, privacy, cyber, or automated-decision bill.",
   script:
