@@ -117,7 +117,12 @@ export default function Home() {
                 <p className="body">{b.body}</p>
               </div>
               <figure className="beatfig">
-                <img src={b.img} alt={b.alt} loading="lazy" style={{ maxWidth: b.imgMax ?? 400 }} />
+                <img
+                  src={b.img}
+                  alt={b.alt}
+                  loading="lazy"
+                  style={{ "--imgmax": `${b.imgMax ?? 400}px` } as React.CSSProperties}
+                />
               </figure>
             </div>
           </section>
@@ -156,7 +161,7 @@ export default function Home() {
               <a href="https://x.com/0xSero" rel="noreferrer" target="_blank">@0xSero</a>
               <a href="https://x.com/RayFernando1337" rel="noreferrer" target="_blank">@RayFernando1337</a>
             </div>
-            <a className="involvecta" href="mailto:volunteer@righttointelligence.org?subject=Open%20Intelligence%20Institute">
+            <a className="involvecta" href="mailto:volunteer@righttointelligence.org?subject=Right%20to%20Intelligence">
               volunteer@righttointelligence.org →
             </a>
           </div>
