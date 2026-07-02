@@ -1,16 +1,19 @@
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { ChevIcon } from "./icons";
 import { STATE_OPTIONS } from "../data/states";
 import { slugForAbbr } from "../lib/stateSlug";
 import { submitSignup } from "../lib/signup";
 
-// The hero's primary action, one step at a time: a single button, then your
-// email, then your state, then the bridge to the call. Each step is one ask.
-type Step = "cta" | "email" | "state" | "done";
+// The hero's primary action. The CTA stays put in the hero; tapping it opens a
+// focused modal — dimmed page behind, one ask per step: email, then state,
+// then the bridge to the call.
+type Step = "email" | "state" | "done";
 
 export default function SignupForm({ onTotal }: { onTotal?: (total: number) => void }) {
-  const [step, setStep] = useState<Step>("cta");
+  const [open, setOpen] = useState(false);
+  const [step, setStep] = useState<Step>("email");
   const [email, setEmail] = useState("");
   const [stateKey, setStateKey] = useState("");
   const [zip, setZip] = useState("");
@@ -20,8 +23,29 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
   const emailRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (step === "email") emailRef.current?.focus();
-  }, [step]);
+    if (open && step === "email") emailRef.current?.focus();
+  }, [open, step]);
+
+  // lock page scroll + close on Esc while the modal is up
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && step !== "done") setOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [open, step]);
+
+  const launch = () => {
+    setError(null);
+    if (step !== "done") setStep("email");
+    setOpen(true);
+  };
 
   const nextFromEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -62,122 +86,148 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
     }
   };
 
-  if (step === "cta") {
-    return (
-      <div className="signup">
-        <button className="cta signupcta" type="button" onClick={() => setStep("email")}>
-          Sign to protect local AI →
-        </button>
-        <p className="signupnote">
-          Ten seconds. Email + your state, nothing else.{" "}
-          <a className="actlink" href="#start">
-            Just want to call? →
-          </a>
-        </p>
-      </div>
-    );
-  }
-
-  if (step === "email") {
-    return (
-      <form className="signup" onSubmit={nextFromEmail}>
-        <p className="idx signupidx">01 / your email</p>
-        <div className="signuprow">
-          <input
-            ref={emailRef}
-            className="signupinput"
-            type="email"
-            inputMode="email"
-            autoComplete="email"
-            placeholder="you@email.com"
-            aria-label="Email address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <button className="cta signupnext" type="submit">
-            Next →
-          </button>
-        </div>
-        {error && <p className="signuperror">{error}</p>}
-        <p className="signupnote">
-          No spam, ever. Just a heads-up when your state needs you.
-        </p>
-      </form>
-    );
-  }
-
-  if (step === "state") {
-    return (
-      <form className="signup" onSubmit={finish}>
-        <p className="idx signupidx">02 / your state</p>
-        <div className="signuprow">
-          <div className="picker signupstate">
-            <select
-              aria-label="Your state"
-              value={stateKey}
-              onChange={(e) => setStateKey(e.target.value)}
-              autoFocus
-              required
+  const modal =
+    open &&
+    createPortal(
+      <div
+        className="sgoverlay"
+        role="presentation"
+        onMouseDown={(e) => {
+          if (e.target === e.currentTarget && step !== "done") setOpen(false);
+        }}
+      >
+        <div className="sgmodal" role="dialog" aria-modal="true" aria-label="Sign to protect local AI">
+          {step !== "done" && (
+            <button
+              className="sgclose"
+              type="button"
+              aria-label="Close"
+              onClick={() => setOpen(false)}
             >
-              <option value="">Pick your state</option>
-              {STATE_OPTIONS.map(([k, label]) => (
-                <option key={k} value={k}>
-                  {label}
-                </option>
-              ))}
-            </select>
-            <span className="chev">
-              <ChevIcon />
-            </span>
-          </div>
-          <input
-            className="signupinput signupzip"
-            type="text"
-            inputMode="numeric"
-            autoComplete="postal-code"
-            placeholder="Zip (optional)"
-            aria-label="Zip code (optional)"
-            value={zip}
-            onChange={(e) => setZip(e.target.value)}
-          />
+              ×
+            </button>
+          )}
+
+          {step === "email" && (
+            <form className="signup sgbody" onSubmit={nextFromEmail}>
+              <p className="idx signupidx">01 / your email</p>
+              <p className="sghead">Add your name to the count.</p>
+              <div className="signuprow">
+                <input
+                  ref={emailRef}
+                  className="signupinput"
+                  type="email"
+                  inputMode="email"
+                  autoComplete="email"
+                  placeholder="you@email.com"
+                  aria-label="Email address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+              <button className="cta signupcta" type="submit">
+                Next →
+              </button>
+              {error && <p className="signuperror">{error}</p>}
+              <p className="signupnote">No spam, ever. Just a heads-up when your state needs you.</p>
+            </form>
+          )}
+
+          {step === "state" && (
+            <form className="signup sgbody" onSubmit={finish}>
+              <p className="idx signupidx">02 / your state</p>
+              <p className="sghead">Where does your signature count?</p>
+              <div className="signuprow">
+                <div className="picker signupstate">
+                  <select
+                    aria-label="Your state"
+                    value={stateKey}
+                    onChange={(e) => setStateKey(e.target.value)}
+                    autoFocus
+                    required
+                  >
+                    <option value="">Pick your state</option>
+                    {STATE_OPTIONS.map(([k, label]) => (
+                      <option key={k} value={k}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                  <span className="chev">
+                    <ChevIcon />
+                  </span>
+                </div>
+                <input
+                  className="signupinput signupzip"
+                  type="text"
+                  inputMode="numeric"
+                  autoComplete="postal-code"
+                  placeholder="Zip (optional)"
+                  aria-label="Zip code (optional)"
+                  value={zip}
+                  onChange={(e) => setZip(e.target.value)}
+                />
+              </div>
+              {/* honeypot — visually hidden, tab-skipped; bots fill it, humans never see it */}
+              <input
+                className="signuptrap"
+                type="text"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                value={website}
+                onChange={(e) => setWebsite(e.target.value)}
+                name="website"
+              />
+              <button className="cta signupcta" type="submit" disabled={busy}>
+                {busy ? "Signing…" : "Count me in →"}
+              </button>
+              {error && <p className="signuperror">{error}</p>}
+              <p className="signupnote">
+                <button type="button" className="signupback" onClick={() => setStep("email")}>
+                  ← back
+                </button>
+                Your state is where your signature counts. Zip just sharpens it — optional.
+              </p>
+            </form>
+          )}
+
+          {step === "done" && (
+            <div className="signupdone sgdone" role="status">
+              <p className="signupdonehead">You're in. ✓</p>
+              <p className="signupdonebody">
+                Your signature just joined the count. Now the move that actually flips votes:{" "}
+                <b>a two-minute call to your state office.</b> We already wrote the script — you
+                just read it.
+              </p>
+              <Link className="cta signupdonecta" to={`/action/${slugForAbbr(stateKey)}`}>
+                Make the call →
+              </Link>
+              <p className="signupnote">
+                <button type="button" className="signupback" onClick={() => setOpen(false)}>
+                  maybe later — close
+                </button>
+              </p>
+            </div>
+          )}
         </div>
-        {/* honeypot — visually hidden, tab-skipped; bots fill it, humans never see it */}
-        <input
-          className="signuptrap"
-          type="text"
-          tabIndex={-1}
-          autoComplete="off"
-          aria-hidden="true"
-          value={website}
-          onChange={(e) => setWebsite(e.target.value)}
-          name="website"
-        />
-        <button className="cta signupcta" type="submit" disabled={busy}>
-          {busy ? "Signing…" : "Count me in →"}
-        </button>
-        {error && <p className="signuperror">{error}</p>}
-        <p className="signupnote">
-          <button type="button" className="signupback" onClick={() => setStep("email")}>
-            ← back
-          </button>
-          Your state is where your signature counts. Zip just sharpens it — optional.
-        </p>
-      </form>
+      </div>,
+      document.body,
     );
-  }
 
   return (
-    <div className="signupdone" role="status">
-      <p className="signupdonehead">You're in. ✓</p>
-      <p className="signupdonebody">
-        Your signature just joined the count. Now the move that actually flips votes:{" "}
-        <b>a two-minute call to your state office.</b> We already wrote the script — you just read
-        it.
+    <div className="signup">
+      <button className="cta signupcta" type="button" onClick={launch}>
+        {step === "done" ? "You're in ✓ — make the call →" : "Sign to protect local AI →"}
+      </button>
+      <p className="signupnote">
+        Ten seconds. Email + your state, nothing else.{" "}
+        <a className="actlink" href="#start">
+          Just want to call? →
+        </a>
       </p>
-      <Link className="cta signupdonecta" to={`/action/${slugForAbbr(stateKey)}`}>
-        Make the call →
-      </Link>
+      {modal}
     </div>
   );
 }

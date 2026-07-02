@@ -366,6 +366,97 @@ h1 {
   background: #fff;
   padding: 22px 24px;
 }
+
+/* ======================================================================
+   Signup modal — the CTA stays in the hero; the steps happen in a focused
+   card over a dimmed page. One ask per screen.
+   ====================================================================== */
+.sgoverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(26, 26, 24, 0.55);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  animation: sgfade 0.18s ease-out;
+}
+@keyframes sgfade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.sgmodal {
+  position: relative;
+  width: min(540px, 100%);
+  background: var(--paper, #f4f4f0);
+  border: 1.5px solid var(--ink);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28);
+  padding: 30px 28px 26px;
+  animation: sgrise 0.22s ease-out;
+}
+@keyframes sgrise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+.sgmodal .signup,
+.sgmodal .signupdone {
+  width: 100%;
+}
+.sgmodal .signupstate {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.sgmodal .signupzip {
+  flex: 0 1 158px;
+}
+.sgmodal .signupdone {
+  border: none;
+  background: none;
+  padding: 0;
+}
+.sghead {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(20px, 3.4vw, 26px);
+  line-height: 1.15;
+  margin: 0 0 18px;
+}
+.sgclose {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-family: var(--mono);
+  font-size: 26px;
+  line-height: 1;
+  color: var(--faint);
+  cursor: pointer;
+  padding: 6px;
+}
+.sgclose:hover {
+  color: var(--ink);
+}
+@media (max-width: 560px) {
+  .sgoverlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .sgmodal {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 26px 20px calc(24px + env(safe-area-inset-bottom));
+  }
+  @keyframes sgrise {
+    from { opacity: 0; transform: translateY(28px); }
+    to { opacity: 1; transform: none; }
+  }
+}
 /* ======================================================================
    Stats page — full-screen split (workbench v3): totals stacked huge on the
    left, full-height interactive map bleeding off the right. Tap a state and
