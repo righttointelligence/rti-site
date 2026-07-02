@@ -21,6 +21,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const emailRef = useRef<HTMLInputElement>(null);
+  const overlayRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (open && step === "email") emailRef.current?.focus();
@@ -38,6 +39,28 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
     return () => {
       document.body.style.overflow = prev;
       window.removeEventListener("keydown", onKey);
+    };
+  }, [open, step]);
+
+  // iOS: the keyboard shrinks the *visual* viewport but position:fixed tracks
+  // the layout viewport — so without this, the keyboard slides over the card.
+  // Pin the overlay to the visual viewport so the card always stays in view.
+  useEffect(() => {
+    if (!open) return;
+    const vv = window.visualViewport;
+    if (!vv) return;
+    const sync = () => {
+      const el = overlayRef.current;
+      if (!el) return;
+      el.style.height = `${vv.height}px`;
+      el.style.top = `${vv.offsetTop}px`;
+    };
+    sync();
+    vv.addEventListener("resize", sync);
+    vv.addEventListener("scroll", sync);
+    return () => {
+      vv.removeEventListener("resize", sync);
+      vv.removeEventListener("scroll", sync);
     };
   }, [open, step]);
 
@@ -90,6 +113,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
     open &&
     createPortal(
       <div
+        ref={overlayRef}
         className="sgoverlay"
         role="presentation"
         onMouseDown={(e) => {
