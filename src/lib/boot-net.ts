@@ -46,6 +46,7 @@ export function initBootNet(canvas: HTMLCanvasElement, o: Opts = {}): () => void
   let N: Node[] = [];
   let E: [number, number][] = [];
   let mx = -1e4, my = -1e4, mOn = false;
+  let scrollV = 0, lastY = window.scrollY;
 
   const mk = (x: number, y: number): Node => ({
     hx: x, hy: y, x, y, vx: 0, vy: 0,
@@ -105,9 +106,14 @@ export function initBootNet(canvas: HTMLCanvasElement, o: Opts = {}): () => void
     const el = (ts - t0) / 1000, form = Math.min(el / 1.4, 1);
     ctx!.clearRect(0, 0, W, H);
     const gx = Math.sin(el * 0.17) * 9, gy = Math.cos(el * 0.13) * 8;
+    // scroll jello: the net trails the scroll then springs back; each node
+    // lags a different amount so the whole field shears like jelly.
+    scrollV *= 0.88;
+    const jy = Math.max(-34, Math.min(34, scrollV * 0.35));
     for (const a of N) {
       const ox = Math.sin(el * a.sp + a.ph) * 6, oy = Math.cos(el * a.sp * 0.9 + a.ph) * 6;
-      let tx = a.hx + gx + ox, ty = a.hy + gy + oy;
+      const jf = 0.5 + 0.5 * Math.sin(a.ph * 2.3);
+      let tx = a.hx + gx + ox, ty = a.hy + gy + oy + jy * jf;
       if (mOn && !reduce) {
         const dx = mx - tx, dy = my - ty, d = Math.sqrt(dx * dx + dy * dy);
         if (d < R) { const pull = (1 - d / R) * LEAN; tx += (dx / d) * pull; ty += (dy / d) * pull; }
@@ -145,12 +151,26 @@ export function initBootNet(canvas: HTMLCanvasElement, o: Opts = {}): () => void
   }
 
   function start() { t0 = 0; cancelAnimationFrame(raf); raf = requestAnimationFrame(frame); }
-  function onResize() { cancelAnimationFrame(raf); size(); start(); }
+  function onResize() {
+    // Mobile browsers fire resize when the URL bar collapses during scroll;
+    // the canvas box doesn't actually change, so rebooting would reset the
+    // net mid-scroll. Only rebuild on a real size change (rotation, window).
+    const r = canvas.getBoundingClientRect();
+    if (Math.abs(r.width - W) < 1 && Math.abs(r.height - H) < 1) return;
+    cancelAnimationFrame(raf); size(); start();
+  }
+  function onScroll() {
+    if (reduce) return;
+    const y = window.scrollY;
+    scrollV += y - lastY;
+    lastY = y;
+  }
   function onMove(e: MouseEvent) { const r = canvas.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; mOn = true; }
   function onOut() { mOn = false; mx = my = -1e4; }
   function onVis() { if (document.hidden) cancelAnimationFrame(raf); else start(); }
 
   window.addEventListener("resize", onResize, { passive: true });
+  window.addEventListener("scroll", onScroll, { passive: true });
   // lean: 0 = fully static net; skip pointer physics (touch taps fire
   // synthetic mousemoves that warp small canvases).
   if (LEAN > 0) {
@@ -163,6 +183,7 @@ export function initBootNet(canvas: HTMLCanvasElement, o: Opts = {}): () => void
   return () => {
     cancelAnimationFrame(raf);
     window.removeEventListener("resize", onResize);
+    window.removeEventListener("scroll", onScroll);
     window.removeEventListener("mousemove", onMove);
     window.removeEventListener("mouseout", onOut);
     document.removeEventListener("visibilitychange", onVis);

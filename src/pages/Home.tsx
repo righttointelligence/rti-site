@@ -140,7 +140,7 @@ export default function Home() {
           <p className="subcopy">
             New state laws could put local AI behind a license — turning open models into something
             you need permission to use.{" "}
-            <b>Sign in 10 seconds. Then a two-minute call your state office actually hears.</b>
+            <b>Signing takes ten seconds. If you're down to do more, we've got a call script ready.</b>
           </p>
           {isMobile && (
             <div className="heroboot" aria-hidden="true">
