@@ -22,29 +22,45 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
   const [error, setError] = useState<string | null>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
+  const stepRef = useRef(step);
+  stepRef.current = step;
 
   useEffect(() => {
     if (open && step === "email") emailRef.current?.focus();
   }, [open, step]);
 
-  // lock page scroll + close on Esc while the modal is up
+  // lock page scroll + close on Esc while the modal is up. iOS Safari ignores
+  // overflow:hidden on body, so freeze the body in place with position:fixed
+  // and restore the scroll position on close.
   useEffect(() => {
     if (!open) return;
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
+    const y = window.scrollY;
+    const b = document.body.style;
+    const prev = { position: b.position, top: b.top, left: b.left, right: b.right, overflow: b.overflow };
+    b.position = "fixed";
+    b.top = `-${y}px`;
+    b.left = "0";
+    b.right = "0";
+    b.overflow = "hidden";
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape" && step !== "done") setOpen(false);
+      if (e.key === "Escape" && stepRef.current !== "done") setOpen(false);
     };
     window.addEventListener("keydown", onKey);
     return () => {
-      document.body.style.overflow = prev;
+      b.position = prev.position;
+      b.top = prev.top;
+      b.left = prev.left;
+      b.right = prev.right;
+      b.overflow = prev.overflow;
+      window.scrollTo(0, y);
       window.removeEventListener("keydown", onKey);
     };
-  }, [open, step]);
+  }, [open]);
 
   // iOS: the keyboard shrinks the *visual* viewport but position:fixed tracks
-  // the layout viewport — so without this, the keyboard slides over the card.
-  // Pin the overlay to the visual viewport so the card always stays in view.
+  // the layout viewport. The dim must stay full-screen, so never resize the
+  // overlay — instead pad it to match the visible area so the centered card
+  // rides above the keyboard while everything behind stays dimmed.
   useEffect(() => {
     if (!open) return;
     const vv = window.visualViewport;
@@ -52,8 +68,9 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
     const sync = () => {
       const el = overlayRef.current;
       if (!el) return;
-      el.style.height = `${vv.height}px`;
-      el.style.top = `${vv.offsetTop}px`;
+      const below = Math.max(0, window.innerHeight - vv.height - vv.offsetTop);
+      el.style.paddingTop = `${Math.max(14, vv.offsetTop + 14)}px`;
+      el.style.paddingBottom = `${below + 14}px`;
     };
     sync();
     vv.addEventListener("resize", sync);
@@ -62,7 +79,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
       vv.removeEventListener("resize", sync);
       vv.removeEventListener("scroll", sync);
     };
-  }, [open, step]);
+  }, [open]);
 
   const launch = () => {
     setError(null);
