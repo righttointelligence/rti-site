@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  // TEMPORARY: serves righttointelligence.org from the Bootoshi account (which
+  // owns the zone until ~2026-07-11) by proxying to the RTI worker. Deploy with:
+  //   bunx wrangler deploy --config bridge/wrangler.jsonc
+  // Delete this directory after the zone moves and rti-site owns the domains.
+  "name": "free-intelligence",
+  "compatibility_date": "2026-06-24",
+  "account_id": "2a6651dc655dcafe6ab174d54987d644",
+  "main": "./worker.ts",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "righttointelligence.org", "custom_domain": true },
+    { "pattern": "www.righttointelligence.org", "custom_domain": true }
+  ]
+}
