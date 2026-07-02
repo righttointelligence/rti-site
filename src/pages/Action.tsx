@@ -278,7 +278,7 @@ function ActHeader() {
   return (
     <header className="actbar pad">
       <Link to="/" className="brandmini">
-        <img className="glyph" src="/oii-logo.png" alt="" />
+        <img className="glyph" src="/rti-logo.png" alt="" />
         <span>Right to Intelligence</span>
       </Link>
       <Link to="/#top" className="actbarlink">

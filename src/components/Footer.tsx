@@ -32,7 +32,7 @@ export default function Footer() {
           <a href="/#get-involved">Volunteer</a>
         </div>
         <span className="brandmini">
-          <img className="glyph" src="/oii-logo.png" alt="" />
+          <img className="glyph" src="/rti-logo.png" alt="" />
         </span>
       </div>
       <p className="fine">

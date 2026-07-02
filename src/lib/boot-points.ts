@@ -1,5 +1,5 @@
 // Boot + sapling logo sampled into points. tone: 1 = leaf (green), 0 = boot (ink).
-// Generated from oii-logo.png alpha mask (182 nodes / 44 leaf / 138 boot).
+// Generated from rti-logo.png (formerly oii-logo.png) alpha mask (182 nodes / 44 leaf / 138 boot).
 export type BootPoints = { aspect: number; pts: [number, number, number][] };
 
 export const BOOT_POINTS: BootPoints = {

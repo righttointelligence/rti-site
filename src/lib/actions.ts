@@ -19,7 +19,7 @@ export type Lawmaker = {
 };
 
 function logLocalAction(): ActionLogResult {
-  const key = "oii:local-action-count";
+  const key = "rti:local-action-count";
   const next = Number.parseInt(window.localStorage.getItem(key) ?? "0", 10) + 1;
   window.localStorage.setItem(key, String(next));
   return { rank: next, total: next, source: "local" };
