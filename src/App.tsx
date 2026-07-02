@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Action from "./pages/Action";
+import Movement from "./pages/Movement";
 import Template from "./pages/Template";
 
 // Dev-only design workbench; stripped from production builds.
@@ -23,6 +24,7 @@ export default function App() {
           />
         ) : null}
         <Route path="/action/:slug" element={<Action />} />
+        <Route path="/movement" element={<Movement />} />
         <Route
           path="/about"
           element={

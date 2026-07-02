@@ -366,6 +366,159 @@ h1 {
   background: #fff;
   padding: 22px 24px;
 }
+/* ======================================================================
+   Movement page — the live stat tracker. Interactive map + state table.
+   ====================================================================== */
+.movement {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 96px;
+}
+.movetitle {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 14px 0 0;
+}
+.movelede {
+  font-size: 16px;
+  color: var(--gray);
+  line-height: 1.7;
+  max-width: 62ch;
+  margin: 18px 0 0;
+}
+.movetotals {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 40px;
+  margin: 44px 0 8px;
+}
+.movetotal b {
+  display: block;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(38px, 5vw, 64px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.movetotal span {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--faint);
+}
+.movetotals .liveline {
+  margin-left: auto;
+  padding-bottom: 8px;
+}
+.movegrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 1fr);
+  gap: 40px;
+  align-items: center;
+  margin-top: 28px;
+}
+.movemap {
+  margin: 0;
+}
+.movemap svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.movestate {
+  cursor: pointer;
+  transition: filter 0.15s ease;
+}
+.movestate:hover {
+  filter: brightness(0.88);
+}
+.movestate.sel {
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+.movepanel {
+  border: 1.5px solid var(--ink);
+  background: #fff;
+  padding: 24px 26px;
+}
+.movepanelstats {
+  display: flex;
+  gap: 32px;
+  margin-top: 16px;
+}
+.movepanelstats .movetotal b {
+  font-size: 40px;
+}
+.movepanelnote {
+  font-size: 14px;
+  color: var(--gray);
+  line-height: 1.65;
+  margin: 16px 0 18px;
+}
+.movecta {
+  text-decoration: none;
+}
+.movetablewrap {
+  margin-top: 56px;
+}
+.movesearch {
+  width: min(340px, 100%);
+  height: 52px;
+}
+.movetable {
+  width: 100%;
+  margin-top: 18px;
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: 14px;
+}
+.movetable th {
+  text-align: left;
+  font-size: 12px;
+  color: var(--faint);
+  font-weight: 500;
+  padding: 8px 12px;
+  border-bottom: 1.5px solid var(--ink);
+}
+.movetable td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(26, 26, 24, 0.12);
+  color: var(--gray);
+}
+.movetable tbody tr {
+  cursor: pointer;
+}
+.movetable tbody tr:hover {
+  background: rgba(22, 163, 74, 0.06);
+}
+.movetable tr.hasaction td {
+  color: var(--ink);
+}
+@media (max-width: 900px) {
+  .movegrid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .movetotals {
+    gap: 26px;
+  }
+  .movetotals .liveline {
+    margin-left: 0;
+    width: 100%;
+  }
+  .movetable th:nth-child(2),
+  .movetable td:nth-child(2),
+  .movetable th:nth-child(3),
+  .movetable td:nth-child(3) {
+    display: none;
+  }
+}
+
 /* action-page signature catch — for people who skipped the hero signup */
 .actsignup {
   margin-top: 40px;
