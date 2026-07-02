@@ -17,8 +17,22 @@ import {
   type CivicDataFreshness,
 } from "../lib/civicDataFreshness";
 import ActionSignup from "../components/ActionSignup";
+import { savedZip } from "../lib/signup";
 
 type LookupStatus = "idle" | "locating" | "loading" | "ready" | "failed";
+
+// Zip → coordinates via zippopotam.us (free, no key, CORS-open). The zip only
+// leaves the device for this one geocode; nothing is stored server-side.
+async function geocodeZip(zip: string): Promise<{ lat: number; lng: number }> {
+  const res = await fetch(`https://api.zippopotam.us/us/${zip}`);
+  if (!res.ok) throw new Error("zip_not_found");
+  const body = (await res.json()) as { places?: { latitude: string; longitude: string }[] };
+  const place = body.places?.[0];
+  const lat = Number(place?.latitude);
+  const lng = Number(place?.longitude);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error("zip_not_found");
+  return { lat, lng };
+}
 
 // The dedicated, full-screen, single-purpose action page. One state, one ask,
 // one script, one place to call, one "I did it" log. Nothing else competes.
@@ -35,6 +49,7 @@ export default function Action() {
   const [lookupStatus, setLookupStatus] = useState<LookupStatus>("idle");
   const [lookupError, setLookupError] = useState<string | null>(null);
   const [freshness, setFreshness] = useState<CivicDataFreshness | null>(null);
+  const zip = useMemo(() => savedZip(), []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -84,6 +99,29 @@ export default function Action() {
     navigator.clipboard?.writeText(callScript);
     setCopied(true);
     setTimeout(() => setCopied(false), 1600);
+  };
+
+  const findByZip = () => {
+    if (!zip || lookupStatus === "locating" || lookupStatus === "loading") return;
+    setLookupError(null);
+    setLookupStatus("loading");
+    geocodeZip(zip)
+      .then(({ lat, lng }) => lookupLawmakers(abbr, lat, lng))
+      .then((result) => {
+        setLawmakers(result);
+        setLookupStatus("ready");
+        if (result.length === 0) {
+          setLookupError("No exact state lawmakers came back. Try location or the official lookup.");
+        }
+      })
+      .catch((lookupFailure: unknown) => {
+        setLookupStatus("failed");
+        setLookupError(
+          lookupFailure instanceof Error && lookupFailure.message === "zip_not_found"
+            ? "Couldn't place that zip. Try location or the official lookup instead."
+            : lookupErrorMessage(lookupFailure),
+        );
+      });
   };
 
   const findExactLawmakers = () => {
@@ -150,14 +188,36 @@ export default function Action() {
         <div className="actstep actnode">
           <span className="actdot">1</span>
           <p className="actk">find exact offices</p>
-          <button
-            className="targetbtn"
-            disabled={lookupStatus === "locating" || lookupStatus === "loading"}
-            onClick={findExactLawmakers}
-            type="button"
-          >
-            {lookupButtonLabel(lookupStatus)}
-          </button>
+          {zip ? (
+            <>
+              <button
+                className="targetbtn"
+                disabled={lookupStatus === "locating" || lookupStatus === "loading"}
+                onClick={findByZip}
+                type="button"
+              >
+                {lookupStatus === "loading"
+                  ? "finding lawmakers..."
+                  : lookupStatus === "ready"
+                    ? "Exact offices found"
+                    : `Use my zip (${zip}) →`}
+              </button>
+              <p className="actfallback">
+                <button className="actlink actlinkbtn" onClick={findExactLawmakers} type="button">
+                  Or use my location →
+                </button>
+              </p>
+            </>
+          ) : (
+            <button
+              className="targetbtn"
+              disabled={lookupStatus === "locating" || lookupStatus === "loading"}
+              onClick={findExactLawmakers}
+              type="button"
+            >
+              {lookupButtonLabel(lookupStatus)}
+            </button>
+          )}
           <p className="actfallback">
             <a className="actlink" href={action.targetUrl} rel="noreferrer" target="_blank">
               Prefer not to share location? Use the official {state.name} lookup →

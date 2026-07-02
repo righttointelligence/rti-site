@@ -8,6 +8,26 @@ export type SignupResult = {
 
 const LOCAL_KEY = "rti:local-signup-count";
 const SIGNED_KEY = "rti:signed";
+const ZIP_KEY = "rti:zip";
+
+// The zip someone volunteered at signup, remembered on-device only, so the
+// call page can find their exact offices without asking for location.
+export function savedZip(): string | null {
+  try {
+    const zip = window.localStorage.getItem(ZIP_KEY);
+    return zip && /^\d{5}$/.test(zip) ? zip : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveZip(zip: string): void {
+  try {
+    window.localStorage.setItem(ZIP_KEY, zip.slice(0, 5));
+  } catch {
+    /* private mode — the call page just falls back to location */
+  }
+}
 
 // Remembered per-browser so we only ask people to sign once, wherever they
 // entered the funnel (hero stepper or action page).

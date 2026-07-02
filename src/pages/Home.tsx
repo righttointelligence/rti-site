@@ -74,13 +74,15 @@ const BEATS = [
   },
 ];
 
-// Mobile hero boot: its own full-strength stage between the copy and the CTA
-// (workbench v2). Static — lean: 0 skips pointer physics so taps never warp it.
+// Mobile hero boot: its own full-strength stage under the CTA (workbench v2).
+// lean: 0 skips pointer physics so taps never warp it. fill leaves ~50px of
+// headroom around the boot inside the canvas — the breath (±14px) and scroll
+// jello (±34px) excursions stay inside the render area instead of clipping.
 const MOBILE_BOOT_OPTS = {
   wallMin: 0,
   wallGap: 12,
   cutoff: 0.02,
-  fill: 0.9,
+  fill: 0.67,
   nodeScale: 0.62,
   lean: 0,
 };

@@ -166,9 +166,9 @@ section[id] {
    block between the subcopy and the CTA instead of sitting behind the text. */
 .heroboot {
   position: relative;
-  height: 236px;
+  height: 300px;
   width: 100%;
-  margin: 30px 0 10px;
+  margin: 8px 0 0;
 }
 .herobootnet {
   position: absolute;
@@ -409,9 +409,6 @@ h1 {
 .sgmodal .signupstate {
   flex: 1 1 auto;
   min-width: 0;
-}
-.sgmodal .signupzip {
-  flex: 0 1 158px;
 }
 .sgmodal .signupdone {
   border: none;
@@ -1269,6 +1266,13 @@ footer {
   text-decoration-thickness: 1px;
 }
 .actlink:hover { color: var(--ink); }
+.actlinkbtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--mono);
+  cursor: pointer;
+}
 /* Step 1: exact-office result cards */
 .lawmakers {
   display: grid;

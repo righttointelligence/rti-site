@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import { ChevIcon } from "./icons";
 import { STATE_OPTIONS } from "../data/states";
 import { slugForAbbr } from "../lib/stateSlug";
-import { submitSignup } from "../lib/signup";
+import { saveZip, submitSignup } from "../lib/signup";
 
 // The hero's primary action. The CTA stays put in the hero; tapping it opens a
-// focused modal — dimmed page behind, one ask per step: email, then state,
-// then the bridge to the call.
-type Step = "email" | "state" | "done";
+// focused modal — dimmed page behind, one ask per step: email, state, then an
+// optional zip, then the bridge to the call.
+type Step = "email" | "state" | "zip" | "done";
 
 export default function SignupForm({ onTotal }: { onTotal?: (total: number) => void }) {
   const [open, setOpen] = useState(false);
@@ -97,14 +97,20 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
     setStep("state");
   };
 
-  const finish = async (e: React.FormEvent) => {
+  const nextFromState = (e: React.FormEvent) => {
     e.preventDefault();
-    if (busy) return;
     setError(null);
     if (!stateKey) {
       setError("Pick your state — it's where your signature counts.");
       return;
     }
+    setStep("zip");
+  };
+
+  const finish = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (busy) return;
+    setError(null);
     if (zip.trim() !== "" && !/^\d{5}(-\d{4})?$/.test(zip.trim())) {
       setError("Zip looks off — 5 digits, or just leave it blank.");
       return;
@@ -117,6 +123,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
         zip: zip.trim() || undefined,
         website,
       });
+      if (zip.trim()) saveZip(zip.trim());
       onTotal?.(result.total);
       setStep("done");
     } catch {
@@ -176,7 +183,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
           )}
 
           {step === "state" && (
-            <form className="signup sgbody" onSubmit={finish}>
+            <form className="signup sgbody" onSubmit={nextFromState}>
               <p className="idx signupidx">02 / your state</p>
               <p className="sghead">Where does your signature count?</p>
               <div className="signuprow">
@@ -199,13 +206,33 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
                     <ChevIcon />
                   </span>
                 </div>
+              </div>
+              <button className="cta signupcta" type="submit">
+                Next →
+              </button>
+              {error && <p className="signuperror">{error}</p>}
+              <p className="signupnote">
+                <button type="button" className="signupback" onClick={() => setStep("email")}>
+                  ← back
+                </button>
+                Your state is where your signature counts.
+              </p>
+            </form>
+          )}
+
+          {step === "zip" && (
+            <form className="signup sgbody" onSubmit={finish}>
+              <p className="idx signupidx">03 / your zip — optional</p>
+              <p className="sghead">Want us to find your exact offices?</p>
+              <div className="signuprow">
                 <input
-                  className="signupinput signupzip"
+                  className="signupinput"
                   type="text"
                   inputMode="numeric"
                   autoComplete="postal-code"
                   placeholder="Zip (optional)"
                   aria-label="Zip code (optional)"
+                  autoFocus
                   value={zip}
                   onChange={(e) => setZip(e.target.value)}
                 />
@@ -222,14 +249,15 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
                 name="website"
               />
               <button className="cta signupcta" type="submit" disabled={busy}>
-                {busy ? "Signing…" : "Count me in →"}
+                {busy ? "Signing…" : zip.trim() ? "Count me in →" : "Skip — count me in →"}
               </button>
               {error && <p className="signuperror">{error}</p>}
               <p className="signupnote">
-                <button type="button" className="signupback" onClick={() => setStep("email")}>
+                <button type="button" className="signupback" onClick={() => setStep("state")}>
                   ← back
                 </button>
-                Your state is where your signature counts. Zip just sharpens it — optional.
+                Zip lets us point you at your exact state offices if you choose to call. Stays on
+                your device + your signature — never shared.
               </p>
             </form>
           )}
