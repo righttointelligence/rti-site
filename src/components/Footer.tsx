@@ -28,7 +28,7 @@ export default function Footer() {
       <div className="footrow">
         <div className="footlinks">
           <a href="/#about">Model bill</a>
-          <a href="/#how-we-work">Sources</a>
+          <a href="/#start">Sources</a>
           <a href="/#get-involved">Volunteer</a>
         </div>
         <span className="brandmini">

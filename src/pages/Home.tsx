@@ -57,21 +57,6 @@ const BEATS = [
     alt: "A phone and laptop running models without the cloud",
     imgMax: 505,
   },
-  {
-    id: "how-we-work",
-    idx: "04 / how we work",
-    big: "Every claim has a receipt.",
-    body: (
-      <>
-        We don't ask you to take our word for it. Every state action links the exact office you're
-        contacting and the public record behind it — the bill, its status, and the date we checked.
-        When the facts change, we update the action.
-      </>
-    ),
-    img: "/beats/beat-04-sources.png",
-    alt: "A sourced document with a green check",
-    imgMax: 505,
-  },
 ];
 
 // Mobile hero boot: its own full-strength stage under the CTA (workbench v2).

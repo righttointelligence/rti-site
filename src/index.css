@@ -1163,6 +1163,21 @@ footer {
   border-color: var(--cta-soft);
   box-shadow: 0 6px 22px var(--accent-glow);
 }
+@media (max-width: 560px) {
+  .involverow {
+    gap: 8px;
+    margin: 26px 0 22px;
+  }
+  .involverow a {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+  .involvecta {
+    font-size: 13px;
+    padding: 12px 16px;
+    white-space: nowrap;
+  }
+}
 
 /* ======================================================================
    Dedicated full-screen action page (/action/:state).
