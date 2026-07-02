@@ -151,8 +151,12 @@ export function initBootNet(canvas: HTMLCanvasElement, o: Opts = {}): () => void
   function onVis() { if (document.hidden) cancelAnimationFrame(raf); else start(); }
 
   window.addEventListener("resize", onResize, { passive: true });
-  window.addEventListener("mousemove", onMove, { passive: true });
-  window.addEventListener("mouseout", onOut);
+  // lean: 0 = fully static net; skip pointer physics (touch taps fire
+  // synthetic mousemoves that warp small canvases).
+  if (LEAN > 0) {
+    window.addEventListener("mousemove", onMove, { passive: true });
+    window.addEventListener("mouseout", onOut);
+  }
   document.addEventListener("visibilitychange", onVis);
   size(); start();
 

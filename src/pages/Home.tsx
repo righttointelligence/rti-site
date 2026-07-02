@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -71,8 +71,33 @@ const BEATS = [
   },
 ];
 
+// Mobile hero boot: its own full-strength stage between the copy and the CTA
+// (workbench v2). Static — lean: 0 skips pointer physics so taps never warp it.
+const MOBILE_BOOT_OPTS = {
+  wallMin: 0,
+  wallGap: 12,
+  cutoff: 0.02,
+  fill: 0.9,
+  nodeScale: 0.62,
+  lean: 0,
+};
+
+function useIsMobile() {
+  const [mobile, setMobile] = useState(
+    () => window.matchMedia("(max-width: 820px)").matches,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 820px)");
+    const on = (e: MediaQueryListEvent) => setMobile(e.matches);
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
+  return mobile;
+}
+
 export default function Home() {
   const navigate = useNavigate();
+  const isMobile = useIsMobile();
   const go = (abbr: string) => navigate(`/action/${slugForAbbr(abbr)}`);
 
   // reveal the manifesto beats on scroll (matches the prototype)
@@ -94,7 +119,7 @@ export default function Home() {
       <Nav />
 
       <header className="hero pad" id="top">
-        <NeuralBoot />
+        {!isMobile && <NeuralBoot />}
         <div className="heroinner">
           <h1>Protect your right to run local&nbsp;AI.</h1>
           <div className="divider" />
@@ -103,6 +128,11 @@ export default function Home() {
             you need permission to use.{" "}
             <b>Choose your state. Find exact offices. Read the script. Log the call.</b>
           </p>
+          {isMobile && (
+            <div className="heroboot" aria-hidden="true">
+              <NeuralBoot className="herobootnet" opts={MOBILE_BOOT_OPTS} />
+            </div>
+          )}
           <Picker onGo={go} />
         </div>
       </header>
