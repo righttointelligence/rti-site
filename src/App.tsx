@@ -1,5 +1,5 @@
-import { lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { lazy, Suspense, useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Action from "./pages/Action";
 import Stats from "./pages/Stats";
@@ -8,9 +8,24 @@ import Template from "./pages/Template";
 // Dev-only design workbench; stripped from production builds.
 const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
 
+// React-router keeps the scroll position across route changes; every page
+// switch should start at the top. Hash links (/#start) still anchor-scroll.
+function ScrollToTop() {
+  const { pathname, hash } = useLocation();
+  useEffect(() => {
+    if (hash) {
+      document.querySelector(hash)?.scrollIntoView();
+      return;
+    }
+    window.scrollTo(0, 0);
+  }, [pathname, hash]);
+  return null;
+}
+
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         {Workbench ? (
