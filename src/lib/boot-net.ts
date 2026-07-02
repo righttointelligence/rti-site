@@ -15,6 +15,11 @@ type Opts = {
   mouseR?: number;
   stiff?: number;
   damp?: number;
+  /** Minimum left wall in px keeping the boot off the text. Default 560 (desktop hero).
+      Set 0 for small dedicated containers so the boot fills them. */
+  wallMin?: number;
+  /** Minimum right margin in px. Default 220 (desktop hero). */
+  wallGap?: number;
 };
 
 type Node = {
@@ -50,7 +55,7 @@ export function initBootNet(canvas: HTMLCanvasElement, o: Opts = {}): () => void
   const d2 = (a: Node, b: Node) => (a.hx - b.hx) ** 2 + (a.hy - b.hy) ** 2;
 
   function build() {
-    BX = Math.min(Math.max(W * (o.cutoff ?? 0.46), 560), W - 220);
+    BX = Math.min(Math.max(W * (o.cutoff ?? 0.46), o.wallMin ?? 560), W - (o.wallGap ?? 220));
     N = []; E = [];
     const BP = BOOT_POINTS;
     const th = H * (o.fill ?? 0.8);

@@ -1,13 +1,27 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Action from "./pages/Action";
 import Template from "./pages/Template";
+
+// Dev-only design workbench; stripped from production builds.
+const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        {Workbench ? (
+          <Route
+            path="/workbench"
+            element={
+              <Suspense fallback={null}>
+                <Workbench />
+              </Suspense>
+            }
+          />
+        ) : null}
         <Route path="/action/:slug" element={<Action />} />
         <Route
           path="/about"
