@@ -30,7 +30,7 @@ async function fetchStats(): Promise<Stats | null> {
   }
 }
 
-export default function Movement() {
+export default function Stats() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [query, setQuery] = useState("");
@@ -85,7 +85,7 @@ export default function Movement() {
     <>
       <Nav onHome={false} />
       <main className="movement pad">
-        <p className="idx">→ the movement, live</p>
+        <p className="idx">→ live stats</p>
         <h1 className="movetitle">Every signature. Every call. Counted.</h1>
         <p className="movelede">
           Real numbers straight from the database — the same counts we put in front of lawmakers.

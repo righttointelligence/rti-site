@@ -14,7 +14,7 @@ export default function Nav({ onHome = true }: { onHome?: boolean }) {
         <span className="navlinks">
           <a href={href("about")}>About</a>
           <a href={href("principles")}>Principles</a>
-          <Link to="/movement">Movement</Link>
+          <Link to="/stats">Stats</Link>
           <a href={href("top")}>Take Action</a>
         </span>
       </div>
