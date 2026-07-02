@@ -142,12 +142,12 @@ export default function Home() {
             you need permission to use.{" "}
             <b>Signing takes ten seconds. If you're down to do more, we've got a call script ready.</b>
           </p>
+          <SignupForm onTotal={setTotal} />
           {isMobile && (
             <div className="heroboot" aria-hidden="true">
               <NeuralBoot className="herobootnet" opts={MOBILE_BOOT_OPTS} />
             </div>
           )}
-          <SignupForm onTotal={setTotal} />
           <LiveCounter total={total} />
         </div>
       </header>
