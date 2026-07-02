@@ -135,7 +135,7 @@ export default function Home() {
               <NeuralBoot className="herobootnet" opts={MOBILE_BOOT_OPTS} />
             </div>
           )}
-          <LiveCounter total={total} />
+          <LiveCounter total={total} onTotal={setTotal} />
         </div>
       </header>
 

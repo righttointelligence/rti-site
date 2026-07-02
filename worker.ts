@@ -267,9 +267,11 @@ async function handleStats(env: Env): Promise<Response> {
 }
 
 async function handleCount(env: Env): Promise<Response> {
+  // Short cache: the homepage polls this to tick the live counter. One D1
+  // count query every ~8s worst case per colo — nothing.
   return json(
     { ok: true, total: await countTotal(env) },
-    { headers: { "cache-control": "public, max-age=30" } },
+    { headers: { "cache-control": "public, max-age=8" } },
   );
 }
 
