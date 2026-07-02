@@ -55,6 +55,37 @@ export default function Action() {
     window.scrollTo(0, 0);
   }, [slug]);
 
+  // If we already know their zip from signup, don't make them ask — find the
+  // exact offices the moment the page loads. Location stays as the fallback.
+  useEffect(() => {
+    if (!abbr || !zip) return;
+    let cancelled = false;
+    setLookupStatus("loading");
+    setLookupError(null);
+    geocodeZip(zip)
+      .then(({ lat, lng }) => lookupLawmakers(abbr, lat, lng))
+      .then((result) => {
+        if (cancelled) return;
+        setLawmakers(result);
+        setLookupStatus(result.length > 0 ? "ready" : "failed");
+        if (result.length === 0) {
+          setLookupError("No exact state lawmakers came back. Try location or the official lookup.");
+        }
+      })
+      .catch((lookupFailure: unknown) => {
+        if (cancelled) return;
+        setLookupStatus("failed");
+        setLookupError(
+          lookupFailure instanceof Error && lookupFailure.message === "zip_not_found"
+            ? "Couldn't place that zip. Try location or the official lookup instead."
+            : lookupErrorMessage(lookupFailure),
+        );
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [abbr, zip]);
+
   useEffect(() => {
     let cancelled = false;
     fetchCivicDataFreshness()
@@ -99,29 +130,6 @@ export default function Action() {
     navigator.clipboard?.writeText(callScript);
     setCopied(true);
     setTimeout(() => setCopied(false), 1600);
-  };
-
-  const findByZip = () => {
-    if (!zip || lookupStatus === "locating" || lookupStatus === "loading") return;
-    setLookupError(null);
-    setLookupStatus("loading");
-    geocodeZip(zip)
-      .then(({ lat, lng }) => lookupLawmakers(abbr, lat, lng))
-      .then((result) => {
-        setLawmakers(result);
-        setLookupStatus("ready");
-        if (result.length === 0) {
-          setLookupError("No exact state lawmakers came back. Try location or the official lookup.");
-        }
-      })
-      .catch((lookupFailure: unknown) => {
-        setLookupStatus("failed");
-        setLookupError(
-          lookupFailure instanceof Error && lookupFailure.message === "zip_not_found"
-            ? "Couldn't place that zip. Try location or the official lookup instead."
-            : lookupErrorMessage(lookupFailure),
-        );
-      });
   };
 
   const findExactLawmakers = () => {
@@ -188,26 +196,12 @@ export default function Action() {
         <div className="actstep actnode">
           <span className="actdot">1</span>
           <p className="actk">find exact offices</p>
-          {zip ? (
-            <>
-              <button
-                className="targetbtn"
-                disabled={lookupStatus === "locating" || lookupStatus === "loading"}
-                onClick={findByZip}
-                type="button"
-              >
-                {lookupStatus === "loading"
-                  ? "finding lawmakers..."
-                  : lookupStatus === "ready"
-                    ? "Exact offices found"
-                    : `Use my zip (${zip}) →`}
-              </button>
-              <p className="actfallback">
-                <button className="actlink actlinkbtn" onClick={findExactLawmakers} type="button">
-                  Or use my location →
-                </button>
-              </p>
-            </>
+          {zip && lookupStatus !== "failed" ? (
+            <button className="targetbtn" disabled type="button">
+              {lookupStatus === "ready"
+                ? "Exact offices found ✓"
+                : `finding your offices (${zip})…`}
+            </button>
           ) : (
             <button
               className="targetbtn"
