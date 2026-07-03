@@ -1,5 +1,30 @@
 @import "tailwindcss";
 
+/* Self-hosted fonts — same woff2 bytes Google served, now riding our own
+   edge: no DNS/TLS trip to google, no third party. JetBrains Mono is a
+   variable font (one file, weights 400-700). */
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/jetbrains-mono.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/space-mono-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/space-mono-700.woff2") format("woff2");
+}
+
 /* Tailwind v4 theme tokens — available as utilities (bg-paper, text-accent, font-display)
    for the template pages we build later. The homepage below uses the exact ported CSS. */
 @theme {

@@ -13,6 +13,10 @@ const COPIES = [
     from: "civic-data/census/tiger2024/district-index",
     to: "dist/civic-data/census/tiger2024/district-index",
   },
+  {
+    from: "civic-data/census/gazetteer2024",
+    to: "dist/civic-data/census/gazetteer2024",
+  },
 ];
 
 for (const copy of COPIES) {
