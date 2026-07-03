@@ -31,16 +31,14 @@ export default function Privacy() {
         out.
       </p>
       <p>
-        <b>Where it lives:</b> an encrypted database on Cloudflare, accessible only to the people
-        who run RTI. Signatures are backed up so they can't be lost, and those backups live under
-        the same lock.
+        <b>Where it lives:</b> an encrypted database that only the people who run RTI can access.
       </p>
       <p>
         <b>Want out?</b> Email{" "}
         <a href="mailto:volunteer@righttointelligence.org?subject=Remove%20my%20signature">
           volunteer@righttointelligence.org
         </a>{" "}
-        from the address you signed with and we'll delete your row. Gone means gone.
+        from the address you signed with and we'll delete your signature.
       </p>
       <p>
         <b>Check our work:</b> this site is open source at{" "}
