@@ -19,6 +19,19 @@ export default function Privacy() {
         public state lawmakers and are never stored.
       </p>
       <p>
+        <b>One bot check at signing:</b> when you sign, we run Cloudflare Turnstile invisibly to
+        keep bots from faking signatures — it's what keeps the count real. Turnstile is operated
+        by Cloudflare under its{" "}
+        <a
+          href="https://www.cloudflare.com/turnstile-privacy-policy/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Turnstile privacy addendum
+        </a>
+        ; we never see or store anything from it beyond pass/fail.
+      </p>
+      <p>
         <b>What the public sees:</b> counts only. The live counter and the stats page show
         aggregate numbers per state. There is no endpoint that returns emails — the API serves
         totals, period. Your email is never shown to anyone, including the lawmakers we bring

@@ -120,8 +120,12 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
       if (zip.trim()) saveZip(zip.trim());
       onTotal?.(result.total);
       setStep("done");
-    } catch {
-      setError("Something broke on our end. Give it a minute and try again.");
+    } catch (err) {
+      setError(
+        err instanceof Error && err.message === "verification_failed"
+          ? "Couldn't verify you're human — give it another try."
+          : "Something broke on our end. Give it a minute and try again.",
+      );
     } finally {
       setBusy(false);
     }

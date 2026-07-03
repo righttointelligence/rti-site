@@ -1,5 +1,6 @@
 // Signup + live count client. Mirrors the local-fallback pattern in actions.ts
 // so Vite-only dev (no worker) still exercises the UX.
+import { getTurnstileToken } from "./turnstile";
 
 export type SignupResult = {
   total: number;
@@ -60,11 +61,15 @@ export async function submitSignup(input: {
   zip?: string;
   website?: string; // honeypot passthrough
 }): Promise<SignupResult> {
+  // Invisible bot check — resolves to a one-time token when Turnstile is
+  // configured, undefined otherwise. Both signup surfaces (hero modal and
+  // action page) flow through here, so one line protects them all.
+  const turnstileToken = await getTurnstileToken();
   try {
     const res = await fetch("/api/signups", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify(input),
+      body: JSON.stringify({ ...input, turnstileToken }),
     });
     const body = (await res.json().catch(() => null)) as
       | { ok?: unknown; total?: unknown; error?: unknown }
