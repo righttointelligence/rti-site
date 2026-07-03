@@ -1,11 +1,11 @@
 # Security headers applied by the Workers static-asset layer to every page.
 # The CSP names every origin the site may talk to — one look tells an auditor
-# the whole third-party story: Google Fonts, Turnstile (bot check at signing),
-# zippopotam (zip -> lawmaker lookup). Everything else is same-origin.
+# the whole third-party story: Cloudflare Turnstile (bot check at signing).
+# That's the entire list. Fonts, maps, zip lookup — all self-hosted.
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), payment=(), usb=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://api.zippopotam.us https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'

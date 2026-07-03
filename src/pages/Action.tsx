@@ -21,17 +21,19 @@ import { savedZip } from "../lib/signup";
 
 type LookupStatus = "idle" | "locating" | "loading" | "ready" | "failed";
 
-// Zip → coordinates via zippopotam.us (free, no key, CORS-open). The zip only
-// leaves the device for this one geocode; nothing is stored server-side.
+// Zip → coordinates via our own committed US Census gazetteer table
+// (civic-data/census/gazetteer2024, public domain, provenance in SOURCE.md).
+// Fetched from our origin on demand — the zip never leaves our domain, and
+// the browser talks to no third party. Replaces the former zippopotam.us call.
 async function geocodeZip(zip: string): Promise<{ lat: number; lng: number }> {
-  const res = await fetch(`https://api.zippopotam.us/us/${zip}`);
+  const res = await fetch("/civic-data/census/gazetteer2024/zip-centroids.json");
   if (!res.ok) throw new Error("zip_not_found");
-  const body = (await res.json()) as { places?: { latitude: string; longitude: string }[] };
-  const place = body.places?.[0];
-  const lat = Number(place?.latitude);
-  const lng = Number(place?.longitude);
-  if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error("zip_not_found");
-  return { lat, lng };
+  const table = (await res.json()) as Record<string, [number, number]>;
+  const hit = table[zip];
+  if (!hit || !Number.isFinite(hit[0]) || !Number.isFinite(hit[1])) {
+    throw new Error("zip_not_found");
+  }
+  return { lat: hit[0], lng: hit[1] };
 }
 
 // The dedicated, full-screen, single-purpose action page. One state, one ask,

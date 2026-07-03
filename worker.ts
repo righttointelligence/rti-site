@@ -647,9 +647,9 @@ export default {
   },
 };
 
-// Standard security armor on every page/asset response. The CSP names every
-// origin the site is allowed to talk to — one look tells an auditor the whole
-// third-party story: Turnstile (bot check) and zippopotam (zip -> lawmakers).
+// Standard security armor on every API response (pages get the same set from
+// public/_headers). The CSP names every origin the site may talk to — the
+// whole third-party story is Cloudflare Turnstile; everything else self-hosted.
 function withSecurityHeaders(response: Response): Response {
   const r = new Response(response.body, response);
   r.headers.set("strict-transport-security", "max-age=31536000; includeSubDomains");
@@ -663,10 +663,10 @@ function withSecurityHeaders(response: Response): Response {
       "default-src 'self'",
       "script-src 'self' https://challenges.cloudflare.com",
       "frame-src https://challenges.cloudflare.com",
-      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com", // inline = React style attrs (map shading)
+      "style-src 'self' 'unsafe-inline'", // inline = React style attrs (map shading)
       "img-src 'self' data:",
-      "font-src 'self' https://fonts.gstatic.com",
-      "connect-src 'self' https://api.zippopotam.us https://challenges.cloudflare.com",
+      "font-src 'self'",
+      "connect-src 'self' https://challenges.cloudflare.com",
       "object-src 'none'",
       "base-uri 'self'",
       "form-action 'self'",
