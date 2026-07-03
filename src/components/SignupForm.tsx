@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ChevIcon } from "./icons";
 import { COUNTRY_OPTIONS } from "../data/countries";
 import { STATE_OPTIONS } from "../data/states";
@@ -439,9 +439,13 @@ export function SignupProvider({ children }: { children: ReactNode }) {
 }
 
 // The signature CTA block — drop it anywhere inside SignupProvider. Same
-// button, same note, same shared state everywhere it appears.
+// button, same note, same shared state everywhere it appears. "Just want to
+// call?" reveals a state picker in place and routes straight to that state's
+// action page — no signature required to call.
 export default function SignupForm() {
   const { launch, step, stateKey } = useSignup();
+  const navigate = useNavigate();
+  const [callPick, setCallPick] = useState(false);
   return (
     <div className="signup">
       <button className="cta signupcta" type="button" onClick={launch}>
@@ -453,9 +457,32 @@ export default function SignupForm() {
       </button>
       <p className="signupnote">
         Ten seconds. Email + your state, nothing else.{" "}
-        <Link className="actlink" to="/#start">
-          Just want to call? →
-        </Link>
+        {callPick ? (
+          <span className="picker callpick">
+            <select
+              aria-label="Pick your state to call"
+              autoFocus
+              defaultValue=""
+              onChange={(e) => {
+                if (e.target.value) navigate(`/action/${slugForAbbr(e.target.value)}`);
+              }}
+            >
+              <option value="">Pick your state →</option>
+              {STATE_OPTIONS.map(([k, label]) => (
+                <option key={k} value={k}>
+                  {label}
+                </option>
+              ))}
+            </select>
+            <span className="chev">
+              <ChevIcon />
+            </span>
+          </span>
+        ) : (
+          <button type="button" className="actlink callpicklink" onClick={() => setCallPick(true)}>
+            Just want to call? →
+          </button>
+        )}
       </p>
     </div>
   );

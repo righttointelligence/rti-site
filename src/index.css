@@ -1110,6 +1110,13 @@ section.beat {
 footer {
   padding: 42px 0 64px;
   border-top: 1px solid var(--line);
+  position: relative;
+}
+/* the boot idles bottom-right of the footer */
+.footglyph {
+  position: absolute;
+  right: var(--pad);
+  bottom: 28px;
 }
 .footrow {
   display: flex;
@@ -1207,8 +1214,51 @@ footer {
 .endtext .big { max-width: 15ch; }
 .endmap { margin: 0; }
 .endmap svg { width: 100%; height: auto; display: block; overflow: visible; }
-.usstate { fill: #e7e7e3; stroke: var(--paper); stroke-width: 1; transition: fill 0.2s; }
+.usstate { fill: #e7e7e3; stroke: var(--paper); stroke-width: 1; transition: fill 0.2s, filter 0.12s; }
 .usstate.on { fill: var(--accent); }
+/* hover: state/country lifts under the cursor, on every map */
+.usstate:hover {
+  filter: brightness(0.88);
+  stroke: var(--ink);
+  stroke-width: 0.75;
+}
+/* instant cursor-following tooltip (replaces the slow native title) */
+.maptip {
+  position: fixed;
+  z-index: 60;
+  pointer-events: none;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1;
+  padding: 8px 11px;
+  white-space: nowrap;
+}
+/* endbeat live US stats row */
+.endstats { display: flex; gap: 36px; margin: 26px 0 4px; }
+.endstat b {
+  display: block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.05;
+}
+.endstat span { font-size: 13px; color: var(--gray); }
+/* inline state picker revealed by "Just want to call?" */
+.callpick { position: relative; display: inline-flex; align-items: center; margin-left: 2px; }
+.callpick select {
+  appearance: none;
+  font: inherit;
+  color: var(--accent);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--accent);
+  padding: 0 18px 1px 0;
+  cursor: pointer;
+}
+.callpick .chev { position: absolute; right: 0; pointer-events: none; color: var(--accent); display: flex; }
+.callpicklink { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
 @media (max-width: 820px) {
   .endgrid { grid-template-columns: 1fr; }
   .endmap { order: -1; max-width: 480px; }

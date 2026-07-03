@@ -6,6 +6,7 @@ import SignupForm from "../components/SignupForm";
 import LiveCounter from "../components/LiveCounter";
 import USMap from "../components/USMap";
 import { fetchCount } from "../lib/signup";
+import { useStats } from "../lib/useStats";
 
 const BEATS = [
   {
@@ -80,6 +81,37 @@ function useIsMobile() {
     return () => mq.removeEventListener("change", on);
   }, []);
   return mobile;
+}
+
+// Compact US-focused live stats for the endbeat: American signatures, calls,
+// and active states — the domestic fight, next to the state map.
+function EndStats() {
+  const stats = useStats();
+  if (!stats) return null;
+  let signups = 0;
+  let calls = 0;
+  let active = 0;
+  for (const s of Object.values(stats.states)) {
+    signups += s.signups;
+    calls += s.calls;
+    if (s.signups + s.calls > 0) active += 1;
+  }
+  return (
+    <div className="endstats" aria-label="Live United States stats">
+      <div className="endstat">
+        <b>{signups.toLocaleString("en-US")}</b>
+        <span>US signatures</span>
+      </div>
+      <div className="endstat">
+        <b>{calls.toLocaleString("en-US")}</b>
+        <span>calls logged</span>
+      </div>
+      <div className="endstat">
+        <b>{active}</b>
+        <span>states active</span>
+      </div>
+    </div>
+  );
 }
 
 export default function Home() {
@@ -158,6 +190,7 @@ export default function Home() {
                 official lookup may ask for your address to find exact legislators; RTI does not
                 store it.
               </p>
+              <EndStats />
               <div className="endact">
                 <SignupForm />
               </div>

@@ -7,6 +7,7 @@ import { STATE_PATHS, US_VIEWBOX } from "../data/usStatePaths";
 import { COUNTRY_OPTIONS } from "../data/countries";
 import { STATE_OPTIONS } from "../data/states";
 import { slugForAbbr } from "../lib/stateSlug";
+import MapTip, { type Tip } from "../components/MapTip";
 
 // The live stats page. Full-screen split hero (workbench v3): totals stacked
 // huge on the left, the interactive map bleeding off the right. Two views:
@@ -72,6 +73,7 @@ export default function StatsPage() {
   const [selected, setSelected] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [world, setWorld] = useState<WorldData | null>(worldCache);
+  const [tip, setTip] = useState<Tip>(null);
   const heroRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -308,6 +310,7 @@ export default function StatsPage() {
                 viewBox={US_VIEWBOX}
                 role="img"
                 aria-label="Interactive map of the United States shaded by activity per state"
+                onMouseLeave={() => setTip(null)}
               >
                 {Object.entries(STATE_PATHS).map(([abbr, d]) => (
                   <path
@@ -316,12 +319,14 @@ export default function StatsPage() {
                     className={`usstate movestate${selected === abbr ? " sel" : ""}`}
                     style={{ fill: fillUS(abbr) }}
                     onClick={() => pickPlace(abbr)}
-                  >
-                    <title>
-                      {NAME_OF[abbr] ?? abbr}: {stats?.states[abbr]?.signups ?? 0} signed,{" "}
-                      {stats?.states[abbr]?.calls ?? 0} called
-                    </title>
-                  </path>
+                    onMouseMove={(e) =>
+                      setTip({
+                        x: e.clientX,
+                        y: e.clientY,
+                        text: `${NAME_OF[abbr] ?? abbr}: ${stats?.states[abbr]?.signups ?? 0} signed, ${stats?.states[abbr]?.calls ?? 0} called`,
+                      })
+                    }
+                  />
                 ))}
               </svg>
             ) : world ? (
@@ -329,6 +334,7 @@ export default function StatsPage() {
                 viewBox={world.WORLD_VIEWBOX}
                 role="img"
                 aria-label="Interactive world map shaded by signatures per country"
+                onMouseLeave={() => setTip(null)}
               >
                 {Object.entries(world.WORLD_PATHS).map(([code, d]) => (
                   <path
@@ -337,15 +343,18 @@ export default function StatsPage() {
                     className={`usstate movestate${selected === code ? " sel" : ""}`}
                     style={{ fill: fillWorld(code) }}
                     onClick={() => pickPlace(code)}
-                  >
-                    <title>
-                      {world.WORLD_NAMES[code] ?? COUNTRY_NAME_OF[code] ?? code}:{" "}
-                      {code === "US" ? usTotal : (stats?.countries[code]?.signups ?? 0)} signed
-                    </title>
-                  </path>
+                    onMouseMove={(e) =>
+                      setTip({
+                        x: e.clientX,
+                        y: e.clientY,
+                        text: `${world.WORLD_NAMES[code] ?? COUNTRY_NAME_OF[code] ?? code}: ${code === "US" ? usTotal : (stats?.countries[code]?.signups ?? 0)} signed`,
+                      })
+                    }
+                  />
                 ))}
               </svg>
             ) : null}
+            <MapTip tip={tip} />
           </figure>
         </section>
 
