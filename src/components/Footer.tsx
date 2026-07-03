@@ -26,16 +26,8 @@ export default function Footer() {
 
   return (
     <footer className="pad">
-      <div className="footrow">
-        <div className="footlinks">
-          <Link to="/#about">Model bill</Link>
-          <Link to="/#start">Sources</Link>
-          <Link to="/#get-involved">Volunteer</Link>
-          <Link to="/privacy">Privacy</Link>
-        </div>
-        <span className="brandmini">
-          <img className="glyph" src="/rti-logo-small.webp" alt="" />
-        </span>
+      <div className="footlinks">
+        <Link to="/privacy">Privacy</Link>
       </div>
       <p className="fine">
         Right to Intelligence · not legal advice. Every state pack is marked{" "}
@@ -43,6 +35,7 @@ export default function Footer() {
         available.
       </p>
       {freshness && <p className="fine">{formatCivicDataFreshness(freshness)}</p>}
+      <img className="glyph footglyph" src="/rti-logo-small.webp" alt="" />
     </footer>
   );
 }
