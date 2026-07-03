@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import { useSignup } from "./SignupForm";
 
-// On the homepage the links scroll to in-page sections. On other pages they route
-// home to the matching anchor. "Take Action" points at the hero picker.
-export default function Nav({ onHome = true }: { onHome?: boolean }) {
-  const href = (anchor: string) => (onHome ? `#${anchor}` : `/#${anchor}`);
+// All navigation is SPA (Link, never a raw <a> to our own pages) — a raw
+// anchor would reload the app and wipe in-memory state like scroll positions.
+// "Take Action" opens the signup modal in place, wherever you are.
+export default function Nav() {
+  const { launch } = useSignup();
   return (
     <nav className="nav">
       <div className="row pad">
@@ -12,10 +14,11 @@ export default function Nav({ onHome = true }: { onHome?: boolean }) {
           <span>Right to Intelligence</span>
         </Link>
         <span className="navlinks">
-          <a href={href("about")}>About</a>
-          <a href={href("principles")}>Principles</a>
+          <Link to="/">About</Link>
           <Link to="/stats">Stats</Link>
-          <a href={href("top")}>Take Action</a>
+          <button type="button" className="navactbtn" onClick={launch}>
+            Take Action
+          </button>
         </span>
       </div>
     </nav>

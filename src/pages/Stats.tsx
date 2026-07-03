@@ -199,7 +199,7 @@ export default function StatsPage() {
   };
   const pickFromTable = (code: string) => {
     setSelected(code);
-    heroRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    heroRef.current?.scrollIntoView({ behavior: "instant", block: "start" });
   };
   const switchView = (v: View) => {
     setView(v);
@@ -209,7 +209,7 @@ export default function StatsPage() {
 
   return (
     <>
-      <Nav onHome={false} />
+      <Nav />
       <main>
         <section className={`statshero pad${view === "world" ? " world" : ""}`} ref={heroRef}>
           <div className="statsleft" aria-live="polite">
