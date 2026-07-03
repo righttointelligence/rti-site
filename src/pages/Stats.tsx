@@ -4,7 +4,6 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import { useRollingNumber } from "../components/LiveCounter";
 import { STATE_PATHS, US_VIEWBOX } from "../data/usStatePaths";
-import { WORLD_NAMES, WORLD_PATHS, WORLD_VIEWBOX } from "../data/worldCountryPaths";
 import { COUNTRY_OPTIONS } from "../data/countries";
 import { STATE_OPTIONS } from "../data/states";
 import { slugForAbbr } from "../lib/stateSlug";
@@ -25,10 +24,16 @@ type Stats = {
 type View = "us" | "world";
 
 const NAME_OF: Record<string, string> = Object.fromEntries(STATE_OPTIONS);
-const COUNTRY_NAME_OF: Record<string, string> = {
-  ...WORLD_NAMES,
-  ...Object.fromEntries(COUNTRY_OPTIONS),
-};
+const COUNTRY_NAME_OF: Record<string, string> = Object.fromEntries(COUNTRY_OPTIONS);
+
+// The world map path data is the single heaviest asset in the app (~120KB of
+// SVG geometry) and it only renders behind the "World" toggle. It loads as its
+// own chunk in the background right after the stats page mounts — navigation
+// stays fully synchronous (no suspense flash), and by the time anyone reaches
+// for the toggle the map is already here. Cached at module scope so it loads
+// at most once per session.
+type WorldData = typeof import("../data/worldCountryPaths");
+let worldCache: WorldData | null = null;
 
 const POLL_MS = 10_000;
 
@@ -66,7 +71,20 @@ export default function StatsPage() {
   const [view, setView] = useState<View>("us");
   const [selected, setSelected] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [world, setWorld] = useState<WorldData | null>(worldCache);
   const heroRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (worldCache) return;
+    let alive = true;
+    void import("../data/worldCountryPaths").then((m) => {
+      worldCache = m;
+      if (alive) setWorld(m);
+    });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   useEffect(() => {
     let alive = true;
@@ -296,13 +314,13 @@ export default function StatsPage() {
                   </path>
                 ))}
               </svg>
-            ) : (
+            ) : world ? (
               <svg
-                viewBox={WORLD_VIEWBOX}
+                viewBox={world.WORLD_VIEWBOX}
                 role="img"
                 aria-label="Interactive world map shaded by signatures per country"
               >
-                {Object.entries(WORLD_PATHS).map(([code, d]) => (
+                {Object.entries(world.WORLD_PATHS).map(([code, d]) => (
                   <path
                     key={code}
                     d={d}
@@ -311,13 +329,13 @@ export default function StatsPage() {
                     onClick={() => pickPlace(code)}
                   >
                     <title>
-                      {COUNTRY_NAME_OF[code] ?? code}:{" "}
+                      {world.WORLD_NAMES[code] ?? COUNTRY_NAME_OF[code] ?? code}:{" "}
                       {code === "US" ? usTotal : (stats?.countries[code]?.signups ?? 0)} signed
                     </title>
                   </path>
                 ))}
               </svg>
-            )}
+            ) : null}
           </figure>
         </section>
 

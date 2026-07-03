@@ -1,38 +1,29 @@
-import { lazy, Suspense, useEffect } from "react";
+import { lazy, Suspense, useLayoutEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
+import Action from "./pages/Action";
+import Stats from "./pages/Stats";
 import Template from "./pages/Template";
 import Privacy from "./pages/Privacy";
 
-// Route-split the heavy pages so the landing page ships the smallest possible
-// bundle: Stats carries the whole world map (~120KB of path data) and Action
-// carries the call-page machinery. Each downloads only when visited.
-const Action = lazy(() => import("./pages/Action"));
-const Stats = lazy(() => import("./pages/Stats"));
-
-// Prefetch the split chunks once the landing page is idle: the initial render
-// stays light, but by the time anyone clicks Stats or an action link the code
-// is already in the browser cache — navigation is instant.
-if (typeof window !== "undefined") {
-  const prefetch = () => {
-    void import("./pages/Stats");
-    void import("./pages/Action");
-  };
-  const w = window as Window & {
-    requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
-  };
-  if (w.requestIdleCallback) w.requestIdleCallback(prefetch, { timeout: 3000 });
-  else window.setTimeout(prefetch, 1500);
-}
+// Every page is a synchronous import: navigation renders instantly, no
+// suspense flash. The one heavy asset — the world map's ~120KB of geometry —
+// is data, not a page, and Stats lazy-loads it in the background on mount.
 
 // Dev-only design workbench; stripped from production builds.
 const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
 
-// React-router keeps the scroll position across route changes; every page
-// switch should start at the top. Hash links (/#start) still anchor-scroll.
+// Every navigation lands at the top of the new page, instantly. The browser's
+// own history scroll restoration is switched off — otherwise back/forward
+// re-scrolls to the old position and fights this. Hash links (/#start) still
+// anchor-scroll. useLayoutEffect runs before paint, so the old scroll position
+// is never visible for even a frame.
+if (typeof window !== "undefined" && "scrollRestoration" in window.history) {
+  window.history.scrollRestoration = "manual";
+}
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (hash) {
       document.querySelector(hash)?.scrollIntoView();
       return;
@@ -58,22 +49,8 @@ export default function App() {
             }
           />
         ) : null}
-        <Route
-          path="/action/:slug"
-          element={
-            <Suspense fallback={null}>
-              <Action />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/stats"
-          element={
-            <Suspense fallback={null}>
-              <Stats />
-            </Suspense>
-          }
-        />
+        <Route path="/action/:slug" element={<Action />} />
+        <Route path="/stats" element={<Stats />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route
           path="/about"
