@@ -2,6 +2,8 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "rti-site",
   "compatibility_date": "2026-06-24",
+  // @cloudflare/puppeteer (OG card rendering) uses node:buffer.
+  "compatibility_flags": ["nodejs_compat"],
   "account_id": "42c2f70561f95aec8750268a84fb4dbe",
   // Custom domains attach after the righttointelligence.org zone moves to the
   // RTI account (Cloudflare Registrar inter-account move unlocks ~2026-07-11).
@@ -16,7 +18,23 @@
     "directory": "./dist",
     "not_found_handling": "single-page-application",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*"]
+    // /og.png is rendered dynamically (live signature count baked into the
+    // share image) — it must reach the worker, not the static asset layer.
+    "run_worker_first": ["/api/*", "/og.png"]
+  },
+  // Persistent request logs (Workers Logs) — so user-reported failures can be
+  // investigated after the fact instead of only via live tail.
+  "observability": {
+    "enabled": true
+  },
+  // Headless browser (Cloudflare Browser Rendering) — renders the OG share
+  // card with the live counter. Included in the Workers Paid plan.
+  "browser": {
+    "binding": "BROWSER"
+  },
+  // Re-render the OG image hourly; /og.png also lazily re-renders if stale.
+  "triggers": {
+    "crons": ["7 * * * *"]
   },
   "vars": {
     // Keep 0 unless importing a real historical action count.

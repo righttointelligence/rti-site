@@ -18,6 +18,7 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@cloudflare/puppeteer": "1.1.0",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-router-dom": "7.8.2"

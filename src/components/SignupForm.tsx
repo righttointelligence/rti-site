@@ -166,8 +166,12 @@ export function SignupProvider({ children }: { children: ReactNode }) {
       broadcastTotal(result.total);
       setStateKey("");
       setStep("done");
-    } catch {
-      setError("Something broke on our end. Give it a minute and try again.");
+    } catch (err) {
+      setError(
+        err instanceof Error && err.message === "verification_failed"
+          ? "Couldn't verify you're human — give it another try."
+          : "Something broke on our end. Give it a minute and try again.",
+      );
     } finally {
       setBusy(false);
     }

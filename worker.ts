@@ -1,8 +1,11 @@
+import puppeteer from "@cloudflare/puppeteer";
 import { COUNTRY_CODES } from "./src/data/countries";
 
 type Env = {
   ACTIONS_DB: D1Database;
   ASSETS: { fetch(request: Request): Promise<Response> };
+  // Cloudflare Browser Rendering binding — renders the live-count OG card.
+  BROWSER: { fetch(request: Request): Promise<Response> };
   ACTION_COUNT_OFFSET?: string;
   // Optional Turnstile secret (wrangler secret put TURNSTILE_SECRET).
   // When present, /api/signups requires a valid Turnstile token.
@@ -616,9 +619,135 @@ function chamberRank(lawmaker: Lawmaker): number {
   return lawmaker.chamber === "upper" ? 0 : 1;
 }
 
+// ---------------------------------------------------------------------------
+// Dynamic OG share image. The card leads with the live counter (the number IS
+// the marketing), "Protect your right to run local AI." as the second line.
+// An hourly cron re-renders it via Cloudflare Browser Rendering and stores the
+// PNG as a single row in D1; /og.png serves that row and lazily re-renders in
+// the background whenever it's older than an hour. Platforms cache OG images
+// per share, so every NEW share scrapes a fresh count; old embeds keep theirs.
+// If nothing has been rendered yet (or rendering breaks), /og.png falls back
+// to the static card in assets — a share never gets a broken preview.
+
+const OG_TTL_MS = 60 * 60 * 1000;
+const SITE_ORIGIN = "https://righttointelligence.org";
+
+function ogCardHtml(count: number): string {
+  const n = count.toLocaleString("en-US");
+  return `<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  @font-face {
+    font-family: "JetBrains Mono"; font-style: normal; font-weight: 400 700;
+    src: url("${SITE_ORIGIN}/fonts/jetbrains-mono.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Space Mono"; font-style: normal; font-weight: 700;
+    src: url("${SITE_ORIGIN}/fonts/space-mono-700.woff2") format("woff2");
+  }
+  * { margin: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px; background: #fcfcfb; color: #0b0b0b;
+    font-family: "JetBrains Mono", monospace; padding: 56px 64px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    overflow: hidden;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; font-size: 22px; font-weight: 700; }
+  .brand img { height: 44px; width: auto; }
+  .count {
+    font-family: "Space Mono", "JetBrains Mono", monospace; font-weight: 700;
+    font-size: 168px; line-height: 1; letter-spacing: -4px;
+  }
+  .countsub { margin-top: 10px; font-size: 30px; color: #45453f; display: flex; align-items: center; gap: 14px; }
+  .dot { width: 14px; height: 14px; border-radius: 50%; background: #16a34a; }
+  .divider { width: 64px; height: 6px; background: #16a34a; margin: 34px 0 22px; }
+  .tagline { font-size: 40px; font-weight: 700; line-height: 1.25; }
+  .foot { display: flex; align-items: baseline; gap: 22px; font-size: 21px; }
+  .foot .url { color: #16a34a; font-weight: 700; }
+  .foot .sub { color: #7a7a74; }
+</style></head><body>
+  <div class="brand"><img src="${SITE_ORIGIN}/rti-logo.png" alt=""><span>Right to Intelligence</span></div>
+  <div>
+    <div class="count">${n}</div>
+    <div class="countsub"><span class="dot"></span><span>people have taken action</span></div>
+    <div class="divider"></div>
+    <div class="tagline">Protect your right to run local&nbsp;AI.</div>
+  </div>
+  <div class="foot"><span class="url">righttointelligence.org</span><span class="sub">sign in ten seconds — call in two minutes</span></div>
+</body></html>`;
+}
+
+async function renderOgImage(env: Env): Promise<void> {
+  // Stampede guard: at most one render kicked off per isolate per 2 minutes.
+  const now = Date.now();
+  const guard = memCache.get("og-render-lock");
+  if (guard && guard.until > now) return;
+  memCache.set("og-render-lock", { until: now + 120_000, body: "" });
+
+  const count = await countTotal(env);
+  const browser = await puppeteer.launch(env.BROWSER as never);
+  try {
+    const page = await browser.newPage();
+    await page.setViewport({ width: 1200, height: 630, deviceScaleFactor: 2 });
+    await page.setContent(ogCardHtml(count), { waitUntil: "networkidle0" });
+    const png = await page.screenshot({ type: "png" });
+    const bytes = png instanceof Uint8Array ? png : new Uint8Array(png as ArrayBuffer);
+    // Self-provisioning: the cache table creates itself on first render, so no
+    // manual remote migration is needed (root's D1 access stays locked down).
+    await env.ACTIONS_DB.prepare(
+      "CREATE TABLE IF NOT EXISTS og_cache (key TEXT PRIMARY KEY, bytes BLOB NOT NULL, updated_at INTEGER NOT NULL)",
+    ).run();
+    await env.ACTIONS_DB.prepare(
+      "INSERT INTO og_cache (key, bytes, updated_at) VALUES ('og', ?1, ?2) " +
+        "ON CONFLICT(key) DO UPDATE SET bytes = ?1, updated_at = ?2",
+    )
+      .bind(bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength), now)
+      .run();
+  } finally {
+    await browser.close();
+  }
+}
+
+async function handleOgImage(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+  let row: { bytes: ArrayBuffer; updated_at: number } | null = null;
+  try {
+    row = await env.ACTIONS_DB.prepare("SELECT bytes, updated_at FROM og_cache WHERE key = 'og'")
+      .first<{ bytes: ArrayBuffer; updated_at: number }>();
+  } catch {
+    row = null; // table missing or read failure — fall back to the static card
+  }
+  const stale = !row || Date.now() - row.updated_at > OG_TTL_MS;
+  if (stale) ctx.waitUntil(renderOgImage(env).catch(() => {}));
+  if (row) {
+    // D1 returns BLOBs as ArrayBuffer in production and as a plain number
+    // array in some local/dev paths — normalize to bytes either way.
+    const raw = row.bytes as ArrayBuffer | Uint8Array | number[];
+    const body =
+      raw instanceof Uint8Array
+        ? raw
+        : Array.isArray(raw)
+          ? Uint8Array.from(raw)
+          : new Uint8Array(raw);
+    return new Response(body, {
+      headers: {
+        "content-type": "image/png",
+        "cache-control": "public, max-age=1800",
+      },
+    });
+  }
+  // Nothing rendered yet: serve the static fallback card from assets.
+  const url = new URL(request.url);
+  url.pathname = "/og-fallback.png";
+  return env.ASSETS.fetch(new Request(url.toString(), request));
+}
+
+type ExecutionContext = { waitUntil(promise: Promise<unknown>): void };
+
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+    if (url.pathname === "/og.png" && request.method === "GET") {
+      return handleOgImage(request, env, ctx);
+    }
     if (url.pathname === "/api/actions" && request.method === "POST") {
       return handleActionLog(request, env);
     }
@@ -644,6 +773,11 @@ export default {
       return handleStats(env);
     }
     return withSecurityHeaders(await env.ASSETS.fetch(request));
+  },
+
+  // Hourly re-render of the OG share card with the live count.
+  async scheduled(_controller: unknown, env: Env, ctx: ExecutionContext): Promise<void> {
+    ctx.waitUntil(renderOgImage(env));
   },
 };
 
