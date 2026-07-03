@@ -113,6 +113,15 @@ export default function StatsPage() {
     return n;
   }, [stats]);
 
+  // US-only signatures (sum of the states). The US view shows the domestic
+  // fight; the World view shows every signature on earth. Calls are US-only
+  // by nature, so that number is the same in both views.
+  const usSignups = useMemo(() => {
+    let n = 0;
+    for (const s of Object.values(stats?.states ?? {})) n += s.signups;
+    return n;
+  }, [stats]);
+
   const maxState = useMemo(() => {
     let max = 0;
     for (const s of Object.values(stats?.states ?? {})) {
@@ -176,7 +185,8 @@ export default function StatsPage() {
     : null;
 
   // Live odometer roll on the headline totals — the map's own numbers.
-  const rollSignups = useRollingNumber(stats ? stats.totals.signups : null);
+  // US view: US signatures only. World view: every signature worldwide.
+  const rollSignups = useRollingNumber(stats ? (view === "us" ? usSignups : stats.totals.signups) : null);
   const rollCalls = useRollingNumber(stats ? stats.totals.calls : null);
 
   const fillUS = (abbr: string): string | undefined => {
