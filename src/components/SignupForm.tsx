@@ -54,6 +54,7 @@ export function SignupProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!open) return;
     const y = window.scrollY;
+    const page = window.location.pathname;
     const b = document.body.style;
     const prev = { position: b.position, top: b.top, left: b.left, right: b.right, overflow: b.overflow };
     b.position = "fixed";
@@ -71,7 +72,9 @@ export function SignupProvider({ children }: { children: ReactNode }) {
       b.left = prev.left;
       b.right = prev.right;
       b.overflow = prev.overflow;
-      window.scrollTo(0, y);
+      // If the modal closed because a link navigated, the new page owns the
+      // scroll position — restoring the old page's spot would drag it there.
+      if (window.location.pathname === page) window.scrollTo(0, y);
       window.removeEventListener("keydown", onKey);
     };
   }, [open]);
@@ -392,7 +395,11 @@ export function SignupProvider({ children }: { children: ReactNode }) {
                 <b>a two-minute call to your state office.</b> We already wrote the script — you
                 just read it.
               </p>
-              <Link className="cta signupdonecta" to={`/action/${slugForAbbr(stateKey)}`}>
+              <Link
+                className="cta signupdonecta"
+                to={`/action/${slugForAbbr(stateKey)}`}
+                onClick={() => setOpen(false)}
+              >
                 Make the call →
               </Link>
               <p className="signupnote">
