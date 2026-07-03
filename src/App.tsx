@@ -10,6 +10,21 @@ import Privacy from "./pages/Privacy";
 const Action = lazy(() => import("./pages/Action"));
 const Stats = lazy(() => import("./pages/Stats"));
 
+// Prefetch the split chunks once the landing page is idle: the initial render
+// stays light, but by the time anyone clicks Stats or an action link the code
+// is already in the browser cache — navigation is instant.
+if (typeof window !== "undefined") {
+  const prefetch = () => {
+    void import("./pages/Stats");
+    void import("./pages/Action");
+  };
+  const w = window as Window & {
+    requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+  };
+  if (w.requestIdleCallback) w.requestIdleCallback(prefetch, { timeout: 3000 });
+  else window.setTimeout(prefetch, 1500);
+}
+
 // Dev-only design workbench; stripped from production builds.
 const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
 

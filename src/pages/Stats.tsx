@@ -53,8 +53,16 @@ async function fetchStats(): Promise<Stats | null> {
 
 const fmt = (n: number) => n.toLocaleString("en-US");
 
+// Last stats survive navigation: leaving and returning to /stats renders the
+// previous numbers instantly (no blank flash) while a fresh fetch updates them.
+let lastStats: Stats | null = null;
+
 export default function StatsPage() {
-  const [stats, setStats] = useState<Stats | null>(null);
+  const [stats, setStatsState] = useState<Stats | null>(lastStats);
+  const setStats = (s: Stats) => {
+    lastStats = s;
+    setStatsState(s);
+  };
   const [view, setView] = useState<View>("us");
   const [selected, setSelected] = useState<string | null>(null);
   const [query, setQuery] = useState("");
