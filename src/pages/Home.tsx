@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import NeuralBoot from "../components/NeuralBoot";
-import Picker from "../components/Picker";
 import SignupForm from "../components/SignupForm";
 import LiveCounter from "../components/LiveCounter";
 import USMap from "../components/USMap";
-import { slugForAbbr } from "../lib/stateSlug";
 import { fetchCount } from "../lib/signup";
 
 const BEATS = [
@@ -22,7 +19,7 @@ const BEATS = [
         exists to protect.
       </>
     ),
-    img: "/beats/beat-01-local.png",
+    img: "/beats/beat-01-local.webp",
     alt: "A laptop running a small AI model locally",
     imgMax: 505,
   },
@@ -38,7 +35,7 @@ const BEATS = [
         just to own or run the tool.
       </>
     ),
-    img: "/beats/beat-02-protect.png",
+    img: "/beats/beat-02-protect.webp",
     alt: "A shield protecting a growing sprout",
   },
   {
@@ -53,7 +50,7 @@ const BEATS = [
         cloud when the task fits the device.
       </>
     ),
-    img: "/beats/beat-03-devices.png",
+    img: "/beats/beat-03-devices.webp",
     alt: "A phone and laptop running models without the cloud",
     imgMax: 505,
   },
@@ -86,9 +83,7 @@ function useIsMobile() {
 }
 
 export default function Home() {
-  const navigate = useNavigate();
   const isMobile = useIsMobile();
-  const go = (abbr: string) => navigate(`/action/${slugForAbbr(abbr)}`);
   const [total, setTotal] = useState<number | null>(null);
 
   useEffect(() => {
@@ -96,23 +91,16 @@ export default function Home() {
     fetchCount().then((n) => {
       if (alive && n !== null) setTotal(n);
     });
+    // Fresh totals broadcast by the signup modal (which lives at App level).
+    const onTotal = (e: Event) => {
+      const n = (e as CustomEvent<number>).detail;
+      if (alive && typeof n === "number") setTotal(n);
+    };
+    window.addEventListener("rti:total", onTotal);
     return () => {
       alive = false;
+      window.removeEventListener("rti:total", onTotal);
     };
-  }, []);
-
-  // reveal the manifesto beats on scroll (matches the prototype)
-  useEffect(() => {
-    if (!window.matchMedia("(prefers-reduced-motion:no-preference)").matches) {
-      document.querySelectorAll(".beat").forEach((b) => b.classList.add("in"));
-      return;
-    }
-    const io = new IntersectionObserver(
-      (es) => es.forEach((e) => { if (e.isIntersecting) e.target.classList.add("in"); }),
-      { threshold: 0.18 }
-    );
-    document.querySelectorAll(".beat").forEach((b) => io.observe(b));
-    return () => io.disconnect();
   }, []);
 
   return (
@@ -129,7 +117,7 @@ export default function Home() {
             you need permission to use.{" "}
             <b>Signing takes ten seconds. If you're down to do more, we've got a call script ready.</b>
           </p>
-          <SignupForm onTotal={setTotal} />
+          <SignupForm />
           {isMobile && (
             <div className="heroboot" aria-hidden="true">
               <NeuralBoot className="herobootnet" opts={MOBILE_BOOT_OPTS} />
@@ -171,7 +159,7 @@ export default function Home() {
                 store it.
               </p>
               <div className="endact">
-                <Picker cta="Show my action →" onGo={go} />
+                <SignupForm />
               </div>
             </div>
             <figure className="endmap">

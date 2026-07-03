@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import {
   fetchCivicDataFreshness,
   formatCivicDataFreshness,
@@ -27,13 +28,13 @@ export default function Footer() {
     <footer className="pad">
       <div className="footrow">
         <div className="footlinks">
-          <a href="/#about">Model bill</a>
-          <a href="/#start">Sources</a>
-          <a href="/#get-involved">Volunteer</a>
-          <a href="/privacy">Privacy</a>
+          <Link to="/#about">Model bill</Link>
+          <Link to="/#start">Sources</Link>
+          <Link to="/#get-involved">Volunteer</Link>
+          <Link to="/privacy">Privacy</Link>
         </div>
         <span className="brandmini">
-          <img className="glyph" src="/rti-logo.png" alt="" />
+          <img className="glyph" src="/rti-logo-small.webp" alt="" />
         </span>
       </div>
       <p className="fine">

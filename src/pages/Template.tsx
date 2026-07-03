@@ -13,7 +13,7 @@ export default function Template({
 }) {
   return (
     <>
-      <Nav onHome={false} />
+      <Nav />
       <main className="tpl pad">
         <p className="idx">{idx}</p>
         <h1>{title}</h1>

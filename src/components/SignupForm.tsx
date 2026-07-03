@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { createContext, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { ChevIcon } from "./icons";
@@ -7,13 +7,28 @@ import { STATE_OPTIONS } from "../data/states";
 import { slugForAbbr } from "../lib/stateSlug";
 import { saveZip, submitSignup } from "../lib/signup";
 
-// The hero's primary action. The CTA stays put in the hero; tapping it opens a
-// focused modal — dimmed page behind, one ask per step: email, then place
-// (a US/world toggle swaps the picker between state and country in place),
-// then an optional zip for US signers, then the bridge to the call.
+// The signature flow, app-wide. SignupProvider owns the state machine and the
+// modal (mounted once at App level), so any button on any page — hero CTA,
+// endbeat CTA, the nav's Take Action — opens the same modal in place via
+// useSignup().launch(). Steps: email, then place (a US/world toggle swaps the
+// picker between state and country), then an optional zip for US signers,
+// then the bridge to the call. After a signup the fresh total is broadcast as
+// a "rti:total" window event so live counters update instantly.
 type Step = "email" | "place" | "zip" | "done";
 
-export default function SignupForm({ onTotal }: { onTotal?: (total: number) => void }) {
+type SignupCtx = { launch: () => void; step: Step; stateKey: string };
+const Ctx = createContext<SignupCtx | null>(null);
+
+export function useSignup(): SignupCtx {
+  const ctx = useContext(Ctx);
+  if (!ctx) throw new Error("useSignup must be used inside SignupProvider");
+  return ctx;
+}
+
+const broadcastTotal = (total: number) =>
+  window.dispatchEvent(new CustomEvent("rti:total", { detail: total }));
+
+export function SignupProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState<Step>("email");
   const [email, setEmail] = useState("");
@@ -118,7 +133,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
         website,
       });
       if (zip.trim()) saveZip(zip.trim());
-      onTotal?.(result.total);
+      broadcastTotal(result.total);
       setStep("done");
     } catch (err) {
       setError(
@@ -148,7 +163,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
         country: countryKey,
         website,
       });
-      onTotal?.(result.total);
+      broadcastTotal(result.total);
       setStateKey("");
       setStep("done");
     } catch {
@@ -412,6 +427,18 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
     );
 
   return (
+    <Ctx.Provider value={{ launch, step, stateKey }}>
+      {children}
+      {modal}
+    </Ctx.Provider>
+  );
+}
+
+// The signature CTA block — drop it anywhere inside SignupProvider. Same
+// button, same note, same shared state everywhere it appears.
+export default function SignupForm() {
+  const { launch, step, stateKey } = useSignup();
+  return (
     <div className="signup">
       <button className="cta signupcta" type="button" onClick={launch}>
         {step !== "done"
@@ -422,11 +449,10 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
       </button>
       <p className="signupnote">
         Ten seconds. Email + your state, nothing else.{" "}
-        <a className="actlink" href="#start">
+        <Link className="actlink" to="/#start">
           Just want to call? →
-        </a>
+        </Link>
       </p>
-      {modal}
     </div>
   );
 }

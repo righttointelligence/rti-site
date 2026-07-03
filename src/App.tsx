@@ -1,24 +1,46 @@
-import { lazy, Suspense, useEffect } from "react";
+import { lazy, Suspense, useLayoutEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Action from "./pages/Action";
 import Stats from "./pages/Stats";
 import Template from "./pages/Template";
 import Privacy from "./pages/Privacy";
+import { SignupProvider } from "./components/SignupForm";
+
+// Every page is a synchronous import: navigation renders instantly, no
+// suspense flash. The one heavy asset — the world map's ~120KB of geometry —
+// is data, not a page, and Stats lazy-loads it in the background on mount.
 
 // Dev-only design workbench; stripped from production builds.
 const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
 
-// React-router keeps the scroll position across route changes; every page
-// switch should start at the top. Hash links (/#start) still anchor-scroll.
-function ScrollToTop() {
+// Per-page scroll memory, no animation ever. Each route remembers where you
+// were: leave /stats scrolled halfway, come back, you're at that exact spot —
+// positioned before paint (useLayoutEffect), so there is no visible jump or
+// scroll motion, just the page appearing where you left it. New pages start at
+// the top; hash links (/#about) still land on their section, also instantly.
+// The browser's own history scroll restoration is off so it can't fight us.
+if (typeof window !== "undefined" && "scrollRestoration" in window.history) {
+  window.history.scrollRestoration = "manual";
+}
+const scrollMemory = new Map<string, number>();
+function ScrollMemory() {
   const { pathname, hash } = useLocation();
-  useEffect(() => {
+
+  // Record this page's position continuously while it's on screen.
+  useLayoutEffect(() => {
+    const save = () => scrollMemory.set(pathname, window.scrollY);
+    window.addEventListener("scroll", save, { passive: true });
+    return () => window.removeEventListener("scroll", save);
+  }, [pathname]);
+
+  // On navigation, place the new page instantly: remembered spot, or top.
+  useLayoutEffect(() => {
     if (hash) {
-      document.querySelector(hash)?.scrollIntoView();
+      document.querySelector(hash)?.scrollIntoView({ behavior: "instant" });
       return;
     }
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: scrollMemory.get(pathname) ?? 0, behavior: "instant" });
   }, [pathname, hash]);
   return null;
 }
@@ -26,7 +48,17 @@ function ScrollToTop() {
 export default function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
+      <ScrollMemory />
+      <SignupProvider>
+        <AppRoutes />
+      </SignupProvider>
+    </BrowserRouter>
+  );
+}
+
+function AppRoutes() {
+  return (
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         {Workbench ? (
@@ -86,6 +118,6 @@ export default function App() {
         />
         <Route path="*" element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
