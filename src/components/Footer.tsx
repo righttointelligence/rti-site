@@ -30,6 +30,7 @@ export default function Footer() {
           <a href="/#about">Model bill</a>
           <a href="/#start">Sources</a>
           <a href="/#get-involved">Volunteer</a>
+          <a href="/privacy">Privacy</a>
         </div>
         <span className="brandmini">
           <img className="glyph" src="/rti-logo.png" alt="" />

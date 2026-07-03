@@ -178,7 +178,13 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
                 Next →
               </button>
               {error && <p className="signuperror">{error}</p>}
-              <p className="signupnote">No spam, ever. Just a heads-up when your state needs you.</p>
+              <p className="signupnote">
+                No spam, ever. Just a heads-up when your state needs you. Never sold, never
+                shared —{" "}
+                <Link className="actlink" to="/privacy" target="_blank">
+                  how we handle your info →
+                </Link>
+              </p>
             </form>
           )}
 

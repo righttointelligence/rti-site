@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Action from "./pages/Action";
 import Stats from "./pages/Stats";
 import Template from "./pages/Template";
+import Privacy from "./pages/Privacy";
 
 // Dev-only design workbench; stripped from production builds.
 const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
@@ -40,6 +41,7 @@ export default function App() {
         ) : null}
         <Route path="/action/:slug" element={<Action />} />
         <Route path="/stats" element={<Stats />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route
           path="/about"
           element={
