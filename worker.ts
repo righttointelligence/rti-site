@@ -147,17 +147,15 @@ async function handleActionLog(request: Request, env: Env): Promise<Response> {
     return json({ error: "invalid_action" }, { status: 400 });
   }
 
-  await env.ACTIONS_DB.prepare(
-    "INSERT INTO actions (state_key, action_kind, created_at) VALUES (?, ?, datetime('now'))",
-  )
-    .bind(stateKey, actionKind)
-    .run();
+  await env.ACTIONS_DB.batch([
+    env.ACTIONS_DB.prepare(
+      "INSERT INTO actions (state_key, action_kind, created_at) VALUES (?, ?, datetime('now'))",
+    ).bind(stateKey, actionKind),
+    bumpStmt(env).bind("actions", 1),
+    bumpStmt(env).bind(`actions:${stateKey}`, 1),
+  ]);
 
-  const row = await env.ACTIONS_DB.prepare("SELECT COUNT(*) AS count FROM actions").first<{
-    count: number;
-  }>();
-  const offset = Number.parseInt(env.ACTION_COUNT_OFFSET ?? "0", 10) || 0;
-  const total = offset + (row?.count ?? 0);
+  const total = await countTotal(env);
   return json({ ok: true, rank: total, total });
 }
 
@@ -177,12 +175,53 @@ async function verifyTurnstile(secret: string, token: string, ip: string | null)
   return body?.success === true;
 }
 
+// ---------------------------------------------------------------------------
+// O(1) counters. COUNT(*) scans the whole table in SQLite, which multiplied by
+// live-counter polling burned millions of rows_read per day. Counts are
+// maintained in the counters table at write time and read back in 1-2 rows.
+// ---------------------------------------------------------------------------
+function bumpStmt(env: Env) {
+  return env.ACTIONS_DB.prepare(
+    "INSERT INTO counters (key, n) VALUES (?1, ?2) ON CONFLICT(key) DO UPDATE SET n = n + ?2",
+  );
+}
+
+async function readCounters(env: Env, keys: string[]): Promise<Map<string, number>> {
+  const marks = keys.map(() => "?").join(",");
+  const rows = await env.ACTIONS_DB.prepare(
+    `SELECT key, n FROM counters WHERE key IN (${marks})`,
+  )
+    .bind(...keys)
+    .all<{ key: string; n: number }>();
+  return new Map((rows.results ?? []).map((r) => [r.key, r.n]));
+}
+
 async function countTotal(env: Env): Promise<number> {
-  const row = await env.ACTIONS_DB.prepare(
-    "SELECT (SELECT COUNT(*) FROM actions) + (SELECT COUNT(*) FROM signups) AS count",
-  ).first<{ count: number }>();
+  const c = await readCounters(env, ["signups", "actions"]);
   const offset = Number.parseInt(env.ACTION_COUNT_OFFSET ?? "0", 10) || 0;
-  return offset + (row?.count ?? 0);
+  return offset + (c.get("signups") ?? 0) + (c.get("actions") ?? 0);
+}
+
+// Tiny per-isolate memory cache for the hot GET endpoints: a warm isolate
+// serves every poller in its colo from memory and touches D1 once per TTL.
+const memCache = new Map<string, { until: number; body: string }>();
+async function cachedJson(
+  key: string,
+  ttlMs: number,
+  make: () => Promise<Record<string, unknown>>,
+  maxAge: number,
+): Promise<Response> {
+  const now = Date.now();
+  const hit = memCache.get(key);
+  const body = hit && hit.until > now ? hit.body : JSON.stringify(await make());
+  if (!hit || hit.until <= now) memCache.set(key, { until: now + ttlMs, body });
+  return new Response(body, {
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "access-control-allow-origin": "*",
+      "cache-control": `public, max-age=${maxAge}`,
+    },
+  });
 }
 
 async function handleSignup(request: Request, env: Env): Promise<Response> {
@@ -223,15 +262,33 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
     }
   }
 
+  // One indexed row read tells us whether this is a fresh signature (bump the
+  // counters) or a re-sign (keep totals honest — dedupe means no double count,
+  // and a state change moves the signature between state counters).
+  const existing = await env.ACTIONS_DB.prepare(
+    "SELECT state_key FROM signups WHERE email = ?",
+  )
+    .bind(email)
+    .first<{ state_key: string }>();
+
   const verifyToken = crypto.randomUUID();
-  await env.ACTIONS_DB.prepare(
+  const upsert = env.ACTIONS_DB.prepare(
     `INSERT INTO signups (email, state_key, zip, verify_token, created_at)
      VALUES (?, ?, ?, ?, datetime('now'))
      ON CONFLICT(email) DO UPDATE SET state_key = excluded.state_key,
        zip = COALESCE(excluded.zip, signups.zip)`,
-  )
-    .bind(email, stateKey, zip, verifyToken)
-    .run();
+  ).bind(email, stateKey, zip, verifyToken);
+
+  const stmts = [upsert];
+  if (!existing) {
+    stmts.push(bumpStmt(env).bind("signups", 1), bumpStmt(env).bind(`signups:${stateKey}`, 1));
+  } else if (existing.state_key !== stateKey) {
+    stmts.push(
+      bumpStmt(env).bind(`signups:${existing.state_key}`, -1),
+      bumpStmt(env).bind(`signups:${stateKey}`, 1),
+    );
+  }
+  await env.ACTIONS_DB.batch(stmts);
 
   return json({ ok: true, total: await countTotal(env) });
 }
@@ -240,39 +297,39 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
 // "this many of your constituents signed, this many picked up the phone."
 // Aggregates only; no email or zip ever leaves the database.
 async function handleStats(env: Env): Promise<Response> {
-  const [signups, calls] = await Promise.all([
-    env.ACTIONS_DB.prepare(
-      "SELECT state_key AS state, COUNT(*) AS n FROM signups GROUP BY state_key",
-    ).all<{ state: string; n: number }>(),
-    env.ACTIONS_DB.prepare(
-      "SELECT state_key AS state, COUNT(*) AS n FROM actions GROUP BY state_key",
-    ).all<{ state: string; n: number }>(),
-  ]);
-  const states: Record<string, { signups: number; calls: number }> = {};
-  for (const row of signups.results ?? []) {
-    states[row.state] = { signups: row.n, calls: 0 };
-  }
-  for (const row of calls.results ?? []) {
-    states[row.state] = { ...(states[row.state] ?? { signups: 0, calls: 0 }), calls: row.n };
-  }
-  let totalSignups = 0, totalCalls = 0;
-  for (const s of Object.values(states)) {
-    totalSignups += s.signups;
-    totalCalls += s.calls;
-  }
-  return json(
-    { ok: true, totals: { signups: totalSignups, calls: totalCalls }, states },
-    { headers: { "cache-control": "public, max-age=60" } },
+  // ≤ ~102 counter rows instead of scanning both full tables; memory-cached
+  // 30s per isolate on top of that.
+  return cachedJson(
+    "stats",
+    30_000,
+    async () => {
+      const rows = await env.ACTIONS_DB.prepare(
+        "SELECT key, n FROM counters WHERE key LIKE 'signups:%' OR key LIKE 'actions:%'",
+      ).all<{ key: string; n: number }>();
+      const states: Record<string, { signups: number; calls: number }> = {};
+      let totalSignups = 0;
+      let totalCalls = 0;
+      for (const row of rows.results ?? []) {
+        const [kind, state] = row.key.split(":");
+        const s = (states[state] ??= { signups: 0, calls: 0 });
+        if (kind === "signups") {
+          s.signups = row.n;
+          totalSignups += row.n;
+        } else {
+          s.calls = row.n;
+          totalCalls += row.n;
+        }
+      }
+      return { ok: true, totals: { signups: totalSignups, calls: totalCalls }, states };
+    },
+    30,
   );
 }
 
 async function handleCount(env: Env): Promise<Response> {
-  // Short cache: the homepage polls this to tick the live counter. One D1
-  // count query every ~8s worst case per colo — nothing.
-  return json(
-    { ok: true, total: await countTotal(env) },
-    { headers: { "cache-control": "public, max-age=8" } },
-  );
+  // The homepage polls this every 10s per viewer. Memory cache means a warm
+  // isolate answers everyone in its colo with a 2-row D1 read per 8s.
+  return cachedJson("count", 8_000, async () => ({ ok: true, total: await countTotal(env) }), 8);
 }
 
 async function handleLawmakerLookup(request: Request, env: Env): Promise<Response> {
