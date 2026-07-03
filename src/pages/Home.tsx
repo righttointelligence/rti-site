@@ -22,7 +22,7 @@ const BEATS = [
         exists to protect.
       </>
     ),
-    img: "/beats/beat-01-local.png",
+    img: "/beats/beat-01-local.webp",
     alt: "A laptop running a small AI model locally",
     imgMax: 505,
   },
@@ -38,7 +38,7 @@ const BEATS = [
         just to own or run the tool.
       </>
     ),
-    img: "/beats/beat-02-protect.png",
+    img: "/beats/beat-02-protect.webp",
     alt: "A shield protecting a growing sprout",
   },
   {
@@ -53,7 +53,7 @@ const BEATS = [
         cloud when the task fits the device.
       </>
     ),
-    img: "/beats/beat-03-devices.png",
+    img: "/beats/beat-03-devices.webp",
     alt: "A phone and laptop running models without the cloud",
     imgMax: 505,
   },

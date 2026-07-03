@@ -1,10 +1,14 @@
 import { lazy, Suspense, useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import Action from "./pages/Action";
-import Stats from "./pages/Stats";
 import Template from "./pages/Template";
 import Privacy from "./pages/Privacy";
+
+// Route-split the heavy pages so the landing page ships the smallest possible
+// bundle: Stats carries the whole world map (~120KB of path data) and Action
+// carries the call-page machinery. Each downloads only when visited.
+const Action = lazy(() => import("./pages/Action"));
+const Stats = lazy(() => import("./pages/Stats"));
 
 // Dev-only design workbench; stripped from production builds.
 const Workbench = import.meta.env.DEV ? lazy(() => import("./pages/Workbench")) : null;
@@ -39,8 +43,22 @@ export default function App() {
             }
           />
         ) : null}
-        <Route path="/action/:slug" element={<Action />} />
-        <Route path="/stats" element={<Stats />} />
+        <Route
+          path="/action/:slug"
+          element={
+            <Suspense fallback={null}>
+              <Action />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/stats"
+          element={
+            <Suspense fallback={null}>
+              <Stats />
+            </Suspense>
+          }
+        />
         <Route path="/privacy" element={<Privacy />} />
         <Route
           path="/about"

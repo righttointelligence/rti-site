@@ -33,7 +33,7 @@ export default function Footer() {
           <a href="/privacy">Privacy</a>
         </div>
         <span className="brandmini">
-          <img className="glyph" src="/rti-logo.png" alt="" />
+          <img className="glyph" src="/rti-logo-small.webp" alt="" />
         </span>
       </div>
       <p className="fine">
