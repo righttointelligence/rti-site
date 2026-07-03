@@ -138,9 +138,9 @@ function json(body: unknown, init?: ResponseInit): Response {
 }
 
 async function handleActionLog(request: Request, env: Env): Promise<Response> {
-  let body: { stateKey?: unknown; actionKind?: unknown };
+  let body: { stateKey?: unknown; actionKind?: unknown; turnstileToken?: unknown };
   try {
-    body = (await request.json()) as { stateKey?: unknown; actionKind?: unknown };
+    body = (await request.json()) as typeof body;
   } catch {
     return json({ error: "invalid_json" }, { status: 400 });
   }
@@ -149,6 +149,16 @@ async function handleActionLog(request: Request, env: Env): Promise<Response> {
   const actionKind = typeof body.actionKind === "string" ? body.actionKind : "";
   if (!VALID_STATES.has(stateKey) || !VALID_ACTIONS.has(actionKind)) {
     return json({ error: "invalid_action" }, { status: 400 });
+  }
+
+  // Same wall as signatures: a logged call only counts with a valid Turnstile
+  // token — a raw script can't inflate the calls number either.
+  if (env.TURNSTILE_SECRET) {
+    const token = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
+    const ip = request.headers.get("cf-connecting-ip");
+    if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) {
+      return json({ error: "verification_failed" }, { status: 403 });
+    }
   }
 
   await env.ACTIONS_DB.batch([
@@ -633,6 +643,35 @@ export default {
     if (url.pathname === "/api/stats" && request.method === "GET") {
       return handleStats(env);
     }
-    return env.ASSETS.fetch(request);
+    return withSecurityHeaders(await env.ASSETS.fetch(request));
   },
 };
+
+// Standard security armor on every page/asset response. The CSP names every
+// origin the site is allowed to talk to — one look tells an auditor the whole
+// third-party story: Turnstile (bot check) and zippopotam (zip -> lawmakers).
+function withSecurityHeaders(response: Response): Response {
+  const r = new Response(response.body, response);
+  r.headers.set("strict-transport-security", "max-age=31536000; includeSubDomains");
+  r.headers.set("x-frame-options", "DENY");
+  r.headers.set("x-content-type-options", "nosniff");
+  r.headers.set("referrer-policy", "strict-origin-when-cross-origin");
+  r.headers.set("permissions-policy", "camera=(), microphone=(), payment=(), usb=()");
+  r.headers.set(
+    "content-security-policy",
+    [
+      "default-src 'self'",
+      "script-src 'self' https://challenges.cloudflare.com",
+      "frame-src https://challenges.cloudflare.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com", // inline = React style attrs (map shading)
+      "img-src 'self' data:",
+      "font-src 'self' https://fonts.gstatic.com",
+      "connect-src 'self' https://api.zippopotam.us https://challenges.cloudflare.com",
+      "object-src 'none'",
+      "base-uri 'self'",
+      "form-action 'self'",
+      "frame-ancestors 'none'",
+    ].join("; "),
+  );
+  return r;
+}

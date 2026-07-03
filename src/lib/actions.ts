@@ -1,3 +1,5 @@
+import { getTurnstileToken } from "./turnstile";
+
 export type ActionKind = "call" | "voicemail" | "email_fallback";
 
 export type ActionLogResult = {
@@ -26,11 +28,14 @@ function logLocalAction(): ActionLogResult {
 }
 
 export async function logAction(stateKey: string, actionKind: ActionKind): Promise<ActionLogResult> {
+  // Invisible bot check, same as signatures — a logged call carries a
+  // one-time Turnstile token so scripts can't inflate the calls count either.
+  const turnstileToken = await getTurnstileToken();
   try {
     const res = await fetch("/api/actions", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ stateKey, actionKind }),
+      body: JSON.stringify({ stateKey, actionKind, turnstileToken }),
     });
     if (!res.ok) throw new Error(`log failed: ${res.status}`);
     const body = (await res.json()) as { rank?: unknown; total?: unknown };
