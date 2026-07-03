@@ -55,7 +55,8 @@ function localSignup(): SignupResult {
 
 export async function submitSignup(input: {
   email: string;
-  stateKey: string;
+  stateKey?: string; // US path
+  country?: string; // international path (ISO alpha-2)
   zip?: string;
   website?: string; // honeypot passthrough
 }): Promise<SignupResult> {

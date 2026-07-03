@@ -1,3 +1,5 @@
+import { COUNTRY_CODES } from "./src/data/countries";
+
 type Env = {
   ACTIONS_DB: D1Database;
   ASSETS: { fetch(request: Request): Promise<Response> };
@@ -9,12 +11,14 @@ type Env = {
 
 type D1Database = {
   prepare(query: string): D1PreparedStatement;
+  batch(statements: D1PreparedStatement[]): Promise<unknown>;
 };
 
 type D1PreparedStatement = {
   bind(...values: unknown[]): D1PreparedStatement;
   run(): Promise<unknown>;
   first<T = unknown>(): Promise<T | null>;
+  all<T = unknown>(): Promise<{ results?: T[] }>;
 };
 
 const VALID_STATES = new Set([
@@ -228,6 +232,7 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
   let body: {
     email?: unknown;
     stateKey?: unknown;
+    country?: unknown; // ISO alpha-2 for signers outside the US
     zip?: unknown;
     website?: unknown; // honeypot — humans never see this field
     turnstileToken?: unknown;
@@ -244,11 +249,20 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
   }
 
   const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
-  const stateKey = typeof body.stateKey === "string" ? body.stateKey : "";
-  const zipRaw = typeof body.zip === "string" ? body.zip.trim() : "";
-  if (!EMAIL_RE.test(email) || email.length > 254 || !VALID_STATES.has(stateKey)) {
+  const countryRaw = typeof body.country === "string" ? body.country.toUpperCase() : "";
+  // A signer is either US (real state, optional zip) or international
+  // (state_key 'INTL' + ISO country, no zip). Both count the same.
+  const country = countryRaw && COUNTRY_CODES.has(countryRaw) ? countryRaw : null;
+  const stateKey = country ? "INTL" : typeof body.stateKey === "string" ? body.stateKey : "";
+  if (
+    !EMAIL_RE.test(email) ||
+    email.length > 254 ||
+    (!country && !VALID_STATES.has(stateKey)) ||
+    (countryRaw !== "" && !country)
+  ) {
     return json({ error: "invalid_signup" }, { status: 400 });
   }
+  const zipRaw = country ? "" : typeof body.zip === "string" ? body.zip.trim() : "";
   const zip = zipRaw === "" ? null : ZIP_RE.test(zipRaw) ? zipRaw : undefined;
   if (zip === undefined) {
     return json({ error: "invalid_zip" }, { status: 400 });
@@ -264,29 +278,35 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
 
   // One indexed row read tells us whether this is a fresh signature (bump the
   // counters) or a re-sign (keep totals honest — dedupe means no double count,
-  // and a state change moves the signature between state counters).
+  // and a place change moves the signature between state/country counters).
   const existing = await env.ACTIONS_DB.prepare(
-    "SELECT state_key FROM signups WHERE email = ?",
+    "SELECT state_key, country FROM signups WHERE email = ?",
   )
     .bind(email)
-    .first<{ state_key: string }>();
+    .first<{ state_key: string; country: string | null }>();
 
   const verifyToken = crypto.randomUUID();
   const upsert = env.ACTIONS_DB.prepare(
-    `INSERT INTO signups (email, state_key, zip, verify_token, created_at)
-     VALUES (?, ?, ?, ?, datetime('now'))
+    `INSERT INTO signups (email, state_key, country, zip, verify_token, created_at)
+     VALUES (?, ?, ?, ?, ?, datetime('now'))
      ON CONFLICT(email) DO UPDATE SET state_key = excluded.state_key,
+       country = excluded.country,
        zip = COALESCE(excluded.zip, signups.zip)`,
-  ).bind(email, stateKey, zip, verifyToken);
+  ).bind(email, stateKey, country, zip, verifyToken);
+
+  // Per-place counter key: 'signups:CA' for US, 'country:FR' for international.
+  const placeKey = country ? `country:${country}` : `signups:${stateKey}`;
+  const priorKey = existing
+    ? existing.country
+      ? `country:${existing.country}`
+      : `signups:${existing.state_key}`
+    : null;
 
   const stmts = [upsert];
-  if (!existing) {
-    stmts.push(bumpStmt(env).bind("signups", 1), bumpStmt(env).bind(`signups:${stateKey}`, 1));
-  } else if (existing.state_key !== stateKey) {
-    stmts.push(
-      bumpStmt(env).bind(`signups:${existing.state_key}`, -1),
-      bumpStmt(env).bind(`signups:${stateKey}`, 1),
-    );
+  if (!priorKey) {
+    stmts.push(bumpStmt(env).bind("signups", 1), bumpStmt(env).bind(placeKey, 1));
+  } else if (priorKey !== placeKey) {
+    stmts.push(bumpStmt(env).bind(priorKey, -1), bumpStmt(env).bind(placeKey, 1));
   }
   await env.ACTIONS_DB.batch(stmts);
 
@@ -304,14 +324,24 @@ async function handleStats(env: Env): Promise<Response> {
     30_000,
     async () => {
       const rows = await env.ACTIONS_DB.prepare(
-        "SELECT key, n FROM counters WHERE key LIKE 'signups:%' OR key LIKE 'actions:%'",
+        "SELECT key, n FROM counters WHERE key LIKE 'signups:%' OR key LIKE 'actions:%' OR key LIKE 'country:%'",
       ).all<{ key: string; n: number }>();
       const states: Record<string, { signups: number; calls: number }> = {};
+      const countries: Record<string, { signups: number }> = {};
       let totalSignups = 0;
       let totalCalls = 0;
       for (const row of rows.results ?? []) {
-        const [kind, state] = row.key.split(":");
-        const s = (states[state] ??= { signups: 0, calls: 0 });
+        const [kind, place] = row.key.split(":");
+        if (kind === "country") {
+          if (row.n > 0) countries[place] = { signups: row.n };
+          totalSignups += row.n;
+          continue;
+        }
+        if (place === "INTL") {
+          // international bucket totals live under country:* — skip the alias
+          continue;
+        }
+        const s = (states[place] ??= { signups: 0, calls: 0 });
         if (kind === "signups") {
           s.signups = row.n;
           totalSignups += row.n;
@@ -320,7 +350,12 @@ async function handleStats(env: Env): Promise<Response> {
           totalCalls += row.n;
         }
       }
-      return { ok: true, totals: { signups: totalSignups, calls: totalCalls }, states };
+      return {
+        ok: true,
+        totals: { signups: totalSignups, calls: totalCalls },
+        states,
+        countries,
+      };
     },
     30,
   );

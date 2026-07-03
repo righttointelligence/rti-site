@@ -8,7 +8,7 @@ import { fetchCount } from "../lib/signup";
 const POLL_MS = 10_000;
 const ROLL_MS = 900;
 
-function useRollingNumber(target: number | null): number | null {
+export function useRollingNumber(target: number | null): number | null {
   const [shown, setShown] = useState<number | null>(target);
   const shownRef = useRef<number | null>(target);
   shownRef.current = shown;

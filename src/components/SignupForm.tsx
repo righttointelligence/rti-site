@@ -2,20 +2,24 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { ChevIcon } from "./icons";
+import { COUNTRY_OPTIONS } from "../data/countries";
 import { STATE_OPTIONS } from "../data/states";
 import { slugForAbbr } from "../lib/stateSlug";
 import { saveZip, submitSignup } from "../lib/signup";
 
 // The hero's primary action. The CTA stays put in the hero; tapping it opens a
-// focused modal — dimmed page behind, one ask per step: email, state, then an
-// optional zip, then the bridge to the call.
-type Step = "email" | "state" | "zip" | "done";
+// focused modal — dimmed page behind, one ask per step: email, then place
+// (a US/world toggle swaps the picker between state and country in place),
+// then an optional zip for US signers, then the bridge to the call.
+type Step = "email" | "place" | "zip" | "done";
 
 export default function SignupForm({ onTotal }: { onTotal?: (total: number) => void }) {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState<Step>("email");
   const [email, setEmail] = useState("");
   const [stateKey, setStateKey] = useState("");
+  const [countryKey, setCountryKey] = useState("");
+  const [intl, setIntl] = useState(false);
   const [zip, setZip] = useState("");
   const [website, setWebsite] = useState(""); // honeypot
   const [busy, setBusy] = useState(false);
@@ -94,17 +98,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
       setError("That email doesn't look right — double check it?");
       return;
     }
-    setStep("state");
-  };
-
-  const nextFromState = (e: React.FormEvent) => {
-    e.preventDefault();
-    setError(null);
-    if (!stateKey) {
-      setError("Pick your state — it's where your signature counts.");
-      return;
-    }
-    setStep("zip");
+    setStep("place");
   };
 
   const finish = async (e: React.FormEvent) => {
@@ -125,6 +119,33 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
       });
       if (zip.trim()) saveZip(zip.trim());
       onTotal?.(result.total);
+      setStep("done");
+    } catch {
+      setError("Something broke on our end. Give it a minute and try again.");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  // International path: country picked, signature lands immediately — no zip
+  // (zips are a US concept) and no call step (the scripts target US offices).
+  const finishIntl = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (busy) return;
+    setError(null);
+    if (!countryKey) {
+      setError("Pick your country — your signature counts globally.");
+      return;
+    }
+    setBusy(true);
+    try {
+      const result = await submitSignup({
+        email: email.trim(),
+        country: countryKey,
+        website,
+      });
+      onTotal?.(result.total);
+      setStateKey("");
       setStep("done");
     } catch {
       setError("Something broke on our end. Give it a minute and try again.");
@@ -188,40 +209,116 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
             </form>
           )}
 
-          {step === "state" && (
-            <form className="signup sgbody" onSubmit={nextFromState}>
-              <p className="idx signupidx">02 / your state</p>
+          {step === "place" && (
+            <form
+              className="signup sgbody"
+              onSubmit={(e) => {
+                if (intl) {
+                  void finishIntl(e);
+                  return;
+                }
+                e.preventDefault();
+                setError(null);
+                if (!stateKey) {
+                  setError("Pick your state — it's where your signature counts.");
+                  return;
+                }
+                setStep("zip");
+              }}
+            >
+              <p className="idx signupidx">02 / where are you?</p>
               <p className="sghead">Where does your signature count?</p>
-              <div className="signuprow">
-                <div className="picker signupstate">
-                  <select
-                    aria-label="Your state"
-                    value={stateKey}
-                    onChange={(e) => setStateKey(e.target.value)}
-                    autoFocus
-                    required
-                  >
-                    <option value="">Pick your state</option>
-                    {STATE_OPTIONS.map(([k, label]) => (
-                      <option key={k} value={k}>
-                        {label}
-                      </option>
-                    ))}
-                  </select>
-                  <span className="chev">
-                    <ChevIcon />
-                  </span>
-                </div>
+              <div className="sgseg" role="tablist" aria-label="Where are you signing from?">
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={!intl}
+                  className={`sgsegbtn${intl ? "" : " on"}`}
+                  onClick={() => {
+                    setIntl(false);
+                    setError(null);
+                  }}
+                >
+                  In the US
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={intl}
+                  className={`sgsegbtn${intl ? " on" : ""}`}
+                  onClick={() => {
+                    setIntl(true);
+                    setError(null);
+                  }}
+                >
+                  Outside the US
+                </button>
               </div>
-              <button className="cta signupcta" type="submit">
-                Next →
+              <div className="signuprow">
+                {!intl ? (
+                  <div className="picker signupstate">
+                    <select
+                      aria-label="Your state"
+                      value={stateKey}
+                      onChange={(e) => setStateKey(e.target.value)}
+                      autoFocus
+                      required
+                    >
+                      <option value="">Pick your state</option>
+                      {STATE_OPTIONS.map(([k, label]) => (
+                        <option key={k} value={k}>
+                          {label}
+                        </option>
+                      ))}
+                    </select>
+                    <span className="chev">
+                      <ChevIcon />
+                    </span>
+                  </div>
+                ) : (
+                  <div className="picker signupstate">
+                    <select
+                      aria-label="Your country"
+                      value={countryKey}
+                      onChange={(e) => setCountryKey(e.target.value)}
+                      autoFocus
+                      required
+                    >
+                      <option value="">Pick your country</option>
+                      {COUNTRY_OPTIONS.map(([k, label]) => (
+                        <option key={k} value={k}>
+                          {label}
+                        </option>
+                      ))}
+                    </select>
+                    <span className="chev">
+                      <ChevIcon />
+                    </span>
+                  </div>
+                )}
+              </div>
+              {/* honeypot — visually hidden, tab-skipped; bots fill it, humans never see it */}
+              <input
+                className="signuptrap"
+                type="text"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                value={website}
+                onChange={(e) => setWebsite(e.target.value)}
+                name="website"
+              />
+              <button className="cta signupcta" type="submit" disabled={busy}>
+                {busy ? "Signing…" : intl ? "Count me in →" : "Next →"}
               </button>
               {error && <p className="signuperror">{error}</p>}
               <p className="signupnote">
                 <button type="button" className="signupback" onClick={() => setStep("email")}>
                   ← back
                 </button>
-                Your state is where your signature counts.
+                {intl
+                  ? "This fight is global — your signature joins the worldwide count."
+                  : "Your state is where your signature counts."}
               </p>
             </form>
           )}
@@ -259,7 +356,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
               </button>
               {error && <p className="signuperror">{error}</p>}
               <p className="signupnote">
-                <button type="button" className="signupback" onClick={() => setStep("state")}>
+                <button type="button" className="signupback" onClick={() => setStep("place")}>
                   ← back
                 </button>
                 Zip lets us point you at your exact state offices if you choose to call. Stays on
@@ -268,7 +365,7 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
             </form>
           )}
 
-          {step === "done" && (
+          {step === "done" && stateKey && (
             <div className="signupdone sgdone" role="status">
               <p className="signupdonehead">You're in. ✓</p>
               <p className="signupdonebody">
@@ -286,6 +383,25 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
               </p>
             </div>
           )}
+
+          {step === "done" && !stateKey && (
+            <div className="signupdone sgdone" role="status">
+              <p className="signupdonehead">You're in. ✓</p>
+              <p className="signupdonebody">
+                Your signature just joined the worldwide count. The strongest thing you can do
+                next: <b>send this to someone in the US</b> — their call to a state office is
+                where the votes flip.
+              </p>
+              <Link className="cta signupdonecta" to="/stats" onClick={() => setOpen(false)}>
+                Watch the count grow →
+              </Link>
+              <p className="signupnote">
+                <button type="button" className="signupback" onClick={() => setOpen(false)}>
+                  close
+                </button>
+              </p>
+            </div>
+          )}
         </div>
       </div>,
       document.body,
@@ -294,7 +410,11 @@ export default function SignupForm({ onTotal }: { onTotal?: (total: number) => v
   return (
     <div className="signup">
       <button className="cta signupcta" type="button" onClick={launch}>
-        {step === "done" ? "You're in ✓ — make the call →" : "Sign to protect local AI →"}
+        {step !== "done"
+          ? "Sign to protect local AI →"
+          : stateKey
+            ? "You're in ✓ — make the call →"
+            : "You're in ✓ — signed worldwide"}
       </button>
       <p className="signupnote">
         Ten seconds. Email + your state, nothing else.{" "}
