@@ -158,7 +158,7 @@ async function handleActionLog(request: Request, env: Env): Promise<Response> {
   // token — a raw script can't inflate the calls number either.
   if (env.TURNSTILE_SECRET) {
     const token = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
-    const ip = request.headers.get("cf-connecting-ip");
+    const ip = clientIp(request);
     if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) {
       return json({ error: "verification_failed" }, { status: 403 });
     }
@@ -283,7 +283,7 @@ async function handleSignup(request: Request, env: Env): Promise<Response> {
 
   if (env.TURNSTILE_SECRET) {
     const token = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
-    const ip = request.headers.get("cf-connecting-ip");
+    const ip = clientIp(request);
     if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) {
       return json({ error: "verification_failed" }, { status: 403 });
     }
@@ -630,7 +630,18 @@ function chamberRank(lawmaker: Lawmaker): number {
 // to the static card in assets — a share never gets a broken preview.
 
 const OG_TTL_MS = 60 * 60 * 1000;
-const SITE_ORIGIN = "https://righttointelligence.org";
+// Assets for the OG card render come from the workers.dev origin directly —
+// immune to anything happening on the custom domain (proxy, interstitials).
+const SITE_ORIGIN = "https://rti-site.righttointelligence.workers.dev";
+
+// Visitor IP: when traffic arrives via the Vercel DNS bridge, cf-connecting-ip
+// is Vercel's egress IP; the real client is the first x-forwarded-for hop.
+// Only used as an optional Turnstile hint — spoofing it gains nothing.
+function clientIp(request: Request): string | null {
+  const xff = request.headers.get("x-forwarded-for");
+  const first = xff?.split(",")[0]?.trim();
+  return first || request.headers.get("cf-connecting-ip");
+}
 
 function ogCardHtml(count: number): string {
   const n = count.toLocaleString("en-US");
